@@ -1,10 +1,7 @@
-
-gems:
-- jekyll-sitemap
-keep_files:
-- assets
-rsync_copy:
-- _assets
+permalink: pretty
 
 default_lang: 'en'
 languages: ['en']
+
+
+port: 8080
