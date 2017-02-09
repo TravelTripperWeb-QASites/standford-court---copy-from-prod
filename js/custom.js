@@ -29,15 +29,32 @@ $(document).ready(function() {
     .on('initialized.owl.carousel', function () {
       thumbs.find(".owl-item").eq(0).addClass("current");
     })
-    .owlCarousel({
-    items : 3,
+    .owlCarousel({ 
     dots: true,
+    items:3,
     nav: false,
     navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
     smartSpeed: 200,
     slideSpeed : 500,
     slideBy: totalslides,
-    responsiveRefreshRate : 100
+    responsiveRefreshRate : 100,
+    responsive : {
+          // breakpoint from 0 up
+          0 : {
+               items:1
+          },
+          // breakpoint from 480 up
+          600 : {
+              items:2
+          },
+          // breakpoint from 768 up
+          900 : {
+              items:3
+          },
+          1600 : {
+              items:4
+          }
+      }
   }).on('changed.owl.carousel', syncPosition2);
 
   function syncPosition(el) {
