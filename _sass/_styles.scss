@@ -41,6 +41,11 @@ body{
 				padding: 15px 35px;  
 			    font-size: 12px;
 			}
+			@media(min-width: $screen-custom-min){
+				padding: 20px 40px;
+			    font-size: 12px;
+			}
+			
 			&:hover{
 				background: #5c6f7b;
 				border: 1px solid #5c6f7b;
@@ -51,6 +56,14 @@ body{
 		&.uppercase{
 			 text-transform: uppercase;
 		}
+		&.btn-wide{
+             @media(min-width: $screen-custom-min){
+             	    width: 244px;
+             	    display: inline-block;
+             	    padding: 15px 40px;
+             	    text-align: center;
+             }
+		}
 		&.btn-white{
 			border: 1px solid white;
 			color: white;
@@ -60,6 +73,7 @@ body{
 				color: #5c6f7b;
 			}
 		}
+
 	}
 	&.center-white{
              position: absolute;
@@ -86,8 +100,12 @@ body{
 	cursor: pointer;
 	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
 	transition: all 0.5s ease; 
+	 
 	@media(min-width: $screen-lg-min){
 		top: 16px;	
+	}
+	@media(min-width: $screen-custom-min){
+		top: 14px;	
 	}
 	 
 	a{  
@@ -99,6 +117,14 @@ body{
 		text-decoration: none;
 		letter-spacing: 0.1em; 
 		transition: all 0.5s ease; 
+		@media(max-width: $screen-xs-max){
+			padding: 5px 15px; 
+			margin-top: 5px;
+			font-size: 10px; 
+		}
+		@media(min-width: $screen-custom-min){
+			 padding: 15px 53px;
+		}
 		&:hover{
 			background: #5c6f7b;
 			border: 1px solid #5c6f7b;
@@ -114,8 +140,8 @@ body{
 }
 
 #hamburger{ 
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
       position: relative;
       margin: 0px auto;
       -webkit-transform: rotate(0deg);
@@ -130,7 +156,7 @@ body{
 		span{
 	        display: block;
 	          position: absolute;
-	          height: 3px;
+	          height: 2px;
 	          width: 100%;
 	          background: #958771;
 	          border-radius: 0px;
@@ -185,7 +211,7 @@ body{
 		  	     -moz-transform: rotate(-45deg);
 		  	     -o-transform: rotate(-45deg);
 		  	     transform: rotate(-45deg);
-		  	     top: 25px;
+		  	     top: 22px;
 		  	     left: 0px;
 		  	 }
 		  }
@@ -205,8 +231,13 @@ body{
 	 	img{
 	 		transition: all 0.5s ease;
 	 		width: 211px; 
+	 		
 	 		@media( max-width: $screen-md-max){
 	 			width: 135px; 
+	 		}
+	 		@media( max-width: 380px){
+	 			width: 112px;
+	 			margin-top: 6px;
 	 		}
 	 	}
 	 }
@@ -218,6 +249,9 @@ body{
 	       margin-right: 80px;
 	       margin-top: 29px;
 	       transition: all 0.5s ease;
+	       @media( max-width: $screen-xs-max){
+	       	 margin-right: 50px;
+	       } 
 	 	@media (min-width: 992px){
              display: none;
 	 	}
@@ -232,31 +266,46 @@ body{
 	 		padding-left: 20px;
 
 	 	}
-	 	
+	 	@media(min-width: $screen-custom-min){
+	 		margin-top: 44px;
+	 	}
+
 	 	 li{
 	 	 	 text-transform: uppercase;
 	 	 	 font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
 	 	 	 line-height: 16px;
 	 	 	 font-size: 16px;
 	 	 	a{
-	 	 		color: $darkgrey;
-	 	 		padding: 0px 15px;
-	 	 		letter-spacing: 0.2em; 
+	 	 		color: $darkgrey; 
 	 	 		text-align: center;
 	 	 		display: block;
 	 	 		line-height: 34px;
+	 	 		font-size: 15px;
+	 	 		line-height: 15px;
 	 	 		@media( min-width: $screen-md-min){
 		 	 		color: $darkgrey;
+		 	 		font-size: 17px;
 		 	 		padding: 0px 15px;
 		 	 		letter-spacing: 0.1em;
 		 	 		border-right: 1px solid $darkgrey;
 		 	 		display: inline-block;
-		 	 		line-height: 15px;
+		 	 		line-height: 17px;
 	 	 	    }
-	 	 		transition: all 0.5s ease; 
-	 	 		@media( max-width: $screen-md-max){
+	 	 		transition: all 0.5s ease;  
+ 	 			letter-spacing: 0.05em;
+ 	 			padding: 10px 10px; 
+	 	 		@media( min-width: $screen-md-min){
 	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 10px;
+	 	 			padding: 0px 12px;
+	 	 		}
+	 	 		@media( min-width: $screen-lg-min){
+	 	 			letter-spacing: 0.05em;
+	 	 			padding: 0px 14px;
+	 	 			letter-spacing: 0.07em;
+	 	 		}
+	 	 		@media( min-width: $screen-custom-min){
+	 	 			padding: 0px 15px;
+	 	 		   letter-spacing: 0.14em; 
 	 	 		}
 	 	 		&:hover{
 	 	 			 color: black;
@@ -277,13 +326,26 @@ body{
 	 	 	padding: 10px 15px;
              img{
              	 width: 140px;
+             	 @media( max-width: 380px){
+			 			width: 112px;
+			 			margin-top: 6px;
+			 		}
              }
+
 	 	 }
 	 	 ul{
-	 	 	margin-top: 18px;
+	 	 	margin-top: 20px;
+	 	 	 
 	 	 }
 	 	 .btn-booknow{
-	 	 	top: -2px;
+	 	 	top: 0px;
+	 	 	@media(min-width: $screen-custom-min){
+	 	 		top: -1px;
+		 	 		a{
+
+						padding: 10px 53px;
+		 	 		}
+				}
 	 	 }
 	 	 .navbar-toggler{
 	 	 	 margin-top: 16px;
@@ -382,42 +444,82 @@ body{
 }
 
 .carousel-indicators-numbers {
-	 bottom: -80px;
-	 margin-left: -40px;
-    li {
-      text-indent: 0;
-      margin: 0 15px;
-      width: 30px;
-      height: 30px;
-      font-size: 13px;
-      border: none;
-      border-radius: 100%;
-      line-height: 30px;
-      color: #a8b0b6; 
-      background: #ede6dd;
-      transition: all 0.5s ease; 
-      	&:before{
-	      	     border-top: 1px solid #a8b0b6;
-	      	     position: absolute;
-	      	     bottom: 14px; 
-	      	     padding-left: 9px;
-	      	     content: "";
-	      	     width: 50px; 
-	      	     z-index: -1;
-      }
-      &.active, &:hover {
-        margin: 0 15px; 
-        width: 30px;
-        height: 30px;  
-        color: #5c6f7b;   
-        background: #ede6dd;
-      }
-       &.active{
-       	  &:before{
-       	  	      	     border-top: 1px solid #5c6f7b; 
-       	  	      	 }
-       	}  
-    }
+	    bottom: 0px; 
+	
+	     li {	        
+	       text-indent: 0;
+	      margin: 0 15px;
+	      width: 30px;
+	      height: 30px;
+	      font-size: 13px;
+	      border: none;
+	      border-radius: 100%;
+	      line-height: 30px;
+	      color: #a8b0b6; 
+	      background: #ede6dd;
+	      transition: all 0.5s ease; 
+	       	&:before{
+	 	      	     border-top: 1px solid #a8b0b6;
+	 	      	     position: absolute;
+	 	      	     bottom: 14px; 
+	 	      	     padding-left: 9px;
+	 	      	     content: "";
+	 	      	     width: 60px; 
+	 	      	     z-index: -1;
+	       }
+	       &.active, &:hover {  
+	            margin: 0 15px; 
+		        width: 30px;
+		        height: 30px;  
+		        color: #5c6f7b;   
+		        background: #ede6dd;
+	       }
+	        &.active{
+	        	  &:before{
+	        	  	      	     border-top: 1px solid #5c6f7b; 
+	        	  	      	 }
+	        	}  
+	     }
+	@media(min-width: $screen-sm-min){
+		bottom: -80px; 
+		margin-left: -40px;
+		    li {
+
+		      text-indent: 0;
+		      margin: 0 15px;
+		      width: 30px;
+		      height: 30px;
+		      font-size: 13px;
+		      border: none;
+		      border-radius: 100%;
+		      line-height: 30px;
+		      color: #a8b0b6; 
+		      background: #ede6dd;
+		      transition: all 0.5s ease; 
+		      	&:before{
+			      	     border-top: 1px solid #a8b0b6;
+			      	     position: absolute;
+			      	     bottom: 14px; 
+			      	     padding-left: 9px;
+			      	     content: "";
+			      	     width: 50px; 
+			      	     z-index: -1;
+		      }
+		      &.active, &:hover {
+		        margin: 0 15px; 
+		        width: 30px;
+		        height: 30px;  
+		        color: #5c6f7b;   
+		        background: #ede6dd;
+		      }
+		       &.active{
+		       	  &:before{
+		       	  	      	     border-top: 1px solid #5c6f7b; 
+		       	  	      	 }
+		       	}  
+		    }
+	}
+    
     li:last-child{
     	  &:before{
     	  	      	     border-top: 0px solid #5c6f7b; 
@@ -428,8 +530,14 @@ body{
 
 	     top: 20px; 
 	     right: 15px;
-	     margin-left: 50%;
+	     margin-left: 30%;
 	     width: 60px;
+	    @media(min-width: $screen-sm-min){
+	    	 top: 20px; 
+	    	 right: 15px;
+	    	 margin-left: 50%;
+	    	 width: 60px;
+	    }
 	    @media(min-width: $screen-md-min){
 	    	 top: 20px; 
 		     right: 15px;
@@ -485,8 +593,14 @@ body{
 .carousel-v2indicators-numbers {
 	     top: 5px; 
  	     right: 15px;
- 	     margin-left: 50%;
+ 	     margin-left: 30%;
  	     width: 60px;
+ 	    @media(min-width: $screen-sm-min){
+ 	    	 top: 5px; 
+	 	     right: 15px;
+	 	     margin-left: 50%;
+	 	     width: 60px;
+ 	    }
  	    @media(min-width: $screen-md-min){
  	    	 top: 10px; 
  		     right: 15px;
@@ -580,10 +694,16 @@ body{
 	 margin: 40px auto;
 }
 .minus-34{
-	 margin-top: -34%; 
+	 margin-top: 0%;
+	 @media(min-width: $screen-sm-min){
+	 	margin-top: -34%;
+	 } 
 }
 .minust-40{
-	margin-top: -40px;
+	margin-top: 20px;
+	@media(min-width: $screen-sm-min){
+	 	margin-top: -40px;
+	 } 
 }
 .minus-1{
 	margin-right: -1px;
@@ -632,13 +752,16 @@ body{
 	}
 }
 .call-wrapper{
-	padding-bottom: 20px;
+	padding: 20px;
 	h4{
- 	 	 font-size: 20px;
+ 	 	 font-size: 22px;
  	 	 letter-spacing: 0.1em;
  	 	 font-weight: bold;
  	 	 font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
  	 	 line-height: 30px;		 	 
+	}
+	.btn-holder{
+		 padding: 26px;
 	}
 }
 
@@ -646,7 +769,10 @@ body{
 	padding: 30px 0px;
 	font-size: 11px;
 	line-height: 26px;
-
+	text-align: left;
+    @media(max-width: $screen-xs-max){
+    	 text-align: center;
+    }
 	@media(min-width: $screen-md-min){
 		padding: 35px 0px;
 		font-size: 12px;
@@ -692,13 +818,21 @@ body{
 		 .social{
 		 	 margin: 0px;
 		 	 padding: 0px;
-
+             
 		 	 list-style-type: none;
+              @media(max-width: $screen-xs-max){
+              	padding-bottom: 30px;
+              }
 		 	 li{
 		 	 	 float: left; 
 		 	 	 width: 25px;
 		 	 	 height: 25px;
-		 	 	 margin-right: 10px; 
+		 	 	 margin-right: 10px;
+		 	 	  @media(max-width: $screen-xs-max){
+		 	 	  	float: none;
+		 	 	  	display: inline;
+		 	 	  	margin-bottom: 20px;
+		 	 	  } 
 		 	 	 @media(min-width: $screen-md-min){
 		 	 	 	 width: 30px;
 			 	 	 height: 30px;
@@ -752,6 +886,11 @@ body{
 			 box-shadow: none;
 			 outline: none;
 			 font-size: 12px;
+
+			 button{
+			 	 padding: 0px;
+			 	 height: 20px;
+			 }
 		}
 	}
 }
