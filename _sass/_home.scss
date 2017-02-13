@@ -21,7 +21,7 @@
 	}
 	@media(min-width: $screen-custom-min){
 		background: url('/images/building.jpg') no-repeat bottom 0px left 0px;
-		padding-bottom: 300px;
+		padding-bottom: 310px;
 		text-align: right;
 	    padding-top: 52px;
 	}
@@ -67,6 +67,8 @@
 		}
 		@media(min-width: $screen-custom-min){
 			padding-right:63px;
+			margin: 26px 0px 61px 0px;
+			letter-spacing: 0.15em;
 		}
 	}
 	hr{
@@ -77,6 +79,7 @@
 		text-align: right;
 		@media(min-width: $screen-custom-min){
 			margin-right: 63px;
+			margin-top: 62px;
 		}
 		@media(max-width: $screen-xs-max){
 			margin: 0 auto;
@@ -96,8 +99,9 @@
 			padding: 20px 0px;
 		}
 		@media(min-width: $screen-custom-min){
-			padding-right: 63px;
-			max-width: 506px;
+			max-width: 525px;
+		    padding: 5px 66px;
+		    line-height: 24px;
 		}
 	}
 }
@@ -132,8 +136,14 @@
   	          top: -167px;
           }
           @media(min-width: $screen-md-min){
-          	  max-width: 540px;
-          	  padding: 60px;
+          	  max-width: 540px; 
+          	  padding: 50px 60px 22px 52px;
+	          position: absolute;
+	          top: -167px;
+          }
+          @media(min-width: $screen-custom-min){
+          	  max-width: 540px; 
+          	  padding: 48px 60px 22px 52px;
 	          position: absolute;
 	          top: -167px;
           }
@@ -148,6 +158,10 @@
           	  @media(min-width: $screen-md-min){
                   font-size: 14px;
           	  }
+          	  @media(min-width: $screen-custom-min){
+                  font-size: 14px;
+                 letter-spacing: 0.18em;
+          	  }
           }
           h2{
           	 font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
@@ -160,6 +174,11 @@
           	 @media(min-width: $screen-md-min){
           	 	font-size: 42px; 
           	 	line-height: 57px;
+          	 }
+          	 @media(min-width: $screen-custom-min){
+          	 	font-size: 42px;
+      	 	    line-height: 58px;
+      	 	    padding-top: 18px;
           	 }
           }
 
@@ -296,9 +315,10 @@ hr{
 	 	 				line-height: 50px;
 	 	 			}
 	 	 			@media(min-width: $screen-custom-min){
-	 	 				font-size: 60px;
-	 	 				padding: 40px 80px;
-	 	 				line-height: 80px;
+	 	 				font-size: 76px;
+ 	 				    padding: 44px 102px;
+ 	 				    line-height: 101px;
+ 	 				    letter-spacing: 0.09em;
 	 	 			}
 	 	 		}
 	 	 	}
@@ -409,14 +429,26 @@ hr{
         	text-align: center;
         	@media(min-width: $screen-sm-min){
         		text-align: left;
-        		padding:30px  20px 30px 70px;
+        		padding:50px  20px 30px 70px;
         	}         	
         	@media(min-width: $screen-md-min){
-        		padding:30px 50px;
+        		padding:50px;
         	}
         	@media(min-width: $screen-custom-min){
         		//padding: 45px 40px 92px 169px;
         		 padding: 90px 40px 25px 169px;
+        		 &.amenties{
+        		 	 padding: 43px 40px 84px 169px; 
+                     hr{
+                     	 margin-left: 76px;
+                     	 margin-top: 48px;
+                     	 margin-bottom: 34px;
+                     }
+                     p{
+                     	   padding: 0px 73px;
+                            max-width: 522px;
+                     }
+        		 }
         	}
         	 
         	 h2, p{
@@ -512,6 +544,10 @@ hr{
     	font-size: 65px;
     	line-height: 78px;
     }
+    @media(min-width: $screen-custom-min){
+    	font-size: 84px;
+    	line-height: 84px;
+    }
 }
 .heading2{
 	font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
@@ -547,7 +583,7 @@ hr{
 	 	} 
 
 .offers-wrapper{
-	padding-top: 40px;
+	padding-top: 43px;
 	padding-bottom: 40px;
 	h4{
 		 text-transform: uppercase;
@@ -556,7 +592,8 @@ hr{
            font-size: 13px;  
 		 }
 		 @media(min-width: $screen-custom-min){
-           font-size: 15px;  
+           font-size: 15px; 
+           letter-spacing: 0.1em; 
 		 }  
 		 
 	}
@@ -577,8 +614,10 @@ hr{
 	           line-height: 65px; 
 			 }
 			 @media(min-width: $screen-custom-min){
-	           font-size: 78px;
-	           line-height: 100px; 
+	           font-size: 118px;
+               line-height: 134px;
+               letter-spacing: 0.072em;
+               margin-bottom: 20px;
 			 }
 		}
 }
@@ -648,6 +687,19 @@ hr{
 	 text-shadow: none !important;
 	 opacity: 1;
 	 width: 40px;
+	 @media(min-width: $screen-md-min){
+	 	width: 125px;
+	 	&.left{
+	 		 i{
+	 		 	 right: 0px;
+	 		 }
+	 	}
+	 	&.right{
+	 		 i{
+	 		 	 left: 0px;
+	 		 }
+	 	}
+	 }
 	&.left, &.right{
 		background: transparent; 
 		transition: all 0.2s ease;
@@ -662,6 +714,11 @@ hr{
 			    color: #000;
 			    padding: 12px 18px;
 			    transition: all 0.2s ease;
+			     @media(min-width: $screen-md-min){
+			     	    top: 47%;
+			     	    width: 55px;
+			     	    padding: 17px 18px;
+			     }
 			    &:hover{
 			    	background-color: $secondary-color;
 			    	color: #fff;
@@ -689,6 +746,7 @@ hr{
 	     	background-size: 114%; 
 	     }
 		  @media(min-width: $screen-custom-min){ 
+		  	margin-top: 60px;
 		  	background-size: 100%; 
 		  }
 	  background-image: url('/images/homepage/cycle.jpg');
@@ -707,11 +765,28 @@ hr{
                  .btn-holder{
                  		 	@media(min-width: $screen-custom-min){
                  		 		     padding-left: 100px;
-                 		 		     padding-top: 20px;
-                 		 		     padding-bottom: 57px;
+                 		 		     padding-top: 12px;
+                 		 		     padding-bottom: 53px;
                  		 	}
                  		 }
 			} 
+		.left-cell{
+			.m-venue{
+				@media(min-width: $screen-custom-min){
+					padding: 90px 10px 68px 69px; 
+
+					h1.title2{
+						    font-size: 80px;
+						    line-height: 87px;
+						    margin: 0px;
+					}
+					.heading4{
+						    letter-spacing: 0.16em;
+					}
+				}
+			    
+			}
+		}
 	}
 	.events-banner{
 		position: relative;
@@ -805,7 +880,11 @@ hr{
 	}
 	@media(max-width: $screen-xs-max){
 		text-align: center;
+
 	} 
+	@media(min-width: $screen-custom-min){ 
+		padding: 6px 20px 30px 72px;
+	}
 	 .right-content{
 	 	margin-top: 20px;
 	 	@media(min-width: $screen-sm-min){
@@ -843,6 +922,7 @@ hr{
 	 	}
 	 	@media(min-width: $screen-custom-min){
 	 		min-height: 245px;
+	 		margin-top: 133px;
 	 	}
 	 	img{
 	 		    background-color: $secondary-color;
@@ -854,7 +934,18 @@ hr{
 	 	}
 	   
 	 }
-	 
+	h2{
+		@media(min-width: $screen-custom-min){
+			    font-size: 118px;
+			    line-height: 118px;
+			    letter-spacing: 0.07em;
+		}
+	}
+	h4{
+		@media(min-width: $screen-custom-min){
+			   letter-spacing: 0.17em;
+		}
+	}
 	 
 }
 
