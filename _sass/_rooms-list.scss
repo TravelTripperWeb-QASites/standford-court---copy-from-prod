@@ -4,33 +4,73 @@
 }
 
 
-.rooms-banner{
-	
-	padding:100px 0px;
+.rooms-banner {
+    padding: 190px 0px 30px 0px;
+
+    .banner-inner{
+        margin-left: 15px;
+	    width: 95%;
+	    margin-top: 13px;
+
+	    h3{
+
+	        text-transform: uppercase;
+		    font-size: 14px;
+		    word-spacing: 1px;
+		     @media( min-width: $screen-xs-min){
+			font-size: 17px;
+		     }
+	    }
+
+	    h1{
+			font-weight: 700;
+		    font-size: 22px;
+		    margin-top: 14px;
+		    font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+		    @media( min-width: $screen-xs-min){
+		     font-size: 42px;
+		     }
+	    }
+	    p{
+
+			font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+		    padding-top: 23px;
+		    line-height: 24px;
+	    }
+
+	    @media( min-width: $screen-sm-min){
+	 	 margin-left: 90px;
+	    max-width: 395px;
+	    margin-top: 26px;
+	 } 
+    }
+     @media( min-width: $screen-sm-min){
+      padding: 230px 0px 79px 0px;
+     }
 }
 
 .rooms-nav{
-	 background: rgba(255,255,255,0.85);
-	 height: 100px;
-	 top: 60px;
+	background:rgba(255, 255, 255, 0.85);
+	border-top: 1px solid #ebebeb;
+	 margin-top: 102px;
 	 color: $darkgrey;
 	 transition: all 0.5s ease;
 	 text-align:center;
 	 .container{ 
 	 	position: relative;}
 	 @media( max-width: $screen-md-max){
-	 	height: 80px;
+	 	margin-top: 80px;
 	 } 
 	
 	 
 
 	 ul{
 	 	list-style-type: none;
-	 	margin-top: 38px;
+	 	margin-top: 17px;
 	 	transition: all 0.5s ease; 
 	 	@media( max-width: $screen-md-max){
-	 		margin-top: 30px;
-	 		padding-left: 20px;
+	 		margin-top: 17px;
+	 		padding-left: 10px;
 
 	 	}
 	 	
@@ -51,7 +91,7 @@
 		 	 		color: $darkgrey;
 		 	 		padding: 0px 15px;
 		 	 		letter-spacing: 0.1em;
-		 	 		border-right: 1px solid $darkgrey;
+		 	 		
 		 	 		display: inline-block;
 		 	 		line-height: 15px;
 	 	 	    }
@@ -110,8 +150,10 @@
 
 
 .rooms-list{
-	
-	padding-bottom:25px;
+.col-md-4{
+	padding-bottom:31px;
+}
+
 
 	img{ width:100%}
 	h2{
@@ -119,17 +161,20 @@
 		 color: $darkgray-color;
 		 text-transform: uppercase;
 		 font-size:36px;
-		 padding:40px 0px;
+		 padding:47px 0px 40px 0px;
 		 text-align:center;
 		 border-top:1px solid #ebebeb;
+		 letter-spacing: 2px;
+    	 word-spacing: 2px;
+    	 margin:0px;
 
 	}
 	
 
 	.btn-holder{
 		  position:absolute;
-		  bottom:50%;
-		  transform: translateY(-50%);
+		  bottom: 55.5%;
+    	  transform: translateY(-55.5%);
 		  text-align:center;
 		  width:240px;
 		  right:0;
@@ -190,7 +235,7 @@
 
 
 	.r-cost{
-		padding:30px 14px 20px 14px;
+		padding:30px 14px 5px 14px;
 		font-family:$base-font-family;
 		font-size:15px;
 		color:#575757;
@@ -206,7 +251,6 @@
 		text-decoration: none;
 	    background-repeat: no-repeat;
 		padding-right:80px;
-	    letter-spacing: 1px;
 	    color:$darkgray-color;
 	    text-decoration:none;
 		    &:hover{
