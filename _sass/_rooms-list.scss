@@ -1,0 +1,218 @@
+.no-gutter{
+	
+	padding:0px;
+}
+
+
+.rooms-banner{
+	
+	padding:100px 0px;
+}
+
+.rooms-nav{
+	 background: rgba(255,255,255,0.85);
+	 height: 100px;
+	 top: 60px;
+	 color: $darkgrey;
+	 transition: all 0.5s ease;
+	 text-align:center;
+	 .container{ 
+	 	position: relative;}
+	 @media( max-width: $screen-md-max){
+	 	height: 80px;
+	 } 
+	
+	 
+
+	 ul{
+	 	list-style-type: none;
+	 	margin-top: 38px;
+	 	transition: all 0.5s ease; 
+	 	@media( max-width: $screen-md-max){
+	 		margin-top: 30px;
+	 		padding-left: 20px;
+
+	 	}
+	 	
+	 	 li{
+	 	 	 text-transform: uppercase;
+	 	 	 font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
+	 	 	 line-height: 16px;
+	 	 	 font-size: 16px;
+	 	 	 display:inline-block;
+	 	 	a{
+	 	 		color: $darkgrey;
+	 	 		padding: 0px 15px;
+	 	 		letter-spacing: 0.2em; 
+	 	 		text-align: center;
+	 	 		display: block;
+	 	 		line-height: 34px;
+	 	 		@media( min-width: $screen-md-min){
+		 	 		color: $darkgrey;
+		 	 		padding: 0px 15px;
+		 	 		letter-spacing: 0.1em;
+		 	 		border-right: 1px solid $darkgrey;
+		 	 		display: inline-block;
+		 	 		line-height: 15px;
+	 	 	    }
+	 	 		transition: all 0.5s ease; 
+	 	 		@media( max-width: $screen-md-max){
+	 	 			letter-spacing: 0.05em;
+	 	 			padding: 0px 10px;
+	 	 		}
+	 	 		&:hover{
+	 	 			 color: black;
+	 	 			 text-decoration: none;
+	 	 		}
+	 	 	}
+	 	 	&:last-child{
+	 	 		a{
+	 	 			border-right: 0px;
+	 	 		}
+	 	 	}
+	 	 }
+	 }
+     
+	 &.smaller{
+	 	  height: 60px;
+	 	 .navbar-brand{
+	 	 	padding: 10px 15px;
+             img{
+             	 width: 140px;
+             }
+	 	 }
+	 	 ul{
+	 	 	margin-top: 18px;
+	 	 }
+	 	 .btn-booknow{
+	 	 	top: -2px;
+	 	 }
+	 	 .navbar-toggler{
+	 	 	 margin-top: 16px;
+	 	 }
+	 	 .collapse.in{
+	 	 	margin-top: 60px;
+	 	 }
+	 }
+	
+}
+
+.rooms-nav-fixed-top,
+.rooms-nav-fixed-bottom {
+  position: fixed; /* <-- Look here */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+
+
+
+.rooms-list{
+	
+	padding-bottom:25px;
+
+	img{ width:100%}
+	h2{
+		 font-family: $headline-font-family;
+		 color: $darkgray-color;
+		 text-transform: uppercase;
+		 font-size:36px;
+		 padding:40px 0px;
+		 text-align:center;
+		 border-top:1px solid #ebebeb;
+
+	}
+	
+
+	.btn-holder{
+		  position:absolute;
+		  bottom:50%;
+		  transform: translateY(-50%);
+		  text-align:center;
+		  width:240px;
+		  right:0;
+		  left:0;
+		  padding:0px;
+		  margin:auto;
+		.butn{
+				border: 1px solid black;
+				color: black;
+				padding: 12px 20px;  
+				font-size: 11px; 
+				text-decoration: none;
+				letter-spacing: 3px; 
+				transition: all 0.5s ease; 
+				width: auto;
+				text-decoration: none;
+				@media(min-width: $screen-md-min){
+					padding: 20px 40px;  
+				    font-size: 13px;
+				}
+				&:hover{
+					background: #5c6f7b;
+					border: 1px solid #5c6f7b;
+					color: #fff;
+					text-decoration: none;
+					cursor: pointer;
+				}
+			&.uppercase{
+				 text-transform: uppercase;
+			}
+			&.btn-white{
+				border: 1px solid white;
+				color: white;
+				&:hover{
+					background: white;
+					border: 1px solid white;
+					color: #5c6f7b;
+				}
+			}
+		}
+		&.center-white{
+	             position: absolute;
+			     bottom: 0;
+			     left: 50%;
+			     transform: translate(-50%, 51%); 
+			     .butn{
+			     	background: white;
+			        border: 0px;
+			        &:hover{
+			        	 background: #5c6f7b;
+			        	 color: white;
+			        	 border: 0px;
+			        }
+			     }
+		}
+
+	}
+
+
+	.r-cost{
+		padding:30px 14px 20px 14px;
+		font-family:$base-font-family;
+		font-size:15px;
+		color:#575757;
+	}
+
+	.r-link{
+		padding:4px 14px 4px 14px;
+		font-family:$base-font-family1;
+		font-size:15px;
+
+		a{
+		background:url(/images/black-arrow.svg) right center;
+		text-decoration: none;
+	    background-repeat: no-repeat;
+		padding-right:80px;
+	    letter-spacing: 1px;
+	    color:$darkgray-color;
+	    text-decoration:none;
+		    &:hover{
+		    text-decoration:none;
+		    }
+		}
+	}	
+
+}
