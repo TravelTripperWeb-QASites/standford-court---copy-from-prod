@@ -17,13 +17,13 @@
 		background: url('/images/building.jpg') no-repeat bottom -100px left -70px;
 		padding-bottom: 320px;
 		text-align: right;
-	    padding-top: 60px;
+	    padding-top: 52px;
 	}
 	@media(min-width: $screen-custom-min){
 		background: url('/images/building.jpg') no-repeat bottom 0px left 0px;
 		padding-bottom: 300px;
 		text-align: right;
-	    padding-top: 60px;
+	    padding-top: 52px;
 	}
 	
 	h1{
@@ -45,6 +45,8 @@
 		 @media(min-width: $screen-custom-min){
 		 	 font-size: 78px;
 			 line-height: 100px;
+			 padding-right:60px;
+			 letter-spacing: 0.07em;
 		 }
 		 
 	}
@@ -63,13 +65,19 @@
 			font-size: 14px;
 			margin: 40px 0px;
 		}
+		@media(min-width: $screen-custom-min){
+			padding-right:63px;
+		}
 	}
 	hr{
 		border-bottom: 1px solid #000;
 		border-top: 0px solid #000;
-		width: 80px;
+		width: 102px;
 		height: 1px; 
 		text-align: right;
+		@media(min-width: $screen-custom-min){
+			margin-right: 63px;
+		}
 		@media(max-width: $screen-xs-max){
 			margin: 0 auto;
 		}
@@ -87,6 +95,10 @@
 		@media(min-width: $screen-md-min){
 			padding: 20px 0px;
 		}
+		@media(min-width: $screen-custom-min){
+			padding-right: 63px;
+			max-width: 506px;
+		}
 	}
 }
 
@@ -94,13 +106,13 @@
 	 //background:#ede6dd;
 	  padding-bottom: 0px; 
       background:#ede6dd url('/images/homepage/high-tech.png') no-repeat;
-      background-position: bottom -147px right -123px;
+      background-position: bottom -70% center;
       @media(min-width: $screen-sm-min){
       	background-position: bottom -147px right 0px;
       	background-size: 100% auto;
       }
       @media(min-width: $screen-md-min){
-      	background-position: bottom -47px right -40px;
+      	background-position: bottom -227px right -40px;
       	background-size: auto auto;
       }
       @media(min-width: $screen-custom-min){
@@ -111,6 +123,8 @@
 	 	  background: #5c6f7b;
 	 	  margin:-10px 0px;
           color: white; 
+          padding: 40px;
+          position: relative;
           @media(min-width: $screen-sm-min){
               max-width: 340px;
               padding: 30px;
@@ -153,12 +167,17 @@
 }
 
 #carousel-welcome{
-	 &.carousel{
-	 	  margin: -10px 15px;
-	 	  position: absolute;
-	 	  top: -167px; 
-	 	  max-width: 420px;
-	 	  right: 0px;
+	 &.carousel{ 
+	 	  position: relative; 
+	 	  max-width: 100%;
+	 	  width: 100%; 
+	 	  @media(min-width: $screen-sm-min){
+	 	  	margin: -10px 15px;
+	 	  	position: absolute;
+	 	  	top: -167px; 
+	 	  	max-width: 420px;
+	 	  	right: 0px;
+	 	  }
 	 }
 }
 #amenitiesSlider{
@@ -166,7 +185,7 @@
 	 }
 }
 .details-whiteLeft{ 
-	 margin-top: 50px; 
+	 margin-top: 0px; 
 	 display: table;
 	 margin-left: -15px;
 	 @media(min-width: $screen-sm-min){
@@ -179,6 +198,9 @@
 	  	background: #fff;
 	  	width: 15%;
 	  	display: table-cell;
+	  	 @media(min-width: $screen-custom-min){
+	  	 	width: 28%;
+	  	 }
 	  }
 	  .content{
 	  	  width: 100%;
@@ -191,13 +213,21 @@
 		  	width: 85%;
 		  	padding: 60px 10px 60px 60px;
 		  }
+		  @media(min-width: $screen-custom-min){
+		  	width: auto;
+		  	padding: 67px 10px 60px 73px;
+		  	p{
+		  		 line-height:24px; 
+		  		 padding: 14px 0px;
+		  	}
+		  }
 
 	  }
 }
 hr{
   	border-bottom: 1px solid #000;
   	border-top: 0px solid #000;
-  	width: 80px;
+  	width: 98px;
   	height: 1px; 
   	text-align: left;
   }
@@ -205,10 +235,15 @@ hr{
  	    width: 100%;
 	 	display: table; 
 	 	 &.margin-15{
-	 	 	width: 96%;
+	 	 	width: 94.6%; 
 	 	 	@media(min-width: $screen-custom-min){
 		 		width: 100%;
 		 	}
+		 	@media(max-width: $screen-xs-max){
+			 		display: inherit;
+			 		width: 96%;
+			 		width: calc(100% - 30px);
+			 	}
 	 	 	margin: 0 15px;
 	 	 	.left-cell{
 	 	 		width: 35.4%;
@@ -216,6 +251,15 @@ hr{
 	 	 		@media(min-width: $screen-custom-min){
 			 		width: 34%;
 			 	}
+			 	@media(max-width: $screen-xs-max){
+			 		display: block;
+			 		width: 100%;
+			 		.ctrl{
+			 			width: 50%;
+			 			float: left;
+			 		}
+			 	}
+			 	 
 	 	 	} 
 	 	 	.high-style
 	 	 	{   
@@ -223,6 +267,11 @@ hr{
 	 	 		width: 63.6%; 
 	 	 		@media(min-width: $screen-custom-min){
 	 	 		   width: 66%; 
+	 	 	     }
+	 	 	     @media(max-width: $screen-xs-max){
+	 	 	     	display: block;
+	 	 	     	width: 100%;
+	 	 	     	padding-top:300px
 	 	 	     }
 	 	 		display: table-cell; 
 	 	 		 img{
@@ -238,6 +287,9 @@ hr{
 	 	 			letter-spacing: 0.15em;
 	 	 			text-align: right;
 	 	 			line-height: 40px;
+	 	 			@media(max-width: $screen-xs-max){
+	 	 				padding-top: 300px;
+	 	 			}
 	 	 			@media(min-width: $screen-sm-min){
 	 	 				font-size: 40px;
 	 	 				padding: 40px 30px;
@@ -258,6 +310,10 @@ hr{
 	 	@media(min-width: $screen-md-min){
 	 		width: 34.6%;
 	 	}
+	 	@media(max-width: $screen-xs-max){
+	 		display: block;
+	 		width: 100%;
+	 	}
 	 	.desctiption{ 
 	 		padding: 20px;
 	 		@media(min-width: $screen-sm-min){
@@ -267,26 +323,55 @@ hr{
 	 			padding: 40px;
 	 		}
 	 		@media(min-width: $screen-custom-min){
-	 			padding: 60px;
+	 			padding: 55px 50px 40px 54px;
 	 		}
 	 		.title{
+	 			text-align: center;
+	 			@media(min-width: $screen-sm-min){ 
+                      text-align: left;
+	 			 }
 	 			 @media(min-width: $screen-md-min){
                       max-width: 400px;
+                      text-align: left;
+	 			 }
+	 			 @media(min-width: $screen-custom-min){
+                      max-width: 255px;
+                      text-align: left;
+                      padding-bottom: 30px;
 	 			 }
 	 		}
 	 		h4{
                  font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
 	         	 font-size: 12px;
 	         	 letter-spacing: 0.12em;
+	         	 text-align: center;
+	         	 @media(min-width: $screen-sm-min){ 
+                      text-align: left;
+	 			 }
 	         	 @media(min-width: $screen-md-min){
 	         	 	font-size: 14px;
+	         	 	text-align: left;
 	         	 }
 	         	 @media(min-width: $screen-custom-min){
 	         	 	font-size: 15px;
+	         	 	text-align: left;
 	         	 }
 	 		}
+	 		hr{ 
+	 			 margin: 20px 0px;
+	 			 @media(min-width: $screen-custom-min){
+	 			 	margin: 36px 0px;
+	 			 }
+	 			 
+	 			 @media(max-width: $screen-xs-max){ 
+	 			 	margin: 20px auto;
+	 			 }
+	 		}
 	 		p{
-
+                  text-align: center;
+                  @media(min-width: $screen-sm-min){ 
+                  	text-align: left;
+                  }
 	 		}
 	 	}
 	 } 
@@ -299,10 +384,17 @@ hr{
         @media(min-width: $screen-md-min){
         	width: 65.4%; 
         }
+        @media(max-width: $screen-xs-max){
+        	display: block;
+        	width: 100%;
+        }
         .bg-dark{
         	color: white;
         	.title{
         		color: white;
+        		 @media(min-width: $screen-custom-min){ 
+
+        		 }
         	}
         	p{
         		color: white;
@@ -313,12 +405,18 @@ hr{
         	}
         }
         .content{
-        	padding:30px  20px 30px 70px;
+        	padding:30px;
+        	text-align: center;
+        	@media(min-width: $screen-sm-min){
+        		text-align: left;
+        		padding:30px  20px 30px 70px;
+        	}         	
         	@media(min-width: $screen-md-min){
         		padding:30px 50px;
         	}
         	@media(min-width: $screen-custom-min){
-        		padding:60px 120px;
+        		//padding: 45px 40px 92px 169px;
+        		 padding: 90px 40px 25px 169px;
         	}
         	 
         	 h2, p{
@@ -326,9 +424,15 @@ hr{
         	 	@media(min-width: $screen-md-min){
 	                  padding: 0px 80px ;
 	              }
+	              @media(min-width: $screen-md-min){
+	                  padding: 0px 73px ;
+	              }
         	 }
         	 hr{
-        	 	 margin-left: 10px;
+        	 	 margin: 20px auto;
+        	     @media(min-width: $screen-sm-min){
+                   margin-left: 10px;
+        	     }
         	 	 @media(min-width: $screen-md-min){
 	        	 	 margin-left: 80px;
 	        	 	 margin-top: 30px;
@@ -337,8 +441,16 @@ hr{
         	 } 
         }
         .btn-holder{
+        	@media(max-width: $screen-xs-max){
+        		margin: 0px auto;
+	        	width: auto;
+	        	text-align: center !important;
+	        	padding-bottom: 40px;
+        	}
+        	
         	@media(min-width: $screen-sm-min){
           	 padding-left: 36px;
+          	 text-align: left !important;
           	}
         	@media(min-width: $screen-md-min){
           	 padding-left: 35px;
@@ -378,6 +490,10 @@ hr{
     @media(min-width: $screen-md-min){
     	font-size: 30px;
         line-height: 38px;
+    }
+    @media(min-width: $screen-custom-min){
+    	font-size: 43px;
+        line-height: 48px;
     }
 
 }
@@ -521,21 +637,30 @@ hr{
         
 }
 
+.carousel{
+	 .item{
+	 	 img{
+	 	 	width: 100%;
+	 	 }
+	 } 
+}
 .carousel-control{
 	 text-shadow: none !important;
 	 opacity: 1;
+	 width: 40px;
 	&.left, &.right{
 		background: transparent; 
 		transition: all 0.2s ease;
 			i{
 			    position: absolute;
 			    top: 50%;
+			    right: 0px;
 			    margin-top: -10px;
 			    z-index: 5;
 			    display: inline-block;
 			    background: #fff;
 			    color: #000;
-			    padding: 8px 14px;
+			    padding: 12px 18px;
 			    transition: all 0.2s ease;
 			    &:hover{
 			    	background-color: $secondary-color;
@@ -550,7 +675,13 @@ hr{
 	position: relative;
 	margin-top: 40px;
 	&.bg-light{
-		background-size: 140%; 
+		background-size: 340%; 
+		@media(min-width: 370px){ 
+			background-size: 240%; 
+		}
+		@media(min-width: $screen-sm-min){ 
+			background-size: 110%; 
+		}
 		@media(min-width: $screen-sm-min){ 
 			background-size: 110%; 
 		}
@@ -564,6 +695,24 @@ hr{
 	  background-position: bottom center; 
       background-repeat: no-repeat; 
 	}
+	@media(max-width: $screen-xs-max){
+		.m-venue{
+              padding-top: 100px;
+              text-align: center;
+			}
+	}
+	
+	.event-content{
+		 .right-cell{
+                 .btn-holder{
+                 		 	@media(min-width: $screen-custom-min){
+                 		 		     padding-left: 100px;
+                 		 		     padding-top: 20px;
+                 		 		     padding-bottom: 57px;
+                 		 	}
+                 		 }
+			} 
+	}
 	.events-banner{
 		position: relative;
 		.heading-circle{
@@ -574,9 +723,9 @@ hr{
 			 border-radius: 50%;
 			 background-color: white; 
 			 text-align: center;
-			 padding: 80px;
-			 height: 500px;
-			 width: 500px;
+			 padding: 20px;
+			 height: 200px;
+			 width: 200px;
 			 @media(min-width: $screen-sm-min){
 			 	padding: 40px;
 			 	height: 330px;
@@ -589,14 +738,14 @@ hr{
 			 }
 			 @media(min-width: $screen-custom-min){
 			 	padding: 80px;
-			 	height: 500px;
-			 	width: 500px;
+			 	height: 530px;
+			 	width: 530px;
 			 }
 			 
 			 h4{
 			 	text-transform: uppercase;
-			 	font-size: 11px;
-			    line-height: 16px;
+			 	font-size: 10px;
+			    line-height: 12px;
 			 	@media(min-width: $screen-sm-min){
 				 	font-size: 12px;
 				 	line-height: 18px;
@@ -607,14 +756,14 @@ hr{
 				}
 				@media(min-width: $screen-custom-min){
 				 	font-size: 15px;
-				 	line-height: 22px;
+				 	line-height: 30px;
 				}
 			 }
 			 h2{ 
 			 	margin-top: 20px;
 			 	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
-			 	font-size: 42px;
-			 	line-height: 57px;
+			 	font-size: 16px;
+			 	line-height: 20px;
 			 	 	@media(min-width: $screen-sm-min){
 			 	 		margin-top: 30px;
 			 		 	font-size: 26px;
@@ -626,13 +775,19 @@ hr{
 			 		 	line-height: 50px;
 			 		}
 			 		@media(min-width: $screen-custom-min){
-			 			margin-top: 40px;
+			 			margin-top: 50px;
 			 		 	font-size: 42px;
 			 		 	line-height: 57px;
 			 		}
 			 }
 			 .btn-holder{
-			 	 margin-top: 40px;
+			 	 margin-top: 10px;
+			 	 @media(min-width: $screen-sm-min){
+			 	 	margin-top: 40px;
+			 	 }
+			 	 @media(min-width: $screen-custom-min){
+			 	 	margin-top: 54px;
+			 	 }
 			 }
 		}
 	}
@@ -644,7 +799,13 @@ hr{
 }
 
 .local-living{
-	 padding: 0px 60px;
+	padding: 0px 20px;
+	@media(min-width: $screen-sm-min){
+		padding: 0px 60px;
+	}
+	@media(max-width: $screen-xs-max){
+		text-align: center;
+	} 
 	 .right-content{
 	 	margin-top: 20px;
 	 	@media(min-width: $screen-sm-min){
@@ -658,7 +819,13 @@ hr{
 	 	} 
 	 	 hr{
 	 	 	 margin:40px 0px;
+	 	 	 @media(max-width: $screen-xs-max){
+	 	 	 	margin: 20px auto;
+	 	 	 }
 	 	 } 
+	 }
+	 .right-content{
+	 	     margin-top: 60px;
 	 }
 }
 .local-living-imgs{
@@ -681,7 +848,9 @@ hr{
 	 		    background-color: $secondary-color;
 	 		    position: absolute;
 	 		    right: 0px; 
-	 		     
+	 		    @media(max-width: $screen-xs-max){
+	 		    	position: relative;
+	 		    }
 	 	}
 	   
 	 }
@@ -762,15 +931,31 @@ hr{
 	   .btn-holder{
 	   	  .butn{
 	   	  	padding: 15px 8px;
+	   	  	@media(min-width: $screen-custom-min){
+	   	  		padding: 20px 8px;
+	   	  	}
 	   	  }
+	   }
+	   hr{
+	   	  @media(max-width: $screen-xs-max){
+	   	  	margin: 20px auto;
+	   	  }
+	   }
+	   .img-circle{
+	   	   @media(max-width: $screen-xs-max){
+	   	   	max-width: 172px;
+	   	   }
 	   }
 }
 
 .mid-block{
-   margin-top: 20px;
-   padding: 40px;
+   margin-top: 10px;
+   padding: 10px 40px;
+   text-align: center;
    	@media(min-width: $screen-sm-min){
        	margin: 10px auto;
+       	padding: 40px;
+       	text-align: left;
        }  
    	@media(min-width: $screen-md-min){
        	margin: 44px auto;
@@ -798,8 +983,9 @@ hr{
 }
 .mid-block-2{ 
    margin: 10px auto;
-   padding: 40px 0px;
+   padding: 10px 0px;
    	@media(min-width: $screen-sm-min){
+   		padding: 40px 0px;
        	margin: 10px auto;
        }  
    	@media(min-width: $screen-md-min){
@@ -812,7 +998,11 @@ hr{
    	 font-size: 16px;
    }
    .btn-holder{
-   	   padding: 15px 40px 15px 0px;
+   	padding: 10px;
+   	  @media(min-width: $screen-sm-min){
+   	  	padding: 15px 40px 15px 0px;
+   	  }
+   	   
    	   .butn{
    	   	 display: block;
    	   	 text-align: center;
@@ -830,15 +1020,22 @@ hr{
 .thingsContent{
 	 padding:60px 0px 130px 0px;
 	 text-align: center;
-	 @media(max-width: $screen-md-min){
-	 	margin-top: 355px;
+	 @media(max-width: $screen-md-min){ 
 	 }
+	 @media(max-width: $screen-xs-max){
+	 	 h4{
+             padding-top: 40px;  
+	 	 }
+	 }
+
 }
 .experience{ 
-	 	margin-left: 40px; 
+	 	margin-left: 0px;
+	 	text-align: center;
 	 	padding: 0px;
 	 	@media(min-width: $screen-sm-min){
 	 		padding: 0px;
+	 		text-align: left;
 	 	}
 	 	@media(min-width: $screen-md-min){
 	 		padding: 50px;
@@ -846,6 +1043,10 @@ hr{
 	 	@media(min-width: $screen-lg-min){
 	 		padding: 60px;
 	 	}
+	 	@media(min-width: $screen-custom-min){
+	 		padding: 92px 30px 20px 152px;
+	 	}
+	 	
 	 	.btn-holder{
 	 		padding-left: 0px;
 	 		padding-top: 40px;
@@ -858,6 +1059,16 @@ hr{
 	 		@media(min-width: $screen-lg-min){
 	 			padding-top: 100px;
 	 		}
+	 		&.text-left{
+                 @media(max-width: $screen-xs-max){
+                 	text-align: center;
+                 }
+	 		}
+	 	}
+	 	@media(max-width: $screen-xs-max){
+	 		hr{
+	 			 margin: 20px auto;
+	 		}
 	 	}
 }
 .local-events{
@@ -865,6 +1076,8 @@ hr{
 	 .left-cell{
 	 	position: relative;
 	 	 background-color: $secondary-color;
+	 	 min-height: 300px;
+
 	 	 &:hover{
 	 	 	    .bg-img{ 
 		 		 opacity: 0.7;
@@ -878,6 +1091,10 @@ hr{
 	 		 top: 0;
 	 		 background-size: cover;
 	 		 transition: all 0.5s ease;
+	 		 background-size: cover;
+	 		 @media(max-width: $screen-xs-max){
+	 		 	background-size: cover;
+	 		 }
 	 		 &:hover{ 
 		 		 opacity: 0.7;
 	 	 	    }
@@ -925,7 +1142,7 @@ hr{
                  	 font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
                  	 margin: 0px;
                  	 line-height: 18px;
-                 	 font-size: 14px;
+                 	 font-size: 16px;
                  	 @media(min-width: $screen-sm-min){
                  	 	line-height: 34px;
                  	 	font-size: 18px;
