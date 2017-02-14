@@ -150,6 +150,7 @@ function init() {
 }
 window.onload = init();
 
+<<<<<<< HEAD
 //datepicker room details
 
 $(function() {  
@@ -203,4 +204,14 @@ $(function() {
       } 
       });
 }); 
- 
+
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('.rooms-nav li a, .link').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top-100
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+}); 
