@@ -150,4 +150,13 @@ function init() {
 }
 window.onload = init();
 
- 
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('.rooms-nav li a, .link').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top-100
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
