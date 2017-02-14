@@ -111,7 +111,7 @@ $(document).ready(function() {
         if(parts[i].length <= 2) {
           $new_form_heading +=  parts[i] +' ';
         }else{
-           if(i==0){
+           if(i == 0){
             $new_form_heading +=  parts[i]+' ';
           }else{
 
@@ -121,8 +121,13 @@ $(document).ready(function() {
        }
            $(this).replaceWith('<h2>'+ $new_form_heading +'</h2>');
     });
+    
+    /// decrease size for minimal devices
+     setTimeout(function(){ 
+       var largerFont = (($('.main-image img').height()) / 3.8);
+       $('.rate-block .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
+     },300);
    
-
 });
 
 function init() { 
@@ -138,6 +143,11 @@ function init() {
                 classie.remove(header,"smaller");
             }
         }
-    }); 
+    });
+ 
+   
+
 }
 window.onload = init();
+
+ 
