@@ -5,7 +5,7 @@
 
 
 .rooms-banner {
-    padding: 190px 0px 30px 0px;
+    padding: 76px 0px 79px 0px;
 
     .banner-inner{
         margin-left: 15px;
@@ -45,11 +45,11 @@
 	 } 
     }
      @media( min-width: $screen-sm-min){
-      padding: 230px 0px 79px 0px;
+      padding: 76px 0px 79px 0px
      }
 }
 
-.rooms-nav{
+.rooms-list-nav{
 	background:rgba(255, 255, 255, 0.85);
 	border-top: 1px solid #ebebeb;
 	 margin-top: 102px;
@@ -80,6 +80,7 @@
 	 	 	 line-height: 16px;
 	 	 	 font-size: 16px;
 	 	 	 display:inline-block;
+	 	 	 transition: all 0.5s ease;
 	 	 	a{
 	 	 		color: $darkgrey;
 	 	 		padding: 0px 15px;
@@ -100,10 +101,10 @@
 	 	 			letter-spacing: 0.05em;
 	 	 			padding: 0px 10px;
 	 	 		}
-	 	 		&:hover{
-	 	 			 color: black;
-	 	 			 text-decoration: none;
-	 	 		}
+	 	 		
+	    	  	 &.active, &:hover{
+	    	  	 	 color: #161515;
+	    	  	 }
 	 	 	}
 	 	 	&:last-child{
 	 	 		a{
