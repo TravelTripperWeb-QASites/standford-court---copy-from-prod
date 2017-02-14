@@ -148,10 +148,7 @@ function init() {
    
 
 }
-window.onload = init();
-
-<<<<<<< HEAD
-//datepicker room details
+window.onload = init(); 
 
 $(function() {  
    //get rates
