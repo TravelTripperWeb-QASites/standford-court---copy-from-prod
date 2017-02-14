@@ -725,6 +725,17 @@ hr{
 			    }
 			} 
 	}
+	&.white-control{ 
+		 	i{
+		 		background: transparent;
+		 	    border:1px solid white;
+		 	    color: white;
+		 	    &:hover{
+		 	    	background: white;
+		 	    	color: $secondary-color;
+		 	    }
+		 	} 
+	}
 	
 }
 
