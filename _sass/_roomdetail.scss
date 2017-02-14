@@ -1,0 +1,132 @@
+#top-spacer{
+	 height: 101px;
+	 border-bottom: 1px solid #ebebeb;
+}
+
+.rooms-nav{
+	 list-style-type: none;
+	 padding: 0px;
+	 margin: 17px auto;
+	 float: none;
+	 width: 100%;
+	 text-align: center;
+     font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
+	    li{
+	    	 display: inline-block;
+	    	 float: none;
+	    	 letter-spacing: 0.16em;
+	    	 text-transform: uppercase;
+	    	  a{
+	    	  	 padding: 4px 10px;
+	    	  	 color: #c9c9c8;
+	    	  	 text-decoration: none;
+	    	  	 transition: all 0.5s ease;
+	    	  	 &.active, &:hover{
+	    	  	 	 color: #161515;
+	    	  	 }
+	    	  }
+	    }
+
+}
+.rooms-wrapper{
+        margin-top: 29px;
+		.short-description{
+			padding: 30px 95px;
+			margin: 30px 0px;
+			border-right: 1px solid #CCC;
+			 h4{
+			 	 text-transform: uppercase;
+			 	 font-size: 15px;
+			 	 letter-spacing: 0.1em;
+			 }
+			 .title{
+			 	 font-size: 42px;
+		 	     line-height: 42px;
+		 	     margin: 18px 0px;
+			 }
+			 p.short-detail{
+			 	    margin-top: 35px;
+		            line-height: 23px;
+		            max-width: 385px;
+		            letter-spacing: 0.01em;
+			 }
+		}
+		.room-type{
+			 padding: 106px 0px 67px 55px;
+		     p{
+		     	 padding-left: 54px;
+		     }
+			  ul{
+			  	  padding: 22px 5px;
+			  	  margin: 0px;
+			  	  list-style-type: none;
+			  	  li{
+			  	  	  display: block;
+			  	  	 margin-bottom: 9px;
+			  	  	 transition: all 0.5s ease;
+			  	  	 background: url('/images/arrow-icon-white.png');
+			  	  	 background-position: left 3px;
+			  	  	 background-repeat:  no-repeat;
+			  	  	  a{
+			  	  	  	 padding-left: 50px;
+			  	  	  	 color: #c9c9c8;
+			  	  	  	 font-weight: bold;
+			  	  	  	 text-decoration: none; 
+		                  transition: all 0.5s ease;
+			  	  	  }
+			  	  	  &.active, &:hover{
+			  	  	  	   a{
+			  	  	  	   	 color: $black; 
+			  	  	  	   	 text-decoration: none;
+			  	  	  	   }
+		                   background: url('/images/arrow-icon.png');
+		                   background-position: left 3px;
+			  	  	       background-repeat:  no-repeat;
+
+			  	  	  }
+			  	  }
+			  }
+		}
+		.main-image{
+			  position: relative;
+			  text-align: center;
+			  img{
+			  	  position: relative;
+
+
+			  }
+			  .rate-block{
+			  	  position: absolute;
+			  	  top: 0px;
+			  	  left: 0px;
+			  	  right: 0px;
+			  	  bottom: 0px;
+			  	  width: 100%;
+			  	  color: white;
+                  h4{ 
+                        padding: 15px 0px 15px 0px;
+                        @media(min-width: $screen-sm-min){
+                        	padding: 25px 0px 15px 0px;
+                        }
+                        @media(min-width: $screen-md-min){
+                        	padding: 35px 0px 25px 0px;
+                        }
+                        @media(min-width: $screen-custom-min){
+                        	padding: 55px 0px 35px 0px;
+                        }
+			  	       
+					    font-size: 15px;
+					    letter-spacing: 0.1em;
+					    text-transform: uppercase;
+                  }
+			  	  h2{
+		  	  	     font-size: 150px;
+		  	  	     line-height: 142px;
+		  	  	     max-width: 619px;
+		  	  	     margin: 0 auto;
+		  	  	     letter-spacing: 0.08em; 
+			  	  }
+			  }
+		}
+
+}
