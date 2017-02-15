@@ -90,14 +90,44 @@
 		  font-size: 35px;
 		  word-spacing: 10px;
 		  letter-spacing: 1px;
-		  line-height: 58px;
+		  line-height: 38px;
+		 
 		  @media(min-width: $screen-sm-min){
 		   top: 33.5%;
     	   transform: translateY(-33.5%);
 		   font-size: 45px;
 		   max-width:318px;
+		   line-height: 58px;
 		  }
 	}
+	
+	.wider{
+		  max-width:318px;
+		  font-family: $headline-font-family;
+		  right:0;
+		  left:0;
+		  padding:0px;
+		   line-height: 38px;
+		   @media(min-width: $screen-sm-min){
+ 			 max-width:510px;
+ 			  line-height: 58px;
+			}
+	}
+	.wider-max{
+	
+		  font-family: $headline-font-family;
+		  right:0;
+		  left:0;
+		  padding:0px;
+		   max-width:318px;
+		    line-height: 38px;
+		  @media(min-width: $screen-sm-min){
+		    max-width:336px;
+		      line-height: 58px;
+		}
+
+	}
+
 	
 	.s-p{
 		padding: 30px 14px 5px 16px;
@@ -120,11 +150,11 @@
 	.s-link{
 		padding:4px 14px 4px 14px;
 		font-family:$base-font-family1;
-		font-size:15px;
+		font-size:14px;
 
 		a{
 		background:url(/images/gray-arrow.svg) right 0px;
-		background-size:32px;
+		background-size:30px;
 		text-decoration: none;
 	    background-repeat: no-repeat;
 		padding-right:52px;
@@ -135,7 +165,7 @@
 		    text-decoration:none;
 		    color:$darkgrey;
 		    background:url(/images/gray-arrow.svg) right -18px;
-			background-size:32px;
+			background-size:30px;
 		    background-repeat: no-repeat;
 		   }
 		}
