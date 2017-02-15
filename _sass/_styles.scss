@@ -73,6 +73,22 @@ body{
 				color: #5c6f7b;
 			}
 		}
+		&.butn-secondary{
+			border: 0px solid white;
+			color: white;
+			background: $secondary-color;
+			outline: 0px;
+			&:hover{
+				background: #948671;
+				border: 1px solid #948671;
+				color: white;
+			}
+			&:focus, &:active{
+				border: 1px solid $black;
+				color: white;
+				background: $black;
+			}
+		}
 
 	}
 	&.center-white{

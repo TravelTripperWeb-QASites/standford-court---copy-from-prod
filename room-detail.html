@@ -64,10 +64,38 @@ parent: home
   <div class="row no-gutter clearfix">
        <div class="col-sm-6">
           <div class="booking-wrapper">
-                 <div id="datepicker"></div> 
-                 <input type="text" id="input1" size="10">
-                      <label><b>From:</b></label>
-                  <input type="text" id="input2" size="10">
+          <div id="datepicker"></div> 
+           <form>
+                 <div class="form-group col-sm-6 no-leftpadding">
+                    <label for="checkin">Arrival</label>
+                   <input type="text" class="form-control" id="checkin"  placeholder="Checkin Date"> 
+                 </div>
+                  <div class="form-group col-sm-6 no-padding"> <label for="checkout">Departue</label>
+                   <input type="text" class="form-control" id="checkout"  placeholder="Checkin Date"> 
+                 </div>
+                 <div class="form-group col-sm-6 no-leftpadding"> <label for="adults">Adults</label>
+                   <select class="form-control" id="adults"> 
+                     <option> 01 </option>
+                     <option> 02 </option>
+                     <option> 03 </option>
+                     <option> 04 </option>
+                   </select>
+                 </div>
+                 <div class="form-group col-sm-6 no-padding"> <label for="Child">Children</label>
+                   <select class="form-control" id="Child"> 
+                     <option> 00 </option>
+                     <option> 01 </option>
+                     <option> 02 </option>
+                     <option> 03 </option>
+                     <option> 04 </option>
+                   </select>
+                 </div>
+                 <div class="form-group col-sm-12 no-padding">  
+                 <div class="btn-holder">
+                   <button class="butn butn-secondary btn-block" type="submit"> BOOK THIS ROOM NOW </button>
+                   </div>
+                 </div> 
+           </form>
             </div>
        </div>
         <div class="col-sm-6 no-leftpadding">
