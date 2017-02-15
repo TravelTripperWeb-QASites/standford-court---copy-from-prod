@@ -7,7 +7,7 @@ GEM
     concurrent-ruby (1.0.2)
     extras (0.1.0)
       forwardable-extended (~> 2.5)
-    fastimage (2.0.1)
+    fastimage (2.0.0)
       addressable (~> 2)
     ffi (1.9.14-x86-mingw32)
     forwardable-extended (2.6.0)
@@ -41,7 +41,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
-    rack (1.6.5)
+    rack (1.6.4)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -63,4 +63,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
