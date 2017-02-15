@@ -90,6 +90,21 @@ body{
 		        }
 		     }
 	}
+	&.center-white-middle{
+             position: absolute;
+		     top: 50%;
+		     left: 50%;
+		     transform: translate(-50%, -50%); 
+		     .butn{
+		     	background: white;
+		        border: 0px;
+		        &:hover{
+		        	 background: #5c6f7b;
+		        	 color: white;
+		        	 border: 0px;
+		        }
+		     }
+	}
 	&.full-white{ 
 		     .butn{
 		     	background: white;
