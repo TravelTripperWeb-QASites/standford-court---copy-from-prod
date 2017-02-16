@@ -124,8 +124,8 @@ $(document).ready(function() {
     
     /// decrease size for minimal devices
      setTimeout(function(){ 
-       var largerFont = (($('.main-image img').height()) / 3.8);
-       $('.rate-block .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
+       var largerFont = (($('.main-image img, #roomsSlider img').height()) / 4);
+       $('.rate-block .title2, #roomsSlider .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
      },300);
    
 });
@@ -148,7 +148,65 @@ function init() {
    
 
 }
-window.onload = init();
+window.onload = init(); 
+
+$(function() {  
+   //get rates
+   var dayrates = [{}];
+    $.ajax({
+        url: 'https://rt3api-prd.ttaws.com/hotels/rate_calendar.json?hotel_id=MIAWPH&portal_id=wphsouthbeach&locale=en&currency=USD&ip_address=124.123.205.34&start_date=2017-02-20&end_date=2017-03-27&adults_0=1&children_0=0&rooms=1',
+        type: 'GET',
+        success: function(res) { 
+          $.each( res.rate_calendar_dates, function( index, value ){
+             //dayrates[0]["'"+value.date+"'"] = value.best_available_rate;
+             dayrates[0][value.date]=  value.best_available_rate;
+          });  
+        }
+    });  
+    // Works with $.get too!
+     console.log( dayrates);
+     var dayrates2 = [{'2017-02-12':100, '2017-02-20':150, '2017-02-13':120, '2017-02-14':200, '2017-02-16':100, '2017-02-17':300, '2017-02-18':140, '2017-02-19':320}];
+     console.log(dayrates2);
+      setTimeout(function(){
+        $("#datepicker").datepicker({
+        minDate: 0, 
+        beforeShowDay: function(date) {
+          var selectable = true; 
+          var classname = "";
+          var date1 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#checkin").val());
+          var date2 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#checkout").val()); 
+          //console.log( dayrates[0][date.getFullYear()+"-"+((date.getMonth() + 1) < 10 ? '0'+ (date.getMonth()+1) : (date.getMonth() + 1))+"-"+ (date.getDate() < 10 ? '0'+date.getDate() : date.getDate())]);
+          var title =  dayrates[0][date.getFullYear()+"-"+((date.getMonth() + 1) < 10 ? '0'+ (date.getMonth()+1) : (date.getMonth() + 1))+"-"+ (date.getDate() < 10 ? '0'+date.getDate() : date.getDate())];
+         if(title){
+           return [selectable, date1 && ((date.getTime() == date1.getTime()) || (date2 && date >= date1 && date <= date2)) ? "dp-highlight"+ classname : classname,  "\u20AC" +title];
+        }else{
+         return [true, date1 && ((date.getTime() == date1.getTime()) || (date2 && date >= date1 && date <= date2)) ? "dp-highlight" : ""];
+       }
+
+       }, 
+       onSelect: function(dateText, inst) {
+        var date1 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#checkin").val());
+        var date2 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#checkout").val());
+                var selectedDate = $.datepicker.parseDate($.datepicker._defaults.dateFormat, dateText);
+
+                
+                if (!date1 || date2) {
+          $("#checkin").val(dateText);
+          $("#checkout").val("");
+                    $(this).datepicker();
+                } else if( selectedDate < date1 ) {
+                    $("#checkin").val( $("#checkin").val() );
+                    $("#checkout").val( dateText );
+                    $(this).datepicker();
+                } else {
+          $("#checkout").val(dateText);
+                    $(this).datepicker();
+        }
+      } 
+      });
+
+      },1000);
+}); 
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -159,4 +217,4 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
+}); 
