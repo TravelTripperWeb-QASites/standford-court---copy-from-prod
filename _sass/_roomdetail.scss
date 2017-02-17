@@ -13,6 +13,7 @@
        border-radius: 0px;
        border-width: 0px;
        padding: 15px;
+       text-transform: normal;
 
 	}
 	.ui-state-default{
@@ -307,10 +308,76 @@
 }
 
 .booking-wrapper{
-	 padding: 73px 79px;
-
+	 padding: 10px;
+	 @media(min-width: $screen-sm-min){
+         padding: 73px 50px  0px 0px;
+	 } 
+	 margin: 0 auto;
+     max-width: 427px;
 	 .ui-datepicker{
 	 	 width: 100%;
 	 	 max-width: 377px;
+	 	 border-radius: 0px;
+	 	 font-family: 'GothamHTF Light';
+	 	 text-transform: uppercase;
+	 	 table{
+	 	 	 font-size: 15px;
+	 	 	 color: $black;
+	 	 	 th{
+	 	 	 	padding: 1.2em .3em;
+	 	 	 	 font-size: 13px;
+	 	 	 }
+	 	 	 td {
+	 	 	 	 border-left: 0px;
+	 	 	 	 border-right: 0px; 
+	 	 	 	 padding-left: 0px;
+	 	 	 	 padding-right: 0px; 
+	 	 	 	 padding-top: 7px;
+	 	 	 	 &.ui-datepicker-today{
+                    	a{
+                    		background: #d7cd96 !important; 
+
+                    		} 
+                    }
+                  &.dp-highlight{
+                  	a{
+                  		 background: #948671 !important; 
+                  		}
+                  }
+	 	 	 	 span{
+	 	 	 	 	padding-bottom: 2em;
+	 	 	 	 }
+	 	 	 	 a{
+	 	 	 	 	 padding-bottom: 2em;
+
+	 	 	 	 }
+	 	 	 }
+	 	 }
+	 }
+	 .no-rightpadding{
+	 	 padding-right: 0px;
+	 }
+	 .form-group{
+	 	margin-bottom: 0px;
+	 	 label{
+	 	 	 width: 100%;
+	 	 	 display: block;
+	 	 	 text-transform: uppercase;
+	 	 	 line-height: 31px;
+	 	 	 padding-top: 4px;
+	 	 	 padding-left:10px;
+	 	 	 font-size: 12px;
+	 	 }
+	 	 .form-control{
+	 	 	 height: 58px;
+	 	 	 border-radius: 0px;
+	 	 }
+	 }
+	 .btn-holder{
+	 	 padding-left: 0px;
+	 	 padding-right: 0px;
+	 	 .butn{
+	 	 	 width: 100%;
+	 	 }
 	 }
 }
