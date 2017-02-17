@@ -1,0 +1,471 @@
+
+.location-banner {
+    padding: 40px 0px 79px 0px;
+    background-image:url(/images/location/location_banner.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top:100px;
+
+    .banner-inner{
+	    width: 100%;
+		color:#fff;
+		text-align:center;
+
+	    h3{
+	        text-transform: uppercase;
+		    font-size: 12px;
+		    word-spacing: 1px;
+		     @media( min-width: $screen-xs-min){
+			 font-size: 15px;
+		     }
+	      }
+
+	    h1{
+		    font-size: 50px;
+		    margin-top: 74px;
+		    letter-spacing:3px;
+		    font-family: $headline-font-family;
+		    font-size: 80px;
+		    @media( min-width: $screen-xs-min){
+		     font-size: 148px;
+		     }
+	    }
+	    
+	    p{
+		   font-family: GothamHTF Book;
+		   padding-top: 14px;
+		   font-size:13px;
+
+		    .phone{ 
+				    
+				    padding:3px 20px 10px  30px;
+				    background-image:url(/images/phone.png);
+				    background-repeat:no-repeat;
+				    @media( min-width: $screen-xs-min){
+				      padding:0px 50px 0px 40px;		
+				    }
+			    }
+
+
+		    .email{
+				   
+				    padding:3px 30px 4px  38px	;
+				    background-image:url(/images/email.png);
+					background-repeat:no-repeat;
+					@media( min-width: $screen-xs-min){
+				      padding-left:40px;	
+				    }
+		    	}
+		    
+		     a{
+		    color:#FFF;
+		    text-decoration:none;
+		    }
+
+		     @media( min-width: $screen-xs-min){
+		      font-size:24px;
+		     }
+	    }
+
+	    .btn-holder{
+		  text-align:center;
+		  width:240px;
+		  right:0;
+		  left:0;
+		  padding:0px;
+		  margin:61px auto 0px auto;
+		 
+		 .butn{
+				background: white;
+				border:1px solid white;
+				color: black;
+				padding: 12px 20px;  
+				font-size: 11px; 
+				text-decoration: none;
+				letter-spacing: 3px; 
+				transition: all 0.5s ease; 
+				width: auto;
+				text-decoration: none;
+				@media(min-width: $screen-md-min){
+					padding: 20px 40px;  
+				    font-size: 13px;
+				}
+				&:hover{
+					background: #5c6f7b;
+					border: 1px solid #5c6f7b;
+					color: #fff;
+					text-decoration: none;
+					cursor: pointer;
+				}
+			&.uppercase{
+				 text-transform: uppercase;
+			}
+			&.btn-white{
+				border: 1px solid white;
+				color: white;
+				&:hover{
+					background: white;
+					border: 1px solid white;
+					color: #5c6f7b;
+				}
+			}
+		}	
+	}
+
+	    @media( min-width: $screen-sm-min){
+		 	
+		    margin-top: 26px;
+		 } 
+		}
+
+     @media( min-width: $screen-sm-min){
+      padding: 40px 0px 79px 0px;
+     }
+}
+
+
+.location-map{
+	position: relative;
+	img{
+	width:100%;
+	
+	}
+	.map-nav{
+		max-width:930px;
+		background:$primary-color;
+		position: absolute;
+		bottom:17px;
+		
+	  ul{
+		  list-style: none;
+		  margin: 0;
+    	  padding: 0;
+		  
+		  li{
+			  display: block;
+			  float: left;
+			  list-style: none;
+			  
+			  a{
+				  background: #161515; 
+				  padding:15px 29px 20px 24.80px;  
+				  margin-right: 1px;
+				  background-image: url(/images/map-icons.svg);
+				  background-repeat: no-repeat;
+    			  background-position: 0px 0px;
+				  
+			  	}
+			   .bars{
+				 	background-position: -57px 0px;  
+				  
+				  }
+				  .coffee{
+					  background-position: -113px 0px; 
+				  }
+				  .locations{
+					  background-position: -167px 0px; 
+				  }
+				  .beachs{
+					   background-position: -220px 0px; 
+				  }
+				  .mta{
+					   background-position: -220px 0px;
+				  }
+				  .stations{
+						 background-position: -328px 0px; 
+				  }
+				  .airports{
+					background-position: -382px 0px; 
+				  }
+				  .hotels{
+					background-position: -328px 0px; 
+				  }
+				  .hospitals{
+					background-position: -328px 0px; 
+				  }
+				  .shopping{
+					background-position: -328px 0px;
+				  }
+				  .view-all{
+					 background-color:transparent;
+					 background-image: none;
+					 font-family:$base-font-family1;
+				  }
+			  
+		 	 } 
+	  }	
+	}
+}
+	
+.location-bg-light{
+	
+	background:$primary-color;
+}
+.location-wrapper {
+&.location-bg-light{
+		background-size: 340%; 
+		@media(min-width: 370px){ 
+			background-size: 240%; 
+		}
+		@media(min-width: $screen-sm-min){ 
+			background-size: 110%; 
+		}
+		@media(min-width: $screen-sm-min){ 
+			background-size: 110%; 
+		}
+	     @media(min-width: $screen-md-min){ 
+	     	background-size: 114%; 
+	     }
+		  @media(min-width: $screen-custom-min){ 
+		  
+		  	background-size: 100%; 
+		  }
+	  background-image: url('/images/location/train.jpg');
+	  background-position: bottom center; 
+      background-repeat: no-repeat; 
+	}
+.table-eq{
+ 	    width: 100%;
+	 	display: table; 
+
+	 	 &.margin-15{
+	 	 	width: 94.6%; 
+	 	 	@media(min-width: $screen-custom-min){
+		 		width: 100%;
+		 	}
+		 	@media(max-width: $screen-xs-max){
+			 		display: inherit;
+			 		width: 96%;
+			 		width: calc(100% - 30px);
+			 	}
+	 	 	margin: 0 15px;
+	 	 	.left-cell{
+	 	 		width: 35.4%;
+	 	 		display: table-cell; 
+	 	 		@media(min-width: $screen-custom-min){
+			 		width: 34%;
+			 	}
+			 	@media(max-width: $screen-xs-max){
+			 		display: block;
+			 		width: 100%;
+			 		.ctrl{
+			 			width: 50%;
+			 			float: left;
+			 		}
+			 	}
+			 	 
+	 	 	} 
+	 	 	.high-style
+	 	 	{   
+	 	 		vertical-align: bottom;
+	 	 		width: 63.6%; 
+	 	 		@media(min-width: $screen-custom-min){
+	 	 		   width: 66%; 
+	 	 	     }
+	 	 	     @media(max-width: $screen-xs-max){
+	 	 	     	display: block;
+	 	 	     	width: 100%;
+	 	 	     	padding-top:300px
+	 	 	     }
+	 	 		display: table-cell; 
+	 	 		 img{
+	 	 		 	position: absolute;
+	 	 		 	bottom: 0px;
+	 	 		 }
+	 	 		 h2{ 
+	 	 			font-family: $headline-font-family;
+	 	 			font-size: 30px;
+	 	 			padding: 40px 20px;
+	 	 			color: white;
+	 	 			text-align: right; 
+	 	 			letter-spacing: 0.15em;
+	 	 			text-align: right;
+	 	 			line-height: 40px;
+	 	 			@media(max-width: $screen-xs-max){
+	 	 				padding-top: 300px;
+	 	 			}
+	 	 			@media(min-width: $screen-sm-min){
+	 	 				font-size: 40px;
+	 	 				padding: 40px 30px;
+	 	 				line-height: 50px;
+	 	 			}
+	 	 			@media(min-width: $screen-custom-min){
+	 	 				font-size: 76px;
+ 	 				    padding: 44px 102px;
+ 	 				    line-height: 101px;
+ 	 				    letter-spacing: 0.09em;
+	 	 			}
+	 	 		}
+	 	 	}
+	 	 }
+	 .left-cell{
+	 	width: 50%;
+	 	display: table-cell;
+	 	vertical-align: top; 
+	 	@media(min-width: $screen-md-min){
+	 		width: 34.6%;
+	 	}
+	 	@media(max-width: $screen-xs-max){
+	 		display: block;
+	 		width: 100%;
+	 	}
+	 	.desctiption{ 
+	 		padding: 20px;
+	 		@media(min-width: $screen-sm-min){
+	 			padding: 20px 30px 20px 20px;
+	 		}
+	 		@media(min-width: $screen-md-min){
+	 			padding: 40px;
+	 		}
+	 		@media(min-width: $screen-custom-min){
+	 			padding: 55px 50px 40px 54px;
+	 		}
+	 		.title{
+	 			text-align: center;
+	 			@media(min-width: $screen-sm-min){ 
+                      text-align: left;
+	 			 }
+	 			 @media(min-width: $screen-md-min){
+                      max-width: 400px;
+                      text-align: left;
+	 			 }
+	 			 @media(min-width: $screen-custom-min){
+                      max-width: 255px;
+                      text-align: left;
+                      padding-bottom: 30px;
+	 			 }
+	 		}
+	 		h4{
+                 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
+	         	 font-size: 12px;
+	         	 letter-spacing: 0.12em;
+	         	 text-align: center;
+	         	 @media(min-width: $screen-sm-min){ 
+                      text-align: left;
+	 			 }
+	         	 @media(min-width: $screen-md-min){
+	         	 	font-size: 14px;
+	         	 	text-align: left;
+	         	 }
+	         	 @media(min-width: $screen-custom-min){
+	         	 	font-size: 15px;
+	         	 	text-align: left;
+	         	 }
+	 		}
+	 		hr{ 
+	 			 margin: 20px 0px;
+	 			 @media(min-width: $screen-custom-min){
+	 			 	margin: 36px 0px;
+	 			 }
+	 			 
+	 			 @media(max-width: $screen-xs-max){ 
+	 			 	margin: 20px auto;
+	 			 }
+	 		}
+	 		p{
+                  text-align: center;
+                  @media(min-width: $screen-sm-min){ 
+                  	text-align: left;
+                  }
+	 		}
+	 	}
+	 } 
+	 
+	 .right-cell{  
+	 	width: 50%; 
+	 	display: table-cell;
+        vertical-align: top;
+        @media(min-width: $screen-md-min){
+        	width: 65.4%; 
+        }
+        @media(max-width: $screen-xs-max){
+        	display: block;
+        	width: 100%;
+        }
+        .bg-dark{
+        	color: white;
+        	.title{
+        		color: white;
+        		 @media(min-width: $screen-custom-min){ 
+
+        		 }
+        	}
+        	p{
+        		color: white;
+        	}
+        	hr{
+        		border-bottom: 1px solid white;
+
+        	}
+        }
+        .content{
+        	padding:30px;
+        	text-align: center;
+        	@media(min-width: $screen-sm-min){
+        		text-align: left;
+        		padding:50px  20px 30px 70px;
+        	}         	
+        	@media(min-width: $screen-md-min){
+        		padding:50px;
+        	}
+        	@media(min-width: $screen-custom-min){
+        		padding: 45px 40px 92px 169px;
+        		
+        		 &.amenties{
+        		 	 padding: 43px 40px 84px 169px; 
+                     hr{
+                     	 margin-left: 76px;
+                     	 margin-top: 48px;
+                     	 margin-bottom: 34px;
+                     }
+                     p{
+                     	   padding: 0px 73px;
+                            max-width: 522px;
+                            font-family:$base-font-family;
+                     }
+        		 }
+        	}
+        	 
+        	 h2, p{
+        	 	padding: 0px 20px 10px 10px ;
+        	 	@media(min-width: $screen-md-min){
+	                  padding: 0px 80px ;
+	              }
+	              @media(min-width: $screen-md-min){
+	                  padding: 0px 73px ;
+	              }
+        	 }
+        	 hr{
+        	 	 margin: 20px auto;
+        	     @media(min-width: $screen-sm-min){
+                   margin-left: 10px;
+        	     }
+        	 	 @media(min-width: $screen-md-min){
+	        	 	 margin-left: 80px;
+	        	 	 margin-top: 30px;
+	        	 	 margin-bottom: 40px;
+        	 	}	
+        	 } 
+        }
+        .btn-holder{
+        	@media(max-width: $screen-xs-max){
+        		margin: 0px auto;
+	        	width: auto;
+	        	text-align: center !important;
+	        	padding-bottom: 40px;
+        	}
+        	
+        	@media(min-width: $screen-sm-min){
+          	 padding-left: 36px;
+          	 text-align: left !important;
+          	}
+        	@media(min-width: $screen-md-min){
+          	 padding-left: 35px;
+          	}
+        	@media(min-width: $screen-custom-min){
+          	 padding-left: 60px;
+          	}
+          }
+	 }
+}
+}
