@@ -12,7 +12,11 @@ body{
 		font-size: 15px;
 		line-height: 22px;
 	}
+	color: $black;
 	
+	p{
+		color: $light-black;
+	}
 }
 
 .right-padd{
@@ -812,6 +816,9 @@ body{
 	font-size: 11px;
 	line-height: 26px;
 	text-align: left;
+	p{
+		color: $black;
+	}
     @media(max-width: $screen-xs-max){
     	 text-align: center;
     }
