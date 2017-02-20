@@ -151,10 +151,12 @@ function init() {
 window.onload = init(); 
 
 $(function() {  
-   //get rates
+   var today = new Date();
+   var firstdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+   var lastdate = today.getFullYear()+'-'+(today.getMonth()+7)+'-'+today.getDate();
    var dayrates = [{}];
     $.ajax({
-        url: 'https://rt3api-prd.ttaws.com/hotels/rate_calendar.json?hotel_id=MIAWPH&portal_id=wphsouthbeach&locale=en&currency=USD&ip_address=124.123.205.34&start_date=2017-02-20&end_date=2017-03-27&adults_0=1&children_0=0&rooms=1',
+        url: 'https://rt3api-prd.ttaws.com/hotels/rate_calendar.json?hotel_id=MIAWPH&portal_id=wphsouthbeach&locale=en&currency=USD&ip_address=124.123.205.34&start_date='+firstdate+'&end_date='+lastdate+'&adults_0=1&children_0=0&rooms=1',
         type: 'GET',
         success: function(res) { 
           $.each( res.rate_calendar_dates, function( index, value ){
@@ -163,10 +165,7 @@ $(function() {
           });  
         }
     });  
-    // Works with $.get too!
-     console.log( dayrates);
-     var dayrates2 = [{'2017-02-12':100, '2017-02-20':150, '2017-02-13':120, '2017-02-14':200, '2017-02-16':100, '2017-02-17':300, '2017-02-18':140, '2017-02-19':320}];
-     console.log(dayrates2);
+    // Works with $.get too! 
       setTimeout(function(){
         $("#datepicker").datepicker({
         minDate: 0, 
@@ -205,7 +204,7 @@ $(function() {
       } 
       });
 
-      },1000);
+      },2000);
 }); 
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
