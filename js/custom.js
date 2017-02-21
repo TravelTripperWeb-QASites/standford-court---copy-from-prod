@@ -148,6 +148,15 @@ function init() {
    setTimeout(function(){
     var imageHolder = $('.first-holder').height();
    $('.attrcation-cards :not(.first-holder)').find('.img-holder').css('max-height',imageHolder);
+      
+       var newHeight = 0;
+        $('.attrcation-cards').find('.details').each(function(){
+            var temp = $(this).height();
+            newHeight = temp > newHeight ? temp  : newHeight;
+        }); 
+        $('.attrcation-cards').find('.details').each(function() {
+           $(this).height(newHeight);
+         });
    },1000);
 }
 window.onload = init(); 

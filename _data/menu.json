@@ -1,0 +1,9 @@
+{  
+      "attractions":[
+               {"name":"Culture","url":"/events/culture/","child":"culture"},
+               {"name":"Culinary","url":"/events/culinary/","child":"culinary"},
+               {"name":"Retail","url":"/events/retail/","child":"retail"},
+               {"name":"SAN FRANCISCO SITES","url":"/events/san-francisco-sites/","child":"san-francisco-sites"},
+               {"name":"Fitness","url":"/events/fitness/","child":"fitness"}
+           ]
+  }
