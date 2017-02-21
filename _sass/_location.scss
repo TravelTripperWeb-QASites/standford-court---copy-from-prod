@@ -1,5 +1,3 @@
-
-
 .location-banner{
  	margin-top:100px;
     background-size: cover;
@@ -58,6 +56,10 @@
 				    padding:3px 20px 10px  30px;
 				    background-image:url(/images/phone.png);
 				    background-repeat:no-repeat;
+				    @media( max-width: $screen-sm-min){
+				     text-align:center;		
+				     display:block;
+				    }
 				    @media( min-width: $screen-xs-min){
 				      padding:0px 50px 0px 40px;		
 				    }
@@ -69,6 +71,10 @@
 				    padding:3px 30px 4px  38px	;
 				    background-image:url(/images/email.png);
 					background-repeat:no-repeat;
+					@media( max-width: $screen-sm-min){
+				     text-align:center;	
+				      display:block;	
+				    }
 					@media( min-width: $screen-xs-min){
 				      padding-left:40px;	
 				    }
@@ -115,10 +121,13 @@
 	
 
 	.map-nav{
-		max-width:930px;
-		background:$primary-color;
+		
+		
 		position: absolute;
-		bottom:17px;
+		bottom: 2px;
+    	line-height: 49px;
+    	width:96%;
+
 		
 	  ul{
 		  list-style: none;
@@ -126,54 +135,103 @@
     	  padding: 0;
 		  
 		  li{
-			  display: block;
-			  float: left;
+			  display:inline-block;
+			
 			  list-style: none;
 			  
 			  a{
 				  background: #161515; 
-				  padding:15px 29px 20px 24.80px;  
-				  margin-right: 1px;
+				  padding:15px 29px 20px 22px;  
+				  margin-right: -2px;
 				  background-image: url(/images/map-icons.svg);
 				  background-repeat: no-repeat;
     			  background-position: 0px 0px;
-				  
+    			  color:#161515;
+    			  text-decoration:none;
+    			  transition: all 0.5s ease;
+				  &:hover{
+				   background: #5c6f7b;
+				   background-image: url(/images/map-icons.svg);
+				   background-repeat: no-repeat;
+    			   background-position: 0px 0px;
+				  }
 			  	}
 			   .bars{
 				 	background-position: -57px 0px;  
-				  
+					  &:hover{
+					  background-position: -57px 0px;  
+					  }
 				  }
 				  .coffee{
 					  background-position: -113px 0px; 
+					  &:hover{
+					  background-position: -113px 0px;  
+					  }
 				  }
 				  .locations{
-					  background-position: -167px 0px; 
+					  background-position: -167px 0px;
+					  &:hover{
+					  background-position: -167px 0px;  
+					  } 
 				  }
 				  .beachs{
 					   background-position: -220px 0px; 
+					   &:hover{
+					  background-position: -220px 0px;  
+					  }
 				  }
 				  .mta{
-					   background-position: -220px 0px;
+					   background-position: -272px 0px;
+					   &:hover{
+					  background-position: -272px 0px;  
+					  }
 				  }
 				  .stations{
-						 background-position: -328px 0px; 
+						 background-position: -328px 0px;
+						 &:hover{
+					  background-position: -328px 0px; 
+					  }
 				  }
 				  .airports{
-					background-position: -382px 0px; 
+					background-position: -382px 0px;
+					&:hover{
+					  background-position: -382px 0px;  
+					  } 
 				  }
 				  .hotels{
-					background-position: -328px 0px; 
+					background-position: -437px 0px;
+					&:hover{
+					 background-position: -437px 0px;  
+					  }  
 				  }
 				  .hospitals{
-					background-position: -328px 0px; 
+					background-position: -490px 0px;
+					&:hover{
+					background-position: -490px 0px;
+					} 
 				  }
 				  .shopping{
-					background-position: -328px 0px;
+					background-position: -546px 0px;
+					&:hover{
+					background-position: -546px 0px;
+					}
 				  }
 				  .view-all{
-					 background-color:transparent;
-					 background-image: none;
+					 
+					 background-image: url(/images/black-flip-arrow.svg);
+				  	 background-repeat: no-repeat;
+    			  	 background-position: 16px 18px;
 					 font-family:$base-font-family1;
+					 background-color:$primary-color;
+					 padding:16px 29px 20px 61px;
+					 background-size:34px;
+					 &:hover{
+					  background-image: url(/images/black-flip-arrow.svg);
+				  	 background-repeat: no-repeat;
+    			  	 background-position: 16px 18px;
+    			  	  background-size:34px;
+    			  	  color:#FFF;
+					 }
 				  }
 			  
 		 	 } 
@@ -186,8 +244,12 @@
 	}
 
 .location-wrapper {
- &.location-bg-light{
+	
+	&.location-bg-light{
 		background-size: 340%; 
+		background-image: url('/images/location/train.jpg');
+	  	background-position: bottom center; 
+      	background-repeat: no-repeat; 
 		@media(min-width: 370px){ 
 			background-size: 240%; 
 		}
@@ -204,21 +266,20 @@
 		  
 		  	background-size: 100%; 
 		  }
-	  background-image: url('/images/location/train.jpg');
-	  background-position: bottom center; 
-      background-repeat: no-repeat; 
+	  
 	}
-	.padd-60{
-		padding: 30px;
-		@media(min-width: $screen-md-min){ 
-		 padding: 57px 0px 37px 100px;
-		}
-	}
-.table-eq{
-	width: 100%;
- 	display: table; 
 
-	 	 &.margin-15{
+	.table-eq{
+		width: 100%;
+	 	display: table;
+			.padd-60{
+				padding: 30px;
+				@media(min-width: $screen-md-min){ 
+				 padding: 57px 0px 37px 100px;
+				}
+			}
+
+ 	       &.margin-15{
 	 	 	width: 94.6%; 
 	 	 	@media(min-width: $screen-custom-min){
 		 		width: 100%;
@@ -245,8 +306,7 @@
 			 	}
 			 	 
 	 	 	} 
-	 	 	.high-style
-	 	 	{   
+	 	 	.high-style{   
 	 	 		vertical-align: bottom;
 	 	 		width: 63.6%; 
 	 	 		@media(min-width: $screen-custom-min){
@@ -288,80 +348,203 @@
 	 	 		}
 	 	 	}
 	 	 }
-	 .left-cell{
-	 	width: 50%;
-	 	display: table-cell;
-	 	vertical-align: top; 
-	 	@media(min-width: $screen-md-min){
-	 		width: 34.6%;
+
+	 	.left-cell{
+		 	width: 50%;
+		 	display: table-cell;
+		 	vertical-align: top; 
+		 	@media(min-width: $screen-md-min){
+		 		width: 34.6%;
+		 	}
+		 	@media(max-width: $screen-xs-max){
+		 		display: block;
+		 		width: 100%;
+		 	}
+		 	  @media(max-width: $screen-sm-max){
+					.m-venue{
+			              
+			              text-align: center;
+						}
+				}
+		 	.desctiption{ 
+		 		padding: 20px;
+		 		@media(min-width: $screen-sm-min){
+		 			padding: 20px 30px 20px 20px;
+		 			}
+		 		@media(min-width: $screen-md-min){
+		 			padding: 40px;
+		 			}
+		 		@media(min-width: $screen-custom-min){
+		 			padding: 55px 50px 40px 54px;
+		 		}
+		 		.title{
+		 			text-align: center;
+		 			@media(min-width: $screen-sm-min){ 
+	                      text-align: left;
+		 			 }
+		 			 @media(min-width: $screen-md-min){
+	                      max-width: 400px;
+	                      text-align: left;
+		 			 }
+		 			 @media(min-width: $screen-custom-min){
+	                      max-width: 255px;
+	                      text-align: left;
+	                      padding-bottom: 30px;
+		 			 }
+		 		}
+		 		h4{
+	                 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
+		         	 font-size: 12px;
+		         	 letter-spacing: 0.12em;
+		         	 text-align: center;
+		         	 @media(min-width: $screen-sm-min){ 
+	                      text-align: left;
+		 			 }
+		         	 @media(min-width: $screen-md-min){
+		         	 	font-size: 14px;
+		         	 	text-align: left;
+		         	 }
+		         	 @media(min-width: $screen-custom-min){
+		         	 	font-size: 15px;
+		         	 	text-align: left;
+		         	 }
+		 		}
+		 		hr{ 
+		 			 margin: 20px 0px;
+		 			 @media(min-width: $screen-custom-min){
+		 			 	margin: 36px 0px;
+		 			 }
+		 			 
+		 			 @media(max-width: $screen-xs-max){ 
+		 			 	margin: 20px auto;
+		 			 }
+		 		}
+		 		p{
+	                  text-align: center;
+	                  @media(min-width: $screen-sm-min){ 
+	                  	text-align: left;
+	                  }
+		 		}
+		 	}
 	 	}
-	 	@media(max-width: $screen-xs-max){
-	 		display: block;
-	 		width: 100%;
-	 	}
-	 	.desctiption{ 
-	 		padding: 20px;
-	 		@media(min-width: $screen-sm-min){
-	 			padding: 20px 30px 20px 20px;
-	 		}
-	 		@media(min-width: $screen-md-min){
-	 			padding: 40px;
-	 		}
-	 		@media(min-width: $screen-custom-min){
-	 			padding: 55px 50px 40px 54px;
-	 		}
-	 		.title{
-	 			text-align: center;
-	 			@media(min-width: $screen-sm-min){ 
-                      text-align: left;
-	 			 }
-	 			 @media(min-width: $screen-md-min){
-                      max-width: 400px;
-                      text-align: left;
-	 			 }
-	 			 @media(min-width: $screen-custom-min){
-                      max-width: 255px;
-                      text-align: left;
-                      padding-bottom: 30px;
-	 			 }
-	 		}
-	 		h4{
-                 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
-	         	 font-size: 12px;
-	         	 letter-spacing: 0.12em;
-	         	 text-align: center;
-	         	 @media(min-width: $screen-sm-min){ 
-                      text-align: left;
-	 			 }
-	         	 @media(min-width: $screen-md-min){
-	         	 	font-size: 14px;
-	         	 	text-align: left;
-	         	 }
-	         	 @media(min-width: $screen-custom-min){
-	         	 	font-size: 15px;
-	         	 	text-align: left;
-	         	 }
-	 		}
-	 		hr{ 
-	 			 margin: 20px 0px;
-	 			 @media(min-width: $screen-custom-min){
-	 			 	margin: 36px 0px;
-	 			 }
-	 			 
-	 			 @media(max-width: $screen-xs-max){ 
-	 			 	margin: 20px auto;
-	 			 }
-	 		}
-	 		p{
-                  text-align: center;
-                  @media(min-width: $screen-sm-min){ 
-                  	text-align: left;
-                  }
-	 		}
-	 	}
-	 } 
-	 
-	 .right-cell{  
+
+		.right-cell{  
+		 	width: 50%; 
+		 	display: table-cell;
+	        vertical-align: top;
+	        @media(min-width: $screen-md-min){
+	        	width: 65.4%; 
+	        }
+	        @media(max-width: $screen-xs-max){
+	        	display: block;
+	        	width: 100%;
+	        }
+	        .bg-dark{
+	        	color: white;
+	        	.title{
+	        		color: white;
+	        		 @media(min-width: $screen-custom-min){ 
+
+	        		 }
+	        	}
+	        	p{
+	        		color: white;
+	        	}
+	        	hr{
+	        		border-bottom: 1px solid white;
+
+	        	}
+	        }
+	        .content{
+	        	padding:30px;
+	        	text-align: center;
+	        	@media(min-width: $screen-sm-min){
+	        		text-align: left;
+	        		padding:50px  20px 30px 70px;
+	        	}         	
+	        	@media(min-width: $screen-md-min){
+	        		padding:50px;
+	        	}
+	        	@media(min-width: $screen-custom-min){
+	        		padding: 65px 40px 8px 129px;
+	        		
+	        		 &.amenties{
+	        		 	 padding: 43px 40px 84px 169px; 
+	                     hr{
+	    					margin-left: 30px;
+	    					margin-top: 49px;
+	    					argin-bottom: 40px;
+	                     }
+	                     
+	        		 }
+	        	}
+	        	 
+	        	h2{
+	        	   padding: 0px 20px 10px 10px ;
+	        	 	@media(min-width: $screen-md-min){
+		                  padding: 0px 80px ;
+		              }
+		              @media(min-width: $screen-md-min){
+		                  padding: 0px 73px ;
+		              }
+	        	 	}
+	        		p{
+	        	 	  padding: 0px 31px;
+					  line-height: 24px;
+	        	 	  @media(min-width: $screen-md-min){
+		                  padding: 0px 80px ;
+		              }
+		              @media(min-width: $screen-sm-min){
+		                  padding: 0px 73px ;
+		                  max-width:550px;
+		              }
+	        	 	}
+
+	        	    
+	        	 hr{
+	        	 	 margin: 20px auto;
+	        	     @media(min-width: $screen-sm-min){
+	                   margin-left: 10px;
+	        	     }
+	        	 	 @media(min-width: $screen-md-min){
+		        	 	 margin-left: 69px;
+		        	 	 margin-top: 30px;
+		        	 	 margin-bottom: 35px;
+	        	 	}	
+	        	 } 
+	        }
+		        .btn-holder{
+		        	@media(max-width: $screen-xs-max){
+		        		margin: 0px auto;
+			        	width: auto;
+			        	text-align: center !important;
+			        	
+		        	}
+		        	
+		        	@media(min-width: $screen-sm-min){
+		          	 padding-left: 36px;
+		          	 text-align: left !important;
+		          	}
+		        	@media(min-width: $screen-md-min){
+		          	 padding-left: 35px;
+		          	}
+		        	@media(min-width: $screen-custom-min){
+		          	        padding-left: 53px;
+		   					padding-top: 32px;
+		    				padding-bottom: 72px;
+		          	}
+		          }
+			 } 
+	}
+
+	.local-living{
+			padding: 0px 20px;
+			@media(min-width: $screen-sm-min){
+				padding: 0px 60px;
+			}
+			@media(max-width: $screen-xs-max){
+				text-align: center;
+		.right-cell{  
 	 	width: 50%; 
 	 	display: table-cell;
         vertical-align: top;
@@ -388,6 +571,8 @@
 
         	}
         }
+
+
         .content{
         	padding:30px;
         	text-align: center;
@@ -400,20 +585,6 @@
         	}
         	@media(min-width: $screen-custom-min){
         		padding: 65px 40px 8px 129px;
-        		
-        		 &.amenties{
-        		 	 padding: 43px 40px 84px 169px; 
-                     hr{
-    					margin-left: 30px;
-    					margin-top: 49px;
-    					argin-bottom: 40px;
-                     }
-                     p{
-                     	   padding: 0px 73px;
-                            max-width: 522px;
-                            font-family:$base-font-family;
-                     }
-        		 }
         	}
         	 
         	 h2{
@@ -427,7 +598,7 @@
         	 }
         	p{
         	 	 padding: 0px 31px;
-    			 max-width: 538px;
+    			
                  line-height: 24px;
         	 	  @media(min-width: $screen-md-min){
 	                  padding: 0px 80px ;
@@ -449,67 +620,94 @@
 	        	 	 margin-bottom: 35px;
         	 	}	
         	 } 
-        }
-        .btn-holder{
-        	@media(max-width: $screen-xs-max){
-        		margin: 0px auto;
-	        	width: auto;
-	        	text-align: center !important;
-	        	
         	}
-        	
-        	@media(min-width: $screen-sm-min){
-          	 padding-left: 36px;
-          	 text-align: left !important;
-          	}
-        	@media(min-width: $screen-md-min){
-          	 padding-left: 35px;
-          	}
-        	@media(min-width: $screen-custom-min){
-          	        padding-left: 53px;
-   					padding-top: 32px;
-    				padding-bottom: 72px;
-          	}
-          }
-	 }
+        
+	 
+			} 
+			}
+			@media(min-width: $screen-custom-min){ 
+				padding: 30px 20px 30px 72px;
+			}
 
-	 .local-living{
-	padding: 0px 20px;
-	@media(min-width: $screen-sm-min){
-		padding: 0px 60px;
-	}
-	@media(max-width: $screen-xs-max){
-		text-align: center;
-
-	} 
-	@media(min-width: $screen-custom-min){ 
-		padding: 6px 20px 30px 72px;
-	}
-	 .right-content{
-	 	margin-top: 20px;
-	 	@media(min-width: $screen-sm-min){
-	 		margin-top: 30px;
-	 	}
-	 	@media(min-width: $screen-md-min){
-	 		margin-top: 60px;
-	 	}
-	 	@media(min-width: $screen-custom-min){
-	 		margin-top: 100px;
-	 	} 
-	 	 hr{
-	 	 	 margin:40px 0px;
-	 	 	 @media(max-width: $screen-xs-max){
-	 	 	 	margin: 20px auto;
-	 	 	 }
-	 	 } 
-	 }
-	 .right-content{
-	 	     margin-top: 60px;
-	 }
-   }
-  }
+			 .heading2{
+			font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
+			font-size: 35px;
+			line-height: 36px;
+			color: #ffffff;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			@media(min-width: $screen-sm-min){
+				font-size: 40px;
+				line-height: 40px; 
+			}
+			@media(min-width: $screen-md-min){
+				font-size: 80px;
+				line-height: 80px;
+			}
+			@media(min-width: $screen-custom-min){
+				font-size: 117px;
+				line-height: 117px;
+			}
+		}
+		.heading4{
+			 font-size: 12px;
+			 word-spacing: 3px;
+    		 letter-spacing: 1px; 
+			 @media(min-width: $screen-sm-min){
+			 	font-size: 13px; 
+			 }
+			 @media(min-width: $screen-md-min){
+			 	    font-size: 15px;
+			 }
+		} 
+			 .right-content{
+			 	margin-top: 20px;
+			 	@media(min-width: $screen-sm-min){
+			 		margin-top: 30px;
+			 	}
+			 	@media(min-width: $screen-md-min){
+			 		margin-top: 60px;
+			 		margin-left: 13px;
+			 	}
+			 	@media(min-width: $screen-custom-min){
+			 		    margin-top: 131px;
+   					    margin-left: 33px;
+			 	} 
+			 	 hr{
+			 	 	 margin:36px 0px;
+			 	 	 @media(max-width: $screen-xs-max){
+			 	 	 	margin: 20px auto;
+			 	 	 }
+			 	 } 
+			 }
+			 
+			 .btn-holder{
+		        	@media(max-width: $screen-xs-max){
+		        		margin: 0px auto;
+			        	width: auto;
+			        	text-align: center !important;
+			        	
+		        	}
+		        	
+		        	@media(min-width: $screen-sm-min){
+		          	 padding-left: 0px;
+		          	 text-align: left !important;
+		          	}
+		        	@media(min-width: $screen-md-min){
+		          	 padding-left: 0px;
+		          	 padding-bottom: 54px;
+		          	}
+		        	@media(min-width: $screen-custom-min){
+		          	        padding-left: 0px;
+		   					padding-top: 80px;
+    						padding-bottom: 104px;
+		          	}
+		          }
+		        
+		}
+ 
+	
 }
-
 
 
 .location-stay{
