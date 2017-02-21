@@ -2,16 +2,16 @@
 	 text-transform: uppercase;
 }
 .welcome-wrapper{
-	background: url('/images/building.jpg') no-repeat top 300px left 0px; 
+	background: url('/images/building.jpg') no-repeat top 300px left 0px;
 	background-size: 100% auto;
 	padding-bottom: 200px;
 	padding-top: 30px;
-	@media(min-width: $screen-sm-min){ 
+	@media(min-width: $screen-sm-min){
 		background: url(/images/building.jpg) no-repeat bottom 0px left 0px;
 	    padding-bottom: 300px;
 	    background-size: 550px auto;
 		text-align: right;
-	    padding-top: 30px; 
+	    padding-top: 30px;
 	}
 	@media(min-width: $screen-md-min){
 		background: url('/images/building.jpg') no-repeat bottom -100px left -70px;
@@ -25,13 +25,13 @@
 		text-align: right;
 	    padding-top: 52px;
 	}
-	
+
 	h1{
 		 font-family: $headline-font-family;
 		 color: #ede6dd;
 		 text-transform: uppercase;
 	  	 font-size: 48px;
-	 	 line-height: 58px; 
+	 	 line-height: 58px;
 	 	 text-align: center;
 	 	  @media(min-width: $screen-sm-min){
 	 	 	 font-size: 50px;
@@ -48,7 +48,7 @@
 			 padding-right:60px;
 			 letter-spacing: 0.07em;
 		 }
-		 
+
 	}
 	h4{
 		font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
@@ -58,7 +58,7 @@
 		text-transform: uppercase;
 		margin: 20px 0px;
 		text-align: center;
-		 @media(min-width: $screen-xs-max){ 
+		 @media(min-width: $screen-xs-max){
 			 text-align: right;
 		 }
 		@media(min-width: $screen-md-min){
@@ -75,7 +75,7 @@
 		border-bottom: 1px solid #000;
 		border-top: 0px solid #000;
 		width: 102px;
-		height: 1px; 
+		height: 1px;
 		text-align: right;
 		@media(min-width: $screen-custom-min){
 			margin-right: 63px;
@@ -85,13 +85,13 @@
 			margin: 0 auto;
 		}
 	}
-	p{  
+	p{
 		padding: 10px 0px;
 		font-family: $base-font-family;
-		text-align: center; 
+		text-align: center;
 		max-width: 360px;
 		margin: 10px auto;
-		@media(min-width: $screen-xs-max){ 
+		@media(min-width: $screen-xs-max){
 	 	 	 text-align: right;
 	 	 	 float: right;
 	 	  }
@@ -108,7 +108,7 @@
 
 .nob-slide{
 	 //background:#ede6dd;
-	  padding-bottom: 0px; 
+	  padding-bottom: 0px;
       background:#ede6dd url('/images/homepage/high-tech.png') no-repeat;
       background-position: bottom -70% center;
       @media(min-width: $screen-sm-min){
@@ -126,7 +126,7 @@
 	 	  max-width: 100%;
 	 	  background: #5c6f7b;
 	 	  margin:-10px 0px;
-          color: white; 
+          color: white;
           padding: 40px;
           position: relative;
           @media(min-width: $screen-sm-min){
@@ -136,18 +136,18 @@
   	          top: -167px;
           }
           @media(min-width: $screen-md-min){
-          	  max-width: 540px; 
+          	  max-width: 540px;
           	  padding: 50px 60px 22px 52px;
 	          position: absolute;
 	          top: -167px;
           }
           @media(min-width: $screen-custom-min){
-          	  max-width: 540px; 
+          	  max-width: 540px;
           	  padding: 48px 60px 22px 52px;
 	          position: absolute;
 	          top: -167px;
           }
-          
+
           h4{
           	 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
           	 font-size: 12px;
@@ -165,14 +165,14 @@
           }
           h2{
           	 font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
-          	 font-size: 22px; 
+          	 font-size: 22px;
           	 line-height: 27px;
           	 @media(min-width: $screen-sm-min){
-          	 	font-size: 30px; 
+          	 	font-size: 30px;
           	 	line-height: 38px;
           	 }
           	 @media(min-width: $screen-md-min){
-          	 	font-size: 42px; 
+          	 	font-size: 42px;
           	 	line-height: 57px;
           	 }
           	 @media(min-width: $screen-custom-min){
@@ -186,32 +186,32 @@
 }
 
 #carousel-welcome{
-	 &.carousel{ 
-	 	  position: relative; 
+	 &.carousel{
+	 	  position: relative;
 	 	  max-width: 100%;
-	 	  width: 100%; 
+	 	  width: 100%;
 	 	  @media(min-width: $screen-sm-min){
 	 	  	margin: -10px 15px;
 	 	  	position: absolute;
-	 	  	top: -167px; 
+	 	  	top: -167px;
 	 	  	max-width: 420px;
 	 	  	right: 0px;
 	 	  }
 	 }
 }
 #amenitiesSlider{
-	 &.carousel{  
+	 &.carousel{
 	 }
 }
-.details-whiteLeft{ 
-	 margin-top: 0px; 
+.details-whiteLeft{
+	 margin-top: 0px;
 	 display: table;
 	 margin-left: -15px;
 	 @media(min-width: $screen-sm-min){
-       margin-top: 50px; 
+       margin-top: 50px;
 	 }
 	 @media(min-width: $screen-md-min){
-	 	margin-top: 174px; 
+	 	margin-top: 174px;
 	 }
 	  .white-left{
 	  	background: #fff;
@@ -236,7 +236,7 @@
 		  	width: auto;
 		  	padding: 67px 10px 60px 73px;
 		  	p{
-		  		 line-height:24px; 
+		  		 line-height:24px;
 		  		 padding: 14px 0px;
 		  	}
 		  }
@@ -247,14 +247,14 @@ hr{
   	border-bottom: 1px solid #000;
   	border-top: 0px solid #000;
   	width: 98px;
-  	height: 1px; 
+  	height: 1px;
   	text-align: left;
   }
  .table-eq{
  	    width: 100%;
-	 	display: table; 
+	 	display: table;
 	 	 &.margin-15{
-	 	 	width: 94.6%; 
+	 	 	width: 94.6%;
 	 	 	@media(min-width: $screen-custom-min){
 		 		width: 100%;
 		 	}
@@ -266,7 +266,7 @@ hr{
 	 	 	margin: 0 15px;
 	 	 	.left-cell{
 	 	 		width: 35.4%;
-	 	 		display: table-cell; 
+	 	 		display: table-cell;
 	 	 		@media(min-width: $screen-custom-min){
 			 		width: 34%;
 			 	}
@@ -278,31 +278,31 @@ hr{
 			 			float: left;
 			 		}
 			 	}
-			 	 
-	 	 	} 
+
+	 	 	}
 	 	 	.high-style
-	 	 	{   
+	 	 	{
 	 	 		vertical-align: bottom;
-	 	 		width: 63.6%; 
+	 	 		width: 63.6%;
 	 	 		@media(min-width: $screen-custom-min){
-	 	 		   width: 66%; 
+	 	 		   width: 66%;
 	 	 	     }
 	 	 	     @media(max-width: $screen-xs-max){
 	 	 	     	display: block;
 	 	 	     	width: 100%;
 	 	 	     	padding-top:300px
 	 	 	     }
-	 	 		display: table-cell; 
+	 	 		display: table-cell;
 	 	 		 img{
 	 	 		 	position: absolute;
 	 	 		 	bottom: 0px;
 	 	 		 }
-	 	 		 h2{ 
+	 	 		 h2{
 	 	 			font-family: $headline-font-family;
 	 	 			font-size: 30px;
 	 	 			padding: 40px 20px;
 	 	 			color: white;
-	 	 			text-align: right; 
+	 	 			text-align: right;
 	 	 			letter-spacing: 0.15em;
 	 	 			text-align: right;
 	 	 			line-height: 40px;
@@ -326,7 +326,7 @@ hr{
 	 .left-cell{
 	 	width: 50%;
 	 	display: table-cell;
-	 	vertical-align: top; 
+	 	vertical-align: top;
 	 	@media(min-width: $screen-md-min){
 	 		width: 34.6%;
 	 	}
@@ -334,7 +334,7 @@ hr{
 	 		display: block;
 	 		width: 100%;
 	 	}
-	 	.desctiption{ 
+	 	.desctiption{
 	 		padding: 20px;
 	 		@media(min-width: $screen-sm-min){
 	 			padding: 20px 30px 20px 20px;
@@ -347,7 +347,7 @@ hr{
 	 		}
 	 		.title{
 	 			text-align: center;
-	 			@media(min-width: $screen-sm-min){ 
+	 			@media(min-width: $screen-sm-min){
                       text-align: left;
 	 			 }
 	 			 @media(min-width: $screen-md-min){
@@ -365,7 +365,7 @@ hr{
 	         	 font-size: 12px;
 	         	 letter-spacing: 0.12em;
 	         	 text-align: center;
-	         	 @media(min-width: $screen-sm-min){ 
+	         	 @media(min-width: $screen-sm-min){
                       text-align: left;
 	 			 }
 	         	 @media(min-width: $screen-md-min){
@@ -377,32 +377,32 @@ hr{
 	         	 	text-align: left;
 	         	 }
 	 		}
-	 		hr{ 
+	 		hr{
 	 			 margin: 20px 0px;
 	 			 @media(min-width: $screen-custom-min){
 	 			 	margin: 36px 0px;
 	 			 }
-	 			 
-	 			 @media(max-width: $screen-xs-max){ 
+
+	 			 @media(max-width: $screen-xs-max){
 	 			 	margin: 20px auto;
 	 			 }
 	 		}
 	 		p{
                   text-align: center;
-                  @media(min-width: $screen-sm-min){ 
+                  @media(min-width: $screen-sm-min){
                   	text-align: left;
                   }
 	 		}
 	 	}
-	 } 
-	 
+	 }
+
 	 .right-cell
-	 {  
-	 	width: 50%; 
+	 {
+	 	width: 50%;
 	 	display: table-cell;
         vertical-align: top;
         @media(min-width: $screen-md-min){
-        	width: 65.4%; 
+        	width: 65.4%;
         }
         @media(max-width: $screen-xs-max){
         	display: block;
@@ -412,7 +412,7 @@ hr{
         	color: white;
         	.title{
         		color: white;
-        		 @media(min-width: $screen-custom-min){ 
+        		 @media(min-width: $screen-custom-min){
 
         		 }
         	}
@@ -430,7 +430,7 @@ hr{
         	@media(min-width: $screen-sm-min){
         		text-align: left;
         		padding:50px  20px 30px 70px;
-        	}         	
+        	}
         	@media(min-width: $screen-md-min){
         		padding:50px;
         	}
@@ -438,7 +438,7 @@ hr{
         		//padding: 45px 40px 92px 169px;
         		 padding: 90px 40px 25px 169px;
         		 &.amenties{
-        		 	 padding: 43px 40px 84px 169px; 
+        		 	 padding: 43px 40px 84px 169px;
                      hr{
                      	 margin-left: 76px;
                      	 margin-top: 48px;
@@ -450,7 +450,7 @@ hr{
                      }
         		 }
         	}
-        	 
+
         	 h2, p{
         	 	padding: 0px 20px 10px 10px ;
         	 	@media(min-width: $screen-md-min){
@@ -469,8 +469,8 @@ hr{
 	        	 	 margin-left: 80px;
 	        	 	 margin-top: 30px;
 	        	 	 margin-bottom: 40px;
-        	 	}	
-        	 } 
+        	 	}
+        	 }
         }
         .btn-holder{
         	@media(max-width: $screen-xs-max){
@@ -479,7 +479,7 @@ hr{
 	        	text-align: center !important;
 	        	padding-bottom: 40px;
         	}
-        	
+
         	@media(min-width: $screen-sm-min){
           	 padding-left: 36px;
           	 text-align: left !important;
@@ -558,7 +558,7 @@ hr{
 	text-transform: uppercase;
 	@media(min-width: $screen-sm-min){
 		font-size: 40px;
-		line-height: 40px; 
+		line-height: 40px;
 	}
 	@media(min-width: $screen-md-min){
 		font-size: 80px;
@@ -572,15 +572,15 @@ hr{
 .heading4{
 	 font-size: 12px;
 	 @media(min-width: $screen-sm-min){
-	 	font-size: 13px; 
+	 	font-size: 13px;
 	 }
 	 @media(min-width: $screen-md-min){
-	 	font-size: 14px; 
+	 	font-size: 14px;
 	 }
-}  
+}
 .full-img{
 	 		width: 100%;
-	 	} 
+	 	}
 
 .offers-wrapper, .blog-container{
 	padding-top: 43px;
@@ -589,29 +589,29 @@ hr{
 		 text-transform: uppercase;
 		 font-size: 12px;
 		 @media(min-width: $screen-md-min){
-           font-size: 13px;  
+           font-size: 13px;
 		 }
 		 @media(min-width: $screen-custom-min){
-           font-size: 15px; 
-           letter-spacing: 0.1em; 
-		 }  
-		 
+           font-size: 15px;
+           letter-spacing: 0.1em;
+		 }
+
 	}
 	 h1{
 		font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
-	    
+
 	    text-align: center;
-	    color: #ede6dd; 
+	    color: #ede6dd;
 	    letter-spacing: 0.17em;
 	    text-transform: uppercase;
 	    font-size: 22px;
     	     @media(min-width: $screen-sm-min){
                font-size: 38px;
-               line-height: 45px; 
+               line-height: 45px;
     		 }
 		     @media(min-width: $screen-md-min){
 	           font-size: 58px;
-	           line-height: 65px; 
+	           line-height: 65px;
 			 }
 			 @media(min-width: $screen-custom-min){
 	           font-size: 118px;
@@ -632,23 +632,23 @@ hr{
 	    }
 	    @media(min-width: $screen-custom-min){
           min-height: 507px;
-	    } 
+	    }
 	    background-color: #5c6f7b;
-	    overflow: hidden; 
-	    &:hover{  
+	    overflow: hidden;
+	    &:hover{
     	        .background{
                      cursor: pointer;
-                     -webkit-filter:  grayscale(70%) opacity(70%); 
-                     filter: grayscale(70%) opacity(70%); 
+                     -webkit-filter:  grayscale(70%) opacity(70%);
+                     filter: grayscale(70%) opacity(70%);
                      background-color: rgba(92, 111, 123,1);
                      background-image: -webkit-linear-gradient(-270deg, rgba(0, 0, 0, 0.4) 0%, transparent 50%);
-                     background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4) 0%, transparent 50%); 
+                     background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4) 0%, transparent 50%);
                      -moz-transform: scale(1.1);
                        -webkit-transform: scale(1.1);
                        transform: scale(1.1);
                    }
-    	        } 
-	    .background{ 
+    	        }
+	    .background{
 	    	background-size: cover;
             background-position: center;
             opacity: 0.9;
@@ -661,7 +661,7 @@ hr{
             right: 0;
             bottom: 0;
             left: 0;
-            
+
 	    }
 	    .item_no{
 	    	  width: 50px;
@@ -670,7 +670,7 @@ hr{
 	    	  color: white;
 	    	  font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
 	    	  position: absolute;
-	    	  right: 0px; 
+	    	  right: 0px;
 	    	  top: 0px;
 	    	  text-align: center;
 	    	  font-size: 20px;
@@ -679,20 +679,25 @@ hr{
 
 	    }
 	    .info{
-	    	  position: absolute; 
+	    	  position: absolute;
 	    	  left: 50%;
 	    	  top: 50%;
 	    	  transform: translate(-50%, -50%);
 	    	  h2{
 	    	  	 font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
-	    	  	 color: white; 
+	    	  	 color: white;
                  font-size: 45px;
                  letter-spacing: 0.05em;
                  text-align: center;
                  cursor: pointer;
 	    	  }
+          a {
+            &:hover {
+              text-decoration: none; 
+            }
+          }
 	    }
-        
+
 }
 
 .carousel{
@@ -700,7 +705,7 @@ hr{
 	 	 img{
 	 	 	width: 100%;
 	 	 }
-	 } 
+	 }
 }
 .carousel-control{
 	 text-shadow: none !important;
@@ -720,7 +725,7 @@ hr{
 	 	}
 	 }
 	&.left, &.right{
-		background: transparent; 
+		background: transparent;
 		transition: all 0.2s ease;
 			i{
 			    position: absolute;
@@ -742,9 +747,9 @@ hr{
 			    	background-color: $secondary-color;
 			    	color: #fff;
 			    }
-			} 
+			}
 	}
-	&.white-control{ 
+	&.white-control{
 		 	i{
 		 		background: transparent;
 		 	    border:1px solid white;
@@ -753,35 +758,35 @@ hr{
 		 	    	background: white;
 		 	    	color: $secondary-color;
 		 	    }
-		 	} 
+		 	}
 	}
-	
+
 }
 
-.events-wrapper{ 
+.events-wrapper{
 	position: relative;
 	margin-top: 40px;
 	&.bg-light{
-		background-size: 340%; 
-		@media(min-width: 370px){ 
-			background-size: 240%; 
+		background-size: 340%;
+		@media(min-width: 370px){
+			background-size: 240%;
 		}
-		@media(min-width: $screen-sm-min){ 
-			background-size: 110%; 
+		@media(min-width: $screen-sm-min){
+			background-size: 110%;
 		}
-		@media(min-width: $screen-sm-min){ 
-			background-size: 110%; 
+		@media(min-width: $screen-sm-min){
+			background-size: 110%;
 		}
-	     @media(min-width: $screen-md-min){ 
-	     	background-size: 114%; 
+	     @media(min-width: $screen-md-min){
+	     	background-size: 114%;
 	     }
-		  @media(min-width: $screen-custom-min){ 
+		  @media(min-width: $screen-custom-min){
 		  	margin-top: 60px;
-		  	background-size: 100%; 
+		  	background-size: 100%;
 		  }
 	  background-image: url('/images/homepage/cycle.jpg');
-	  background-position: bottom center; 
-      background-repeat: no-repeat; 
+	  background-position: bottom center;
+      background-repeat: no-repeat;
 	}
 	@media(max-width: $screen-xs-max){
 		.m-venue{
@@ -789,7 +794,7 @@ hr{
               text-align: center;
 			}
 	}
-	
+
 	.event-content{
 		 .right-cell{
                  .btn-holder{
@@ -799,11 +804,11 @@ hr{
                  		 		     padding-bottom: 53px;
                  		 	}
                  		 }
-			} 
+			}
 		.left-cell{
 			.m-venue{
 				@media(min-width: $screen-custom-min){
-					padding: 90px 10px 68px 69px; 
+					padding: 90px 10px 68px 69px;
 
 					h1.title2{
 						    font-size: 80px;
@@ -814,7 +819,7 @@ hr{
 						    letter-spacing: 0.16em;
 					}
 				}
-			    
+
 			}
 		}
 	}
@@ -824,9 +829,9 @@ hr{
 			 position: absolute;
 			 bottom: 0px;
 			 left: 50%;
-			 transform: translate(-50%, 44%); 
+			 transform: translate(-50%, 44%);
 			 border-radius: 50%;
-			 background-color: white; 
+			 background-color: white;
 			 text-align: center;
 			 padding: 20px;
 			 height: 200px;
@@ -846,7 +851,7 @@ hr{
 			 	height: 530px;
 			 	width: 530px;
 			 }
-			 
+
 			 h4{
 			 	text-transform: uppercase;
 			 	font-size: 10px;
@@ -864,7 +869,7 @@ hr{
 				 	line-height: 30px;
 				}
 			 }
-			 h2{ 
+			 h2{
 			 	margin-top: 20px;
 			 	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
 			 	font-size: 16px;
@@ -900,7 +905,7 @@ hr{
 	.whtText{
 		 color: white;
 	}
-	
+
 }
 
 .local-living{
@@ -911,8 +916,8 @@ hr{
 	@media(max-width: $screen-xs-max){
 		text-align: center;
 
-	} 
-	@media(min-width: $screen-custom-min){ 
+	}
+	@media(min-width: $screen-custom-min){
 		padding: 6px 20px 30px 72px;
 	}
 	 .right-content{
@@ -925,20 +930,20 @@ hr{
 	 	}
 	 	@media(min-width: $screen-custom-min){
 	 		margin-top: 100px;
-	 	} 
+	 	}
 	 	 hr{
 	 	 	 margin:40px 0px;
 	 	 	 @media(max-width: $screen-xs-max){
 	 	 	 	margin: 20px auto;
 	 	 	 }
-	 	 } 
+	 	 }
 	 }
 	 .right-content{
 	 	     margin-top: 60px;
 	 }
 }
 .local-living-imgs{
-	 
+
 	 margin-top: 40px;
 	 .right-content{
 	 	position: relative;
@@ -957,12 +962,12 @@ hr{
 	 	img{
 	 		    background-color: $secondary-color;
 	 		    position: absolute;
-	 		    right: 0px; 
+	 		    right: 0px;
 	 		    @media(max-width: $screen-xs-max){
 	 		    	position: relative;
 	 		    }
 	 	}
-	   
+
 	 }
 	h2{
 		@media(min-width: $screen-custom-min){
@@ -976,7 +981,7 @@ hr{
 			   letter-spacing: 0.17em;
 		}
 	}
-	 
+
 }
 
 .locations-wrapper{
@@ -986,7 +991,7 @@ hr{
     }
     @media(min-width: $screen-md-min){
     	margin-top: 75px;
-    }     
+    }
     @media(min-width: $screen-custom-min){
     	margin-top: 90px;
     }
@@ -1016,12 +1021,12 @@ hr{
  	    	        	 margin-top: 20px;
  	    	        	 font-size: 20px;
  	    	        	 line-height: 27px;
- 	    	        }  
+ 	    	        }
  	    	    	@media(min-width: $screen-md-min){
- 	    	        	margin-top: 30px; 
+ 	    	        	margin-top: 30px;
  	    	        	font-size: 30px;
  	    	        	line-height: 37px;
- 	    	        }  
+ 	    	        }
  	    	        @media(min-width: $screen-lg-min){
  	    	        	font-size: 54px;
  	    	        	line-height: 57px;
@@ -1034,11 +1039,11 @@ hr{
 	 	    		@media(min-width: $screen-sm-min){
 	 	    	    	 font-size: 11px;
 	 	    	    	 line-height: 16px;
-	 	    	    }  
+	 	    	    }
 	 	    		@media(min-width: $screen-md-min){
 	 	    	    	font-size: 13px;
 	 	    	    	line-height: 18px;
-	 	    	    }  
+	 	    	    }
 	 	    	    @media(min-width: $screen-lg-min){
 	 	    	    	font-size: 15px;
 	 	    	    	line-height: 22px;
@@ -1077,10 +1082,10 @@ hr{
        	margin: 10px auto;
        	padding: 40px;
        	text-align: left;
-       }  
+       }
    	@media(min-width: $screen-md-min){
        	margin: 44px auto;
-       }  
+       }
        @media(min-width: $screen-custom-min){
        	margin: 100px auto;
        }
@@ -1096,22 +1101,22 @@ hr{
  		@media(min-width: $screen-lg-min){
           font-size: 16px;
  		}
- 	 
+
    }
    .btn-holder{
    	   padding: 20px 0px;
    }
 }
-.mid-block-2{ 
+.mid-block-2{
    margin: 10px auto;
    padding: 10px 0px;
    	@media(min-width: $screen-sm-min){
    		padding: 40px 0px;
        	margin: 10px auto;
-       }  
+       }
    	@media(min-width: $screen-md-min){
        	margin: 44px auto;
-       }  
+       }
        @media(min-width: $screen-custom-min){
        	margin: 100px auto;
        }
@@ -1123,7 +1128,7 @@ hr{
    	  @media(min-width: $screen-sm-min){
    	  	padding: 15px 40px 15px 0px;
    	  }
-   	   
+
    	   .butn{
    	   	 display: block;
    	   	 text-align: center;
@@ -1141,16 +1146,16 @@ hr{
 .thingsContent{
 	 padding:60px 0px 130px 0px;
 	 text-align: center;
-	 @media(max-width: $screen-md-min){ 
+	 @media(max-width: $screen-md-min){
 	 }
 	 @media(max-width: $screen-xs-max){
 	 	 h4{
-             padding-top: 40px;  
+             padding-top: 40px;
 	 	 }
 	 }
 
 }
-.experience{ 
+.experience{
 	 	margin-left: 0px;
 	 	text-align: center;
 	 	padding: 0px;
@@ -1167,7 +1172,7 @@ hr{
 	 	@media(min-width: $screen-custom-min){
 	 		padding: 92px 30px 20px 152px;
 	 	}
-	 	
+
 	 	.btn-holder{
 	 		padding-left: 0px;
 	 		padding-top: 40px;
@@ -1200,7 +1205,7 @@ hr{
 	 	 min-height: 300px;
 
 	 	 &:hover{
-	 	 	    .bg-img{ 
+	 	 	    .bg-img{
 		 		 opacity: 0.7;
 	 	 	    }
 		 	}
@@ -1216,25 +1221,25 @@ hr{
 	 		 @media(max-width: $screen-xs-max){
 	 		 	background-size: cover;
 	 		 }
-	 		 &:hover{ 
+	 		 &:hover{
 		 		 opacity: 0.7;
 	 	 	    }
 	 	}
-	 	
+
 	 	.all-block{
 	 		position: absolute;
-	 		top: 65px; 
+	 		top: 65px;
 	 		text-align: center;
-	 		width: 100%; 
+	 		width: 100%;
 	 		h1{
-	 			width: 100%;  
+	 			width: 100%;
 	 		}
 	 		.btn-holder{
 	 			 margin-top: 54px;
 	 		}
 
 	 	}
-	 	 
+
 	 }
 	 .latest-events{
 	 	list-style-type: none;
@@ -1297,7 +1302,7 @@ hr{
 .secondary-color{
 	 color: $secondary-color !important;
 }
-.blog-wrapper{ 
+.blog-wrapper{
 	.post-detail{
 		padding: 20px;
 		width: 100%;
@@ -1334,13 +1339,13 @@ hr{
             	 margin-left: auto;
             	 margin-right: auto;
             }
-            
+
 		}
 		.readon{
             	 color: white;
             	 font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
             	 padding-right: 50px;
-            	 letter-spacing: 0.1em; 
+            	 letter-spacing: 0.1em;
             	 background:  url('/images/arrow-icon-white.png') right top 1px no-repeat;
             	 line-height: 30px;
             	 text-decoration: none;
@@ -1349,7 +1354,7 @@ hr{
             	 	 font-size: 15px;
             	 }
             	 &:hover{
-            	 	 text-shadow: 0 1px 0 #333; 
+            	 	 text-shadow: 0 1px 0 #333;
             	 	 background:  url('/images/arrow-icon-white.png') right 10px top 1px no-repeat;
             	 }
 
@@ -1366,18 +1371,18 @@ hr{
 			 	 margin: 10px 1px;
 			 	 display: inline-block;
 			 	 border:1px solid white;
-			     border-radius: 50%; 
+			     border-radius: 50%;
 			 	 line-height: 35px;
 			 	 font-size: 15px;
 			 	 transition: all 0.5s ease;
 			 	 @media(min-width: $screen-md-min){
 			 	 	margin: 10px 7px;
 			 	 }
-			 	 a{  
+			 	 a{
 			 	 	 text-align: center;
 			 	 	 color: white;
 			 	 	 transition: all 0.5s ease;
-			 	 	
+
 			 	 }
 			 	 &:hover{
 			 	 		background: white;
@@ -1391,7 +1396,7 @@ hr{
 	.tiles {
 	  background-color:#fff;
 	  margin-right: auto;
-	  margin-left: auto; 
+	  margin-left: auto;
 	  margin: 0 auto;
 	  padding-left:15px;
 	  padding-right:15px;
@@ -1406,14 +1411,14 @@ hr{
 		 @media(min-width: $screen-custom-min){
 		 	height:615px;
 		 }
-	  
+
 	}
 
-	.gross { 
+	.gross {
 	  height:100%;
 	  min-height: 100px;
 	  padding:0%;
-	  box-sizing:border-box; 
+	  box-sizing:border-box;
 	  background-color:#fff;
 	}
 
@@ -1427,7 +1432,7 @@ hr{
 	  background-color:#fff;
 	  width:100%;
 	  height:50%;
-	 
+
 	  box-sizing:border-box;
 	}
 
@@ -1439,9 +1444,9 @@ hr{
 	}
 
 
-	.mini-post { 
+	.mini-post {
 	  height:100%;
-	  background-color:#fff; 
+	  background-color:#fff;
 	  min-height: 100px;
 	}
 	.mini img {
@@ -1452,7 +1457,7 @@ hr{
 	}
 
 
-	  
+
 	 .schwarz {
 		  background-color:#5c6f7b;
 		  background-size: cover;

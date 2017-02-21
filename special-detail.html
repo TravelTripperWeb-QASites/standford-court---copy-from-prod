@@ -4,23 +4,25 @@ title: StanfordCourt - room detail
 excerpt: stanfordcourt.com
 parent: home
 ---
+<section rt3-special-rates= "offers" ng-controller="offerDetail">
+  <input type="hidden" id="offerList" value="[[ offers.special_rates ]]"   />
 <div class="container">
   <div id="top-spacer">
   </div>
 </div>
 <div class="container">
   <div class=" previous-next-section">
-    <div class="package-title">Bed and Breakfast Package</div>
-    <a href="#" class="previous ">Previous Special</a>
-    <a href="#" class="next  ">Next Special</a>
+    <div class="package-title">[[offers.sRdetail.rate_plan_name]]</div>
+    <a ng-show="prevOfferName" ng-href="/special-detail/#[[prevOfferName | formatNameForLink]]" class="previous ">Previous Special</a>
+    <a ng-show="nextOfferName" ng-href="/special-detail/#[[nextOfferName | formatNameForLink]]" class="next  ">Next Special</a>
   </div>
-  <div class="special-details-banner" style="background-image:url(/images/special-details/special-details-banner.jpg)">
+  <div class="special-details-banner" style="background-image:url([[offers.sRdetail.lead_photo_url.yankee_large]])">
     <div class="special-content">
-      <h2>Stanford Court Special</h2>
-      <h3>treat yourself</h3>
-      <p>Have the most important meal of the day taken care of with Stanford Court’s Bed and Breakfast package.</p>
+      <h2>STANFORD COURT SPECIAL</h2>
+      <h3 ng-bind-html="offers.sRdetail.rate_plan_name | renderHTMLCorrectly"></h3>
+      <p ng-bind-html="offers.sRdetail.short_description | renderHTMLCorrectly"></p>
       <div class="btn-holder">
-        <a class="butn btn-white uppercase bgwhite-btn">
+        <a class="butn btn-white uppercase bgwhite-btn" ng-href="[[offers.sRdetail.promo_url]]" target="_blank">
           book this Offer
         </a>
       </div>
@@ -28,13 +30,13 @@ parent: home
   </div>
   <div class="description-container">
     <div class="col-sm-6">
-      <img src="/images/special-details/specials-img1.jpg" class="img-responsive">
+      <img ng-show="offers.sRdetail.images[1].yankee_large" ng-src="[[offers.sRdetail.images[1].yankee_large]]" class="img-responsive">
+      <img ng-show="!offers.sRdetail.images[1].yankee_large" src="/images/special-details/specials-img1.jpg" class="img-responsive">
     </div>
     <div class="col-sm-6">
       <div class="description">
-       <div class="bold-text"><p> Have the most important meal of the day taken care of with Stanford Court’s Bed and Breakfast package. Amongst all    San Francisco hotel deals, this is one of the most practical and enjoyable. </p></div>
-      <p> Stanford Court’s bed and breakfast package allows guests to grab an easy, paid-for bite to eat at the beginning of a leisurely day, or on their way to a workful day. It’s nice, simple and on property. Join us for breakfast in Aurea Café, featuring an assortment of fresh baked pastries, Equator Organic Coffee from Marin County, local organic juices and a delicious buffet breakfast.</p>
-    </div>
+       <div class="bold-text"><p ng-bind-html="offers.sRdetail.short_description | renderHTMLCorrectly"> </p></div>
+      </div>
   </div>
 </div>
 
@@ -45,16 +47,13 @@ parent: home
   <div class="col-sm-6">
    <div class="details-container">
    <h3>All in the Details</h3>
-   <ul>
-     <li>Package includes up to Two Breakfast Buffet Vouchers per room per day to be used in Aurea Cafe’ Additional vouchers may be purchased at the hotel Adults $35 and Children 12 and under $15.50 (prices are inclusive of tax and gratuity)</li>
-      <li>Package Bundle is worth a $70 value</li>
-   </ul>
-   </div> 
+   <p ng-bind-html="offers.sRdetail.long_description | renderHTMLCorrectly"></p>
+   </div>
    </div>
    <div class="col-sm-6 background-img" style="background-image:url(/images/special-details/specials-contactus.jpg)">
 
     <div class="btn-holder">
-        <a class="butn btn-white uppercase bgwhite-btn">
+        <a class="butn btn-white uppercase bgwhite-btn"  >
           Contact us
         </a>
       </div>
@@ -63,16 +62,17 @@ parent: home
 </div>
 <div class="container-fluid">
 <div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
- 
+
  <div class="heading-circle">
                <h4>a unique boutique<br>hotel experience</h4>
                <h2>San Francisco at it’s Best</h2>
                <div class="btn-holder text-center">
-                <a class="butn uppercase">
+                <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
                     book your stay
                 </a>
                </div>
         </div>
 </div>
 </div>
+</section>
 {% include offers.html %}
