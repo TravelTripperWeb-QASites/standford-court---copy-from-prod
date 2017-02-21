@@ -447,4 +447,21 @@ angular.module('rezTrip')
     }
 
     return new RateShopping();
+  }])
+
+  .service('rt3RateCalendar', ['$rootScope', '$q', 'rt3api', function($rootScope, $q, rt3api) {
+    var rateCalendar = {
+      loaded: false
+    };
+    var defered = $.Deferred();
+    
+      rt3api.rateCalendarForToday({}).then(function(response) {
+       
+         
+          defered.resolve(response);
+        
+      });
+    
+
+    return defered;
   }]);

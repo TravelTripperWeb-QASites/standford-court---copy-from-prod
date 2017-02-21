@@ -61,30 +61,37 @@ parent: home
   <div class="row no-gutter clearfix">
        <div class="col-sm-6">
           <div class="booking-wrapper">
-          <div id="datepicker"></div>
-           <form>
+          <div id="datepicker" rt3-rate-calendar data-options='{"baseroom":[[selectedRoom.is_base_room_type]],
+                                                               "checkinEle" : "checkin",
+                                                               "checkoutEle" : "checkout"}' ></div>
+           <form id="roomBooking" action="{{site.data.config.reztripUrl}}search?" method="get">
+               <input type="hidden" id="selected_room" value="[[selectedRoom.code]]" />
+               <input type="hidden" name="arrival_date" id="arrival_date"  />
+               
+               <input type="hidden" name="departure_date" id="departure_date" />
+               
                  <div class="form-group col-sm-6 no-leftpadding">
                     <label for="checkin">Arrival</label>
                    <input type="text" class="form-control" id="checkin"  placeholder="Checkin Date">
                  </div>
                   <div class="form-group col-sm-6 no-padding"> <label for="checkout">Departue</label>
-                   <input type="text" class="form-control" id="checkout"  placeholder="Checkin Date">
+                   <input type="text" class="form-control" id="checkout"  placeholder="Checkout Date">
                  </div>
                  <div class="form-group col-sm-6 no-leftpadding"> <label for="adults">Adults</label>
-                   <select class="form-control" id="adults">
-                     <option> 01 </option>
-                     <option> 02 </option>
-                     <option> 03 </option>
-                     <option> 04 </option>
+                   <select class="form-control" id="adults" name="adults">
+                     <option value="1" > 01 </option>
+                     <option value="2"   selected> 02 </option>
+                     <option value="3" > 03 </option>
+                     <option value="4" > 04 </option>
                    </select>
                  </div>
-                 <div class="form-group col-sm-6 no-padding"> <label for="Child">Children</label>
-                   <select class="form-control" id="Child">
-                     <option> 00 </option>
-                     <option> 01 </option>
-                     <option> 02 </option>
-                     <option> 03 </option>
-                     <option> 04 </option>
+                 <div class="form-group col-sm-6 no-padding"> <label for="child">Children</label>
+                   <select class="form-control" id="child" name="child">
+                     <option selected value="0" > 00 </option>
+                     <option value="1" > 01 </option>
+                     <option value="2" > 02 </option>
+                     <option value="3" > 03 </option>
+                     <option value="4" > 04 </option>
                    </select>
                  </div>
                  <div class="form-group col-sm-12 no-padding">

@@ -451,7 +451,9 @@ hr{
         		 }
         	}
 
-        	 h2, p{
+        	 
+        	 h2, h4, p{
+
         	 	padding: 0px 20px 10px 10px ;
         	 	@media(min-width: $screen-md-min){
 	                  padding: 0px 80px ;

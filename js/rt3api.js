@@ -372,6 +372,37 @@ Rt3Api.prototype.recentBookings = function(timeCutOffMinutes) {
     return query(path, params);
 };
 
+Rt3Api.prototype.rateCalendarForToday = function(searchParams) {
+    var path = '/hotels/rate_calendar.json';
+    
+    var today = new Date();
+    var startDate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var endDate = today.getFullYear()+'-'+(today.getMonth()+12)+'-'+today.getDate();
+    
+    
+    var defaultParams = {
+       hotel_id: this.config.hotelId,//'MIAWPH',
+       portal_id: this.config.portalId, //'wphsouthbeach',
+       locale: this.config.defaultLocale,
+       currency: this.config.defaultCurrency,
+       start_date: startDate,
+       end_date: endDate,
+       adults: 2,
+       children: 0,
+       rooms: 1,
+    
+       ip_address: sessionStorage.ip_add,
+       lowest_rate: null
+    };
+
+    var params = $.extend(defaultParams, searchParams);
+
+    
+
+    return query(path, params);
+};
+
+
 // Private
 function query(path, params) {
     var rootPath = 'https://rt3api-prd.ttaws.com';
