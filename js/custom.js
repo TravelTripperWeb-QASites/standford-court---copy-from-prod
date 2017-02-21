@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { 
   var bigimage = $("#big");
   var thumbs = $("#thumbs");
   var totalslides = 10;
@@ -145,8 +145,10 @@ function init() {
         }
     });
  
-   
-
+   setTimeout(function(){
+    var imageHolder = $('.first-holder').height();
+   $('.attrcation-cards :not(.first-holder)').find('.img-holder').css('max-height',imageHolder);
+   },1000);
 }
 window.onload = init(); 
 
