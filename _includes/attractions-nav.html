@@ -1,0 +1,9 @@
+{% assign menu-atraction = site.data.menu %}
+
+<ul class="rooms-nav"> 
+   {% for atractions in menu-atraction.attractions %}
+     <li>
+      <a {% if atractions.child == page.child %} class="active" {% endif %} href="{{atractions.url}}">{{atractions.name}}</a>
+     </li>
+   {% endfor %}  
+ </ul>
