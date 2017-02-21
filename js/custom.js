@@ -132,7 +132,8 @@ $(document).ready(function() {
          });
        var largerFont = (($('.main-image img, #roomsSlider img').height()) / 4);
        $('.rate-block .title2, #roomsSlider .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
-     },2500);
+       $('.loading').css('display','none');
+     },3000);
 
 });
 
@@ -205,5 +206,14 @@ $(function() {
         $("#arrival_date").val($("#checkin").val());
         $("#departure_date").val($("#checkout").val());
         
-    })
+    });
+   setTimeout(function(){
+   var hash = window.location.hash;
+   if(hash != ""){
+     if($(hash).offset()){
+       $(document).scrollTop( $(hash).offset().top );
+     }
+
+   }
+},2000);
 });

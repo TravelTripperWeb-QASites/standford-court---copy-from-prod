@@ -4,7 +4,7 @@ title: StanfordCourt - room detail
 excerpt: stanfordcourt.com
 parent: home
 ---
-<section ng-controller="roomDetail" rt3-room-details="selectedRoom" >
+<section ng-controller="roomDetail" rt3-room-details="selectedRoom" ><div class="loading">Loading&#8230;</div>
 <div class="container">
      <div id="top-spacer">
      </div>
@@ -13,7 +13,7 @@ parent: home
 <div class="container">
     <ul class="rooms-nav">
       <li class="nav-item" ng-repeat="cat in browser.roomCategories">
-        <a href="#[[cat]]" ng-class="{'active' : selectedRoom.category == cat}" class="link">[[cat]]</a>
+        <a href="/rooms/#[[cat]]" ng-class="{'active' : selectedRoom.category == cat}" class="link">[[cat]]</a>
       </li>
     </ul>
 </div>
