@@ -123,12 +123,31 @@ $(document).ready(function() {
     });
     
     /// decrease size for minimal devices
-     setTimeout(function(){ 
-       var largerFont = (($('.main-image img, #roomsSlider img').height()) / 4);
-       $('.rate-block .title2, #roomsSlider .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
-     },300);
-   
-});
+     setTimeout(function(){
+     var largerFont = 100; 
+       if ($('.rate-block .title2').text().length < 20){
+           largerFont = (($('.main-image img').height()) / 4); 
+       }else{
+           largerFont = (($('.main-image img').height()) / 5);
+       } 
+        
+       $('.rate-block .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
+     },300);  
+
+    setTimeout(function(){
+      var largerFontSlider = 100;  
+            if ( $('#roomsSlider').find('.title2').text().length < 20){
+                 largerFontSlider = (( $('#roomsSlider').find('img').height()) / 4); 
+             }else{
+                 largerFontSlider = (( $('#roomsSlider').find('img').height()) / 5.5);
+             } 
+              $('#roomsSlider').find('.title2').css({'font-size':largerFontSlider+'px', 'line-height': largerFontSlider+'px'});
+        });
+         
+
+     },200); 
+
+ 
 
 function init() { 
     window.addEventListener('scroll', function(e){ 
