@@ -141,6 +141,45 @@
 		 	 	 	 	margin-top: 27px;
 		 	 	 	 }
 		 	 	 }
+		 	 	 .c-description{
+		 	 	 	 position: absolute;
+		 	 	 	 bottom: 140px;
+		 	 	 	 left: 0;
+		 	 	 	 padding: 20px;
+		 	 	 	 width: 80%;
+		 	 	 	 max-width: 456px;
+		 	 	 	  max-width: 100%;
+		 	 	 	  @media(min-width: 360px){
+                        bottom: 160px;
+                        left: 0;
+                        padding: 20px;
+                        width: 70%;
+		 	 	 	  }
+		 	 	 	  @media(min-width: $screen-sm-min){
+                      	bottom: 190px;
+                        left: 15%;
+                  	    background: none;
+                  	    max-width: 382px; 
+                      }
+                      @media(min-width: $screen-md-min){
+                      	bottom: 185px;
+                  	    left: 22%;
+                  	    background: none;
+                  	    max-width: 382px; 
+                      }
+		 	 	 	  @media(min-width: $screen-custom-min){
+		 	 	 	  	bottom: 255px;
+		 	 	 	  	left: 277px; 
+		 	 	 	    background: none;
+		 	 	 	  }
+		 	 	 	 strong{
+		 	 	 	 	  font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		 	 	 	 }
+		 	 	 	 p{
+		 	 	 	 	line-height: 25px;
+		 	 	 	 	margin-top: 27px;
+		 	 	 	 }
+		 	 	 }
 
 		 	 }
 		}

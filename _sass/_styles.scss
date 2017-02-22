@@ -353,7 +353,10 @@ body{
 	 	 			padding: 0px 15px;
 	 	 		   letter-spacing: 0.14em; 
 	 	 		}
-	 	 		&:hover{
+	 	 		&.active{
+	 	 			 color: $black;
+	 	 		}
+	 	 		&:hover, &:active{
 	 	 			 color: $black;
 	 	 			 text-decoration: none;
 	 	 		}
@@ -885,9 +888,18 @@ body{
 		 	 	color: $primary-color; 
 		 	 	line-height: 50px;
 		 	 	margin: 0px;
+		 	 	
 		 	 	@media(min-width: $screen-md-min){
                    font-size: 54px;
                    line-height: 90px;
+		 	 	}
+		 	 	a{
+		 	 		color: $primary-color; 
+		 	 		text-decoration: none;
+		 	 		transition: all 0.5s ease;
+		 	 		&:hover{ 
+		 	 			 color: $secondary-color;
+		 	 		}
 		 	 	}
 		 	 }
 		 }
@@ -924,8 +936,13 @@ body{
 	font-size: 11px;
 	line-height: 26px;
 	text-align: left;
+	 a{
+		 	 color: $black;
+		 	 text-decoration: none;
+	  }
 	p{
 		color: $black;
+
 	}
     @media(max-width: $screen-xs-max){
     	 text-align: center;
@@ -949,6 +966,7 @@ body{
 		 @media(min-width: $screen-lg-min){
 		 	padding: 0px 70px;
 		 }
+
 		 .title{
 		 	 font-size: 18px;
 		 	 margin: 0px;

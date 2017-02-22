@@ -112,26 +112,25 @@ $(document).ready(function() {
 
     /// decrease size for minimal devices
      setTimeout(function(){
-       //divide in 2 column
-         $('.offers-card .info h2').each( function( index ) {
-         var parts = $.trim($(this).text()).split(" ");
-         var $new_form_heading ="";
-         for(i = 0; i < parts.length; i++){
-             if(parts[i].length <= 2) {
-               $new_form_heading +=  parts[i] +' ';
-             }else{
-                if(i == 0){
-                 $new_form_heading +=  parts[i]+' ';
-               }else{
 
-                $new_form_heading +=  "<br />"+ parts[i]+' ';
-               }
-             }
-            }
-                $(this).replaceWith('<h2>'+ $new_form_heading +'</h2>');
-         });
-       var largerFont = (($('.main-image img, #roomsSlider img').height()) / 4);
-       $('.rate-block .title2, #roomsSlider .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
+       //divide in 2 column
+         var largerFont = 100; 
+       if ($('.rate-block .title2').text().length < 20){
+           largerFont = (($('.main-image img').height()) / 4); 
+       }else{
+           largerFont = (($('.main-image img').height()) / 5);
+       } 
+        
+       $('.rate-block .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
+         
+       var largerFontSlider = 100;  
+        if ( $('#roomsSlider').find('.title2').text().length < 20){
+         largerFontSlider = (( $('#roomsSlider').find('img').height()) / 4); 
+        }else{
+         largerFontSlider = (( $('#roomsSlider').find('img').height()) / 5.5);
+        } 
+        $('#roomsSlider').find('.title2').css({'font-size':largerFontSlider+'px', 'line-height': largerFontSlider+'px'});
+     
        $('.loading').css('display','none');
      },3000);
 
@@ -156,6 +155,15 @@ function init() {
    setTimeout(function(){
     var imageHolder = $('.first-holder').height();
    $('.attrcation-cards :not(.first-holder)').find('.img-holder').css('max-height',imageHolder);
+      
+       var newHeight = 0;
+        $('.attrcation-cards').find('.details').each(function(){
+            var temp = $(this).height();
+            newHeight = temp > newHeight ? temp  : newHeight;
+        }); 
+        $('.attrcation-cards').find('.details').each(function() {
+           $(this).height(newHeight);
+         });
    },1000);
 
 }

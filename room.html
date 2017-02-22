@@ -32,7 +32,7 @@ parent: home
             <div class="room-type">
                  <p>Select a [[selectedRoom.category]] Type:</p>
                   <ul>
-                     <li ng-class="{'active' : selectedRoom.name == room.name}" ng-repeat="room in browser.roomsList | filter: {category: selectedRoom.category}"><a href="/room-detail/#[[room.name | formatNameForLink]]">[[room.name]]</a></li>
+                     <li ng-class="{'active' : selectedRoom.name == room.name}" ng-repeat="room in browser.roomsList | filter: {category: selectedRoom.category}"><a href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></li>
                     
                   </ul>
             </div>
@@ -43,8 +43,10 @@ parent: home
            <img ng-src="[[selectedRoom.photos[0].large]]" alt="[[selectedRoom.name]]" class="img-responsive">
            <div class="rate-block">
 
+
                <h4 class="heading4">Tonight’s Rate [[selectedRoom.todayRate]]</h4>
                <h2 class="title2">[[selectedRoom.name]]</h2>
+
                <div class="btn-holder full-white text-center">
                 <a class="butn btn-wide uppercase" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">
                     Book This Room
@@ -145,9 +147,11 @@ parent: home
                           <img ng-src="[[room.photos[0].large]]" alt="[[room.name]]">
                            <div class="carousel-caption">
                                <h4>discover more rooms and suites</h4>
+
                                <h2 class="title2">[[room.name]]</h2>
+
                                <div class="btn-holder full-white text-center">
-                                <a class="butn btn-wide uppercase" ng-href="/room-detail/#[[room.name | formatNameForLink]]">
+                                <a class="butn btn-wide uppercase" ng-href="/room/#[[room.name | formatNameForLink]]">
                                     View This Room
                                 </a>
                                </div>
