@@ -123,8 +123,10 @@ angular.module('rezTrip')
                         $(this).datepicker();
                     }
                 });
-
-       
+                if(isBaseRoom){
+                    $(' .ui-datepicker-calendar').after('<div class="middle" style="padding:5px;background-color:#000;color:#fff;font-size:12px;font-family:\"GothamHTF Light\", Helvetica, Arial, sans-serif">Standard rates shown. Choose your stay dates to check actual pricing and availability.</div>');
+                }
+                
               }); 
           },2900);
           
