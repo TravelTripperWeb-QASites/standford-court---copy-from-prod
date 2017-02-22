@@ -434,6 +434,7 @@ body{
     			padding: 0px;
     			margin: 0px;
     		}
+            
    	   }
    }
    #thumbs{
@@ -466,7 +467,17 @@ body{
    	    		padding: 10px 10px 5px 10px;
    	    		margin: 0px;
    	    		font-family: $base-font-family;
-   	    		color: #000;  
+   	    		color: #000; 
+                a {
+                    text-decoration: none;
+                    color: $black ;
+                    &.active, &:hover{
+                    text-decoration: none;
+                    color: $black ;
+                    opacity: .7;
+                  }
+                }
+                
    	    	}
    	    	h2{
    	    		font-size: 24px;
@@ -475,6 +486,15 @@ body{
    	    		font-family: $headline-font-family;
    	    		color: #000; 
    	    		text-transform: uppercase;  
+                a {
+                    text-decoration: none;
+                    color: $black ;
+                    &.active, &:hover{
+                    text-decoration: none;
+                    color: $black ;
+                    opacity: .7;
+                  }
+                }
    	    	}
    	    	.thumbImg{
    	    		 height: 70px;
@@ -483,6 +503,9 @@ body{
    	    		 float: left;
 
    	    	}
+            
+               
+        
    	    	
    	    }
    	     

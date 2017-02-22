@@ -16,8 +16,8 @@ parent: home
 <div id="thumbs" class="owl-carousel owl-theme">
   <div class="item" ng-repeat="room in browser.roomsList">
   <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
-    <h4>Tonight’s Rate [[ room.todayRate ]]</h4>
-    <h2>[[room.name]]</h2>
+      <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
+      <h2><a ng-href="/room-detail/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
   </div>
 
 

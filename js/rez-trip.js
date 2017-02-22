@@ -72,7 +72,7 @@
         window.location.reload();
       }
       $scope.reloadPage = function(){window.location.reload();}
-      $('.loading').css('display','block');
+     // $('.loading').css('display','block');
 
     }])
 
