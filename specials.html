@@ -7,10 +7,12 @@ parent: specials
 
 
 
+
 <section class="container ">
   
+
   <div class="special-banner">
-    
+
     <div class="banner-inner">
       <h3>Stanford Court Specials</h3>
       <h1>Unique Offers</h1>
@@ -20,89 +22,17 @@ parent: specials
   </div>
 </section>
 
-<section class="special">
+<section class="special" rt3-special-rates= "offers">
 <div class="container no-gutter" >
   <div class="col-md-12" ><h2>Enjoy hotel deals & specials</h2></div>
 
-  <div class="col-md-6">
-    <img  src="/images/specials/special-1.jpg" class="img-responsive">
-    <h3>I Left my Heart in San Francisco</h3>
-    <div class="s-p"><p> Two Nights (min.) in Deluxe accommodations, single/double
-occupancy.</p></div>
-    <div class="s-link"><a href="#">I Left my Heart in San Francisco</a></div>
-  </div> 
-
-  <div class="col-md-6">
-    <img  src="/images/specials/special-2.jpg" class="img-responsive">
-    <h3>Bed and Breakfast Package</h3>
-    <div class="s-p"><p>Enjoy deluxe accommodations and start your morning off with a
-delicious breakfast at Aurea Cafe.</p></div>
-    <div class="s-link"><a href="#">Bed and Breakfast Package</a></div>
+  <div class="col-md-6" ng-repeat="offer in offers.special_rates">
+    <img  ng-src="[[offer.lead_photo_url.yankee_large]]" class="img-responsive">
+    <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+    <div class="s-p"><p ng-bind-html="offer.short_description | renderHTMLCorrectly"></p></div>
+    <div class="s-link"><a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" ><span  ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly" ></span></a></div>
   </div>
 
-
-     <div class="col-md-6">
-    <img  src="/images/specials/special-3.jpg" class="img-responsive">
-    <h3>Parking<br>Package</h3>
-    <div class="s-p"><p> Enjoy complimentary valet parking for one car with this special package from Stanford Court San Francisco.</p></div>
-    <div class="s-link"><a href="#">Parking Package</a></div>
-  </div> 
-
-  <div class="col-md-6">
-    <img  src="/images/specials/special-4.jpg" class="img-responsive">
-    <h3>Night Owl<br>Special</h3>
-    <div class="s-p"><p>Late night city livin' - Enjoy a $30 voucher for use at Aurea Café and Lounge towards late night snacks or breakfast the next morning.</p></div>
-    <div class="s-link"><a href="#">Night Owl Special</a></div>
-  </div>
-
-   <div class="col-md-6">
-    <img  src="/images/specials/special-5.jpg" class="img-responsive">
-    <h3>AAA Rates</h3>
-    <div class="s-p"><p> Enjoy special rates just for AAA card members and save up to 15% with these special vacation deals.</p></div>
-    <div class="s-link"><a href="#">AAA Rates</a></div>
-  </div> 
-
-  <div class="col-md-6">
-    <img  src="/images/specials/special-6.jpg" class="img-responsive">
-    <h3>United Airlines Mileage Plus Offer</h3>
-    <div class="s-p"><p>Experience San Francisco and Elevate your stay with United Mileage Plus Award Miles.</p></div>
-    <div class="s-link"><a href="#">United Airlines Mileage Plus Offer</a></div>
-  </div>
-
-   <div class="col-md-6">
-    <img  src="/images/specials/special-7.jpg" class="img-responsive">
-     <h3 class="wider"> Government Per Diem Hotel Rates in San Francisco</h3>
-    <div class="s-p"><p> Enjoy a special Per Diem rate with complimentary Wi-Fi just for federal and state government employees.</p></div>
-    <div class="s-link"><a href="#">Government Per Diem Hotel Rates in San Francisco</a></div>
-  </div> 
-
-  <div class="col-md-6">
-
-    <img  src="/images/specials/special-8.jpg" class="img-responsive">
-      <h3>AARP<br> Rates</h3>
-   
-    <div class="s-p"><p>Enjoy special rates at Stanford Court San Francisco just for AARP members and save with these hotel deals.</p></div>
-    <div class="s-link"><a href="#">AARP Rates</a></div>
-  </div>
-   <div class="col-md-6">
-    <img  src="/images/specials/special-9.jpg" class="img-responsive">
-   <h3 class="wider-max"> TREAT YOURSELF TO A SF SHOPPING SPREE</h3>
-    <div class="s-p"><p> Spend the day at the world famous Union Square a mecca for shopholics with tons of stylish boutiques to flagship storefronts.</p></div>
-    <div class="s-link"><a href="#">Treat Yourself to a SF Shopping Spree</a></div>
-  </div> 
-
-  <div class="col-md-6">
-    <img  src="/images/specials/special-10.jpg" class="img-responsive">
-    <h3>Group<br>Promotions</h3>
-    <div class="s-p"><p>Book a bunch of rooms & get a bunch of benefits!</p></div>
-    <div class="s-link"><a href="#">Group Promotions</a></div>
-  </div>
-   <div class="col-md-6">
-    <img  src="/images/specials/special-11.jpg" class="img-responsive">
-    <h3>California<br>Resident Rate</h3>
-    <div class="s-p"><p> Enjoy special rates just for California residents and save up to 15% at Stanford Court San Francisco.</p></div>
-    <div class="s-link"><a href="#">California Resident Rate</a></div>
-  </div> 
 
 </div>
 </section>
