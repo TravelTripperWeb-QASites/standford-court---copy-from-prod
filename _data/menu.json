@@ -1,19 +1,18 @@
 {  
       "topmenu":[
-               {"name":"About","url":"/about/","parent":"about"},
                {"name":"Rooms","url":"/rooms/","parent":"rooms"},
                {"name":"Specials","url":"/specials/","parent":"pecials"},
                {"name":"Dining","url":"/dining/","parent":"dining"},
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
-               {"name":"Events","url":"/events/culture/","parent":"events"},
+               {"name":"Attractions","url":"/attractions/culture/","parent":"attractions"},
                {"name":"Location","url":"/location/","parent":"location"},
                {"name":"Contact","url":"mailto:info@stanfordcourt.com","parent":"contact"}
            ],
       "attractions":[
-               {"name":"Culture","url":"/events/culture/","child":"culture"},
-               {"name":"Culinary","url":"/events/culinary/","child":"culinary"},
-               {"name":"Retail","url":"/events/retail/","child":"retail"},
-               {"name":"SAN FRANCISCO SITES","url":"/events/san-francisco-sites/","child":"san-francisco-sites"},
-               {"name":"Fitness","url":"/events/fitness/","child":"fitness"}
+               {"name":"Culture","url":"/attractions/culture/","child":"culture"},
+               {"name":"Culinary","url":"/attractions/culinary/","child":"culinary"},
+               {"name":"Retail","url":"/attractions/retail/","child":"retail"},
+               {"name":"SAN FRANCISCO SITES","url":"/attractions/san-francisco-sites/","child":"san-francisco-sites"},
+               {"name":"Fitness","url":"/attractions/fitness/","child":"fitness"}
            ]
   }
