@@ -1,0 +1,46 @@
+---
+layout: default
+title: StanfordCourt - Blog Details
+excerpt: stanfordcourt.com
+parent: blog
+---
+
+{% assign blog = page %}
+{% assign model = page %}
+{% assign seo_title = blog.seo_title %}
+{% assign seo_description = blog.seo_description %}
+
+<section>
+  <!--<input type="hidden" id="offerList" value="[[ offers.special_rates ]]"   /-->>
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<div class="container">
+  <div class=" previous-next-section">
+    <a class="previous" href="#">Previous Post</a>
+    <a class="next" href="#">Next Post</a>
+  </div>
+  <div class="special-details-banner" style="background-image: url({{blog.blogimage.url}})">
+    <div class="special-content">
+      <h2>STANFORD COURT BLOG</h2>
+      <h3>{{blog.title}}</h3>
+      <h2>
+      	{% assign d = blog.date | date: "%-d" %}
+		{{ blog.date | date: "%B" }} 
+		{% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+		{{ blog.date | date: "%Y" }}
+      </h2>
+    </div>
+  </div>
+  <div class="description-container">
+      <div class="col-sm-12">
+		  <div class="description">
+		   	{{blog.long_description}}
+		  </div>
+	  </div>
+  </div>
+  <div class="btn-holder text-center">
+	<a class="butn uppercase" href="/blog/">View All Posts</a>
+  </div>
+</div>

@@ -1,0 +1,61 @@
+---
+layout: default
+title: StanfordCourt Blog
+excerpt: stanfordcourt.com
+parent: blog
+---
+
+<section class="container ">
+  <div class="special-banner">
+	<div class="banner-inner">
+      <h3>Stanford Court</h3>
+      <h1>Blog</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+  </div>
+</section>
+
+<section class="special">
+<div class="container no-gutter" >
+  <div class="col-md-12" ><h2>Happenings Around</h2></div>
+ {% for post in data_paginator.posts %}
+  <div class="col-md-6">
+    <!--<img  src="{{post.blogimage.url}}" class="img-responsive">-->
+	<div class="blog-img" style="background-image: url({{post.blogimage.url}}) !important">
+		<div class="dl">
+			<h3>{{post.title}}</h3>
+			<p>
+				{% assign d = post.date | date: "%-d" %}
+				{{ post.date | date: "%B" }} 
+				{% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+				{{ post.date | date: "%Y" }}
+			</p>
+		</div>
+	</div>
+    <div class="blog-sd">
+		<div class="s-p">{{post.short_description}}</div>
+		<div class="s-link"><a href="{{ post.id | permalink: model_dir: 'blog' }}" >Read More</a></div>
+	</div>
+  </div>
+ {% endfor %} 
+</div>
+<div class="container">
+	<div class="pagination-wrapper">
+		<div class="pagination"> 
+		<p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
+		<ul class="pagination">
+		  {% if data_paginator.previous_page %}
+			<li><a href="{{ data_paginator.previous_page_path }}" class="previous">Previous</a></li>
+		  {% else %}
+			<li><span class="previous">Previous</span></li>
+		  {% endif %}
+		  {% if data_paginator.next_page %}
+			<li><a href="{{ data_paginator.next_page_path }}" class="next">Next</a></li>
+		  {% else %}
+			<li><span class="next ">Next</span></li>
+		  {% endif %}
+		</ul>
+		</div>
+	 </div>
+ </div>
+</section>
