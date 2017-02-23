@@ -16,3 +16,20 @@
     }
 
 }
+
+.commonbanner{
+    .banner-inner{
+        h3{
+        
+      
+        @media(min-width: $screen-md-min){
+        
+        padding: 36px 15px 36px 15px;
+       
+        }
+
+    }
+
+    }
+    
+}
