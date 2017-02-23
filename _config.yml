@@ -5,3 +5,4 @@ languages: ['en']
 
 
 port: 8080
+booking_widget_url: https://stanfordcourt.reztrip.com/mobile

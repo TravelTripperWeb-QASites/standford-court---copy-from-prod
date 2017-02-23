@@ -1,0 +1,352 @@
+.attraction-wrapper{
+        margin-top: 29px;
+		.short-description{ 
+			padding: 30px;
+			margin: 10px 0px; 
+	      @media(min-width: $screen-sm-min)	{
+		  	padding: 30px 40px;
+			margin: 30px 0px; 
+		  }
+		  @media(min-width: $screen-md-min)	{
+		  	padding: 30px 60px;
+			margin: 30px 0px; 
+		  }
+		  @media(min-width: $screen-custom-min)	{
+		  	padding: 30px 95px;
+			margin: 30px 0px; 
+		  }
+			
+			 h4{
+			 	 text-transform: uppercase;
+			 	 font-size: 15px;
+			 	 letter-spacing: 0.1em;
+			 }
+			 .title{
+			 	 font-size: 42px;
+		 	     line-height: 42px;
+		 	     margin: 18px 0px;
+			 }
+			 p.short-detail{
+			 	    margin-top: 35px;
+		            line-height: 23px;
+		            max-width: 385px;
+		            letter-spacing: 0.01em;
+		            color: #575757;
+		            strong{
+		            	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		            }
+			 }
+		}
+
+		.main-image{
+			 position: relative; 
+			 .hero-img{
+			 	 position: relative;   
+			 }
+			 .div-overlay{
+		 	 	 min-height: 800px;
+		 	 	 width: 100%; 
+		 	 	 position: relative;
+                 background-position:center center; 
+                  -webkit-background-size: cover;
+                  -moz-background-size: cover;
+                  -o-background-size: cover;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  @media(min-width: $screen-custom-min){
+                  	min-height: 1056px;
+                  }
+		 	 	 .title-container{
+                         height:130px;
+                         width:260px;
+                         margin: -20px auto 0px auto;
+                         border-radius:  0 0 260px 260px;
+                         -moz-border-radius:  0 0 260px 260px;
+                         -webkit-border-radius: 0 0 260px 260px;
+                         @media(min-width: $screen-sm-min){
+                         	height:260px;
+                         	width:520px;
+                         	margin: -20px auto 0px auto;
+                         	border-radius:  0 0 520px 520px;
+                         	-moz-border-radius:  0 0 520px 520px;
+                         	-webkit-border-radius: 0 0 520px 520px;
+                         }
+		 	 	 	     @media(min-width: $screen-custom-min){
+		 	 	 	     	 height:374px;
+		 	 	 	     	 width:730px;
+		 	 	 	     	 margin: -20px auto 0px auto;
+		 	 	 	     	 border-radius:  0 0 730px 730px;
+		 	 	 	     	 -moz-border-radius:  0 0 730px 730px;
+		 	 	 	     	 -webkit-border-radius: 0 0 730px 730px;
+		 	 	 	     } 
+		 	 	 	      background:rgba(92,111,123,0.5);
+		 	 	 	      text-align: center;
+                       .title2{
+                       	    padding-top: 26px;
+                       	    font-size: 36px;
+                       	    @media(min-width: $screen-sm-min){
+                       	     padding-top: 80px;
+                             font-size: 66px;
+                       	    }
+                       	    @media(min-width: $screen-md-min){
+                       	     font-size: 100px;
+                    	  	 padding-top: 56px;
+                    	  	 line-height: 100px;
+                       	    }
+                       	  @media(min-width: $screen-custom-min){
+                       	  	 font-size: 151px;
+                       	  	 padding-top: 66px;
+                       	  	 line-height: 151px;
+                       	  }
+                       }
+                       .heading4{
+                       	   text-transform: uppercase;
+                       	   color: white;
+                       	    @media(min-width: $screen-custom-min){
+                       	       font-size: 15px; 
+                       	       letter-spacing: 0.1em;
+                       	       padding-top: 16px;
+                       	    }
+                       } 
+		 	 	 }
+		 	 	 .description{
+		 	 	 	 position: absolute;
+		 	 	 	 bottom: 0px;
+		 	 	 	 left: 0;
+		 	 	 	 padding: 20px;
+		 	 	 	 width: 100%;
+		 	 	 	 max-width: 456px;
+		 	 	 	  max-width: 100%;
+		 	 	 	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e2dbd0+100&0+0,1+100 */
+		 	 	 	 background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(226,219,208,1) 100%); /* FF3.6-15 */
+		 	 	 	 background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(226,219,208,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		 	 	 	 background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(226,219,208,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		 	 	 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e2dbd0',GradientType=0 ); /* IE6-9 */
+                      @media(min-width: $screen-sm-min){
+                      	bottom: 60px;
+                        left: 60px;
+                        background: none;
+                        max-width: 456px;
+                      }
+		 	 	 	  @media(min-width: $screen-custom-min){
+		 	 	 	  	bottom: 60px;
+		 	 	 	    left: 60px;
+		 	 	 	    background: none;
+		 	 	 	  }
+		 	 	 	 strong{
+		 	 	 	 	  font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		 	 	 	 }
+		 	 	 	 p{
+		 	 	 	 	line-height: 25px;
+		 	 	 	 	margin-top: 27px;
+		 	 	 	 }
+		 	 	 }
+		 	 	 .c-description{
+		 	 	 	 position: absolute;
+		 	 	 	 bottom: 140px;
+		 	 	 	 left: 0;
+		 	 	 	 padding: 20px;
+		 	 	 	 width: 80%;
+		 	 	 	 max-width: 456px;
+		 	 	 	  max-width: 100%;
+		 	 	 	  @media(min-width: 360px){
+                        bottom: 160px;
+                        left: 0;
+                        padding: 20px;
+                        width: 70%;
+		 	 	 	  }
+		 	 	 	  @media(min-width: $screen-sm-min){
+                      	bottom: 190px;
+                        left: 15%;
+                  	    background: none;
+                  	    max-width: 382px; 
+                      }
+                      @media(min-width: $screen-md-min){
+                      	bottom: 185px;
+                  	    left: 22%;
+                  	    background: none;
+                  	    max-width: 382px; 
+                      }
+		 	 	 	  @media(min-width: $screen-custom-min){
+		 	 	 	  	bottom: 255px;
+		 	 	 	  	left: 277px; 
+		 	 	 	    background: none;
+		 	 	 	  }
+		 	 	 	 strong{
+		 	 	 	 	  font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		 	 	 	 }
+		 	 	 	 p{
+		 	 	 	 	line-height: 25px;
+		 	 	 	 	margin-top: 27px;
+		 	 	 	 }
+		 	 	 }
+
+		 	 }
+		}
+
+}
+.arrow-link{
+     padding: 4px 14px 4px 14px;
+     font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     a{
+     	    background: url(/images/arrowroll-icon.png) right 2px;
+     	    background-size: 30px;
+     	    text-decoration: none;
+     	    background-repeat: no-repeat;
+     	    padding-right: 52px; 
+     	    text-decoration: none;
+     	    transition: all 0.5s ease;
+     	    color: white;
+     	    &:hover{ 
+     	    	    text-decoration: none;
+     	    	    color: white;
+     	    	    background: url(/images/arrowroll-icon.png) right -16px;
+     	    	    background-size: 30px;
+     	    	    background-repeat: no-repeat; 
+     	    }
+     }
+}
+.activity{
+	  @media(min-width: $screen-custom-min){
+	  	padding: 54px 40px 25px 223px !important;
+	  }
+	   p{
+	   	       @media(min-width: $screen-custom-min){
+	   	        padding: 0px 53px;
+			    line-height: 24px;
+			    max-width: 370px;
+			}
+	   }
+	   @media(min-width: $screen-custom-min){
+	   	 h2, h4, p, hr{
+	   	 	 margin-left:0px !important;
+	   	 	 padding-left: 0px !important;
+	   	 	 padding-right: 0px !important;
+	   	 }
+	   	 h2{
+	   	 	  padding-bottom: 16px !important;
+	   	 }
+	   	 h4{
+	   	 	 letter-spacing: 0.09em;
+	   	 }
+	   	 hr{
+	   	 	 margin-top: 21px;
+	   	 }
+	   }
+    .arrow-link{
+    	@media(min-width: $screen-md-min){
+    	 	margin-top: 20px;
+    	 }
+    	 @media(min-width: $screen-lg-min){
+    	 	margin-top: 40px;
+    	 }
+    }
+	   
+}
+
+#activitySlider{
+	 .carousel-vindicators-numbers{
+	 	top: auto;
+	 	bottom: 18px; 
+	 	    @media(min-witdh: $screen-custom-min){ 
+	 	    		 	    margin-left: 57%;  
+	 	    	}  
+	 }
+}
+.culture-banner{
+	 margin: 55px 0px;
+     &.more-activities{
+       margin-top: 0px;
+
+     }
+	 @media(min-width: $screen-custom-min){
+	 	.special-details-banner{
+	 		    h2{
+			 	 	 padding-top:77px;
+			 	 	 letter-spacing: 0.1em;
+			 	 	
+			 	 }
+			 	 h3{
+			 	 	 line-height: 193px;
+			 	 }
+			 	 .btn-holder{
+			 	 	 padding-bottom:  77px;
+			 	 }
+
+	 		}
+	 }
+	 .title{
+	 	 &.light{
+	 	 	 color: #ede6dd;
+	 	 	 text-align: center;
+	 	 	 padding: 20px 0px;
+	 	 	 @media(min-width: $screen-lg-min){
+	 	 	 	 font-size: 42px;
+
+	 	 	 }
+	 	 }
+	 }
+}
+
+.attrcation-cards{
+	 
+	 .card{
+	 	 background: #ede6dd;  
+	 	 width: 100%;
+		 border-bottom: 2px solid white;
+		 @media(min-width: $screen-sm-min){
+	 	 	border-right: 2px solid white;
+	 	 } 
+		 
+		 .img-holder{
+		 	  position: relative; 
+		 	  overflow: hidden;
+		 	  h4{
+		 	  	 position: absolute;
+		 	  	 bottom: 7px;
+		 	     right: 30px;
+		 	  	 color: white;
+		 	  	 font-size: 15px;
+		 	  	 font-family: 'GothamHTF Medium',Helvetica, Arial, sans-serif;
+		 	  }
+		 	  img{
+		 	  	 width: 100%;
+		 	  }
+		 }
+		 .details{
+		 	 padding: 30px;
+		 	 @media(min-width: $screen-md-min){
+		 	 	padding: 45px 40px 30px 47px;
+		 	 	min-height: 240px;
+		 	 }
+		 	 @media(min-width: $screen-custom-min){
+		 	 	padding: 55px 40px 30px 57px;
+		 	 	min-height: 224px;
+		 	 }
+		 	 h3{
+		 	 	font-size: 15px;
+		 	 	margin: 0px;
+		 	 	padding: 0px;
+		 	 	font-family: 'GothamHTF Medium',Helvetica, Arial, sans-serif;
+		 	 }
+		 	 p{
+		 	 	line-height: 24px;
+		 	 	margin-top: 5px;
+		 	 	max-width: 220px;
+		 	 }
+		 }
+	 } 
+	  @media(max-width: $screen-sm-max){
+            div:nth-child(4n+2){
+                 	.card{
+                       border-right: 0px solid white;
+                   }
+           	 } 
+	  }
+      div:nth-child(4n+4){
+      	.card{
+            border-right: 0px solid white;
+        }
+	 } 
+}

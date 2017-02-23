@@ -19,7 +19,7 @@ $primary-color: #ede6dd;
 $secondary-color:#5c6f7b;
 $darkgray-color:#161515;
 $black : #161515;
-
+$light-black: #575757;
 $screen-custom-min: 1300px;
 
 // Use media queries like this:
@@ -42,15 +42,17 @@ $screen-custom-min: 1300px;
         "bootstrap",
         "fontawesome",
         "owlcarousel",
+        "booking-widget", 
         "jquery-ui",
         "animate",
         "fonts",
-        "styles",
-
+        "styles",        
         "home",
         "roomdetail",
         "rooms-list",
+        "roomdetail" ,
         "specials",
-        "specialdetail" 
-
+        "location" ,
+        "specialdetail",
+        "attractions"
 ;
