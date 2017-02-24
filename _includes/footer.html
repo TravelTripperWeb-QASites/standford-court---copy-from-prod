@@ -48,8 +48,9 @@ CA 94108</a></p>
               <ul class="social">
                 <li><a href="http://www.facebook.com/StanfordCourtSF" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="http://www.twitter.com/StanfordCourtSF" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://plus.google.com/101732238009151670246/videos#101732238009151670246/about" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://plus.google.com/101732238009151670246/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="https://www.instagram.com/stanfordcourtsf" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                 <li><a href="https://www.youtube.com/user/StanfordCourtSF" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
               </ul>
           </div>
        </div>
@@ -75,9 +76,9 @@ good stuff.</p>
 
     <div class="copy-wrapper clearfix">
         <ul class="infolinks">
-          <li>© Stanford Court.All Rights Reserved 2016</li>
-          <li><a href="">Terms & Conditions</a></li>
-          <li><a href="">Privacy Policy</a></li>
+          <li>© Stanford Court 2017 All Rights Reserved</li>
+          <li><a href="https://www.chargerback.com/ReportLostItemCBEmbed.asp?CustomerID=2880" target="_blank">Lost Items</a></li>
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
           <li><a href="">Press</a></li>
           <li><a href="">Sit Map</a></li>
           <li><a href="">Copy of Bill </a></li>
@@ -95,8 +96,10 @@ function getIp(data){
 </script>
 <script src="https://api.ipify.org?format=jsonp&callback=getIp"></script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery-ui.min.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.easing.min.js"></script>
@@ -104,6 +107,10 @@ function getIp(data){
     <script src="/js/classie.js"></script>
     <script src="/js/custom.js"></script>
     <script src="/js/booking-widget.js"></script>
+    <script src="/js/lightgallery.js"></script>
+    <script src="/js/lg-fullscreen.js"></script>
+    <script src="/js/lg-thumbnail.js"></script> 
+    <script src="/js/lg-video.js"></script>
     <script src="/js/angular.min.js"></script>
 
     <script src="/js/rt3api.js"></script>
@@ -112,3 +119,56 @@ function getIp(data){
     <script src="/js/rt3-services.js"></script>
     <script src="/js/rt3-directives.js"></script>
     <script src="/js/rt3-filters.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+     $(".menu-btn").click(function(){
+       $(".main-menu").slideToggle(300);
+     });
+     $('#lightgallery').lightGallery({
+        selector: '.item',
+      counter: false,
+      fullScreen: false
+      });
+    $('.video-player-param').lightGallery({
+          youtubePlayerParams: {
+              modestbranding: 1,
+              showinfo: 0,
+              rel: 0,
+              controls: 0
+          },
+          vimeoPlayerParams: {
+              byline: 0,
+              portrait: 0,
+              color: 'A90707'
+          }
+      });
+
+   });
+
+   $(document).ready(function() {
+   $(".home-banner-wrap .item").hover(function(){
+     $(this).find(".transparent-bg").toggle();
+   });
+   
+   
+    $(".filter").on("click", function () {
+    var $this = $(this);
+    // if we click the active tab, do nothing
+    if (!$this.hasClass("active")) {
+      $(".filter").removeClass("active");
+      $this.addClass("active"); // set the active tab
+      var $filter = $this.data("rel"); // get the data-rel value from selected tab and set as filter
+      $filter == 'all' ? // if we select "view all", return to initial settings and show all
+        $(".fancybox").attr("data-fancybox-group", "gallery").not(":visible").fadeIn() 
+        : // otherwise
+        $(".fancybox").fadeOut(0).filter(function () { 
+          return $(this).data("filter") == $filter; // set data-filter value as the data-rel value of selected tab
+        }).attr("data-fancybox-group", $filter).fadeIn(1000); // set data-fancybox-group and show filtered elements
+    } // if
+  }); // on
+   
+   
+ });
+
+</script>
