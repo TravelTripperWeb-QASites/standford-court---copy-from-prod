@@ -246,6 +246,15 @@
 		font-family:$base-font-family;
 		font-size:15px;
 		color:#575757;
+        a {
+            text-decoration: none;
+            color: $black ;
+            &.active, &:hover{
+            text-decoration: none;
+            color: $black ;
+            opacity: .7;
+          }
+        }
 	}
 
 	.r-link{

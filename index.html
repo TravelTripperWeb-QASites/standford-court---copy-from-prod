@@ -5,60 +5,22 @@ excerpt: stanfordcourt.com
 parent: home
 ---
 
- 
+
 <div class="home-slider">
-<div id="big" class="owl-carousel owl-theme">
-  <div class="item" style="background-image:url('/images/slider/1.jpg');">
-    
+<div id="big" class="owl-carousel owl-theme" >
+  <div class="item" ng-style="{'background-image': 'url([[room.photos[0].large]])'}" ng-repeat="room in browser.roomsList">
+
   </div>
-  <div class="item" style="background-image:url('/images/slider/2.jpg');">
-    
-  </div>
-  <div class="item" style="background-image:url('/images/slider/3.jpg');">
-    
-  </div>
-  <div class="item" style="background-image:url('/images/slider/1.jpg');">
-    
-  </div>
-  <div class="item" style="background-image:url('/images/slider/2.jpg');">
-     
-  </div>
-  <div class="item" style="background-image:url('/images/slider/3.jpg');">
-    
-  </div> 
+
 </div>
 <div id="thumbs" class="owl-carousel owl-theme">
-  <div class="item">
-  <img src="/images/slider/1.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4> 
-    <h2>Standard</h2> 
+  <div class="item" ng-repeat="room in browser.roomsList">
+  <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
+      <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
+      <h2><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
   </div>
-  <div class="item">
-  <img src="/images/slider/2.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4> 
-    <h2>Standard</h2> 
-  </div>
-  <div class="item">
-  <img src="/images/slider/3.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4> 
-    <h2>Standard</h2> 
-  </div>
-  <div class="item">
-  <img src="/images/slider/1.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4> 
-    <h2>Standard</h2> 
-  </div>
-  <div class="item">
-  <img src="/images/slider/2.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4><br>
-    <h2>Standard</h2> 
-  </div>
-  <div class="item">
-  <img src="/images/slider/3.jpg" class="thumbImg">
-    <h4>Tonight’s Rate $ 345</h4> 
-    <h2>Standard</h2> 
-  </div>
-   
+
+
 </div>
 </div>
 
@@ -96,7 +58,7 @@ parent: home
         </div>
         <div class="col-sm-6 col-md-5">
              <div id="carousel-welcome" class="carousel slide">
-               <!-- Indicators --> 
+               <!-- Indicators -->
                <ol class="carousel-indicators carousel-indicators-numbers">
                  <li data-target="#carousel-welcome" data-slide-to="0" class="active">01</li>
                  <li data-target="#carousel-welcome" data-slide-to="1">02</li>
@@ -115,7 +77,7 @@ parent: home
                    <img src="/images/homepage/gallery/3.jpg" alt="...">
                  </div>
                </div>
- 
+
              </div>
         </div>
         </div>
@@ -125,11 +87,11 @@ parent: home
                     <img src="/images/homepage/command-pillow.jpg" class="ctrl img-responsive">
                     <img src="/images/homepage/ipad.jpg" class="ctrl  img-responsive">
              </div>
-             <div class="high-style"> 
+             <div class="high-style">
 
                     <h2>where High-tech<br>
  meets High style</h2>
-             </div> 
+             </div>
         </div>
 
     </div>
@@ -139,22 +101,22 @@ parent: home
            <div class="table-eq">
                 <div class="left-cell">
                        <div class="desctiption">
-                         <h2 class="title">It’s all in the Details </h2>  
-                         <h4 class="uppercase">Rooms &amp; Suites</h4>   
-                         <hr align="left"> 
-                         <p>Hotels near Union Square can all offer fun-filled weekend days of shopping and sightseeing, but few have the combination of top-tier rooms, suites, amenities and views that define Stanford Court.</p> 
+                         <h2 class="title">It’s all in the Details </h2>
+                         <h4 class="uppercase">Rooms &amp; Suites</h4>
+                         <hr align="left">
+                         <p>Hotels near Union Square can all offer fun-filled weekend days of shopping and sightseeing, but few have the combination of top-tier rooms, suites, amenities and views that define Stanford Court.</p>
                         </div>
                 </div>
-                <div class="right-cell">  
-                      <img src="/images/homepage/room1.jpg" class="img-responsive full-img"> 
-                </div> 
+                <div class="right-cell">
+                      <img src="/images/homepage/room1.jpg" class="img-responsive full-img">
+                </div>
            </div>
 </section>
 <section class="container">
            <div class="table-eq">
                 <div class="left-cell">
                       <div id="amenitiesSlider" class="carousel slide">
-                        <!-- Indicators --> 
+                        <!-- Indicators -->
                         <ol class="carousel-indicators carousel-vindicators-numbers">
                           <li data-target="#amenitiesSlider" data-slide-to="0" class="active">01</li>
                           <li data-target="#amenitiesSlider" data-slide-to="1">02</li>
@@ -173,13 +135,13 @@ parent: home
                             <img src="/images/homepage/gallery/3.jpg" alt="...">
                           </div>
                         </div>
-                      
-                      </div> 
+
+                      </div>
                 </div>
-                <div class="right-cell bg-dark">  
+                <div class="right-cell bg-dark">
                         <div class="content amenties">
-                        <h2 class="title">General Amenities </h2>    
-                        <hr align="left"> 
+                        <h2 class="title">General Amenities </h2>
+                        <hr align="left">
                         <p>The locally progressive tech culture that San Francisco and Silicon Valley thrives on inspires many Stanford Court amenities. </p>
                         </div>
 
@@ -188,7 +150,7 @@ parent: home
                          VIEW hotel AMENITIES
                      </a>
                     </div>
-                </div> 
+                </div>
            </div>
 </section>
 
@@ -197,7 +159,7 @@ parent: home
 <section class="container">
   <div class="events-wrapper bg-light clearfix">
       <div class="events-banner">
-         <div id="eventsSlider" class="carousel slide"> 
+         <div id="eventsSlider" class="carousel slide">
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
@@ -229,7 +191,7 @@ parent: home
                </div>
         </div>
       </div>
-      
+
       <div class="table-eq event-content">
           <div class="left-cell">
               <div class="padd-60 m-venue">
@@ -238,7 +200,7 @@ parent: home
                <h1 class="title2 whtText ">venues</h1>
                </div>
                 <div id="venuesSlider" class="carousel slide">
-                  <!-- Indicators --> 
+                  <!-- Indicators -->
                   <ol class="carousel-indicators carousel-v2indicators-numbers">
                     <li data-target="#venuesSlider" data-slide-to="0" class="active">01</li>
                     <li data-target="#venuesSlider" data-slide-to="1">02</li>
@@ -257,12 +219,12 @@ parent: home
                       <img src="/images/homepage/events/1slide.jpg" alt="...">
                     </div>
                   </div>
-                
-                </div> 
+
+                </div>
           </div>
-          <div class="right-cell">  
-                  <div class="content marginTop200">   
-                  <hr align="left"> 
+          <div class="right-cell">
+                  <div class="content marginTop200">
+                  <hr align="left">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                   </div>
 
@@ -273,13 +235,13 @@ parent: home
               </div>
 
               <img src="/images/homepage/events/food-plate.jpg" class="img-responsive full-img img-responsive">
-          </div> 
+          </div>
       </div>
-       
+
        <div class="local-living clearfix">
             <div class="col-sm-6 col-md-7">
                 <h2 class="heading2">sublime <br />
-                             local living 
+                             local living
                 </h2>
                 <h4 class="heading4 uppercase">The Stanford experience</h4>
             </div>
@@ -291,7 +253,7 @@ parent: home
             </div>
         </div>
 
-         <div class="local-living-imgs"> 
+         <div class="local-living-imgs">
             <div class="col-sm-8 no-padding col-sm-offset-4">
                <div class="right-content">
                 <img src="/images/homepage/events/locals.jpg" class="img-responsive minus-1 pull-right">
@@ -304,7 +266,7 @@ parent: home
             <div>
         </div>
 
-  </div>  
+  </div>
 </section>
 
 <section class="container marginTop200">
@@ -339,14 +301,14 @@ at its best</h2>
                            </a>
                           </div>
             </div>
-       </div> 
-   </div>  
+       </div>
+   </div>
 </section>
 
 
-<section class="container"> 
+<section class="container">
  <div class="col-md-12  bg-light attractions-wrapper no-padding clearfix">
-      <div class="map"> 
+      <div class="map">
           <img src="/images/homepage/map.jpg" class="img-responsive" alt="map direction">
       </div>
     <div class="col-sm-6 col-md-5 no-padding">
@@ -362,12 +324,12 @@ at its best</h2>
           <h2 class="title"> San Francisco Attractions</h2>
         </div>
        </div>
-    </div> 
+    </div>
     <div class="col-md-12 no-padding">
        <div class="col-sm-7">
           <div class="experience padd-60">
              <hr align="left">
-              <p>There are so many things to see and do in San Francisco, that it may be hard to know where to start. Walk from our hotel to Union Square and many of the area’s most interesting neighborhoods and attractions, or hop on the cable car running directly in front of the hotel. 
+              <p>There are so many things to see and do in San Francisco, that it may be hard to know where to start. Walk from our hotel to Union Square and many of the area’s most interesting neighborhoods and attractions, or hop on the cable car running directly in front of the hotel.
               </p>
               <div class="btn-holder text-left">
                <a class="butn btn-wide uppercase">
@@ -379,10 +341,11 @@ at its best</h2>
        <div class="col-sm-5 no-padding">
            <img src="/images/homepage/attractions/vision.jpg" class="img-responsive pull-right minus-1">
        </div>
-    </div>  
+    </div>
 
-  </div> 
+  </div>
 </section>
+
 
 {% include local-events.html %}
 <section class="container blog-container">
@@ -397,7 +360,7 @@ at its best</h2>
 <section class="container-fluid blog-wrapper  bg-dark clearfix">
     <div class="row no-gutter">
            <div class="tiles">
-             
+
                <div class="gross col-sm-5 no-padding  imgScale firstpost schwarz" style="background-image: url('/images/blog/phone.jpg');">
                   <div class="post-detail">
                    <h3 class="blog-title2">The Apps We’re Downloading in February 2017</h3>
@@ -408,11 +371,11 @@ at its best</h2>
                             <li><a href=""> <i class="fa fa-google-plus"></i></a></li>
                             <li><a href=""> <i class="fa fa-instagram"></i></a></li>
                           </ul>
-                  </div> 
+                  </div>
              </div>
-               
+
                <div class="gross col-sm-7 no-padding">
-                 
+
                 <div class="featuredPost">
 
                      <div class="sqaure-post">
@@ -430,7 +393,7 @@ at its best</h2>
                       </div>
                       <div class="col-sm-6 no-padding mini-post schwarz"  style="background-image: url('/images/blog/ball.jpg');">
                        <div class="post-detail">
-                       <h3>10th Annual Crunchies</h3> 
+                       <h3>10th Annual Crunchies</h3>
                        <a href="" class="readon">Read Blog Post</a>
                        <ul class="share-social">
                             <li><a href=""> <i class="fa fa-facebook"></i></a></li>
@@ -450,12 +413,12 @@ at its best</h2>
                             <li><a href=""> <i class="fa fa-instagram"></i></a></li>
                           </ul>
                           </div>
-                      </div> </div>    
+                      </div> </div>
                      </div>
-              
+
                   </div>
-             </div> 
-             
+             </div>
+
            </div>
     </div>
 </section>
