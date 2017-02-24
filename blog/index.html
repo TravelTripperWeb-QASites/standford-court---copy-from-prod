@@ -26,8 +26,8 @@ parent: blog
 			<h3>{{post.title}}</h3>
 			<p>
 				{% assign d = post.date | date: "%-d" %}
-				{{ post.date | date: "%B" }} 
-				{% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+				{{ post.date | date: "%B" }}
+				{% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
 				{{ post.date | date: "%Y" }}
 			</p>
 		</div>
@@ -37,11 +37,11 @@ parent: blog
 		<div class="s-link"><a href="{{ post.id | permalink: model_dir: 'blog' }}" >Read More</a></div>
 	</div>
   </div>
- {% endfor %} 
+ {% endfor %}
 </div>
 <div class="container">
 	<div class="pagination-wrapper">
-		<div class="pagination"> 
+		<div class="pagination">
 		<p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
 		<ul class="pagination">
 		  {% if data_paginator.previous_page %}
