@@ -1,0 +1,54 @@
+---
+layout: default
+title: Gallery | StanfordCourt
+excerpt: stanfordcourt.com
+parent: gallery
+---
+<div class="container">
+	<div id="top-spacer">
+	</div>
+</div>
+<section class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2 class="title text-center">Gallery</h2>
+			
+		</div>
+	</div>
+	 <!-- gallery wrap --> 
+  <div class="gallery-wrapper">
+    <div class="gallery-listing">
+      <div class="container">
+      <div class="row">
+            <ul class="gallery-nav">
+             <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
+              <li><a href="javascript:;" data-rel="hotel" class="filter">Hotel</a></li>
+              <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="container gallery-wrap" id="lightgallery">
+        <ul>
+      
+        {% assign hotel_images = site.data._models.gallery_hotel_images %}
+{% for hotel_gallery in hotel_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
+            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>  
+{% endfor %}
+{% assign room_images = site.data._models.gallery_room_images %}
+{% for room_gallery in room_images %}          
+          <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
+            <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+          </li>
+{% endfor %}
+             
+        </ul>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <!--/gallery wrap --> 
+</section>
