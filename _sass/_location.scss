@@ -800,3 +800,24 @@
             background-size: cover;
     }
   }
+
+ 	.arrow-link-left {
+
+ 		a{
+ 			        background: url(/images/arrowroll-icon.png) left 2px;
+				    background-size: 30px;
+				    text-decoration: none;
+				    background-repeat: no-repeat;
+				    padding-left: 52px;
+				    text-decoration: none;
+				    transition: all 0.5s ease;
+				    color: white;
+
+ 			    &:hover{
+ 			    	    background: url(/images/arrowroll-icon.png) left -16px;
+ 			    	    background-size: 30px;
+ 			    	    background-repeat: no-repeat;
+ 			    }
+ 		}
+
+ 	}
