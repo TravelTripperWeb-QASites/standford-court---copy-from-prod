@@ -195,7 +195,7 @@ $(function() {
             dateFormat:dateFormat
         });
 
-
+   $("#input_17").datepicker();
      
 }); 
 

@@ -1,0 +1,120 @@
+.top-innerbanner{
+	 min-height: 100px;
+	 margin-bottom: 20px;
+	 position: relative;
+	 text-align: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: top center;
+	 @media(min-width: $screen-sm-min){
+	 	min-height: 150px;
+	 }
+	 @media(min-width: $screen-md-min){
+	 	min-height: 240px;
+	 }
+	 @media(min-width: $screen-lg-min){
+	 	min-height: 300px;
+	 }
+	 h2{
+	 	 margin: 0px;
+	 	 padding: 0px;
+	 	 position: absolute;
+	 	 left: 0%; 
+	 	 left: 50%;
+	 	 top: 50%;
+	 	 transform: translate(-50%, -50%);
+	 	 color: white;
+	 }
+}
+.top-img{
+	 margin-top: 40px;
+}
+.form-wrapper{ 
+	 .article-wrapper{
+	 	text-align: center;
+	 	text-shadow: none;
+	 	  padding:40px;
+	 	  @media(min-width: $screen-sm-min){
+	 	  	 padding: 80px;  
+	 	  }
+	 	 p{
+	 	 	strong{
+	 	 		    font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+	 	 		    padding-top: 23px;
+	 	 		    line-height: 24px;
+	 	 	    }
+	 	 }
+
+	 }
+	 
+   label{
+   	  font-size: 13px;
+   	  font-family: "GothamHTF Light", Helvetica, Arial, sans-serif;
+   }
+	 .form-control{
+	  	border: 1px solid white; color: white;
+	  	option{
+	  		 color: $black;
+	  	}
+	  }
+     .butn .btn-white {
+     	border: 1px solid white !important;
+     	color: white !important;
+     	min-width: 150px;
+     }
+}
+.contact-wrapper{ 
+	  padding: 76px 0px 79px 0px !important;
+     .banner-inner{
+     	width: auto;
+     	} 
+
+
+}
+#speedrfp_iframe{
+	 display: block;
+	 height: 100%;
+}
+.sf-form{
+      padding-top: 80px;
+      text-align: left;
+      .col-sm-12{
+   	   text-align: center;
+     }
+	.form-control{
+		 border: 1px solid white;
+		 border-radius: 0px;
+		 background: none;
+	}
+	.arrival{ 
+    margin-top: 30px;
+	}
+	.form-required{
+		 color: yellow;
+	}
+	.form-radio-item{
+		 width: 100%;
+		 display: block;
+	}
+	  .butn {
+	    	margin: 10px auto;
+		    border: 1px solid white;
+		    color: white;
+		    background: none;
+		    font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		    padding: 8px 18px;
+		    font-size: 14px;
+		    text-decoration: none;
+		    letter-spacing: 0.1em;
+		    transition: all 0.5s ease;
+		    width: auto;
+		    text-decoration: none;
+		    min-width: 150px;
+		    margin-top: 40px;
+		    transition: all 0.5s ease;
+		    &:hover{
+		    	color: $black; 
+		    	background: white;
+		    }
+		}
+}
