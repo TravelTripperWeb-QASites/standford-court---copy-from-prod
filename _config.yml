@@ -8,7 +8,7 @@ port: 8080
 booking_widget_url: https://stanfordcourt.reztrip.com/mobile
 
 data_paginate: 
-  per_page: 5
+  per_page: 6
   data: 'blog'
   path: 'blog/page:num'
   pagination_template: 'blog/index.html'
