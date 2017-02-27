@@ -26,15 +26,28 @@ parent: specials
 <div class="container no-gutter" >
   <div class="col-md-12" ><h2>Enjoy hotel deals & specials</h2></div>
 
+
   <div class="col-md-6" ng-repeat="offer in offers.special_rates">
   <a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" >
+   <div class="blog-img" style="background-image:url([[offer.lead_photo_url.yankee_large]])">
+				<div class="dl">
+					<h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+				</div>
+			</div></a>
+			<div class="blog-sd">
+				<div class="s-p"><span ng-bind-html="offer.short_description | limitTo: 150 |renderHTMLCorrectly"></span><span>[[offer.short_description.length > 150 ? '...' : '']]</span></div>
+				<div class="s-link"><a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" ><span  ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly" ></span></a></div>
+			</div>
+	  </div>
+	
+	<!--<div class="col-md-6" ng-repeat="offer in offers.special_rates">
+>>>>>>> 68b0f7e1e5bec9d309386dc9b8a82a67114a2a0c
     <img  ng-src="[[offer.lead_photo_url.yankee_large]]" class="img-responsive">
     <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
   </a>
     <div class="s-p"><p ng-bind-html="offer.short_description | renderHTMLCorrectly"></p></div>
     <div class="s-link"><a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" ><span  ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly" ></span></a></div>
-  </div>
-
+  </div>-->
 
 </div>
 </section>

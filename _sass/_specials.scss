@@ -50,7 +50,13 @@
 	.col-md-6{
 		padding-bottom:68px;
 	}
-
+	
+	a{
+		 
+		 &:hover{
+		  	text-decoration:none;
+		  }
+	}
 
 	img{ width:100%}
 	h2{
@@ -91,13 +97,18 @@
 		  word-spacing: 10px;
 		  letter-spacing: 1px;
 		  line-height: 38px;
-		 
+		  
 		  @media(min-width: $screen-sm-min){
 		   top: 33.5%;
     	   transform: translateY(-33.5%);
 		   font-size: 45px;
 		   max-width:318px;
 		   line-height: 58px;
+		  }
+
+		  &:hover{
+
+
 		  }
 	}
 	

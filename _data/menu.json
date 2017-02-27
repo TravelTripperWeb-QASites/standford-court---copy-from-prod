@@ -6,6 +6,7 @@
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
                {"name":"Attractions","url":"/attractions/","parent":"attractions"},
                {"name":"Location","url":"/location/","parent":"location"},
+		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
                {"name":"Contact","url":"/contact-us/","parent":"contact"}
            ],
       "attractions":[
