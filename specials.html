@@ -27,8 +27,10 @@ parent: specials
   <div class="col-md-12" ><h2>Enjoy hotel deals & specials</h2></div>
 
   <div class="col-md-6" ng-repeat="offer in offers.special_rates">
+  <a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" >
     <img  ng-src="[[offer.lead_photo_url.yankee_large]]" class="img-responsive">
     <h3 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h3>
+  </a>
     <div class="s-p"><p ng-bind-html="offer.short_description | renderHTMLCorrectly"></p></div>
     <div class="s-link"><a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink ]]" ><span  ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly" ></span></a></div>
   </div>

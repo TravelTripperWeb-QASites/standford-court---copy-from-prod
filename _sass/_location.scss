@@ -822,3 +822,14 @@
  		}
 
  	}
+
+.location-links{
+	color:white;
+	text-decoration:none;
+	    transition: all 0.5s ease;
+	&:hover{
+		color:#c9d7e0;
+		text-decoration:none;
+		transition: all 0.5s ease;
+	}
+}
