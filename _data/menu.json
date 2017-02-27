@@ -4,13 +4,13 @@
                {"name":"Specials","url":"/specials/","parent":"pecials"},
                {"name":"Dining","url":"/dining/","parent":"dining"},
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
-               {"name":"Attractions","url":"/attractions/culture/","parent":"attractions"},
+               {"name":"Attractions","url":"/attractions/","parent":"attractions"},
                {"name":"Location","url":"/location/","parent":"location"},
 		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
                {"name":"Contact","url":"/contact-us/","parent":"contact"}
            ],
       "attractions":[
-               {"name":"Culture","url":"/attractions/culture/","child":"culture"},
+               {"name":"Culture","url":"/attractions/","child":"culture"},
                {"name":"Culinary","url":"/attractions/culinary/","child":"culinary"},
                {"name":"Retail","url":"/attractions/retail/","child":"retail"},
                {"name":"SAN FRANCISCO SITES","url":"/attractions/san-francisco-sites/","child":"san-francisco-sites"},

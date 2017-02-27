@@ -121,6 +121,120 @@ function getIp(data){
     <script src="/js/rt3-services.js"></script>
     <script src="/js/rt3-directives.js"></script>
     <script src="/js/rt3-filters.js"></script>
+
+
+    <script type="text/javascript">
+     
+      function initMap() {
+        var myLatLng = {lat: 37.791529, lng: -122.409594};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          
+          center: new google.maps.LatLng(37.791529, -122.409594),
+      scrollwheel: false,
+      disableDefaultUI: true,
+      styles: [
+            {elementType: 'geometry', stylers: [{color: '#e4e1dc'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#fefefe'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#a3a3a3'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#fefefe'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#fefefe'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#fefefe'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#fefefe'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#9cb9bf'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#9cb9bf'}]
+            }
+          ]
+        });
+    
+    
+    
+    var iconBase = '/images/'; 
+    
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Stanford Court Hotel',
+      icon: iconBase + 'loc.png'
+        });
+    
+      }
+    
+    </script>
+
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjyrna6Ms6rMkiKTj_CMXphqYsgb_i9E8&callback=initMap"></script>
 <script type="text/javascript">
 
     $(document).ready(function() {
