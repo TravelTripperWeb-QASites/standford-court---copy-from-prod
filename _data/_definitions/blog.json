@@ -1,0 +1,17 @@
+{"title":
+	{"required":true},
+"blogimage":
+	{"type":"image","required":true},
+"seo_title":
+	{"type":"text"},
+"seo_description":
+	{"type":"text"},
+"url_friendly_name":
+	{"type":"url_slug"},
+"date":
+	{"type":"date","required":true},	
+"short_description":
+	{"required":true,"type":"richtext"},
+"long_description":
+	{"required":true,"type":"richtext"}
+}
