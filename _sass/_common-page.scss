@@ -33,3 +33,15 @@
     }
     
 }
+
+.press-more{
+
+         margin-bottom: 15px;
+         text-align: right;
+         @media(min-width: $screen-sm-min){
+            
+             margin-bottom: 30px;
+
+         }
+       
+}

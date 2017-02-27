@@ -79,11 +79,13 @@ good stuff.</p>
           <li>© Stanford Court 2017 All Rights Reserved</li>
           <li><a href="https://www.chargerback.com/ReportLostItemCBEmbed.asp?CustomerID=2880" target="_blank">Lost Items</a></li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="">Press</a></li>
-          <li><a href="">Sit Map</a></li>
-          <li><a href="">Copy of Bill </a></li>
-          <li><a href="">Speed RFP</a></li>
+          <li><a href="/press/">Press</a></li>
+          <li><a href="/sitemap/">Sit Map</a></li>
+          <li><a href="/bill/">Copy of Bill </a></li>
+          <li class="menu-item-grouprfp"><a href="" onclick="srfp_widget.show()">Speed RFP</a></li>
         </ul>
+
+
     </div>
 </footer>
 
@@ -172,3 +174,14 @@ function getIp(data){
  });
 
 </script>
+<script src="https://www.speedrfp.com/irfps/js/widget/" type="text/javascript"></script>
+
+      <script type="text/javascript" charset="utf-8">
+        var options = {};
+        options.display = "overlay";
+        options.key = "f9aad5bfed895570"; 
+        options.uid = "5LBFZ";
+        options.button = "none";
+
+        var srfp_widget = new srfp.widget(options);
+      </script>

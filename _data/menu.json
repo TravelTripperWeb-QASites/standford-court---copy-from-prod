@@ -6,7 +6,7 @@
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
                {"name":"Attractions","url":"/attractions/culture/","parent":"attractions"},
                {"name":"Location","url":"/location/","parent":"location"},
-               {"name":"Contact","url":"mailto:info@stanfordcourt.com","parent":"contact"}
+               {"name":"Contact","url":"/contact-us/","parent":"contact"}
            ],
       "attractions":[
                {"name":"Culture","url":"/attractions/culture/","child":"culture"},
