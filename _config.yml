@@ -27,3 +27,8 @@ page_gen:
   - data: 'category'
     template: 'category'
     dir: 'categories'
+  - data: 'events'
+    template: 'event-details'
+    dir: 'events'
+    
+

@@ -5,6 +5,7 @@
                {"name":"Dining","url":"/dining/","parent":"dining"},
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
                {"name":"Attractions","url":"/attractions/","parent":"attractions"},
+               {"name":"Events","url":"/events/","parent":"events"},
                {"name":"Location","url":"/location/","parent":"location"},
 		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
                {"name":"Contact","url":"/contact-us/","parent":"contact"}

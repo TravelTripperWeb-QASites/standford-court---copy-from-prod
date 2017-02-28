@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<section class="container" >
+  
+  <div class="location-banner commonbanner" style="background-image:url(/images/events_banner.jpg)">
+    
+    <div class="banner-inner">
+      
+      <h3>Events</h3>
+   
+    </div>
+  </div>
+</section>
+
+ <ul class="gallery-nav events-filter-nav">
+    <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
+     {% assign catlist = site.data._models.event_category %} 
+
+    {% for cat in catlist %}
+    <li><a href="javascript:;" data-rel="{{cat.title}}" class="filter">{{cat.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+
+{% assign eventList = site.data._models.events | sort: 'datemeta' %}
+{% for events in eventList %}
+
+<section class="models events fancybox" data-filter="{{events.category.title}}">
+      <div class="container">
+        <div class="two-col-wrap">
+          	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
+          	<div class="col-sm-6 sp-content ">
+           
+              <h3>{{events.page_title}}</h3>
+                 <h4><strong> {{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</strong> </h4>
+                 <hr>
+               {{events.time}}
+
+                <div class="s-link"><a href="{{events.url_friendly_name}}" ><span>View this event</span></a></div>
+    		 
+            </div>
+           
+          
+        </div>
+      </div>
+    </section>
+{% endfor %}
+    
+        
+    
+

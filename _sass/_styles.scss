@@ -286,6 +286,11 @@ body{
 	 			margin-top: 6px;
 	 		}
 	 	}
+	
+	 }
+	  .navbar-nav{
+	 	padding-left:0px;
+
 	 }
 	 .navbar-toggler{
 	 	display: inherit;
@@ -341,16 +346,16 @@ body{
  	 			letter-spacing: 0.05em;
  	 			padding: 10px 10px; 
 	 	 		@media( min-width: $screen-md-min){
-	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 12px;
+	 	 			letter-spacing: 0.02em;
+	 	 			padding: 0px 10px;
 	 	 		}
 	 	 		@media( min-width: $screen-lg-min){
 	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 14px;
+	 	 			padding: 0px 11px;
 	 	 			letter-spacing: 0.07em;
 	 	 		}
 	 	 		@media( min-width: $screen-custom-min){
-	 	 			padding: 0px 15px;
+	 	 			padding: 0px 11px;
 	 	 		   letter-spacing: 0.14em; 
 	 	 		}
 	 	 		&.active{

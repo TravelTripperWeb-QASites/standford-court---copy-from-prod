@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% assign events = page %}
+{% assign model = page %}
+
+<section>
+  <div class="container-fluid no-padding">
+    <div class="page-banner location-banner" style="background-image: url(/images/gates/events-banner.jpg)">
+      <h1 class="page-title">{{events.page_title}}</h1>
+      <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>--> 
+    </div>
+  </div>
+</section>
+<section class="location-tabs event-details">
+  <div class=" container no-padding ">
+    <div class="content-container">
+      <div class="col-sm-6 no-padding">
+        <div class="desc">
+        	<h2>{{events.page_title}}</h2>
+            <h3><span class="date-label">Date</span>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</h3>
+            <h3><span class="date-label">Time</span>{{events.time}}</h3>
+			<div class="venue">
+            	<span class="date-label">Venue</span>{{events.venue}}
+            </div>
+            <div class="website"><span class="date-label">Website</span><a href="{{events.website_url}}">{{events.website_url}}</a></div>
+        </div>
+      </div>
+      <div class="col-sm-6 no-padding tabs-img" style="background-image: url({{events.event_image.url}})">   
+      </div>
+    </div>
+  </div>
+</section>
