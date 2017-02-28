@@ -1,0 +1,22 @@
+{
+	"title": "TEST",
+	"category": "event_category1",
+	"schedule": "4-5-2016",
+	"short_description": "<p>TEST</p>",
+	"long_description": "<p>TEST</p>",
+	"url": "TEST",
+	"thumb_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"sort_order": 1,
+	"large_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"short_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"g_image1": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"website_url": "https://www.stanfordcourt.com/"
+}
