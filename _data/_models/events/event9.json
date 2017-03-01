@@ -1,22 +1,23 @@
 {
-	"title": "Mardi Gras Celebration",
-	"schedule": "Fat Tuesday, February 28th, 2017  |  All Day",
-	"short_description": "<p>Join us for a Mardi Gras Celebration at 24 North Hotel. We&rsquo;ll have great New Orleans inspired drink specials</p>",
-	"long_description": "<p>Join us for a Mardi Gras Celebration at 24 North Hotel. We&rsquo;ll have great New Orleans inspired drink specials, food specials, beads and masks! Buy a drink and get a free mask!</p>\n<p>Join us at the bar for a fun celebration and some great music!</p>\n<p>Music from 4pm to 7pm</p>",
-	"url_friendly_name": "mardi-gras-celebration",
-	"website_url": "https://www.24northhotel.com/",
+	"title": "Aenean et consequat nisl",
+	"category": "event_category2",
+	"schedule": "March 4, 2017",
+	"short_description": "<p>Aenean eu malesuada massa, blandit cursus est. Quisque posuere, nisl et facilisis aliquet, justo lorem tincidunt nibh, nec eleifend nibh arcu in diam. Cras ac metus a odio tristique malesuada id nec eros. Aliquam at purus arcu. </p>",
+	"long_description": "<p>Suspendisse blandit purus vitae velit tincidunt, vitae facilisis felis porta. Duis id odio consequat, convallis felis sit amet, lobortis felis. Curabitur et ex laoreet, tincidunt mauris sit amet, faucibus tortor. Cras suscipit tincidunt neque eget malesuada. Sed non mollis magna, at vestibulum purus. Suspendisse id massa vel augue rhoncus ultricies ac eu leo. Nulla malesuada tempor lectus, sit amet vestibulum odio malesuada nec.</p>",
+	"url_friendly_name": "events5",
+	"website_url": "http://www.google.com/",
 	"thumb_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+		"url": "/images/events/events1.jpg"
 	},
 	"large_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+		"url": "/images/events/events1.jpg"
 	},
 	"short_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+		"url": "/images/events/events1.jpg"
 	},
 	"g_image1": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+		"url": "/images/events/events1.jpg"
 	},
-	"sort_order": 9,
-	"category": "event_category1"
+	
+	"sort_order": 5
 }

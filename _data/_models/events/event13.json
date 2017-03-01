@@ -1,22 +1,23 @@
 {
-	"title": "35th Annual Conch Republic Independence Celebration",
+	"title": "Aenean et consequat nisl",
 	"category": "event_category2",
-	"schedule": "April 21 – 30, 2017",
-	"short_description": "<p>With activities ranging from wacky bed race to a lighthearted sea battle featuring tall ships, the Conch Republic&rsquo;s</p>",
-	"long_description": "<p>With activities ranging from wacky bed race to a lighthearted sea battle featuring tall ships, the Conch Republic&rsquo;s 10-day birthday party showcases the independent and eccentric spirit that characterizes the Florida Keys.</p>",
-	"website_url": "http://conch-republic.com/cric-registration/",
-	"url_friendly_name": "35th-annual-conch-republic-independence-celebration",
+	"schedule": "March 4, 2017",
+	"short_description": "<p>Aenean eu malesuada massa, blandit cursus est. Quisque posuere, nisl et facilisis aliquet, justo lorem tincidunt nibh, nec eleifend nibh arcu in diam. Cras ac metus a odio tristique malesuada id nec eros. Aliquam at purus arcu. </p>",
+	"long_description": "<p>Suspendisse blandit purus vitae velit tincidunt, vitae facilisis felis porta. Duis id odio consequat, convallis felis sit amet, lobortis felis. Curabitur et ex laoreet, tincidunt mauris sit amet, faucibus tortor. Cras suscipit tincidunt neque eget malesuada. Sed non mollis magna, at vestibulum purus. Suspendisse id massa vel augue rhoncus ultricies ac eu leo. Nulla malesuada tempor lectus, sit amet vestibulum odio malesuada nec.</p>",
+	"url_friendly_name": "events3",
+	"website_url": "http://www.google.com/",
 	"thumb_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070100/conch-republic-celebration-key-west.jpg"
+		"url": "/images/events/events1.jpg"
 	},
 	"large_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070100/conch-republic-celebration-key-west.jpg"
+		"url": "/images/events/events1.jpg"
 	},
 	"short_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070100/conch-republic-celebration-key-west.jpg"
+		"url": "/images/events/events1.jpg"
 	},
 	"g_image1": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070100/conch-republic-celebration-key-west.jpg"
+		"url": "/images/events/events1.jpg"
 	},
-	"sort_order": 12
+	
+	"sort_order": 3
 }

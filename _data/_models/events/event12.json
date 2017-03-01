@@ -1,22 +1,23 @@
 {
-	"title": "Fourth Annual Cow Key Channel Bridge Run",
+	"title": "Aenean et consequat nisl",
 	"category": "event_category2",
-	"schedule": "April 2, 2017",
-	"short_description": "<p>Feel like running across a bridge in the Florida Keys without waking up early or breaking a sweat?</p>",
-	"long_description": "<p>Feel like running across a bridge in the Florida Keys without waking up early or breaking a sweat? Join zany-dressed participants for the world&rsquo;s only Zero K across one of the shortest bridges in the Keys. The event is free to watch.</p>",
-	"url_friendly_name": "fourth-annual-cow-key-channel-bridge-run",
-	"website_url": "http://cowkeybridgerun.com",
+	"schedule": "March 4, 2017",
+	"short_description": "<p>Aenean eu malesuada massa, blandit cursus est. Quisque posuere, nisl et facilisis aliquet, justo lorem tincidunt nibh, nec eleifend nibh arcu in diam. Cras ac metus a odio tristique malesuada id nec eros. Aliquam at purus arcu. </p>",
+	"long_description": "<p>Suspendisse blandit purus vitae velit tincidunt, vitae facilisis felis porta. Duis id odio consequat, convallis felis sit amet, lobortis felis. Curabitur et ex laoreet, tincidunt mauris sit amet, faucibus tortor. Cras suscipit tincidunt neque eget malesuada. Sed non mollis magna, at vestibulum purus. Suspendisse id massa vel augue rhoncus ultricies ac eu leo. Nulla malesuada tempor lectus, sit amet vestibulum odio malesuada nec.</p>",
+	"url_friendly_name": "events2",
+	"website_url": "",
 	"thumb_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070103/cowkeybridgerun-image1.jpg"
+		"url": "/images/events/events2.jpg"
 	},
 	"large_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070103/cowkeybridgerun-image1.jpg"
+		"url": "/images/events/events1.jpg"
 	},
 	"short_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070103/cowkeybridgerun-image1.jpg"
+		"url": "/images/events/events1.jpg"
 	},
 	"g_image1": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-21-070103/cowkeybridgerun-image1.jpg"
+		"url": "/images/events/events1.jpg"
 	},
-	"sort_order": 11
+	
+	"sort_order": 2
 }

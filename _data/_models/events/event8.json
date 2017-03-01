@@ -1,22 +1,23 @@
 {
-	"title": "National Margarita Day",
-	"schedule": "February 22nd, 2017  |  All Day",
-	"short_description": "<p>It&rsquo;s National Margarita Day and who doesn&rsquo;t love Margaritas? Each of our bartenders from both hotels have created their own Margarita recipe!</p>",
-	"long_description": "<p>It&rsquo;s National Margarita Day and who doesn&rsquo;t love Margaritas? Each of our bartenders from both hotels have created their own Margarita recipe! Vote on your favorite Margarita specials and the winning bartender gets a prize! Enjoy delicious Latin Inspired cuisine from Chef Justin at the Toasted Coconut // Blind Pig!</p>",
-	"url_friendly_name": "national-margarita-day",
-	"website_url": "https://www.24northhotel.com/",
+	"title": "Aenean et consequat nisl",
+	"category": "event_category2",
+	"schedule": "March 4, 2017",
+	"short_description": "<p>Aenean eu malesuada massa, blandit cursus est. Quisque posuere, nisl et facilisis aliquet, justo lorem tincidunt nibh, nec eleifend nibh arcu in diam. Cras ac metus a odio tristique malesuada id nec eros. Aliquam at purus arcu. </p>",
+	"long_description": "<p>Suspendisse blandit purus vitae velit tincidunt, vitae facilisis felis porta. Duis id odio consequat, convallis felis sit amet, lobortis felis. Curabitur et ex laoreet, tincidunt mauris sit amet, faucibus tortor. Cras suscipit tincidunt neque eget malesuada. Sed non mollis magna, at vestibulum purus. Suspendisse id massa vel augue rhoncus ultricies ac eu leo. Nulla malesuada tempor lectus, sit amet vestibulum odio malesuada nec.</p>",
+	"url_friendly_name": "events4",
+	"website_url": "http://www.google.com/",
 	"thumb_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023923/margarita-day-travel-trip-24-north.JPG"
+		"url": "/images/events/events2.jpg"
 	},
 	"large_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023923/margarita-day-travel-trip-24-north.JPG"
+		"url": "/images/events/events1.jpg"
 	},
 	"short_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023923/margarita-day-travel-trip-24-north.JPG"
+		"url": "/images/events/events1.jpg"
 	},
 	"g_image1": {
-		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023923/margarita-day-travel-trip-24-north.JPG"
+		"url": "/images/events/events1.jpg"
 	},
-	"sort_order": 8,
-	"category": "event_category1"
+	
+	"sort_order": 4
 }
