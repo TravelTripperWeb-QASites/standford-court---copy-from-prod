@@ -444,6 +444,53 @@ body{
     		}
             
    	   }
+   	   .fa{
+   	   	display:none;
+   	   }
+	    .owl-nav div,
+		.owl-nav div{
+			position:absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			border-radius: 0px;
+			padding: 20px;
+			background-color: #fff;
+			opacity: 1;
+			transition: all 0.1s;
+
+
+			&:hover {
+				opacity: 0.8 !important;
+			}
+
+
+			@media (max-width: 767px){
+					padding: 14px;
+				}
+		}
+
+		 .owl-nav .owl-prev{
+			left: 45px;
+			background-image: url(/images/left-arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+
+				@media (max-width: 767px){
+					left: 10px;
+				}
+
+		}
+		 .owl-nav .owl-next{
+			right: 45px;
+			background-image: url(/images/right-arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+
+				@media (max-width: 767px){
+					right: 10px;
+				}
+		}
+
    }
    #thumbs{
    	position: absolute;

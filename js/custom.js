@@ -22,6 +22,7 @@ $(document).ready(function() {
       autoplay: true,
       dots: false,
       loop: true,
+      nav: true,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut',
       responsiveRefreshRate : 200,
