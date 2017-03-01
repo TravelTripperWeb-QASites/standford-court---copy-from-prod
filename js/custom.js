@@ -225,3 +225,46 @@ $(function() {
    }
 },2000);
 });
+
+
+
+ $(document).ready(function() {
+     setTimeout(function(){
+
+       $(" #home-carousel-2").owlCarousel({
+
+
+          
+      items:2,
+      nav: true,
+      navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
+      smartSpeed: 200,
+      slideSpeed : 500, 
+      margin:20,
+      responsiveRefreshRate : 100,
+      responsive : {
+            // breakpoint from 0 up
+            0 : {
+                 items:1
+            },
+            // breakpoint from 480 up
+            600 : {
+                items:2
+            },
+            // breakpoint from 768 up
+            900 : {
+                items:2
+            },
+            1600 : {
+                items:2
+            }
+        }
+
+
+       });
+       setTimeout(function(){
+             $(".price-wrap1").css('display' ,'block');
+          },2000);
+     }, 2000);  
+   });
+  

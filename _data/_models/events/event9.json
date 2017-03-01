@@ -1,0 +1,22 @@
+{
+	"title": "Mardi Gras Celebration",
+	"schedule": "Fat Tuesday, February 28th, 2017  |  All Day",
+	"short_description": "<p>Join us for a Mardi Gras Celebration at 24 North Hotel. We&rsquo;ll have great New Orleans inspired drink specials</p>",
+	"long_description": "<p>Join us for a Mardi Gras Celebration at 24 North Hotel. We&rsquo;ll have great New Orleans inspired drink specials, food specials, beads and masks! Buy a drink and get a free mask!</p>\n<p>Join us at the bar for a fun celebration and some great music!</p>\n<p>Music from 4pm to 7pm</p>",
+	"url_friendly_name": "mardi-gras-celebration",
+	"website_url": "https://www.24northhotel.com/",
+	"thumb_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+	},
+	"large_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+	},
+	"short_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+	},
+	"g_image1": {
+		"url": "https://cdn.traveltripper.io/site-assets/359_384_1766/media/2017-02-10-023917/24-n-mardi-gras-tt.JPG"
+	},
+	"sort_order": 9,
+	"category": "event_category1"
+}

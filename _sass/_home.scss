@@ -180,6 +180,7 @@
       	 	    line-height: 58px;
       	 	    padding-top: 18px;
           	 }
+          	
           }
 
 	 }
@@ -1082,7 +1083,7 @@ hr{
    text-align: center;
    	@media(min-width: $screen-sm-min){
        	margin: 10px auto;
-       	padding: 40px;
+       	padding: 40px 0 40px 40px;
        	text-align: left;
        }
    	@media(min-width: $screen-md-min){
