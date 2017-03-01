@@ -981,6 +981,15 @@ body{
 		 	 @media(min-width: $screen-lg-min){
 		 	 	 font-size: 32px;
 		 	 }
+		 	 a{
+		 	 	    transition: all 0.5s ease;
+          	 	&:hover{
+
+          	 		color:#565353;
+          	 		transition: all 0.5s ease;
+          	 	}
+
+          	 }
 		 }
 		 .contacts{
 		 	margin-top: 20px;

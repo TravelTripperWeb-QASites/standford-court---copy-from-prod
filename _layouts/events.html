@@ -23,19 +23,19 @@ layout: default
   </ul>
 
 
-{% assign eventList = site.data._models.events | sort: 'datemeta' %}
+{% assign eventList = site.data._models.events | sort : 'sort_order' %}
 {% for events in eventList %}
 
 <section class="models events fancybox" data-filter="{{events.category.title}}">
       <div class="container">
         <div class="two-col-wrap">
-          	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.event_image.url}}" alt=""></div>
+          	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.thumb_image.url}}" alt=""></div>
           	<div class="col-sm-6 sp-content ">
            
-              <h3>{{events.page_title}}</h3>
-                 <h4><strong> {{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</strong> </h4>
+              <h3>{{events.title}}</h3>
+                 <h4><strong> {{events.schedule}}</strong> </h4>
                  <hr>
-               {{events.time}}
+               {{events.short_description}}
 
                 <div class="s-link"><a href="{{events.url_friendly_name}}" ><span>View this event</span></a></div>
     		 

@@ -20,7 +20,7 @@
 		}
 	}
 }
-.event-details {
+.event-details-section {
 	padding: 50px 0 0 0;
 		ul {
 			padding: 0 0 40px 0;
@@ -209,5 +209,129 @@
  	padding-bottom:0px;
  	
  }
+.event-detail{
+
+
+	.short-description{
+				padding: 30px;
+				margin:0px;
+			   
+			   @media(min-width: $screen-md-min)	{
+			  	padding: 0px 50px 15px 30px;
+				
+			  }
+	}
+
+	img{
+
+		width:100%
+	}
+
+}
+.all-events{
+
+	    background-color: #ede6dd;
+	    padding: 40px 0px;
+        margin-top: 50px;
+        .fa{
+        	display:none;
+        }
+        h3{
+        	  font-family: $headline-font-family;
+        	  text-align:center;
+			  padding:0px;
+			  text-transform:uppercase;
+			  color: $darkgray-color;
+			  font-size: 45px;
+			  word-spacing: 10px;
+			  letter-spacing: 1px;
+			  line-height: 48px;
+			  padding:0 15px 30px 15px;
+
+        }
+       .car-content{
+
+       	padding-top:25px;
+       	text-align: center;
+       }
+
+       .s-link{
+		padding:14px 14px 30px 14px;
+		font-family:$base-font-family1;
+		font-size:14px;
+		text-align: center;
+
+		a{
+		background:url(/images/gray-arrow.svg) right 0px;
+		background-size:30px;
+		text-decoration: none;
+	    background-repeat: no-repeat;
+		padding-right:52px;
+	    color:$darkgray-color;
+	    text-decoration:none;
+	     transition: all 0.5s ease;
+	    &:hover{
+		    text-decoration:none;
+		    color:$darkgrey;
+		    background:url(/images/gray-arrow.svg) right -18px;
+			background-size:30px;
+		    background-repeat: no-repeat;
+			   }
+			}
+		}	
+
+
+.owl-theme .owl-nav div,
+.owl-theme .owl-nav div{
+	position:absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 0px;
+	padding: 25px;
+	background-color: #5c6f7b;
+	opacity: 1;
+	transition: all 0.1s;
+
+
+	&:hover {
+		opacity: 0.8 !important;
+	}
+
+
+	@media (max-width: 767px){
+			padding: 14px;
+		}
+}
+
+.owl-theme .owl-nav .owl-prev{
+	left: 0px;
+	background-image: url(/images/left-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@media (max-width: 1240px){
+			left: 0px;
+		}
+		@media (max-width: 767px){
+			left: -5px;
+		}
+
+}
+.owl-theme .owl-nav .owl-next{
+	right: 0px;
+	background-image: url(/images/right-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	@media (max-width: 1240px){
+			right: 0px;
+		}
+		@media (max-width: 767px){
+			right: -5px;
+		}
+}
+}
+
+
 
 

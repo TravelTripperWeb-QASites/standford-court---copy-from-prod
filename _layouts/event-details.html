@@ -4,31 +4,118 @@ layout: default
 
 {% assign events = page %}
 {% assign model = page %}
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<section class="container attraction-wrapper">
+      <div class="no-gutter event-details-section">
+        <div class="col-sm-4 no-padding clearfix">
+          <div class="short-description">
+                <h4> {{events.schedule}} </h4>
+                <h2 class="title">{{events.title}}</h2>
+                <strong>{{events.long_description}}</strong>
+          </div>
 
-<section>
-  <div class="container-fluid no-padding">
-    <div class="page-banner location-banner" style="background-image: url(/images/gates/events-banner.jpg)">
-      <h1 class="page-title">{{events.page_title}}</h1>
-      <!--<div class="banner-btn"><a href="#" class="button-common">Download Map</a><a href="#" class="button-common">Download Fact Sheet</a></div>--> 
-    </div>
-  </div>
-</section>
-<section class="location-tabs event-details">
-  <div class=" container no-padding ">
-    <div class="content-container">
-      <div class="col-sm-6 no-padding">
-        <div class="desc">
-        	<h2>{{events.page_title}}</h2>
-            <h3><span class="date-label">Date</span>{{events.start_date  |  date: "%B %d, %Y"}} - {{events.end_date  |  date: "%B %d, %Y"}}</h3>
-            <h3><span class="date-label">Time</span>{{events.time}}</h3>
-			<div class="venue">
-            	<span class="date-label">Venue</span>{{events.venue}}
+        {% if events.website_url and events.website_url !="" %}  
+          <div class="btn-holder">
+
+       <a class="butn  uppercase" href="#">
+           View Events Website
+       </a>
+
+      </div>
+      {% endif %}
+      </div> 
+      <div class="col-sm-8 no-padding clearfix">
+          
+               <div id="roomDetailsCarousel" class="carousel slide">
+               
+              {% assign gallery = site.empty_array %}
+
+              {% if(events.g_image1 != null ) %} 
+                {% assign gallery = gallery | push : events.g_image1.url %}
+              {% endif %}
+
+              {% if(events.g_image2 != null) %}
+              {% assign gallery = gallery | push : events.g_image2.url %}
+              {% endif %}
+
+              {% if(events.g_image3 != null ) %}
+              {% assign gallery = gallery | push : events.g_image3.url %}
+               {% endif %}
+
+              {% if(events.g_image4 != null ) %}
+              {% assign gallery = gallery | push : events.g_image4.url %}
+              {% endif %}
+
+              {% if(events.g_image5 != null ) %}
+              {% assign gallery = gallery | push : events.g_image5.url %}
+              {% endif %}
+
+              {% if(events.g_image6 != null) %}
+              {% assign gallery = gallery | push : events.g_image6.url %}
+              {% endif %}
+ 
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              {% for g in gallery %}
+
+              <li data-target="#roomDetailsCarousel" data-slide-to="{{forloop.index | minus:1}}" class="{% if forloop.first %}active{% endif %} "></li>
+
+              {% endfor %}
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+              {% for g in gallery %}
+
+              <div class="item {% if forloop.first %}active{% endif %}">
+                <img src="{{g}}" alt=""/>
+              </div>
+
+              {% endfor %}
+
             </div>
-            <div class="website"><span class="date-label">Website</span><a href="{{events.website_url}}">{{events.website_url}}</a></div>
+          </div>
+         
+      </div>  
+     </div>
+     
+</section> 
+
+
+<section class="all-events">
+    <!--<div class="graphics"></div>-->
+
+    <div class="container-fluid no-padding home-specials-wrap">
+      <div class="container">
+        <h3 class="heading-large">More Events</h3>
+        <div id="home-carousel-2" class="owl-carousel owl-theme">
+          {% assign events = site.data._models.events | sort : 'sort_order' %}
+          {% for e in events %}
+          <div class="item">
+            <div class="home-specials-item2"> <img src="{{e.large_image.url}}" alt=""/>
+              <div class="car-content">
+               
+                {{e.short_description | truncate :80}}
+              </div>
+               <div class="s-link"><a href="/events/{{e.url_friendly_name}}" ><span>View this event</span></a></div>
+              </div>
+          </div>
+          {% endfor %}
         </div>
+        <div class="btn-holder text-center">
+         <a href="/events/" class="butn btn-wide uppercase">
+             View all Events
+         </a>
       </div>
-      <div class="col-sm-6 no-padding tabs-img" style="background-image: url({{events.event_image.url}})">   
+       
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  
+
+
+

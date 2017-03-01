@@ -1,5 +1,5 @@
 {
-    "title":
+    "name":
     {
       "required": true,
       "label": "Name"
