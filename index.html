@@ -318,7 +318,7 @@ parent: home
           
           {% for blog in blogs limit:1 %}
             {% if forloop.index == 1 %}
-              <div class="gross col-sm-5 no-padding  imgScale firstpost schwarz" style="background-image: url({{blog.blogimage.url}}) !important;">
+              <div class="gross col-sm-5 no-padding   imgScale firstpost schwarz " style="background-image: url({{blog.blogimage.url}}) !important;">
                 <div class="post-detail">
                   <h3 class="blog-title2">{{ blog.title }}</h3>
                   <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">Read Blog Post</a>
