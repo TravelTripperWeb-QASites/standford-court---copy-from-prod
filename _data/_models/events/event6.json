@@ -1,0 +1,16 @@
+{
+	"title": "Michael Carbonaro at the Masonic",
+	"category": "event_category1",
+	"schedule": "March 12",
+	"short_description": "<p>Actor, magician, comedian and improv artist known for his original hidden camera magic series.</p>",
+	"long_description": "<p>Actor, magician, comedian and improv artist known for his original hidden camera magic series, THE CARBONARO EFFECT on truTV, Michael Carbonaro has been seen in recurring roles in television such as , Happily Divorced, The Newsroom, 30 Rock, How to Make it in America, The Wizards of Waverly Place and CSI Miami. </p><p>Michael hosts and performs shows of comedy, magic and other acts for corporate events and private venues as well as various venues all over the US, including the ever popular Joe’s Pub, Caroline’s on Broadway, The Box, and Hollywood’s Magic Castle.</p>",
+	"website_url": "http://sfmasonic.com/event/michael-carbonaro/",
+	"url_friendly_name": "michael-carbonaro-at-the-masonic",
+	"sort_order": 6,
+	"thumb_image": {
+		"url": "/images/events/michael.jpg"
+	},
+	"g_image1": {
+		"url": "/images/events/big/michael-big.jpg"
+	}
+}

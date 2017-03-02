@@ -95,7 +95,7 @@ layout: default
           {% assign events = site.data._models.events | sort : 'sort_order' %}
           {% for e in events %}
           <div class="item">
-            <div class="home-specials-item2"> <img src="{{e.large_image.url}}" alt=""/>
+            <div class="home-specials-item2"> <img src="{{e.thumb_image.url}}" alt=""/>
               <div class="car-content">
                
                 {{e.short_description | truncate :80}}
