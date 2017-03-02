@@ -1,0 +1,18 @@
+{
+	"title": "Test2",
+	"category": "event_category1",
+	"schedule": "Test2",
+	"short_description": "<p>Test2</p>",
+	"long_description": "<p>Test2</p>",
+	"url_friendly_name": "test-link",
+	"sort_order": 1,
+	"thumb_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"large_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	},
+	"g_image1": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123318/gallery-rooms-thumb-9.JPG"
+	}
+}
