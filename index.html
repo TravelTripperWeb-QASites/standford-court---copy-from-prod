@@ -72,6 +72,7 @@ parent: home
     <div class="row">
       <div class="table-eq margin-15">
         <div class="left-cell">
+        <div class="home-video-play-button"><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/FmiE9i-lI3k?rel=0&modestbranding=1&showinfo=0&theme=light"><img src="/images/play-icon.svg"></a></div>
           <img src="/images/homepage/command-pillow.jpg" class="ctrl img-responsive">
           <img src="/images/homepage/ipad.jpg" class="ctrl  img-responsive">
         </div>
@@ -415,3 +416,26 @@ parent: home
 </div>
 </div>
 </section>
+
+<!-- MODAL -->
+<div class="homevideo-model">
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-video">
+                      <div class="embed-responsive embed-responsive-16by9">
+                           <iframe width="100%" height="auto" src="" allowfullscreen></iframe>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+

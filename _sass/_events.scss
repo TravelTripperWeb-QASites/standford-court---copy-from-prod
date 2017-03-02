@@ -231,22 +231,32 @@
 .all-events{
 
 	    background-color: #ede6dd;
-	    padding: 40px 0px;
-        margin-top: 50px;
+	    padding: 25px 0px;
+    	margin-top: 25px;
+        @media(min-width: $screen-sm-min)	{
+        	 padding: 40px 0px;
+       		 margin-top: 50px;
+        }
         .fa{
         	display:none;
         }
         h3{
         	  font-family: $headline-font-family;
         	  text-align:center;
-			  padding:0px;
 			  text-transform:uppercase;
 			  color: $darkgray-color;
-			  font-size: 45px;
+			  font-size: 35px;
 			  word-spacing: 10px;
 			  letter-spacing: 1px;
-			  line-height: 48px;
-			  padding:0 15px 30px 15px;
+			  line-height: 35px;
+			  padding:0 15px 10px 15px;
+			  @media(min-width: $screen-sm-min)	{
+
+			  	 font-size: 45px;
+			  	 line-height: 48px;
+			  	 padding:0 15px 30px 15px;
+				
+			  }
 
         }
        .car-content{
@@ -256,10 +266,14 @@
        }
 
        .s-link{
-		padding:14px 14px 30px 14px;
+		padding:14px;
 		font-family:$base-font-family1;
 		font-size:14px;
 		text-align: center;
+
+		@media(min-width: $screen-sm-min)	{
+			padding:14px 14px 30px 14px;
+		}
 
 		a{
 		background:url(/images/gray-arrow.svg) right 0px;
@@ -287,7 +301,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 0px;
-	padding: 25px;
+	padding: 18px;
 	background-color: #5c6f7b;
 	opacity: 1;
 	transition: all 0.1s;
@@ -297,9 +311,9 @@
 		opacity: 0.8 !important;
 	}
 
+		@media(min-width: $screen-sm-min)	{
+			padding: 25px;
 
-	@media (max-width: 767px){
-			padding: 14px;
 		}
 }
 
