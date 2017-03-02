@@ -1,0 +1,22 @@
+{
+	"title": "St. Patrick's Day Parade",
+	"category": "event_category1",
+	"schedule": "March 11",
+	"short_description": "<p>I am the granddaughter of four Irish immigrants.  </p>",
+	"long_description": "<p>They all came to the United States in the early 1900s, part of the wave of Irish immigrants who came to the United States because of the political unrest in Ireland during her struggle for independence from England.</p>",
+	"website_url": "http://www.uissf.org/",
+	"url_friendly_name": "st-patrick-parade",
+	"sort_order": 4,
+	"thumb_image": {
+		"url": "/images/events/st-patrick-parade.jpg"
+	},
+	"g_image1": {
+		"url": "/images/events/big/st-patrick-parade-big1.jpg"
+	},
+	"g_image2": {
+		"url": "/images/events/big/st-patrick-parade-big2.jpg"
+	},
+	"g_image3": {
+		"url": "/images/events/big/st-patrick-parade-big3.jpg"
+	}
+}
