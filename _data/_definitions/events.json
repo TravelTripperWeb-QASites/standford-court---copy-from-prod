@@ -1,5 +1,5 @@
 {
-    "name":
+    "title":
     {
       "required": true,
       "label": "Name"
@@ -28,7 +28,7 @@
       "type": "richtext",
       "label": "Events Detail Page Description"
     },
-    "url":
+    "url_friendly_name":
     {
       "required": true,
       "type": "text",
@@ -36,7 +36,7 @@
     },
     "website_url":
     {
-      "required": true,
+      
       "type": "url",
       "label": "Events Website URL"
     },
@@ -49,20 +49,8 @@
       "label": "Events List Page Thumb Image"
 
     },
-    "large_image":
-    {
-      "required": true,
-      "type": "image",
-      "label": "Events Detail Page Large Image"
-
-    },
-    "short_image":
-    {
-      "required": true,
-      "type": "image",
-      "label": "Events Detail Page Short Image"
-
-    },
+   
+    
     "g_image1":
     {
      "required": true,

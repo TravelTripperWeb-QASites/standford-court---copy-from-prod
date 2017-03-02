@@ -321,8 +321,8 @@ parent: home
             {% if forloop.index == 1 %}
               <div class="gross col-sm-5 no-padding   imgScale firstpost schwarz " style="background-image: url({{blog.blogimage.url}}) !important;">
                 <div class="post-detail">
-                  <h3 class="blog-title2">{{ blog.title }}</h3>
-                  <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">Read Blog Post</a>
+                 <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon"> <h3 class="blog-title2">{{ blog.title }}</h3>
+                  Read Blog Post</a>
                   <ul class="share-social">
                     <li> <a href="https://facebook.com/sharer.php?u=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Facebook">
                     <i class="fa fa-facebook"></i></a>
@@ -346,9 +346,9 @@ parent: home
                 {% if forloop.index == 2 %}
                   <div class="col-sm-12 no-padding sqaure-post schwarz" style="background-image: url({{blog.blogimage.url}}) !important;">
                     <div class="post-detail">
-                      
+                       <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">
                       <h3>{{ blog.title }}</h3>
-                      <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">Read Blog Post</a>
+                     Read Blog Post</a>
                       <ul class="share-social">
                         <li> <a href="https://facebook.com/sharer.php?u=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Facebook">
                         <i class="fa fa-facebook"></i></a>
@@ -370,9 +370,9 @@ parent: home
                   <div class="post-detail">
                     
                     
-                    
+                    <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">
                     <h3>{{ blog.title }}</h3>
-                    <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">Read Blog Post</a>
+                    Read Blog Post</a>
                     <ul class="share-social">
                       <li> <a href="https://facebook.com/sharer.php?u=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Facebook">
                       <i class="fa fa-facebook"></i></a>
@@ -394,10 +394,10 @@ parent: home
                 <div class="post-detail">
                   
                   
-                  
+                  <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">
                   
                   <h3>{{ blog.title }}</h3>
-                  <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">Read Blog Post</a>
+                  Read Blog Post</a>
                   <ul class="share-social">
                     <li><a href=""> <i class="fa fa-facebook"></i></a></li>
                     <li><a href=""> <i class="fa fa-twitter"></i></a></li>
