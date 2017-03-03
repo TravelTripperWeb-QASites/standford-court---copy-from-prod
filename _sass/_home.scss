@@ -1297,11 +1297,18 @@ hr{
                  @media(min-width: $screen-md-min){
                     font-size: 12px;
                  }
-                 h3{
+                 a{
                  	 font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
                  	 margin: 0px;
                  	 line-height: 18px;
                  	 font-size: 16px;
+                 	 text-decoration:none;
+                 	 color:#fff;
+                 	  transition: all 0.5s ease;
+                 	 &:hover{
+                 	 	 color:#ede6dd;
+                 	 	 transition: all 0.5s ease;
+                 	 }
                  	 @media(min-width: $screen-sm-min){
                  	 	line-height: 34px;
                  	 	font-size: 18px;
