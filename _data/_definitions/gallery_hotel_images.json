@@ -1,0 +1,12 @@
+{
+    "thumb_image":
+    {
+        "type": "image",
+        "required": true
+    },
+    "large_image":
+    {
+      "type": "image",
+      "required": true
+    }
+}

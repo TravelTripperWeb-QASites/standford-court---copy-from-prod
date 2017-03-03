@@ -1,0 +1,121 @@
+---
+layout: default
+---
+
+{% assign events = page %}
+{% assign model = page %}
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<section class="container attraction-wrapper">
+      <div class="no-gutter event-detail">
+        <div class="col-sm-4 no-padding clearfix">
+          <div class="short-description">
+                <h4> {{events.schedule}} </h4>
+                <h2 class="title">{{events.title}}</h2>
+                <strong>{{events.long_description}}</strong>
+          </div>
+
+        {% if events.website_url and events.website_url !="" %}  
+          <div class="btn-holder">
+
+       <a class="butn  uppercase" target="_blank" href="{{events.website_url}}">
+           Learn More
+       </a>
+
+      </div>
+      {% endif %}
+      </div> 
+      <div class="col-sm-8 no-padding clearfix">
+          
+               <div id="roomDetailsCarousel" class="carousel slide">
+               
+              {% assign gallery = site.empty_array %}
+
+              {% if(events.g_image1 != null ) %} 
+                {% assign gallery = gallery | push : events.g_image1.url %}
+              {% endif %}
+
+              {% if(events.g_image2 != null) %}
+              {% assign gallery = gallery | push : events.g_image2.url %}
+              {% endif %}
+
+              {% if(events.g_image3 != null ) %}
+              {% assign gallery = gallery | push : events.g_image3.url %}
+               {% endif %}
+
+              {% if(events.g_image4 != null ) %}
+              {% assign gallery = gallery | push : events.g_image4.url %}
+              {% endif %}
+
+              {% if(events.g_image5 != null ) %}
+              {% assign gallery = gallery | push : events.g_image5.url %}
+              {% endif %}
+
+              {% if(events.g_image6 != null) %}
+              {% assign gallery = gallery | push : events.g_image6.url %}
+              {% endif %}
+ 
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              {% for g in gallery %}
+
+              <li data-target="#roomDetailsCarousel" data-slide-to="{{forloop.index | minus:1}}" class="{% if forloop.first %}active{% endif %} "></li>
+
+              {% endfor %}
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+              {% for g in gallery %}
+
+              <div class="item {% if forloop.first %}active{% endif %}">
+                <img src="{{g}}" alt=""/>
+              </div>
+
+              {% endfor %}
+
+            </div>
+          </div>
+         
+      </div>  
+     </div>
+     
+</section> 
+
+
+<section class="all-events">
+    <!--<div class="graphics"></div>-->
+
+    <div class="container-fluid no-padding home-specials-wrap">
+      <div class="container">
+        <h3 class="heading-large">More Events</h3>
+        <div id="home-carousel-2" class="owl-carousel owl-theme">
+          {% assign events = site.data._models.events | sort : 'sort_order' %}
+          {% for e in events %}
+          <div class="item">
+            <div class="home-specials-item2"> <img src="{{e.thumb_image.url}}" alt=""/>
+              <div class="car-content">
+               
+                {{e.short_description | truncate :80}}
+              </div>
+               <div class="s-link"><a href="/events/{{e.url_friendly_name}}" ><span>View this event</span></a></div>
+              </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="btn-holder text-center">
+         <a href="/events/" class="butn btn-wide uppercase">
+             View all Events
+         </a>
+      </div>
+       
+      </div>
+    </div>
+  </section>
+
+  
+
+
+

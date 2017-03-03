@@ -1,0 +1,387 @@
+#top-spacer{
+	 height: 101px;
+	 border-bottom: 1px solid #ebebeb;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  padding-bottom: 1em;
+}
+#datepicker{ 
+	 .ui-datepicker-header{
+       background: $black;
+       border-radius: 0px;
+       border-width: 0px;
+       padding: 15px;
+       text-transform: normal;
+
+	}
+	.ui-state-default{
+		color: $black !important;
+	}
+	 .dp-highlight .ui-state-default{
+          background: #948671;
+          color: $black !important; 
+        }
+	.ui-state-hover{
+		 background: transparent;
+		 border: 0px;
+		 &:hover{
+		 	border: 0px;
+		 }
+	}
+	.ui-datepicker-title{
+		font-family: 'GothamHTF Book';
+		font-size: 18px;
+		font-weight: normal;
+	}
+	.ui-datepicker-next, .ui-datepicker-prev{ 
+			 top: 11px;
+		 span{
+			 background-image: url('/images/calendar-icon.png');  
+			 color: white;
+			 height: 30px;
+			 width: 30px;
+			 left: 14px;
+			 top: 16px;
+
+			 &.ui-icon-circle-triangle-e {
+				    background-position: right -8px top -2px;
+				}
+			&.ui-icon-circle-triangle-w {
+				    background-position: left -8px top -2px;
+				}
+		}
+	}
+	.ui-state-default{
+		 text-align: center !important;
+		 border: none ;
+		 &:hover{
+		 	 border: none;
+		 }
+	}
+}
+.ui-datepicker td[title]::after {
+  content: attr(title);
+  display: block;
+  position: relative;
+  font-size: .8em; 
+  margin-top: -1.8em;
+  text-align: right;
+  padding-right: .25em;
+  cursor: pointer;
+  text-align: center;
+}
+.rooms-nav{
+	 list-style-type: none;
+	 padding: 0px;
+	 margin: 17px auto;
+	 float: none;
+	 width: 100%;
+	 text-align: center;
+     font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
+	    li{
+	    	 display: inline-block;
+	    	 float: none;
+	    	 letter-spacing: 0.16em;
+	    	 text-transform: uppercase;
+	    	  a{
+	    	  	 padding: 4px 10px;
+	    	  	 color: #c9c9c8;
+	    	  	 text-decoration: none;
+	    	  	 transition: all 0.5s ease;
+	    	  	 &.active, &:hover{
+	    	  	 	 color: #161515;
+	    	  	 }
+	    	  }
+	    }
+
+}
+.rooms-wrapper{
+        margin-top: 29px;
+		.short-description{
+			border-right: 1px solid #CCC;
+			padding: 30px;
+			margin: 10px 0px; 
+	      @media(min-width: $screen-sm-min)	{
+		  	padding: 30px 40px;
+			margin: 30px 0px; 
+		  }
+		  @media(min-width: $screen-md-min)	{
+		  	padding: 30px 60px;
+			margin: 30px 0px; 
+		  }
+		  @media(min-width: $screen-custom-min)	{
+		  	padding: 30px 95px;
+			margin: 30px 0px; 
+		  }
+			
+			 h4{
+			 	 text-transform: uppercase;
+			 	 font-size: 15px;
+			 	 letter-spacing: 0.1em;
+			 }
+			 .title{
+			 	 font-size: 42px;
+		 	     line-height: 42px;
+		 	     margin: 18px 0px;
+			 }
+			 p.short-detail{
+			 	    margin-top: 35px;
+		            line-height: 23px;
+		            max-width: 385px;
+		            letter-spacing: 0.01em;
+		            color: #575757;
+		            strong{
+		            	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+		            }
+			 }
+		}
+		.room-type{
+			padding: 10px 0px 30px 15px;
+			@media(min-width: $screen-sm-min){
+				padding: 106px 0px 67px 25px;
+			}
+			@media(min-width: $screen-md-min){
+				padding: 106px 0px 67px 55px;
+			}
+			@media(min-width: $screen-custom-min){
+				padding: 106px 0px 67px 55px;
+			}
+			 
+		     p{
+		     	 padding-left: 54px;
+		     }
+			  ul{
+			  	  padding: 22px 5px;
+			  	  margin: 0px;
+			  	  list-style-type: none;
+			  	  li{
+			  	  	  display: block;
+			  	  	 margin-bottom: 9px;
+			  	  	 transition: all 0.5s ease;
+			  	  	 background: url('/images/arrow-icon-white.png');
+			  	  	 background-position: left 3px;
+			  	  	 background-repeat:  no-repeat;
+			  	  	  a{
+			  	  	  	 padding-left: 50px;
+			  	  	  	 color: #c9c9c8;
+			  	  	  	 font-weight: bold;
+			  	  	  	 text-decoration: none; 
+		                  transition: all 0.5s ease;
+			  	  	  }
+			  	  	  &.active, &:hover{
+			  	  	  	   a{
+			  	  	  	   	 color: $black; 
+			  	  	  	   	 text-decoration: none;
+			  	  	  	   }
+		                   background: url('/images/arrow-icon.png');
+		                   background-position: left 3px;
+			  	  	       background-repeat:  no-repeat;
+
+			  	  	  }
+			  	  }
+			  }
+		}
+		.main-image{
+			  position: relative;
+			  text-align: center;
+			  img{
+			  	  position: relative;
+                  width: 100%;
+
+			  }
+			  .rate-block{
+			  	  position: absolute;
+			  	  top: 0px;
+			  	  left: 0px;
+			  	  right: 0px;
+			  	  bottom: 0px;
+			  	  width: 100%;
+			  	  color: white;
+                  h4{ 
+                        padding: 15px 0px 15px 0px;
+                        @media(min-width: $screen-sm-min){
+                        	padding: 25px 0px 15px 0px;
+                        }
+                        @media(min-width: $screen-md-min){
+                        	padding: 35px 0px 25px 0px;
+                        }
+                        @media(min-width: $screen-custom-min){
+                        	padding: 55px 0px 35px 0px;
+                        }
+			  	       
+					    font-size: 15px;
+					    letter-spacing: 0.1em;
+					    text-transform: uppercase;
+                  }
+			  	  h2{
+		  	  	     font-size: 150px;
+		  	  	     line-height: 142px;
+		  	  	     max-width: 619px;
+		  	  	     margin: 0 auto;
+		  	  	     letter-spacing: 0.08em; 
+			  	  }
+			  }
+		}
+
+}
+.room-description{
+   padding: 80px 50px;
+   max-width: 550px;
+    h4{
+    	 text-transform: uppercase;
+    	 letter-spacing: 0.1em;
+    	 font-size: 15px;
+    	 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
+    }
+    p{
+    	margin-top: 28px;
+    }
+    p strong{
+    	 font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+    }
+}
+.no-leftpadding{
+	  padding-left: 0px;
+}
+.amenities-wrapper{
+	margin-top: 60px;
+	position: relative;
+	   .btn-holder {
+	   	 min-width: 300px;
+	   }
+	  .amenities-list{
+	  	padding: 40px 50px; 
+		@media(min-width: $screen-md-min){
+		  	padding: 40px 80px;
+		}
+		@media(min-width: $screen-lg-min){
+		  	padding: 83px 50px 50px 161px;
+		}
+	  	ul{
+	  		 list-style-type: none;
+	  		 padding: 21px 0px;
+	  		 margin:0px;
+	  		 li{
+	  		 	line-height: 18px;
+	  		 	@media(min-width: $screen-md-min){
+	  		 	 line-height: 20px;
+	  		 	}
+	  		   @media(min-width: $screen-lg-min){
+	  		 	 line-height: 24px;
+	  		 	}
+	  		 }
+	  	}
+	  }
+}
+#roomsSlider{
+	img{
+		 width: 100%;
+	}
+	h4{
+		 text-transform: uppercase;
+		 font-size: 11px;
+		 letter-spacing: 0.1em; 
+		 @media(min-width: $screen-sm-min){
+		 	font-size: 15px;
+		 	margin-bottom: 40px;
+		 }
+	}
+	 .carousel-caption{
+	 	text-shadow: none !important;
+	 	position: absolute;
+	 	    top: 0px;
+	 	    left: 0px;
+	 	    right: 0px;
+	 	    bottom: 0px;
+	 	    width: 100%;
+	 	    color: white; 
+	 	    max-width: 700px;
+	 	    margin: 0 auto;
+	 	    @media(min-width: $screen-sm-min){
+	 	    	 top: 56px;
+	 	    }
+	 	    @media(min-width: $screen-md-min){
+	 	    	 top: 60px;
+	 	    }
+	 	    @media(min-width: $screen-lg-min){
+	 	    	 top: 66px;
+	 	    }
+	 }
+}
+
+.booking-wrapper{
+	 padding: 10px;
+	 @media(min-width: $screen-sm-min){
+         padding: 73px 50px  0px 0px;
+	 } 
+	 margin: 0 auto;
+     max-width: 427px;
+	 .ui-datepicker{
+	 	 width: 100%;
+	 	 max-width: 377px;
+	 	 border-radius: 0px;
+	 	 font-family: 'GothamHTF Light';
+	 	 text-transform: uppercase;
+	 	 table{
+	 	 	 font-size: 15px;
+	 	 	 color: $black;
+	 	 	 th{
+	 	 	 	padding: 1.2em .3em;
+	 	 	 	 font-size: 13px;
+	 	 	 }
+	 	 	 td {
+	 	 	 	 border-left: 0px;
+	 	 	 	 border-right: 0px; 
+	 	 	 	 padding-left: 0px;
+	 	 	 	 padding-right: 0px; 
+	 	 	 	 padding-top: 7px;
+	 	 	 	 &.ui-datepicker-today{
+                    	a{
+                    		background: #d7cd96 !important; 
+
+                    		} 
+                    }
+                  &.dp-highlight{
+                  	a{
+                  		 background: #948671 !important; 
+                  		}
+                  }
+	 	 	 	 span{
+	 	 	 	 	padding-bottom: 2em;
+	 	 	 	 }
+	 	 	 	 a{
+	 	 	 	 	 padding-bottom: 2em;
+
+	 	 	 	 }
+	 	 	 }
+	 	 }
+	 }
+	 .no-rightpadding{
+	 	 padding-right: 0px;
+	 }
+	 .form-group{
+	 	margin-bottom: 0px;
+	 	 label{
+	 	 	 width: 100%;
+	 	 	 display: block;
+	 	 	 text-transform: uppercase;
+	 	 	 line-height: 31px;
+	 	 	 padding-top: 4px;
+	 	 	 padding-left:10px;
+	 	 	 font-size: 12px;
+	 	 }
+	 	 .form-control{
+	 	 	 height: 58px;
+	 	 	 border-radius: 0px;
+	 	 }
+	 }
+	 .btn-holder{
+	 	 padding-left: 0px;
+	 	 padding-right: 0px;
+	 	 .butn{
+	 	 	 width: 100%;
+	 	 }
+	 }
+}

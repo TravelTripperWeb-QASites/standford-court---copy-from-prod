@@ -1,0 +1,16 @@
+{
+	"title": "Rock and Roll Half Marathon",
+	"category": "event_category1",
+	"schedule": "March 26",
+	"short_description": "<p>The Rock ‘n’ Roll Marathon Series will be celebrating 20 Years Running this year in 2017.</p>",
+	"long_description": "<p>The Rock ‘n’ Roll Marathon Series will be celebrating 20 Years Running this year in 2017. It all began in San Diego in 1998. This year will also mark United Airlines Rock ‘n’ Roll Half Marathon San Francisco’s 5th year with the series since the inaugural race in 2013. </p><p>Through the years, Rock ‘n’ Roll San Francisco has become an iconic Bucket List race as it’s one the only half marathons that cross the Golden Gate Bridge. Join us in San Francisco in 2017 for our series-wide celebration of 20 Years Running!</p>",
+	"website_url": "http://www.runrocknroll.com/san-francisco/",
+	"url_friendly_name": "rock-and-roll-half-marathon",
+	"sort_order": 7,
+	"thumb_image": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_2044/media/2017-03-02-124316/rock-n-roll.jpg"
+	},
+	"g_image1": {
+		"url": "https://cdn.traveltripper.io/site-assets/446_617_2044/media/2017-03-03-071900/rock-n-roll-big.jpg"
+	}
+}

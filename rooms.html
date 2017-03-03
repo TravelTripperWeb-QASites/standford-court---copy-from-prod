@@ -1,0 +1,53 @@
+---
+layout: default
+title: StanfordCourt
+excerpt: stanfordcourt.com
+parent: rooms
+---
+
+<div class="container sub-nav ">
+
+<nav class="rooms-list-nav">
+
+  <ul class="rooms-nav-nav mr-auto">
+    <li class="nav-item" ng-repeat="cat in browser.roomCategories">
+      <a href="#[[cat]]" class="link">[[cat]]</a>
+    </li>
+  </ul>
+
+</nav>
+</div>
+
+<section class="container no-gutter">
+
+  <div class="special-banner">
+
+    <div class="banner-inner">
+      <h3>Stanford court rooms & Suites</h3>
+      <h1>Luxury Redefined</h1>
+      <p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="[[cat]]" ng-repeat="cat in browser.roomCategories">
+<div class="container no-gutter rooms-list">
+  <div class="col-md-12"><h2>[[cat]]</h2></div>
+
+
+  <div class="col-md-4" ng-class="{'' : $first == $last }" ng-repeat="room in browser.roomsList | filter: {category: cat}">
+  <img  ng-src="[[room.photos[0].yankee_large]]" class="img-responsive">
+    <div class="btn-holder text-left">
+       <a class="butn btn-white uppercase" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+        BOOK THIS ROOM
+       </a>
+     </div>
+    <div class="r-cost"><span ng-show="room.todayRate != 'CHECK AVAILABILITY'">From </span><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank"><span>[[ room.todayRate ]]</span></a></div>
+    <div class="r-link"><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></div>
+  </div>
+
+
+</div>
+</section>

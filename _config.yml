@@ -1,10 +1,34 @@
-
-gems:
-- jekyll-sitemap
-keep_files:
-- assets
-rsync_copy:
-- _assets
+permalink: pretty
 
 default_lang: 'en'
 languages: ['en']
+
+
+port: 8080
+booking_widget_url: https://stanfordcourt.reztrip.com/mobile
+
+data_paginate: 
+  per_page: 6
+  data: 'blog'
+  path: 'blog/page:num'
+  pagination_template: 'blog/index.html'
+  sort_field: 'date'
+  sort_reverse: true
+
+
+#paginate_path: "/page:num/"
+markdown: kramdown 
+empty_array: []
+page_gen:
+
+  - data: 'blog'
+    template: 'blog-details'
+    dir: 'blog'
+  - data: 'category'
+    template: 'category'
+    dir: 'categories'
+  - data: 'events'
+    template: 'event-details'
+    dir: 'events'
+    
+
