@@ -169,7 +169,7 @@ body{
 			font-size: 10px; 
 		}
 		@media(min-width: $screen-custom-min){
-			 padding: 15px 53px;
+			 padding: 15px 40px;
 		}
 		&:hover{
 			background: #5c6f7b;
@@ -286,6 +286,11 @@ body{
 	 			margin-top: 6px;
 	 		}
 	 	}
+	
+	 }
+	  .navbar-nav{
+	 	padding-left:0px;
+
 	 }
 	 .navbar-toggler{
 	 	display: inherit;
@@ -341,17 +346,16 @@ body{
  	 			letter-spacing: 0.05em;
  	 			padding: 10px 10px; 
 	 	 		@media( min-width: $screen-md-min){
-	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 12px;
+	 	 			letter-spacing: 0.02em;
+	 	 			padding: 0px 10px;
 	 	 		}
 	 	 		@media( min-width: $screen-lg-min){
 	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 14px;
+	 	 			padding: 0px 11px;
 	 	 			letter-spacing: 0.07em;
 	 	 		}
 	 	 		@media( min-width: $screen-custom-min){
-	 	 			padding: 0px 15px;
-	 	 		   letter-spacing: 0.14em; 
+	 	 			letter-spacing: 0.10em; 
 	 	 		}
 	 	 		&.active{
 	 	 			 color: $black;
@@ -439,6 +443,53 @@ body{
     		}
             
    	   }
+   	   .fa{
+   	   	display:none;
+   	   }
+	    .owl-nav div,
+		.owl-nav div{
+			position:absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			border-radius: 0px;
+			padding: 20px;
+			background-color: #fff;
+			opacity: 1;
+			transition: all 0.1s;
+
+
+			&:hover {
+				opacity: 0.8 !important;
+			}
+
+
+			@media (max-width: 767px){
+					padding: 14px;
+				}
+		}
+
+		 .owl-nav .owl-prev{
+			left: 45px;
+			background-image: url(/images/left-arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+
+				@media (max-width: 767px){
+					left: 10px;
+				}
+
+		}
+		 .owl-nav .owl-next{
+			right: 45px;
+			background-image: url(/images/right-arrow-black.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+
+				@media (max-width: 767px){
+					right: 10px;
+				}
+		}
+
    }
    #thumbs{
    	position: absolute;
@@ -976,6 +1027,15 @@ body{
 		 	 @media(min-width: $screen-lg-min){
 		 	 	 font-size: 32px;
 		 	 }
+		 	 a{
+		 	 	    transition: all 0.5s ease;
+          	 	&:hover{
+
+          	 		color:#565353;
+          	 		transition: all 0.5s ease;
+          	 	}
+
+          	 }
 		 }
 		 .contacts{
 		 	margin-top: 20px;

@@ -11,11 +11,13 @@
     <div class="container-fluid">
       <div class="row">
          <div class="col-sm-4 offers-card" ng-repeat="offer in offers.special_rates | limitTo:3 ">
+          <a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink]]">
          <div class="background" ng-style="{'background-image': 'url([[offer.lead_photo_url.yankee_large]])'}"></div>
-            <span class="item_no">[[$index +1]]</span>a
+            <!-- <span class="item_no">[[$index +1]]</span> -->
             <div class="info">
-            <a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink]]"><h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2></a>
+            <h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2>
             </div>
+            </a>
          </div>
 
 

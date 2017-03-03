@@ -180,6 +180,7 @@
       	 	    line-height: 58px;
       	 	    padding-top: 18px;
           	 }
+          	
           }
 
 	 }
@@ -267,17 +268,47 @@ hr{
 	 	 	.left-cell{
 	 	 		width: 35.4%;
 	 	 		display: table-cell;
+	 	 		position:relative;
 	 	 		@media(min-width: $screen-custom-min){
 			 		width: 34%;
 			 	}
 			 	@media(max-width: $screen-xs-max){
 			 		display: block;
 			 		width: 100%;
+			 		overflow:hidden;
 			 		.ctrl{
 			 			width: 50%;
 			 			float: left;
 			 		}
 			 	}
+			 	.home-video-play-button{
+
+					width: 100px;
+				    position: absolute;
+		    	    top: 50%;
+				    left: 16%;
+				    transform: translate(-16%, -50%);
+					@media(min-width: $screen-sm-min){
+				 		top: 20%;
+						left: 50%;
+						transform: translate(-50%, -20%);
+
+				 	}
+				    
+
+				    a{
+				    	opacity: 0.7;
+				    	transition: all 0.6s ease;
+
+				    	&:hover{
+
+				    	opacity: 0.9;
+				    	transition: all 0.6s ease;
+
+				    	}
+				    }
+
+				}
 
 	 	 	}
 	 	 	.high-style
@@ -1082,7 +1113,7 @@ hr{
    text-align: center;
    	@media(min-width: $screen-sm-min){
        	margin: 10px auto;
-       	padding: 40px;
+       	padding: 40px 0 40px 40px;
        	text-align: left;
        }
    	@media(min-width: $screen-md-min){
@@ -1266,11 +1297,18 @@ hr{
                  @media(min-width: $screen-md-min){
                     font-size: 12px;
                  }
-                 h3{
+                 a{
                  	 font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
                  	 margin: 0px;
                  	 line-height: 18px;
                  	 font-size: 16px;
+                 	 text-decoration:none;
+                 	 color:#fff;
+                 	  transition: all 0.5s ease;
+                 	 &:hover{
+                 	 	 color:#ede6dd;
+                 	 	 transition: all 0.5s ease;
+                 	 }
                  	 @media(min-width: $screen-sm-min){
                  	 	line-height: 34px;
                  	 	font-size: 18px;
@@ -1306,21 +1344,25 @@ hr{
 }
 .blog-wrapper{
 	.post-detail{
-		padding: 20px;
+		padding: 12px;
+		background-color: rgba(92, 111, 123, 0.6);
 		width: 100%;
 		text-align: center;
+		 max-width: 80%;
 		@media(min-width: $screen-sm-min){
-			 padding: 30px;
+			 padding: 12px;
 			 position: absolute;
 			 top: 50%;
 			 left: 50%;
 			 transform: translate(-50%, -50%);
+
 		}
 		@media(min-width: $screen-md-min){
-			padding: 40px;
+			padding: 12px;
 		}
 		@media(min-width: $screen-custom-min){
-			 padding: 50px;
+			 padding: 12px;
+
 		}
 		h3{
             font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
@@ -1331,10 +1373,10 @@ hr{
             	 font-size: 22px;
             }
             @media(min-width: $screen-md-min){
-            	font-size: 35px;
+            	font-size: 30px;
             }
             @media(min-width: $screen-custom-min){
-                font-size: 45px;
+                font-size: 30px;
             }
             &.blog-title2{
             	 max-width: 300px;
@@ -1465,4 +1507,62 @@ hr{
 		  background-size: cover;
 		  background-repeat: no-repeat;
 		}
+}
+
+
+.homevideo-model
+{
+
+	/***** Modal *****/
+.modal-dialog{
+	
+	@media (min-width: 768px){
+	    width: 840px;
+	}
+}
+
+.modal {
+
+	z-index: 2000; 
+}  
+
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: #ede6dd;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header {
+    padding: 10px 25px 10px 25px;
+    text-align: right;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #5c6f7b;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+
+    &:hover{
+
+    	color: #000;	
+    }
+}
 }

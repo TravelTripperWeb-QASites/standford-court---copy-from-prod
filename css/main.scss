@@ -38,15 +38,15 @@ $screen-custom-min: 1300px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 
+@import
         "bootstrap",
         "fontawesome",
         "owlcarousel",
-        "booking-widget", 
+        "booking-widget",
         "jquery-ui",
         "animate",
         "fonts",
-        "styles",        
+        "styles",
         "home",
         "roomdetail",
         "rooms-list",
@@ -55,7 +55,10 @@ $screen-custom-min: 1300px;
         "location" ,
         "specialdetail",
         "attractions",
+        "blog",
         "common-page",
         "gallery",
-        "contact"
+        "contact",
+        "events",
+        "amenities"
 ;

@@ -45,3 +45,45 @@
          }
        
 }
+
+.sitemap-links{
+                
+            list-style: none;
+            padding-top: 25px;
+         @media(min-width: $screen-sm-min){
+            
+             padding-top: 50px;
+
+         }
+
+       
+
+   
+        li{ 
+
+            padding:8px;
+            font-family:$base-font-family1;
+            font-size:12px;
+            list-style: none;
+            
+            a{  
+                background:url(/images/gray-arrow.svg) left 0px;
+                background-size:22px;
+                text-decoration: none;
+                background-repeat: no-repeat;
+                padding-left:45px;
+                color:$darkgray-color;
+                transition: all 0.5s ease;
+        &:hover{
+            text-decoration:none;
+            color:$darkgrey;
+            background:url(/images/gray-arrow.svg) left -12px;
+            background-size:22px;
+            background-repeat: no-repeat;
+           }
+        }
+
+            
+        }
+   
+}

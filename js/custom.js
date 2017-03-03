@@ -22,6 +22,7 @@ $(document).ready(function() {
       autoplay: true,
       dots: false,
       loop: true,
+      nav: true,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut',
       responsiveRefreshRate : 200,
@@ -225,3 +226,60 @@ $(function() {
    }
 },2000);
 });
+
+
+
+ $(document).ready(function() {
+     setTimeout(function(){
+
+       $(" #home-carousel-2").owlCarousel({
+
+
+          
+      items:2,
+      nav: true,
+      navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
+      smartSpeed: 200,
+      slideSpeed : 500, 
+      margin:20,
+      responsiveRefreshRate : 100,
+      responsive : {
+            // breakpoint from 0 up
+            0 : {
+                 items:1
+            },
+            // breakpoint from 480 up
+            600 : {
+                items:2
+            },
+            // breakpoint from 768 up
+            900 : {
+                items:2
+            },
+            1600 : {
+                items:2
+            }
+        }
+
+
+       });
+       setTimeout(function(){
+             $(".price-wrap1").css('display' ,'block');
+          },2000);
+     }, 2000);  
+   });
+  
+ //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+ autoPlayYouTubeModal();
+  function autoPlayYouTubeModal() {
+      var trigger = $("body").find('[data-toggle="modal"]');
+      trigger.click(function () {
+          var theModal = $(this).data("target"),
+              videoSRC = $(this).attr("data-theVideo"),
+              videoSRCauto = videoSRC + "?autoplay=1";
+          $(theModal + ' iframe').attr('src', videoSRCauto);
+          $(theModal + ' button.close').click(function () {
+              $(theModal + ' iframe').attr('src', videoSRC);
+          });
+      });
+  }

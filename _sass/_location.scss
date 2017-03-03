@@ -2,6 +2,20 @@
  	margin-top:100px;
     background-size: cover;
     text-align: center;
+    
+    
+     .map{
+
+     	  height: 400px;
+
+	     @media(min-width: $screen-sm-min){
+
+	     	height: 678px;
+
+	     }
+
+     }
+
     .banner-inner{
 
         color: #fff;
@@ -822,3 +836,20 @@
  		}
 
  	}
+
+.location-links{
+	color:white;
+	text-decoration:none;
+	    transition: all 0.5s ease;
+	&:hover{
+		color:#c9d7e0;
+		text-decoration:none;
+		transition: all 0.5s ease;
+	}
+}
+
+.map{
+
+	height: 515px;
+}
+

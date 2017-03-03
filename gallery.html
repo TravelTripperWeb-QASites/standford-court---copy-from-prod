@@ -24,12 +24,30 @@ parent: gallery
              <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
               <li><a href="javascript:;" data-rel="hotel" class="filter">Hotel</a></li>
               <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms</a></li>
+               <li><a href="javascript:;" data-rel="video" class="filter">Video</a></li>
             </ul>
         </div>
       </div>
       <div class="container gallery-wrap" id="lightgallery">
         <ul>
-      
+        <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
+          <a class="item" href="https://www.youtube.com/watch?v=FmiE9i-lI3k">
+                  <img src="/images/gallery/video1_thumb.jpg" class="img-responsive" />
+                  <div class="play-icon"><i class="fa fa-play"></i></div>
+            </a>
+        </li>
+        <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
+          <a class="item" href="https://www.youtube.com/watch?v=g_TXVVhpcOQ">
+                  <img src="/images/gallery/video2_thumb.jpg" class="img-responsive" />
+                  <div class="play-icon"><i class="fa fa-play"></i></div>
+            </a>
+        </li>
+        <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
+          <a class="item" href="https://www.youtube.com/watch?v=cPyLQNtZ_ng">
+                  <img src="/images/gallery/video3_thumb.jpg" class="img-responsive" />
+                  <div class="play-icon"><i class="fa fa-play"></i></div>
+            </a>
+        </li>
         {% assign hotel_images = site.data._models.gallery_hotel_images %}
 {% for hotel_gallery in hotel_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">

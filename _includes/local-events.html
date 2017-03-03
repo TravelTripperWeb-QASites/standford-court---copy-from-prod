@@ -6,7 +6,7 @@
                       <div class="all-block">
                         <h1 class="heading2">LOCAL EVENTS</h1>
                        <div class="btn-holder text-center">
-                        <a class="butn btn-white uppercase">
+                        <a href="/events/" class="butn btn-white uppercase">
                             Discover all Events
                         </a>
                        </div>
@@ -15,29 +15,22 @@
                 <div class="right-cell bg-dark">  
                      
                      <ul class="latest-events">
+
+                     {% assign eventList = site.data._models.events | sort : 'sort_order' %}
+                      {% for events in eventList limit:3 %}
                        <li>
+
                           <div class="event-details">
-                             <span class="event-type">Event 01</span>
-                             <span class="event-date-time">Tue Dec 20  |  10:00 am</span>
+                             <span class="event-type">Event</span>
+                             <span class="event-date-time">{{events.schedule}}</span>
                           </div>
-                          <h3>UNION SQUARE ICE RI</h3>
+                          <a href="/events/{{events.url_friendly_name}}"> {{events.title}}</a>
                        </li>
-                       <li>
-                          <div class="event-details">
-                             <span class="event-type">Event 01</span>
-                             <span class="event-date-time">Tue Dec 20  |  10:00 am</span>
-                          </div>
-                          <h3>UNION SQUARE ICE RI</h3>
-                       </li>
-                       <li>
-                          <div class="event-details">
-                             <span class="event-type">Event 01</span>
-                             <span class="event-date-time">Tue Dec 20  |  10:00 am</span>
-                          </div>
-                          <h3>UNION SQUARE ICE RI</h3>
-                       </li>
-                     </ul>     
-                     
+                       
+                    
+                     {% endfor %}
+
+                      </ul>     
                 </div> 
            </div>
 </section>
