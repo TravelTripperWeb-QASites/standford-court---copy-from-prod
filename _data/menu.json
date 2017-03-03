@@ -20,7 +20,7 @@
            ],
       "amenities":[
                {"name":"Urban Bundle","url":"/amenities/urban-bandle","child":"urban-bundle"},
-               {"name":"Green Hotels","url":"/amenities/green-hotels/","child":"green-hotels"},
+               {"name":"Green Hotel","url":"/amenities/green-hotel/","child":"green-hotel"},
                {"name":"Pet Friendly","url":"/amenities/pet-friendly/","child":"pet-friendly"}
                
            ]
