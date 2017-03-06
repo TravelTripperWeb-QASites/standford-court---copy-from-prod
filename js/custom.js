@@ -105,7 +105,7 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },3800);
+  },4300);
 
 
   //offers info
@@ -133,7 +133,7 @@ $(document).ready(function() {
         $('#roomsSlider').find('.title2').css({'font-size':largerFontSlider+'px', 'line-height': largerFontSlider+'px'});
 
        $('.loading').css('display','none');
-     },3900);
+     },4500);
 
 });
 
