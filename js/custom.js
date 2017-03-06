@@ -105,7 +105,7 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },2000);
+  },3100);
 
 
   //offers info
@@ -115,23 +115,23 @@ $(document).ready(function() {
      setTimeout(function(){
 
        //divide in 2 column
-         var largerFont = 100; 
+         var largerFont = 100;
        if ($('.rate-block .title2').text().length < 20){
-           largerFont = (($('.main-image img').height()) / 4); 
+           largerFont = (($('.main-image img').height()) / 4);
        }else{
            largerFont = (($('.main-image img').height()) / 5);
-       } 
-        
+       }
+
        $('.rate-block .title2').css({'font-size':largerFont+'px', 'line-height': largerFont+'px'});
-         
-       var largerFontSlider = 100;  
+
+       var largerFontSlider = 100;
         if ( $('#roomsSlider').find('.title2').text().length < 20){
-         largerFontSlider = (( $('#roomsSlider').find('img').height()) / 4); 
+         largerFontSlider = (( $('#roomsSlider').find('img').height()) / 4);
         }else{
          largerFontSlider = (( $('#roomsSlider').find('img').height()) / 5.5);
-        } 
+        }
         $('#roomsSlider').find('.title2').css({'font-size':largerFontSlider+'px', 'line-height': largerFontSlider+'px'});
-     
+
        $('.loading').css('display','none');
      },3000);
 
@@ -152,16 +152,16 @@ function init() {
         }
     });
 
- 
+
    setTimeout(function(){
     var imageHolder = $('.first-holder').height();
    $('.attrcation-cards :not(.first-holder)').find('.img-holder').css('max-height',imageHolder);
-      
+
        var newHeight = 0;
         $('.attrcation-cards').find('.details').each(function(){
             var temp = $(this).height();
             newHeight = temp > newHeight ? temp  : newHeight;
-        }); 
+        });
         $('.attrcation-cards').find('.details').each(function() {
            $(this).height(newHeight);
          });
@@ -171,7 +171,7 @@ function init() {
 window.onload = init();
 
 
-$(function() {  
+$(function() {
    var today = new Date();
 //   var firstdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 //   var lastdate = today.getFullYear()+'-'+(today.getMonth()+7)+'-'+today.getDate();
@@ -187,9 +187,9 @@ $(function() {
 //          });
 //        }
 //
-//    });  
-//    // Works with $.get too! 
-        
+//    });
+//    // Works with $.get too!
+
         var dateFormat =  "yy-mm-dd";
         $("#datepicker").datepicker({
             minDate: 0,
@@ -197,8 +197,8 @@ $(function() {
         });
 
    $("#input_17, #input_4, #input_5").datepicker();
-     
-}); 
+
+});
 
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -210,11 +210,11 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-    
+
     $("#roomBooking").submit(function(){
         $("#arrival_date").val($("#checkin").val());
         $("#departure_date").val($("#checkout").val());
-        
+
     });
    setTimeout(function(){
    var hash = window.location.hash;
@@ -235,12 +235,12 @@ $(function() {
        $(" #home-carousel-2").owlCarousel({
 
 
-          
+
       items:2,
       nav: true,
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
       smartSpeed: 200,
-      slideSpeed : 500, 
+      slideSpeed : 500,
       margin:20,
       responsiveRefreshRate : 100,
       responsive : {
@@ -266,9 +266,9 @@ $(function() {
        setTimeout(function(){
              $(".price-wrap1").css('display' ,'block');
           },2000);
-     }, 2000);  
+     }, 2000);
    });
-  
+
  //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
  autoPlayYouTubeModal();
   function autoPlayYouTubeModal() {
