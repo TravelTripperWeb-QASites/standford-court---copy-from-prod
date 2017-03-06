@@ -1,5 +1,5 @@
 
-$(document).ready(function() {
+$(window).load(function() {
   setTimeout(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
