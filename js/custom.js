@@ -1,5 +1,5 @@
 
-$(window).load(function() {
+$(document).ready(function() {
   setTimeout(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
@@ -105,7 +105,7 @@ $(window).load(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },200);
+  },3800);
 
 
   //offers info
@@ -133,7 +133,7 @@ $(window).load(function() {
         $('#roomsSlider').find('.title2').css({'font-size':largerFontSlider+'px', 'line-height': largerFontSlider+'px'});
 
        $('.loading').css('display','none');
-     },600);
+     },3900);
 
 });
 
