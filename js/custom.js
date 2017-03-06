@@ -105,7 +105,7 @@ $(window).load(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },3100);
+  },2200);
 
 
   //offers info
