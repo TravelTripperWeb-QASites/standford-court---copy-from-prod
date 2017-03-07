@@ -14,7 +14,8 @@ data_paginate:
   pagination_template: 'blog/index.html'
   sort_field: 'date'
   sort_reverse: true
-
+sass:
+  style: compressed
 
 #paginate_path: "/page:num/"
 markdown: kramdown 
