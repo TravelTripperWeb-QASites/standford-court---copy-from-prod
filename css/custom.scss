@@ -2,9 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-
-
-
+$screen-xs-min: 420px;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;
+ 
 // Our variables
 $base-font-family: "GothamHTF Light", Helvetica, Arial, sans-serif;
 $base-font-family1: "GothamHTF Medium", Helvetica, Arial, sans-serif;
@@ -36,15 +41,23 @@ $screen-custom-min: 1300px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
        
-        "bootstrap",
-        "fontawesome",
-        "owlcarousel",
-        "booking-widget",
-        "jquery-ui",
-        "animate",
-        "fonts"          
+        
+        "styles",
+        "home",
+        "roomdetail",
+        "rooms-list",
+        "roomdetail" ,
+        "specials",
+        "location" ,
+        "specialdetail",
+        "attractions",
+        "blog",
+        "common-page",
+        "gallery",
+        "contact",
+        "events",
+        "amenities"           
 ;
