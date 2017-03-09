@@ -275,8 +275,6 @@
 - rooms/standard-room-king-bed/: rooms/
 - rooms/studio-suite/: rooms/
 - san-francisco-boutique-hotels/: index.html
-- san-francisco-hotel-amenities/: amenities/
-- san-francisco-hotel-amenities/amenities/: amenities/
 - san-francisco-hotel-amenities/green-hotels-san-francisco-2/: amenities/green-hotel/
 - san-francisco-hotel-amenities/green-hotels-san-francisco/: amenities/green-hotel/
 - san-francisco-hotel-amenities/pet-friendly/: amenities/pet-friendly/
@@ -660,8 +658,6 @@
 - locations/sf-sites/: locations/sf-sites/sf-sites/
 - locations/sf-sites/the-castro-district/index.html: locations/sf-sites/the-castro-district/
 - new-contact/index.html: new-contact/
-- location: nob-hill-hotel/
-- location/: nob-hill-hotel/
 - location/history/: nob-hill-hotel/
 - locations/: nob-hill-hotel/
 - locations/fitness-wellness-links/: nob-hill-hotel/
@@ -706,7 +702,6 @@
 - fr/rooms/standard-room-king-bed/: rooms/standard-room-king-bed/
 - ja/rooms/standard-room-king-bed/: rooms/standard-room-king-bed/
 - ko/rooms/standard-room-king-bed/: rooms/standard-room-king-bed/
-- amenities/: san-francisco-hotel-amenities/
 - fr/san-francisco-hotel-amenities/: san-francisco-hotel-amenities/
 - ja/san-francisco-hotel-amenities/: san-francisco-hotel-amenities/
 - san-francisco-hotel-amenities/feed/: san-francisco-hotel-amenities/
