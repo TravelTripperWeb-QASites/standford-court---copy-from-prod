@@ -761,3 +761,11 @@
 - Feed.Xml/: sitemap.xml
 - FEED.XML: sitemap.xml
 - FEED.XML/: sitemap.xml
+- locations/sf-sites/marin-headlands: attractions/
+- locations/sf-sites/marin-headlands/: attractions/
+- Locations/sf-sites/marin-headlands: attractions/
+- Locations/sf-sites/marin-headlands/: attractions/
+- Locations/Sf-Sites/Marin-Headlands: attractions/
+- Locations/Sf-Sites/Marin-Headlands/: attractions/
+- LOCATIONS/SF-SITES/MARIN-HEADLANDS: attractions/
+- LOCATIONS/SF-SITES/MARIN-HEADLANDS/: attractions/
