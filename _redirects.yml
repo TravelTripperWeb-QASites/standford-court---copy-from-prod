@@ -764,3 +764,11 @@
 - Images/: gallery
 - IMAGES: gallery
 - IMAGES/: gallery
+- feed.xml: sitemap.xml
+- feed.xml/: sitemap.xml
+- Feed.xml: sitemap.xml
+- Feed.xml/: sitemap.xml
+- Feed.Xml: sitemap.xml
+- Feed.Xml/: sitemap.xml
+- FEED.XML: sitemap.xml
+- FEED.XML/: sitemap.xml
