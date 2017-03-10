@@ -711,7 +711,6 @@
 - convenience/green-hotels-san-francisco-2/: san-francisco-hotel-amenities/green-hotels-san-francisco-2/
 - convenience/pet-friendly/: san-francisco-hotel-amenities/pet-friendly/
 - Sitemap: site-map/
-- sitemap.xml: sitemap_index.xml
 - "?post_type=specials&p=2117": specials/
 - hotdates/memorial-day-2016/: specials/
 - hotdates/memorial-reak/: specials/
