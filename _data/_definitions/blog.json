@@ -4,13 +4,13 @@
 	{"type":"image","required":true},
 "seo_title":
 	{"type":"text"},
-"seo_description":
+"meta_description":
 	{"type":"text"},
 "url_friendly_name":
 	{"type":"url_slug"},
 "date":
 	{"type":"date","required":true},	
-"meta_description":
+"short_description":
 	{"required":true,"type":"richtext"},
 "long_description":
 	{"required":true,"type":"richtext"}
