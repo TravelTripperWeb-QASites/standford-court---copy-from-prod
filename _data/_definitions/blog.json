@@ -10,7 +10,7 @@
 	{"type":"url_slug"},
 "date":
 	{"type":"date","required":true},	
-"short_description":
+"meta_description":
 	{"required":true,"type":"richtext"},
 "long_description":
 	{"required":true,"type":"richtext"}
