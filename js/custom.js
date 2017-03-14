@@ -1,5 +1,21 @@
 
 $(document).ready(function() {
+  /* code for tracking book now click events for optimizely testing. remove this code once a/b testing is removed */
+	window['optimizely'] = window['optimizely'] || [];
+	  $(document).on("click", 'a[href^="https://stanfordcourt.reztrip.com/"], a[class="homeTonightRate"]' , function(){
+	    window['optimizely'].push({
+	      type: "event",
+	      eventName: "book-now-click"
+	    });
+	  });
+	  $("a[show-booking-widget]").on("click" , function(){
+	    window['optimizely'].push({
+	      type: "event",
+	      eventName: "reserve-now-click"
+	    });
+	  });
+	/* a/b testing code ends ghere */
+  
   setTimeout(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
