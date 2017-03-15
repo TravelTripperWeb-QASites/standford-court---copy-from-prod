@@ -4,7 +4,7 @@
 	{"type":"image","required":true},
 "seo_title":
 	{"type":"text"},
-"seo_description":
+"meta_description":
 	{"type":"text"},
 "url_friendly_name":
 	{"type":"url_slug"},
