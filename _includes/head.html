@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
 {% if page.seo_title %}
     <title>{{page.seo_title}}</title> 
-    <meta name='description' content='{{page.meta_description}}' />
+    <meta name='description' content='{{page.seo_title}}. Explore San Francisco on the Stanford Court hotel blog!'/>
 {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
