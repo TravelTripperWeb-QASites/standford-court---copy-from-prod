@@ -1,0 +1,63 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+$screen-xs-min: 420px;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;
+ 
+// Our variables
+$base-font-family: "GothamHTF Light", Helvetica, Arial, sans-serif;
+$base-font-family1: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$headline-font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
+$darkgrey : #7c7c7b;
+$primary-color: #ede6dd;
+$secondary-color:#5c6f7b;
+$darkgray-color:#161515;
+$black : #161515;
+$light-black: #575757;
+$screen-custom-min: 1300px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+       
+        
+        "styles",
+        "home",
+        "roomdetail",
+        "rooms-list",
+        "roomdetail" ,
+        "specials",
+        "location" ,
+        "specialdetail",
+        "attractions",
+        "blog",
+        "common-page",
+        "gallery",
+        "contact",
+        "events",
+        "amenities"           
+;
