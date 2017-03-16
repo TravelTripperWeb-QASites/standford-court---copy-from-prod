@@ -5,6 +5,9 @@
 {% if page.seo_title %}
     <title>{{page.seo_title}}</title> 
     <meta name='description' content='{{page.seo_title}}. Explore San Francisco on the Stanford Court hotel blog!'/>
+    {% else if page.event_seo_title %}
+    <title>{{page.event_seo_title}}</title> 
+    <meta name='description' content='{{page.event_seo_title}}. Learn more about this event and book your boutique San Francisco accommodation at Stanford Court!'/>
 {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
