@@ -1,5 +1,6 @@
 .reno-section-1 {
     padding: 40px 0px 60px;
+    overflow: hidden;
     img {
         max-width: 100%;
     }
@@ -32,9 +33,11 @@
                 font-family: Helvetica;
                 font-size: 14px;
                 font-weight: normal;
+                padding: 0 30px 0 20px;
                 @media (min-width: $screen-sm-min) {
-                    width: 200px;
+                    max-width: 200px;
                     margin: auto;
+                   	padding: 0 0px 0 0px;
                 }
             }
         }
@@ -536,4 +539,31 @@
 
 .map {
     height: 515px;
+}
+.last-section{
+
+	.last-left{
+		@media(min-width: $screen-sm-min) {
+			width: 30%;
+			padding-right: 0px;
+		}
+		img{
+			max-width: 100%;
+		}
+	}
+	.last-right{
+		@media(min-width: $screen-sm-min) {
+			width: 70%;
+			padding-left: 0px; 
+		}
+	}
+	
+	.content{
+		background: #64305c;
+		padding: 100px 100px 100px 130px;
+		p{
+			color: $white;
+		}
+	}
+
 }
