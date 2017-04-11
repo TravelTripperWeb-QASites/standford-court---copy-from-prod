@@ -1,47 +1,44 @@
 .reno-section-1 {
-	padding: 40px 0px 60px;
-	img {
-	    max-width: 100%;
-	}
-	h2 {
-	    font-size: 27px;
-	    letter-spacing: 0.75px;
-	    text-align: center;
-	    font-family: $headline-font-family;
-	    font-weight: 700;
-	    color: $dark-black;
-	}
-	.right {
-		margin-top: 110px;
-		.reboot1 {
-		    margin-bottom: 10px;
-		}
-		.reboot2 {
-		    margin-bottom: 20px;
-		}
-		p {
-		    margin-bottom: 15px;
-		    font-size: 18px;
-		    font-family: $headline-font-family;
-		    letter-spacing: 0.75px;
-		    font-weight: 700;
-		    color: $dark-black;
-		}
-		.text {
-			p {
-			    font-family: Helvetica;
-			    font-size: 14px;
-			    font-weight: normal;
-			    
-			    @media (min-width: $screen-sm-min){
-					width: 200px;
-				    margin: auto;		    	
-			    }
-
-
-			}
-		}
-	}
+    padding: 40px 0px 60px;
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 27px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        font-family: $headline-font-family;
+        font-weight: 700;
+        color: $dark-black;
+    }
+    .right {
+        margin-top: 110px;
+        .reboot1 {
+            margin-bottom: 10px;
+        }
+        .reboot2 {
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-family: $headline-font-family;
+            letter-spacing: 0.75px;
+            font-weight: 700;
+            color: $dark-black;
+        }
+        .text {
+            p {
+                font-family: Helvetica;
+                font-size: 14px;
+                font-weight: normal;
+                @media (min-width: $screen-sm-min) {
+                    width: 200px;
+                    margin: auto;
+                }
+            }
+        }
+    }
 }
 
 .reboot-banner {
@@ -75,7 +72,6 @@
                 font-size: 42px;
             }
         }
-
         @media( min-width: $screen-sm-min) {
             margin-left: 0px;
             max-width: 270px;
@@ -93,11 +89,19 @@
 }
 
 .reboot-wrapper {
-	p{
-		font-family: Helvetica;
-		font-size: 14px;
-		color: $white;
+	hr{
+		width: 100%;
+		border-bottom: 1px solid $white;
+		margin: 0px !important;
+		margin-top: 20px !important;
+		margin-bottom: 20px !important;
 	}
+    p {
+        font-family: Helvetica;
+        font-size: 14px;
+        color: $white;
+
+    }
     &.reboot-bg-light {
         background-size: 340%;
         background-image: url('/images/reboot/rb-4.jpg');
@@ -120,7 +124,7 @@
         }
     }
     .table-eq {
-    	.title2 {
+        .title2 {
             font-family: $headline-font-family;
             color: #ffffff;
             text-transform: uppercase;
@@ -128,6 +132,7 @@
             letter-spacing: 0.75px;
             line-height: 40px;
         }
+
         width: 100%;
         display: table;
         .padd-60 {
@@ -263,15 +268,6 @@
                         text-align: left;
                     }
                 }
-                hr {
-                    margin: 20px 0px;
-                    @media(min-width: $screen-custom-min) {
-                        margin: 36px 0px;
-                    }
-                    @media(max-width: $screen-xs-max) {
-                        margin: 20px auto;
-                    }
-                }
             }
         }
         .right-cell {
@@ -291,51 +287,17 @@
                     color: white;
                     @media(min-width: $screen-custom-min) {}
                 }
-                hr {
-                    border-bottom: 1px solid white;
-                }
             }
             .content {
-                padding: 30px;
-                text-align: center;
+            	text-align: center;
                 @media(min-width: $screen-sm-min) {
-                    text-align: left;
-                    padding: 50px 20px 30px 70px;
-                }
-                @media(min-width: $screen-md-min) {
-                    padding: 50px;
-                }
-                @media(min-width: $screen-custom-min) {
-                    padding: 65px 40px 8px 129px;
-                    &.amenties {
-                        padding: 43px 40px 84px 169px;
-                        hr {
-                            margin-left: 30px;
-                            margin-top: 49px;
-                            argin-bottom: 40px;
-                        }
-                    }
-                }
-                h2 {
-                    padding: 0px 20px 10px 10px;
-                    @media(min-width: $screen-md-min) {
-                        padding: 0px 80px;
-                    }
-                    @media(min-width: $screen-md-min) {
-                        padding: 0px 73px;
-                    }
-                }
-
-                hr {
-                    margin: 20px auto;
-                    @media(min-width: $screen-sm-min) {
-                        margin-left: 10px;
-                    }
-                    @media(min-width: $screen-md-min) {
-                        margin-left: 69px;
-                        margin-top: 30px;
-                        margin-bottom: 35px;
-                    }
+                	width: 300px;
+                	margin: auto;
+                	text-align: left;
+                	padding: 0px;
+                	p{
+                		padding: 0px;
+                	}
                 }
             }
             .btn-holder {
@@ -360,6 +322,27 @@
         }
     }
     .reboot-living {
+    	.left-cell {
+    		@media(min-width: $screen-sm-min) {
+	            width: 34.4%;
+	            float: left;
+	        }    
+        }  
+        .right-cell {
+        	@media(min-width: $screen-sm-min) {
+	            width: 65.4%;
+	            float: left;
+	        }    
+        }        
+    	.heading2{
+        	font-family: $headline-font-family;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 50px;
+            letter-spacing: 0.75px;
+            line-height: 40px;
+            margin-top: 80px;
+        }
         padding: 0px 20px;
         @media(min-width: $screen-sm-min) {
             padding: 0px 60px;
@@ -383,51 +366,13 @@
                         color: white;
                         @media(min-width: $screen-custom-min) {}
                     }
-                    hr {
-                        border-bottom: 1px solid white;
-                    }
                 }
-                .content {
-                    padding: 30px;
-                    text-align: center;
-                    @media(min-width: $screen-sm-min) {
-                        text-align: left;
-                        padding: 50px 20px 30px 70px;
-                    }
-                    @media(min-width: $screen-md-min) {
-                        padding: 50px;
-                    }
-                    @media(min-width: $screen-custom-min) {
-                        padding: 65px 40px 8px 129px;
-                    }
-                    h2 {
-                        padding: 0px 20px 10px 10px;
-                        @media(min-width: $screen-md-min) {
-                            padding: 0px 80px;
-                        }
-                        @media(min-width: $screen-md-min) {
-                            padding: 0px 73px;
-                        }
-                    }
- 
-                    hr {
-                        margin: 20px auto;
-                        @media(min-width: $screen-sm-min) {
-                            margin-left: 10px;
-                        }
-                        @media(min-width: $screen-md-min) {
-                            margin-left: 69px;
-                            margin-top: 30px;
-                            margin-bottom: 35px;
-                        }
-                    }
-                }
+
             }
         }
         @media(min-width: $screen-custom-min) {
             padding: 30px 20px 30px 72px;
         }
-
         .heading4 {
             font-size: 12px;
             word-spacing: 3px;
@@ -440,24 +385,16 @@
             }
         }
         .right-content {
-            margin-top: 20px;
-            @media(min-width: $screen-sm-min) {
-                margin-top: 30px;
-            }
-            @media(min-width: $screen-md-min) {
-                margin-top: 60px;
-                margin-left: 13px;
-            }
-            @media(min-width: $screen-custom-min) {
-                margin-top: 131px;
-                margin-left: 33px;
-            }
-            hr {
-                margin: 36px 0px;
-                @media(max-width: $screen-xs-max) {
-                    margin: 20px auto;
+				text-align: center;
+                @media(min-width: $screen-sm-min) {
+                	width: 300px;
+                	margin: auto;
+                	text-align: left;
+                	padding: 0px;
+                	p{
+                		padding: 0px;
+                	}
                 }
-            }
         }
         .btn-holder {
             @media(max-width: $screen-xs-max) {
