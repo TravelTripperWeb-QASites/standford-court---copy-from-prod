@@ -110,8 +110,6 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-04-145343_food-trucks-san-francisco-the-chairman.jpg.json"
   },
   {
-<<<<<<< HEAD
-=======
     "name": "most-instagrammable-eats-san-francisco",
     "file_name": "most-instagrammable-eats-san-francisco.jpg",
     "file_type": "image/jpeg",
@@ -130,6 +128,46 @@
     "tags": "",
     "description": "",
     "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-17-102802_polk-street-guide-sf.jpg.json"
+  },
+  {
+    "name": "san-francisco-festivals-hardly-strictly-bluegrass",
+    "file_name": "san-francisco-festivals-hardly-strictly-bluegrass.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-21-121207/san-francisco-festivals-hardly-strictly-bluegrass.jpg",
+    "date_added": "2017-04-21-121207",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-21-121207_san-francisco-festivals-hardly-strictly-bluegrass.jpg.json"
+  },
+  {
+    "name": "san-francisco-festivals-outside-lands",
+    "file_name": "san-francisco-festivals-outside-lands.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-21-121208/san-francisco-festivals-outside-lands.jpg",
+    "date_added": "2017-04-21-121208",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-21-121208_san-francisco-festivals-outside-lands.jpg.json"
+  },
+  {
+    "name": "san-francisco-festivals-pride-2",
+    "file_name": "san-francisco-festivals-pride-2.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-21-121209/san-francisco-festivals-pride-2.jpg",
+    "date_added": "2017-04-21-121209",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-21-121209_san-francisco-festivals-pride-2.jpg.json"
+  },
+  {
+    "name": "san-francisco-festivals-pride",
+    "file_name": "san-francisco-festivals-pride.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-21-121210/san-francisco-festivals-pride.jpg",
+    "date_added": "2017-04-21-121211",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-21-121210_san-francisco-festivals-pride.jpg.json"
   },
   {
     "name": "scenic-running-trails-san-francisco-1",
@@ -192,6 +230,56 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-11-020724_stanford-court-tech-amenities.jpg.json"
   },
   {
+    "name": "off-the-grid-san-francisco-muir-woods",
+    "file_name": "off-the-grid-san-francisco-muir-woods.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-18-021510/off-the-grid-san-francisco-muir-woods.jpg",
+    "date_added": "2017-04-18-021510",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-18-021510_off-the-grid-san-francisco-muir-woods.jpg.json"
+  },
+  {
+    "name": "off-the-grid-san-francisco-mount-tamalpais",
+    "file_name": "off-the-grid-san-francisco-mount-tamalpais.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-18-021836/off-the-grid-san-francisco-mount-tamalpais.jpg",
+    "date_added": "2017-04-18-021836",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-18-021836_off-the-grid-san-francisco-mount-tamalpais.jpg.json"
+  },
+  {
+    "name": "off-the-grid-san-francisco-angel-island",
+    "file_name": "off-the-grid-san-francisco-angel-island.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-18-021912/off-the-grid-san-francisco-angel-island.jpg",
+    "date_added": "2017-04-18-021912",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-18-021912_off-the-grid-san-francisco-angel-island.jpg.json"
+  },
+  {
+    "name": "off-the-grid-san-francisco-marin-headlands",
+    "file_name": "off-the-grid-san-francisco-marin-headlands.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-18-021913/off-the-grid-san-francisco-marin-headlands.jpg",
+    "date_added": "2017-04-18-021914",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-18-021913_off-the-grid-san-francisco-marin-headlands.jpg.json"
+  },
+  {
+    "name": "off-the-grid-san-francisco-tilden-regional-park",
+    "file_name": "off-the-grid-san-francisco-tilden-regional-park.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-18-021914/off-the-grid-san-francisco-tilden-regional-park.jpg",
+    "date_added": "2017-04-18-021915",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-18-021914_off-the-grid-san-francisco-tilden-regional-park.jpg.json"
+  },
+  {
     "name": "best-ice-cream-in-san-francisco",
     "file_name": "best-ice-cream-in-san-francisco.jpg",
     "file_type": "image/jpeg",
@@ -202,7 +290,6 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_2627_media_2017-04-12-021307_best-ice-cream-in-san-francisco.jpg.json"
   },
   {
->>>>>>> debb5c945663298ee78a6402e20ce18196b487f5
     "name": "gallery-hotel-26",
     "file_name": "gallery-hotel-26.jpg",
     "file_type": "image/jpeg",
