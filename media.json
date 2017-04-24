@@ -110,6 +110,99 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-04-145343_food-trucks-san-francisco-the-chairman.jpg.json"
   },
   {
+<<<<<<< HEAD
+=======
+    "name": "most-instagrammable-eats-san-francisco",
+    "file_name": "most-instagrammable-eats-san-francisco.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-14-152504/most-instagrammable-eats-san-francisco.jpg",
+    "date_added": "2017-04-14-152504",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-14-152504_most-instagrammable-eats-san-francisco.jpg.json"
+  },
+  {
+    "name": "polk-street-guide-sf",
+    "file_name": "polk-street-guide-sf.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2164/media/2017-04-17-102802/polk-street-guide-sf.jpg",
+    "date_added": "2017-04-17-102802",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2164_media_2017-04-17-102802_polk-street-guide-sf.jpg.json"
+  },
+  {
+    "name": "scenic-running-trails-san-francisco-1",
+    "file_name": "scenic-running-trails-san-francisco-1.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-10-040324/scenic-running-trails-san-francisco-1.jpg",
+    "date_added": "2017-04-10-040324",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-10-040324_scenic-running-trails-san-francisco-1.jpg.json"
+  },
+  {
+    "name": "scenic-running-trails-san-francisco-2",
+    "file_name": "scenic-running-trails-san-francisco-2.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-10-040325/scenic-running-trails-san-francisco-2.jpg",
+    "date_added": "2017-04-10-040325",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-10-040325_scenic-running-trails-san-francisco-2.jpg.json"
+  },
+  {
+    "name": "scenic-running-trails-san-francisco-3",
+    "file_name": "scenic-running-trails-san-francisco-3.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-10-040326/scenic-running-trails-san-francisco-3.jpg",
+    "date_added": "2017-04-10-040326",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-10-040326_scenic-running-trails-san-francisco-3.jpg.json"
+  },
+  {
+    "name": "scenic-running-trails-san-francisco-4",
+    "file_name": "scenic-running-trails-san-francisco-4.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-10-040327/scenic-running-trails-san-francisco-4.jpg",
+    "date_added": "2017-04-10-040327",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-10-040327_scenic-running-trails-san-francisco-4.jpg.json"
+  },
+  {
+    "name": "sscenic-running-trails-san-francisco-lead",
+    "file_name": "sscenic-running-trails-san-francisco-lead.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-10-042513/sscenic-running-trails-san-francisco-lead.jpg",
+    "date_added": "2017-04-10-042513",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-10-042513_sscenic-running-trails-san-francisco-lead.jpg.json"
+  },
+  {
+    "name": "stanford-court-tech-amenities",
+    "file_name": "stanford-court-tech-amenities.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-04-11-020724/stanford-court-tech-amenities.jpg",
+    "date_added": "2017-04-11-020724",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-04-11-020724_stanford-court-tech-amenities.jpg.json"
+  },
+  {
+    "name": "best-ice-cream-in-san-francisco",
+    "file_name": "best-ice-cream-in-san-francisco.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2627/media/2017-04-12-021307/best-ice-cream-in-san-francisco.jpg",
+    "date_added": "2017-04-12-021307",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2627_media_2017-04-12-021307_best-ice-cream-in-san-francisco.jpg.json"
+  },
+  {
+>>>>>>> debb5c945663298ee78a6402e20ce18196b487f5
     "name": "gallery-hotel-26",
     "file_name": "gallery-hotel-26.jpg",
     "file_type": "image/jpeg",
