@@ -564,7 +564,7 @@
 	
 	.content{
 		background: #64305c;
-		padding: 100px 100px 100px 130px;
+		padding: 20px;
 		p{
 			color: $white;
 			text-align: center;
@@ -572,6 +572,10 @@
 				text-align: left;
 			}
 		}
+
+        @media(min-width: $screen-sm-min) {
+            padding: 100px 100px 100px 130px;
+        }
 	}
 
 }
