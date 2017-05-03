@@ -770,6 +770,110 @@
       }
     ]
   ],
+  "press": [
+    [
+      {
+        "title": "STANFORD COURT SETS UPDATES",
+        "file": "press1.json"
+      }
+    ],
+    [
+      {
+        "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+        "file": "press10.json"
+      }
+    ],
+    [
+      {
+        "title": "STANFORD COURT INTRODUCES FESTIVE HOLIDAY EXPERIENCES FOR GUESTS AND LOCALS",
+        "file": "press11.json"
+      }
+    ],
+    [
+      {
+        "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+        "file": "press12.json"
+      }
+    ],
+    [
+      {
+        "title": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
+        "file": "press13.json"
+      }
+    ],
+    [
+      {
+        "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+        "file": "press14.json"
+      }
+    ],
+    [
+      {
+        "title": "LUXURY TRAVEL MAGAZINE",
+        "file": "press15.json"
+      }
+    ],
+    [
+      {
+        "title": "HUFFINGTON POST",
+        "file": "press16.json"
+      }
+    ],
+    [
+      {
+        "title": "CONDE NAST TRAVELER",
+        "file": "press17.json"
+      }
+    ],
+    [
+      {
+        "title": "STANFORD COURT HOTEL PLANS 2014 TRANSFORMATION",
+        "file": "press2.json"
+      }
+    ],
+    [
+      {
+        "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+        "file": "press3.json"
+      }
+    ],
+    [
+      {
+        "title": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
+        "file": "press4.json"
+      }
+    ],
+    [
+      {
+        "title": "HOTELS SEEK THE GEEKS",
+        "file": "press5.json"
+      }
+    ],
+    [
+      {
+        "title": "DRINK HERE NOW: FIVE PLACES TO SIP THIS WEEK",
+        "file": "press6.json"
+      }
+    ],
+    [
+      {
+        "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+        "file": "press7.json"
+      }
+    ],
+    [
+      {
+        "title": "3 TECH-SAAVY HOTELS OFFERING GREAT 21ST CENTURY AMENITIES",
+        "file": "press8.json"
+      }
+    ],
+    [
+      {
+        "title": "TRAVEL INTELLIGENCE: 8 WAYS TO SLEEP AROUND",
+        "file": "press9.json"
+      }
+    ]
+  ],
   "simple": [
 
   ]

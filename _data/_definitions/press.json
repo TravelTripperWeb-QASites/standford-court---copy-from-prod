@@ -5,8 +5,7 @@
       "label": "Title"
     },
     "description":
-    {
-      "required": true,
+    { 
       "type": "richtext",
       "label": "Press detail"
     },
@@ -15,5 +14,11 @@
       "required": true,
       "type": "url",
       "label": "More Link"
-    } 
+    }, 
+    "order":
+    { 
+      "type": "text",
+      "label": "Order",
+      "required": true
+    },
 }
