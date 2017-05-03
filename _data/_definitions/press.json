@@ -16,8 +16,7 @@
       "label": "More Link"
     }, 
     "order":
-    { 
-      "type": "text",
+    {  
       "label": "Order",
       "required": true
     }
