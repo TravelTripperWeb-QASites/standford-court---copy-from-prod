@@ -30,9 +30,13 @@ meta_keywords_localized:
   <div class="location-banner amenities-banner" style="background-image:url(/images/amenities/green_banner.jpg)">
     
     <div class="banner-inner">
+      {% regionblock heading %}
       <h2>Stanford Court</h2>
       <h3>Green Hotel</h3>
+      {% endregionblock %}
+      {% regionblock maintext %}
       <p>Responsibility To The Environment</p>
+      {% endregionblock %}
 
     </div>
   </div>
@@ -44,9 +48,11 @@ meta_keywords_localized:
       <div class="table-eq">
           <div class="left-cell">
               <div class="padd-60 m-venue">
-               <h1 class="title2 whtText">We Are</h1>
+               {% regionblock subheading %}
+                <h1 class="title2 whtText">We Are</h1>
                <h4 class="heading4 uppercase">Making a</h4>
                <h1 class="title2 whtText ">difference </h1>
+               {% endregionblock %}
                </div>
                 <div id="venuesSlider" class="carousel slide">
                   
@@ -64,9 +70,11 @@ meta_keywords_localized:
           <div class="right-cell">  
                   <div class="content ">   
                   <hr align="left"> 
+                  {% regionblock sort_detail %}
                   <p>Stanford Court maintains these programs and options in an effort to be one of the most efficient green hotels in San Francisco. At the end of the day, we all share this earth. It’s an honor to make a difference. 
                   </p>
                   <p>Stanford Court is one of few green hotels in San Francisco that understands and implements both classic and modern approaches to reducing our carbon footprint. We use the most rudimentary and progressive methods to ensure that we treat the earth as well as it treats us here in beautiful Northern California.</p>
+                   {% endregionblock %}
                   </div>
 
                <div class="btn-holder text-left marginLeft144">
@@ -79,9 +87,10 @@ meta_keywords_localized:
        
        <div class="local-living clearfix">
             <div class="col-sm-12 col-md-11">
+                   {% regionblock full_detail %} 
                    <p>From sourcing local ingredients at the Aurea Cafe - our onsite eatery - to fashioning our laundry and housekeeping services to conserve water, Stanford Court is sure to keep day-to-day operations green. While simple steps like these are taken by some other San Francisco hotels, few have pushed forward like Stanford Court.</p> 
                    <p>At Stanford Court, our onsite electric car and motorcycle charging station promotes the progressive nature of eco-friendly driving. We also offer a free bike rental program, which is both environment- and fitness-friendly.</p> 
-                   
+                  {% endregionblock %} 
                   
             </div>
             
