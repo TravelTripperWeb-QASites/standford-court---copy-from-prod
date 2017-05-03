@@ -1,0 +1,19 @@
+{
+  "title":
+    {
+      "required": true,
+      "label": "Title"
+    },
+    "description":
+    {
+      "required": true,
+      "type": "richtext",
+      "label": "Press detail"
+    },
+    "linkurl":
+    {
+      "required": true,
+      "type": "url",
+      "label": "More Link"
+    } 
+}
