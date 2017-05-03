@@ -4,6 +4,15 @@
       "required": true,
       "label": "Name"
     },
+    "event_seo_title":
+    {
+      "required": true,
+      "type":"text"
+    },
+    "meta_description":
+    {
+    "type":"text"
+    },
     "category":
     {
       "label": "Choose Category",

@@ -5,6 +5,9 @@
 {% if page.seo_title %}
     <title>{{page.seo_title}}</title> 
     <meta name='description' content='{{page.seo_title}}. Explore San Francisco on the Stanford Court hotel blog!'/>
+    {% elsif page.event_seo_title %}
+    <title>{{page.event_seo_title}}</title> 
+    <meta name='description' content='{{page.event_seo_title}}. Learn more about this event and book your boutique San Francisco accommodation at Stanford Court!'/>
 {% else %}
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -56,9 +59,6 @@
 	</script>
 <!-- End Sojern Tag -->
 
-<script id="gtsgig-boot" data-hotel-id="stanfordcourt" src="https://widgets.gtsgig.com/boot.js" async defer></script>
-<script src="https://cdn.optimizely.com/js/8271875579.js"></script>
-
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -66,4 +66,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5NH75VS');</script>
 <!-- End Google Tag Manager -->
+
+<!-- Start Voyat -->
+<script> 
+(function(){ var v = document.createElement('script'); var s = document.getElementsByTagName('script')[0]; v.src = '//io.voyat.com/v.js'; v.async = true; s.parentNode.insertBefore(v, s); })();
+</script>
+<!-- End Voyat Code -->
+	
+<!-- Start Stay Wanderful -->
+<script id="gtsgig-boot" data-hotel-id="stanfordcourt" src="https://widgets.gtsgig.com/boot.js"></script>
+<!-- End Stay Wanderful -->
 </head>
