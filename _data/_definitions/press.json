@@ -17,6 +17,7 @@
     }, 
     "order":
     {  
+      "type":"integer",
       "label": "Order",
       "required": true
     }
