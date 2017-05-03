@@ -20,5 +20,5 @@
       "type": "text",
       "label": "Order",
       "required": true
-    },
+    }
 }
