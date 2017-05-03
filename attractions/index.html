@@ -92,12 +92,18 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">
                            <div class="content activity">
-                           <h2 class="title">Featured Activity</h2>
+                           {% regionblock featuredtitle %} 
+                            <h2 class="title">Featured Activity</h2>
                            <h4 class="uppercase heading4">The Asian Art Museum</h4>
+                            {% endregionblock %}
                            <hr align="left">
+                          {% regionblock  featuredtext %} 
                            <p>The Asian Art Museum of San Francisco is the largest museum located outside of Asia that is dedicated exclusively to Asian art. It is housed in a Beaux-Arts masterpiece.  </p>
+                            {% endregionblock %}
                            <p class="arrow-link">
+                             {% regionblock  featuredlink%} 
                             <a href="http://www.asianart.org/" target="_blank">Read More</a>
+                            {% endregionblock %}
                            </p>
 
                            </div>

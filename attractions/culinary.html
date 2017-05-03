@@ -48,7 +48,7 @@ meta_keywords_localized:
                 {% regionblock subheading %} 
                 <h1 class="title2">Culinary</h1>
                 <h4 class="heading4">dive into San Francisco</h4>
-                {% endregionblock %} 
+                 {% endregionblock %}
             </div>
 
             <div class="description">
@@ -88,12 +88,15 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">  
                            <div class="content activity">
-                           <h2 class="title">Featured Activity</h2> 
-                           <h4 class="uppercase heading4">The Hidden Vine Wine Bar</h4>   
+                           {% regionblock featuredtitle %} <h2 class="title">Featured Activity</h2> 
+                           <h4 class="uppercase heading4">The Hidden Vine Wine Bar</h4> 
+                            {% endregionblock %}  
                            <hr align="left"> 
-                           <p>Named one of America’s best wine bars, this hidden gem offers over 180 different wines highlighting many of the world’s best known and not so well known wine regions.  </p>
+                           {% regionblock  featuredtext %}  <p>Named one of America’s best wine bars, this hidden gem offers over 180 different wines highlighting many of the world’s best known and not so well known wine regions.  </p> {% endregionblock %}
                            <p class="arrow-link">
-                            <a href="http://www.thehiddenvine.com/" target="_blank">Learn More</a>
+                             {% regionblock  featuredlink%} 
+                             <a href="http://www.thehiddenvine.com/" target="_blank">Learn More</a>
+                            {% endregionblock %}
                            </p>
 
                            </div> 

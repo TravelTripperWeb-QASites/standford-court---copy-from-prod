@@ -34,16 +34,18 @@
             <h2 class="title">
            <a href="/contact-us/"> Contact </a>
             </h2>
-            <p class="contacts"><a href="tel:415-989-3500">    415 989-3500</a> <br />
-              <a href="/contact-us/">Contact Us</a></p>
+            {% regionblock ct_text %} 
+             <p class="contacts"><a href="tel:415-989-3500">    415 989-3500</a> <br />
+              <a href="/contact-us/">Contact Us</a></p> {% endregionblock %}
           </div>
         </div>
        <div class="col-sm-4 border-right">
           <div class="content clearfix">
+           {% regionblock footeraddress %} 
             <p class="address"><a href="https://goo.gl/maps/A6NkAC9ZUPN2" target="_blank">905 California Street,<br />
 Nob Hill, San Francisco, CA <br />
 
-94108</a></p> 
+94108</a></p>   {% endregionblock %}
 
               <ul class="social">
                 <li><a href="http://www.facebook.com/StanfordCourtSF" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -88,6 +90,7 @@ good stuff.</p>
     </div>
 
     <div class="copy-wrapper clearfix">
+        {% regionblock footerlinks %} 
         <ul class="infolinks">
           <li>© Stanford Court 2017 All Rights Reserved</li>
           <li><a href="https://www.chargerback.com/ReportLostItemCBEmbed.asp?CustomerID=2880" target="_blank">Lost Items</a></li>
@@ -97,7 +100,7 @@ good stuff.</p>
           <li><a href="mailto:frontdesk@stanfordcourt.com?subject=I'd like a copy of my bill please">Copy of Bill </a></li>
           <li class="menu-item-grouprfp"><a href="" onclick="srfp_widget.show()">Speed RFP</a></li>
         </ul>
-
+    {% endregionblock %}
 
     </div>
 </footer>
