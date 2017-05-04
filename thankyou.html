@@ -22,7 +22,7 @@ meta_keywords_localized:
   
   <div class="top-innerbanner commonbanner" style="background-image:url(/images/thankyou.jpg)">
      
-      <h2 class="title">Thank You</h2> 
+      {% regionblock heading %}<h2 class="title">Thank You</h2>  {% endregionblock %}
   </div>
 </section>
 <section class="container form-wrapper clearfix">
@@ -30,9 +30,9 @@ meta_keywords_localized:
                 <div class="col-sm-12 no-padding  bg-light"> 
                   <div class="article-wrapper">
 					 
-
-					<h3>WE WILL GET IN TOUCH WITH YOU SOON....</h3>
  
+					 {% regionblock text %}<h3>WE WILL GET IN TOUCH WITH YOU SOON....</h3> {% endregionblock %}
+            
 						 
  
            </div>

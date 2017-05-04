@@ -29,9 +29,13 @@ meta_keywords_localized:
       <div class="row no-gutter">
         <div class="col-sm-6 no-padding clearfix">
           <div class="short-description">
+                {% regionblock heading %} 
                 <h4> San Francisco</h4>
                 <h2 class="title">Local Attractions</h2>
+                {% endregionblock %} 
+                {% regionblock maintext %} 
                 <p class="short-detail"><strong>There are so many things to see and do in San Francisco, that it may be hard to know where to start. For your convenience, we have highlighted a few of our favorites.</strong> </p>
+                {% endregionblock %} 
           </div>
       </div>
      </div>
@@ -40,17 +44,23 @@ meta_keywords_localized:
 
            <div class="div-overlay"  style="background-image:url(/images/attractions/culture.jpg)">
             <div class="title-container">
+                {% regionblock subheading %} 
                 <h1 class="title2">Culture</h1>
                 <h4 class="heading4">dive into San Francisco</h4>
+                {% endregionblock %} 
             </div>
 
             <div class="description">
+                {% regionblock title %} 
                 <h1 class="title">Arts and Culture</h1>
+                {% endregionblock %} 
+                {% regionblock details %} 
                 <p><strong>Drawing from an expansive understanding of San Francisco travel, we’ve found some of what visitors enjoy includes museums, the outdoors, fun activities for the kids, and the theatre. Going to museums is one of few things to do in San Francisco that consciously and informatively connects visitors to the city’s thriving and unique culture. </strong></p>
 
                  <p> The Asian Art Museum, The Walt Disney Family Museum and The Cartoon Art Museum are amongst the most popular San Francisco arts and culture destinations for visitors beginning their exploration of what makes this city so special. In addition to the museums’ fascinating cultural collections, San Francisco’s artistic attractions stretch to the outdoors.</p>
 
                  <p> We invite you to enjoy the breadth of San Francisco arts and culture and see first-hand what all the hype is about.</p>
+                {% endregionblock %}
             </div>
            </div>
         </div>
@@ -82,12 +92,18 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">
                            <div class="content activity">
-                           <h2 class="title">Featured Activity</h2>
+                           {% regionblock featuredtitle %} 
+                            <h2 class="title">Featured Activity</h2>
                            <h4 class="uppercase heading4">The Asian Art Museum</h4>
+                            {% endregionblock %}
                            <hr align="left">
+                          {% regionblock  featuredtext %} 
                            <p>The Asian Art Museum of San Francisco is the largest museum located outside of Asia that is dedicated exclusively to Asian art. It is housed in a Beaux-Arts masterpiece.  </p>
+                            {% endregionblock %}
                            <p class="arrow-link">
+                             {% regionblock  featuredlink%} 
                             <a href="http://www.asianart.org/" target="_blank">Read More</a>
+                            {% endregionblock %}
                            </p>
 
                            </div>
