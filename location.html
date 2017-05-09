@@ -20,15 +20,18 @@ meta_keywords_localized:
   <div class="location-banner" style="background-image:url(/images/location/location_banner.jpg)">
     
     <div class="banner-inner">
+       {% regionblock  bannertext %}
       <h2>Stanford Court</h2>
       <h3>location</h3>
       <p>905 California Street, Nob Hill, San Francisco, CA 94108 </p>
       <p><span class="phone"><a href="tel:415 989 3500">415 989 3500</a></span><span class="email"><a href="maito:info@stanfordcourt.com">info@stanfordcourt.com</a></span></p>
+      {% endregionblock %} 
 
       <div class="btn-holder">
-       <a href="https://www.google.com/maps/place/Stanford+Court+Hotel/@37.7915052,-122.4117921,17z/data=!3m1!4b1!4m5!3m4!1s0x8085808c561d773d:0xb7afe5bc9f50d89c!8m2!3d37.7915052!4d-122.4095981" target="_blank" class="butn btn-white uppercase bgwhite-btn">
+        {% regionblock  bannerlink %}<a href="https://www.google.com/maps/place/Stanford+Court+Hotel/@37.7915052,-122.4117921,17z/data=!3m1!4b1!4m5!3m4!1s0x8085808c561d773d:0xb7afe5bc9f50d89c!8m2!3d37.7915052!4d-122.4095981" target="_blank" class="butn btn-white uppercase bgwhite-btn">
         Get Directions
        </a>
+        {% endregionblock %} 
      </div>
     </div>
   </div>
@@ -48,9 +51,11 @@ meta_keywords_localized:
       <div class="table-eq">
           <div class="left-cell">
               <div class="padd-60 m-venue">
+               {% regionblock  subheading %}
                <h1 class="title2 whtText">Prized &</h1>
                <h4 class="heading4 uppercase">Nob Hill neighborhood</h4>
                <h1 class="title2 whtText ">affluent</h1>
+                {% endregionblock %} 
                </div>
                 <div id="venuesSlider" class="carousel slide">
                   
@@ -78,8 +83,9 @@ meta_keywords_localized:
           <div class="right-cell">  
                   <div class="content ">   
                   <hr align="left"> 
-                  <p>Stanford Court San Francisco is conveniently located atop historic Nob Hill, just steps from Union Square and within walking distance to many of San Francisco’s most interesting neighborhoods and major attractions. The corporate offices of the financial district are just steps away, while the South of Market tech and media hubs, and the Moscone Convention Center are all within walking distance.
- </p>
+                  {% regionblock  locationtext %}
+                   <p>Stanford Court San Francisco is conveniently located atop historic Nob Hill, just steps from Union Square and within walking distance to many of San Francisco’s most interesting neighborhoods and major attractions. The corporate offices of the financial district are just steps away, while the South of Market tech and media hubs, and the Moscone Convention Center are all within walking distance.
+ </p>              {% endregionblock %} 
                   </div>
 
               <div class="btn-holder text-left marginLeft144">
@@ -94,21 +100,26 @@ meta_keywords_localized:
        
        <div class="local-living clearfix">
             <div class="col-sm-6 col-md-7">
-                <h2 class="heading2">sublime <br />
+                {% regionblock  localheading %}
+                 <h2 class="heading2">sublime <br />
                              local living 
                 </h2>
                 <h4 class="heading4 uppercase">The Stanford experience</h4>
-
+                 {% endregionblock %} 
                  <div class="btn-holder  ">
+               {% regionblock  locallink %}
                <a class="butn uppercase" href="/attractions/">
                   Discover Attractions
                </a>
+               {% endregionblock %} 
               </div>
             </div>
             <div class="col-sm-6 col-md-5">
                <div class="right-content">
                <hr align="left">
-               <p>Our hilltop location provides guests with the opportunity to enjoy breathtaking views of the city. Nob Hill is among the most historically rich and attractive neighborhoods in San Francisco, but it’s only a small piece of Stanford’s advantageous positioning. </p> <p> With top-tier shopping in Union Square and bustling industry in the Financial District both short, easy commutes from the hotel, it’s difficult to find a more conveniently located San Francisco boutique hotel.</p>
+                {% regionblock  localtext %}
+                <p>Our hilltop location provides guests with the opportunity to enjoy breathtaking views of the city. Nob Hill is among the most historically rich and attractive neighborhoods in San Francisco, but it’s only a small piece of Stanford’s advantageous positioning. </p> <p> With top-tier shopping in Union Square and bustling industry in the Financial District both short, easy commutes from the hotel, it’s difficult to find a more conveniently located San Francisco boutique hotel.</p>
+               {% endregionblock %} 
                </div>
             </div>
         </div>
@@ -161,12 +172,16 @@ meta_keywords_localized:
 <div class="row book-now-container background-img" style="background-image:url(/images/location/location-bg.jpg)">
  
  <div class="heading-circle">
+               {% regionblock  experienceheading %}
                <h4>a unique boutique<br>hotel experience</h4>
                <h2>San Francisco at it’s Best</h2>
+               {% endregionblock %} 
                <div class="btn-holder text-center">
-                <a class="butn uppercase">
+                 {% regionblock  experiencelink %}
+                 <a class="butn uppercase">
                     book your stay
                 </a>
+                {% endregionblock %} 
                </div>
         </div>
 </div>

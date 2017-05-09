@@ -30,9 +30,13 @@ meta_keywords_localized:
       <div class="row no-gutter">
         <div class="col-sm-6 no-padding clearfix">
           <div class="short-description">
+               {% regionblock heading %} 
                 <h4> San Francisco</h4>
                 <h2 class="title">Local Attractions</h2>
+                {% endregionblock %} 
+                {% regionblock maintext %} 
                 <p class="short-detail"><strong>There are so many things to see and do in San Francisco, that it may be hard to know where to start. For your convenience, we have highlighted a few of our favorites.</strong> </p>
+                {% endregionblock %} 
           </div>
       </div>  
      </div>
@@ -41,15 +45,18 @@ meta_keywords_localized:
         
            <div class="div-overlay"  style="background-image:url(/images/attractions/culinary.jpg)">
             <div class="title-container">
+                {% regionblock subheading %} 
                 <h1 class="title2">Culinary</h1>
                 <h4 class="heading4">dive into San Francisco</h4>
+                 {% endregionblock %}
             </div>
 
             <div class="description">
-                <h1 class="title">Culinary Paradise</h1>
-                <p><strong>San Fransisco, a bucket list destination for any distinguished foodie. Come to the city to experience diverse, eclectic cuisine from a collection of the best local and imported chefs from around the world.</strong></p>
+                 {% regionblock title %} <h1 class="title">Culinary Paradise</h1>{% endregionblock %} 
+                {% regionblock details %} <p><strong>San Fransisco, a bucket list destination for any distinguished foodie. Come to the city to experience diverse, eclectic cuisine from a collection of the best local and imported chefs from around the world.</strong></p>
 
                  <p>Thirsty? Tradition and cutting-edge mixology merge to exceed the expectations of any discerning traveler. Visit the best bars, speakeasies, and hidden gems across the city where personality and ambience are found at every turn.</p>
+                 {% endregionblock %}
             </div>
            </div>
         </div>   
@@ -81,12 +88,15 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">  
                            <div class="content activity">
-                           <h2 class="title">Featured Activity</h2> 
-                           <h4 class="uppercase heading4">The Hidden Vine Wine Bar</h4>   
+                           {% regionblock featuredtitle %} <h2 class="title">Featured Activity</h2> 
+                           <h4 class="uppercase heading4">The Hidden Vine Wine Bar</h4> 
+                            {% endregionblock %}  
                            <hr align="left"> 
-                           <p>Named one of America’s best wine bars, this hidden gem offers over 180 different wines highlighting many of the world’s best known and not so well known wine regions.  </p>
+                           {% regionblock  featuredtext %}  <p>Named one of America’s best wine bars, this hidden gem offers over 180 different wines highlighting many of the world’s best known and not so well known wine regions.  </p> {% endregionblock %}
                            <p class="arrow-link">
-                            <a href="http://www.thehiddenvine.com/" target="_blank">Learn More</a>
+                             {% regionblock  featuredlink%} 
+                             <a href="http://www.thehiddenvine.com/" target="_blank">Learn More</a>
+                            {% endregionblock %}
                            </p>
 
                            </div> 

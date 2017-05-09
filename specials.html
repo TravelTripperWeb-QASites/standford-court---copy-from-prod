@@ -21,17 +21,20 @@ meta_keywords_localized:
   <div class="special-banner">
 
     <div class="banner-inner">
+    {% regionblock heading %}
       <h3>Stanford Court Specials</h3>
       <h1>Unique Offers</h1>
+    {% endregionblock %}
+    {% regionblock text %}
       <p>Take advantage of our hotel deals and make your trip that much easier. Our specials can be utilized by all while adding an extra little spark to your trip. We can ease your perspective on travel, or change your perspective on everything.</p>
-
+     {% endregionblock %}
     </div>
   </div>
 </section>
 
 <section class="special" rt3-special-rates= "offers">
 <div class="container no-gutter" >
-  <div class="col-md-12" ><h2>Enjoy hotel deals & specials</h2></div>
+  <div class="col-md-12" >{% regionblock listheading %}<h2>Enjoy hotel deals & specials</h2>  {% endregionblock %}</div>
 
 
   <div class="col-md-6" ng-repeat="offer in offers.special_rates">

@@ -1,6 +1,6 @@
 ---
 excerpt: stanfordcourt.com
-parent: events
+parent: dining
 child: culture
 title_localized:
   en: Dining at Stanford Court Hotel in San Francisco
@@ -28,8 +28,12 @@ meta_keywords_localized:
         <div class="col-sm-6 no-padding clearfix">
           <div class="short-description">
                 
+                {% regionblock heading %} 
                 <h2 class="title">Aurea Café and Lounge</h2>
+                {% endregionblock %} 
+                {% regionblock maintext %} 
                 <p class="short-detail"><strong>Join us for breakfast in Aurea Café, featuring an assortment of fresh baked pastries, Equator Organic Coffee from Marin County, local organic juices and a delicious buffet breakfast. </strong> </p>
+                {% endregionblock %} 
           </div>
       </div>  
      </div>
@@ -38,12 +42,15 @@ meta_keywords_localized:
         
            <div class="div-overlay"  style="background-image:url(/images/attractions/dining.jpg)">
             <div class="title-container">
+                {% regionblock subheading %} 
                 <h1 class="title2"> DINING</h1>
                 <h4 class="heading4">Relax and unwind</h4>
+                {% endregionblock %} 
             </div>
 
             <div class="description">
                 
+                {% regionblock detail %} 
                 <p><strong>Relax and unwind in Aurea Lounge with a variety of drink options on tap, including our house specialty cocktails, local beers, wines and spirits.</strong></p>
 
                  <p>  Make your experience complete with one of our great appetizers or a selection of salads and sandwiches.</p>
@@ -52,7 +59,7 @@ meta_keywords_localized:
 			<p><strong>Breakfast</strong><br> 6:30am – 10:30am, 7 days a week </p>
 			<p><strong>Dinner</strong><br> 4:00 PM to 11:00 PM, daily </p>
 			<p><strong>Bar/Lounge</strong><br> Weekdays 3pm-11pm | Saturday & Sunday 1:30pm-11pm</p>
-			
+			    {% endregionblock %}
 
             </div>
            </div>
@@ -90,13 +97,16 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">  
                            <div class="content activity dining-menus">
-                           <h2 class="title">Menus</h2> 
+                          {% regionblock menuheading %} <h2 class="title">Menus</h2>
                            <h4 class="uppercase heading4"><p class="arrow-link-left"><a href="/pdf/AUREA-PM-MENU-SUMMER-2016-1.pdf" target="_blank">Dinner and Dessert Menu</a> </p></h4>
                            
                            <h4 class="uppercase heading4"><p class="arrow-link-left"><a href="/pdf/AUREA-PM-MENU-WINTER-2016-2.pdf" target="_blank">Cocktail Menu</a> </p></h4>
+                            {% endregionblock %}
 				<hr align="left"> 
-				   <p>Breakfast Buffet $20</p>
+				   {% regionblock menutext %}
+           <p>Breakfast Buffet $20</p>
 				   <p>Fresh Seasonal Fruits, Yogurt Parfaits, Fresh Baked Pastries, Croissants, Bagels, Oatmeal, Scrambled Eggs, Chef’s Choice Breakfast Meats</p>
+          {% endregionblock %}
                            </div> 
                    </div> 
               </div>
