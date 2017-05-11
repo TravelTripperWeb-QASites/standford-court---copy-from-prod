@@ -310,6 +310,26 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-05-02-071330_stanford-court-guide-to-unplugging-sf.jpg.json"
   },
   {
+    "name": "local-brews-in-sf",
+    "file_name": "local-brews-in-sf.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-05-04-020753/local-brews-in-sf.jpg",
+    "date_added": "2017-05-04-020753",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-05-04-020753_local-brews-in-sf.jpg.json"
+  },
+  {
+    "name": "local-tips-ferry-building-farmers-market",
+    "file_name": "local-tips-ferry-building-farmers-market.jpg",
+    "file_type": "image/jpeg",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_2598/media/2017-05-09-021521/local-tips-ferry-building-farmers-market.jpg",
+    "date_added": "2017-05-09-021522",
+    "tags": "",
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_2598_media_2017-05-09-021521_local-tips-ferry-building-farmers-market.jpg.json"
+  },
+  {
     "name": "best-ice-cream-in-san-francisco",
     "file_name": "best-ice-cream-in-san-francisco.jpg",
     "file_type": "image/jpeg",
