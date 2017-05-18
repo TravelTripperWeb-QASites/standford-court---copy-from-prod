@@ -1,8 +1,8 @@
 ---
 excerpt: The Urban Bundle is our most extensive set of amenities that blends convenience
   and comfort during your stay.
-parent: events
-child: culture
+parent: amenities
+child: urban-bundle
 title_localized:
   en: San Francisco Hotel with Modern Amenities | Stanford Court
 label_localized:
@@ -12,9 +12,7 @@ layout_localized:
 permalink_localized:
   en: 
 meta_description_localized:
-  en: Urban Bundles at Stanford Court give you access to bundle of great perks and
-    privileges including fast WiFi, use of iPads, a walking tour of the city, plus
-    more!
+  en: Urban Bundles at Stanford Court give you access to bundle of great perks and privileges including fast WiFi, use of iPads, a walking tour of the city, and more!
 meta_keywords_localized:
   en: 
 ---
@@ -31,10 +29,13 @@ meta_keywords_localized:
   <div class="location-banner amenities-banner" style="background-image:url(/images/amenities/urban_banner.jpg)">
     
     <div class="banner-inner">
+      {% regionblock heading %}
       <h2>Stanford Court</h2>
       <h3>Urban Bundle</h3>
+      {% endregionblock %}
+      {% regionblock maintext %}
       <p>Our Extensive Amenity Bundle</p>
-
+      {% endregionblock %}
     </div>
   </div>
 </section>
@@ -45,9 +46,11 @@ meta_keywords_localized:
       <div class="table-eq">
           <div class="left-cell">
               <div class="padd-60 m-venue">
+               {% regionblock subheading %}
                <h1 class="title2 whtText">CONVENIENT   </h1>
                <h4 class="heading4 uppercase">and </h4>
                <h1 class="title2 whtText ">Complete </h1>
+               {% endregionblock %}
                </div>
                 <div id="venuesSlider" class="carousel slide">
                   
@@ -65,8 +68,10 @@ meta_keywords_localized:
           <div class="right-cell">  
                   <div class="content ">   
                   <hr align="left"> 
+                  {% regionblock sort_detail %}
                   <p>Welcome to Stanford Court! We are obsessed with our guests (You) and with giving you a Great experience that showcases the best of SF. Your URBAN BUNDLE gives you access to bundle of great perks and privileges.  
                   </p>
+                  {% endregionblock %}
                   </div>
 
               <div class="btn-holder text-left marginLeft144">
@@ -81,11 +86,13 @@ meta_keywords_localized:
        
        <div class="local-living clearfix">
             <div class="col-sm-12 col-md-11">
+                   {% regionblock full_detail %} 
                    <p>Stanford Court Hotel charges a $20 nightly fee that covers our exhaustive amenity bundle. The fee is assessed daily and includes items normally charged individually by other hotels. </p> 
                    <p> <strong> This fee is subject to San Francisco occupancy tax and includes the following: </strong> </p> 
-                   
+                   {% endregionblock %} 
                    <div class="amenities-list">
-                    <ul>
+                    {% regionblock list_amenities %} 
+                     <ul>
                        <li>Electronic Magazines delivered to your personal device</li>
                        <li> Blazing fast Autobahn Wi-Fi throughout the hotel – unlimited device connections</li>
                         <li> Free printing and faxing</li>
@@ -113,6 +120,7 @@ meta_keywords_localized:
                         <li>  A curated, high-tech walking tour of Nob Hill & Chinatown</li>
                         <li> *limited supply available</li>
                    </ul> 
+                  {% endregionblock %} 
                </div>
             </div>
             
