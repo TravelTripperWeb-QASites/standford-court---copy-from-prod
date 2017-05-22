@@ -45,7 +45,7 @@
       "file": "blog19.json"
     },
     {
-      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "title": "The Apps We’re Downloading in February 2017",
       "file": "blog2.json"
     },
     {
@@ -57,7 +57,7 @@
       "file": "blog21.json"
     },
     {
-      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "title": "Stan’s San Francisco Activity Suggestions",
       "file": "blog22.json"
     },
     {
@@ -65,7 +65,7 @@
       "file": "blog23.json"
     },
     {
-      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "title": "Father’s Day Activities in San Francisco",
       "file": "blog24.json"
     },
     {
@@ -85,7 +85,7 @@
       "file": "blog28.json"
     },
     {
-      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "title": "Mother’s Day Activities in San Francisco",
       "file": "blog29.json"
     },
     {
@@ -133,7 +133,7 @@
       "file": "blog39.json"
     },
     {
-      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "title": "I Left My <3 in San Francisco - Valentine’s Day Package",
       "file": "blog4.json"
     },
     {
@@ -149,7 +149,7 @@
       "file": "blog42.json"
     },
     {
-      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "title": "Stay On Track At San Francisco’s Stanford Court Hotel!",
       "file": "blog43.json"
     },
     {
@@ -177,7 +177,7 @@
       "file": "blog49.json"
     },
     {
-      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "title": "The 10th Annual Crunchies – Our Picks",
       "file": "blog5.json"
     },
     {
@@ -221,7 +221,7 @@
       "file": "blog59.json"
     },
     {
-      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "title": "Things to Do in San Francisco – February 2017",
       "file": "blog6.json"
     },
     {
@@ -273,12 +273,38 @@
       "file": "blog71.json"
     },
     {
+      "title": "Where 2 Take Mom This #MothersDay in SF",
+      "file": "blog72.json"
+    },
+    {
+      "title": "What We’re Excited 4 @ Google I/O 2017",
+      "file": "blog73.json"
+    },
+    {
+      "title": "A SCH #SneakPeek @ The Summer of Love Experience",
+      "file": "blog74.json"
+    },
+    {
+      "title": "6 Reasons 2 Go 2 Outside Lands",
+      "file": "blog75.json"
+    },
+    {
+      "title": "#LocalTips 4 Surviving Bay to Breakers",
+      "file": "blog76.json"
+    },
+    {
       "title": "SF Indie Fest 2017",
       "file": "blog8.json"
     },
     {
       "title": "Happy Holidays from Stan and our Team",
       "file": "blog9.json"
+    }
+  ],
+  "event_category": [
+    {
+      "title": "Local",
+      "file": "event_category1.json"
     }
   ],
   "events": [
@@ -309,12 +335,6 @@
     {
       "title": "Rock and Roll Half Marathon",
       "file": "event7.json"
-    }
-  ],
-  "event_category": [
-    {
-      "title": "Local",
-      "file": "event_category1.json"
     }
   ],
   "gallery_hotel_images": [
@@ -510,7 +530,7 @@
       "file": "press1.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press10.json"
     },
     {
@@ -518,7 +538,7 @@
       "file": "press11.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press12.json"
     },
     {
@@ -526,7 +546,7 @@
       "file": "press13.json"
     },
     {
-      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "title": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
       "file": "press14.json"
     },
     {
@@ -546,7 +566,7 @@
       "file": "press2.json"
     },
     {
-      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "title": "NOB HILL’S STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
       "file": "press3.json"
     },
     {
@@ -562,7 +582,7 @@
       "file": "press6.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "title": "SAN FRANCISCO’S ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
       "file": "press7.json"
     },
     {

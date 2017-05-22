@@ -303,6 +303,19 @@
         }
       ]
     },
+    "reboot": {
+      "__PAGES__": [
+        {
+          "label": "Hotels near Union Square | Stanford Court Location",
+          "published": true,
+          "locales": {
+            "en": "/reboot/"
+          },
+          "data_source": null,
+          "source_path": "reboot.html"
+        }
+      ]
+    },
     "room": {
       "__PAGES__": [
         {
@@ -440,20 +453,6 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
-    "blog/index.html/ct_text.json",
-    "blog/index.html/footeraddress.json",
-    "blog/index.html/footerlinks.json",
     "attractions/index.html/heading.json",
     "attractions/index.html/maintext.json",
     "attractions/index.html/subheading.json",
@@ -467,6 +466,9 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
+    "blog/index.html/ct_text.json",
+    "blog/index.html/footeraddress.json",
+    "blog/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -502,6 +504,17 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
     "events/index.html/ct_text.json",
     "events/index.html/footeraddress.json",
     "events/index.html/footerlinks.json",
@@ -538,6 +551,9 @@
     "privacy-policy.html/ct_text.json",
     "privacy-policy.html/footeraddress.json",
     "privacy-policy.html/footerlinks.json",
+    "reboot.html/ct_text.json",
+    "reboot.html/footeraddress.json",
+    "reboot.html/footerlinks.json",
     "attractions/retail.html/heading.json",
     "attractions/retail.html/maintext.json",
     "attractions/retail.html/subheading.json",
@@ -810,6 +826,21 @@
     "blog/localtips-for-optimizing-your-ferry-building-experince.html/ct_text.json",
     "blog/localtips-for-optimizing-your-ferry-building-experince.html/footeraddress.json",
     "blog/localtips-for-optimizing-your-ferry-building-experince.html/footerlinks.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/ct_text.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/footeraddress.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/footerlinks.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/ct_text.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/footeraddress.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/footerlinks.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/ct_text.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/footeraddress.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/footerlinks.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/ct_text.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/footeraddress.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/footerlinks.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/ct_text.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/footeraddress.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/footerlinks.json",
     "blog/sf-indie-fest-2017.html/ct_text.json",
     "blog/sf-indie-fest-2017.html/footeraddress.json",
     "blog/sf-indie-fest-2017.html/footerlinks.json",
@@ -869,11 +900,14 @@
     "blog/page11/index.html/footerlinks.json",
     "blog/page12/index.html/ct_text.json",
     "blog/page12/index.html/footeraddress.json",
-    "blog/page12/index.html/footerlinks.json"
+    "blog/page12/index.html/footerlinks.json",
+    "blog/page13/index.html/ct_text.json",
+    "blog/page13/index.html/footeraddress.json",
+    "blog/page13/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
     "config",
     "menu"
   ],
-  "__SHA__": "3376c37749c2d1922bffe5450f76e1802d920ebe"
+  "__SHA__": "f067043e69583c94966753333ab11a99928d7d46"
 }
