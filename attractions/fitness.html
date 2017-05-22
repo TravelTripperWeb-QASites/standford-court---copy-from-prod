@@ -30,9 +30,13 @@ meta_keywords_localized:
       <div class="row no-gutter">
         <div class="col-sm-6 no-padding clearfix">
           <div class="short-description">
-                <h4> San Francisco</h4>
+                 {% regionblock heading %} 
+                 <h4> San Francisco</h4>
                 <h2 class="title">Local Attractions</h2>
+                {% endregionblock %} 
+                {% regionblock maintext %} 
                 <p class="short-detail"><strong>There are so many things to see and do in San Francisco, that it may be hard to know where to start. For your convenience, we have highlighted a few of our favorites.</strong> </p>
+                {% endregionblock %} 
           </div>
       </div>  
      </div>
@@ -41,15 +45,17 @@ meta_keywords_localized:
         
            <div class="div-overlay"  style="background-image:url(/images/attractions/fitness-girl.jpg)">
             <div class="title-container">
+                {% regionblock subheading %} 
                 <h1 class="title2">Fitness</h1>
                 <h4 class="heading4">dive into San Francisco</h4>
+                {% endregionblock %}
             </div>
 
             <div class="description">
-                <h1 class="title">Stay Active in SF</h1>
-                <p><strong>San Fransisco's fitness culture meets the epicenter of technology to deliver endless connected and disconnected methods of staying in shape. Start the day with a run by the ocean, cycle in hi-tech facilities, or take a yoga class to let the day fade away.</strong></p>
+                 {% regionblock title %}<h1 class="title">Stay Active in SF</h1>{% endregionblock %} 
+                 {% regionblock details %}<p><strong>San Fransisco's fitness culture meets the epicenter of technology to deliver endless connected and disconnected methods of staying in shape. Start the day with a run by the ocean, cycle in hi-tech facilities, or take a yoga class to let the day fade away.</strong></p>
 
-     <p>Looking to explore our city by bike? Be sure to ask about our bike sharing program while you're on property and we'll set you on your way.</p>
+     <p>Looking to explore our city by bike? Be sure to ask about our bike sharing program while you're on property and we'll set you on your way.</p>{% endregionblock %}
             </div>
            </div>
         </div>   
@@ -81,12 +87,16 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">  
                            <div class="content activity">
+                          {% regionblock featuredtitle %}
                            <h2 class="title">Featured Activity</h2> 
-                           <h4 class="uppercase heading4">Mission Cliffs Climbing</h4>   
+                           <h4 class="uppercase heading4">Mission Cliffs Climbing</h4> 
+                            {% endregionblock %}  
                            <hr align="left"> 
-                           <p>Mission Cliffs Climbing is the San Francisco location of Touchstone Climbing Incorporated, which is the largest indoor climbing company in the world.  </p>
+                           {% regionblock  featuredtext %} <p>Mission Cliffs Climbing is the San Francisco location of Touchstone Climbing Incorporated, which is the largest indoor climbing company in the world.  </p>
+                            {% endregionblock %}
                            <p class="arrow-link">
-                            <a href="https://touchstoneclimbing.com/mission-cliffs/" target="_blank">Learn More</a>
+                             {% regionblock  featuredlink%} <a href="https://touchstoneclimbing.com/mission-cliffs/" target="_blank">Learn More</a>
+                             {% endregionblock %}
                            </p>
 
                            </div> 

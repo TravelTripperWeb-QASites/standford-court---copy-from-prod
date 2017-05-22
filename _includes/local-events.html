@@ -4,11 +4,12 @@
                        <div class="bg-img" style="background:url(/images/homepage/attractions/dancing.jpg) top left no-repeat; background-size:cover;">
                        </div>
                       <div class="all-block">
-                        <h1 class="heading2">LOCAL EVENTS</h1>
+                        {% regionblock footereventsheading %} <h1 class="heading2">LOCAL EVENTS</h1>{% endregionblock %}
                        <div class="btn-holder text-center">
+                        {% regionblock footereventslink %}
                         <a href="/events/" class="butn btn-white uppercase">
                             Discover all Events
-                        </a>
+                        </a>{% endregionblock %}
                        </div>
                       </div>
                 </div>

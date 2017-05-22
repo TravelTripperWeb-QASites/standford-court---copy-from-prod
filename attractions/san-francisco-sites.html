@@ -30,9 +30,13 @@ meta_keywords_localized:
       <div class="row no-gutter">
         <div class="col-sm-6 no-padding clearfix">
           <div class="short-description">
+                {% regionblock heading %} 
                 <h4> San Francisco</h4>
                 <h2 class="title">Local Attractions</h2>
+               {% endregionblock %} 
+                {% regionblock maintext %}
                 <p class="short-detail"><strong>There are so many things to see and do in San Francisco, that it may be hard to know where to start. For your convenience, we have highlighted a few of our favorites.</strong> </p>
+                {% endregionblock %} 
           </div>
       </div>  
      </div>
@@ -41,13 +45,15 @@ meta_keywords_localized:
         
            <div class="div-overlay"  style="background-image:url(/images/attractions/sf-sites-banner.jpg)">
             <div class="title-container">
-                <h1 class="title2">SF sites</h1>
+                {% regionblock subheading %} 
+                 <h1 class="title2">SF sites</h1>
                 <h4 class="heading4">dive into San Francisco</h4>
+                {% endregionblock %}
             </div>
 
             <div class="c-description">
-                <h1 class="title">SF Sites</h1>
-                <p><strong>Endless world-renowned destinations are at your fingertips. From iconic landmarks to hidden gems, unleash your inner traveler  </strong></p>
+                {% regionblock title %}<h1 class="title">SF Sites</h1>{% endregionblock %}
+                {% regionblock details %}<p><strong>Endless world-renowned destinations are at your fingertips. From iconic landmarks to hidden gems, unleash your inner traveler  </strong></p>{% endregionblock %}
 
                  
             </div>
@@ -81,13 +87,18 @@ meta_keywords_localized:
                    </div>
                    <div class="right-cell bg-dark">  
                            <div class="content activity">
-                           <h2 class="title">Featured Activity</h2> 
+                           {% regionblock featuredtitle %}<h2 class="title">Featured Activity</h2> 
                            <h4 class="uppercase heading4">Marin Headlands</h4>   
+                            {% endregionblock %}   
                            <hr align="left"> 
+                           {% regionblock  featuredtext %}
                            <p>Explore a vast, beautiful and diverse wilderness, known as the crown jewel of the Golden Gate National Parks, where you will find abundant natural wonder and remarkable historic sites. </p>
+                           {% endregionblock %}   
                            <p class="arrow-link">
-                            <a href="http://www.parksconservancy.org/visit/park-sites/marin-headlands.html" target="_blank">Learn More
+                             {% regionblock  featuredlink%}
+                             <a href="http://www.parksconservancy.org/visit/park-sites/marin-headlands.html" target="_blank">Learn More
                             </a>
+                            {% endregionblock %}   
                            </p>
 
                            </div> 

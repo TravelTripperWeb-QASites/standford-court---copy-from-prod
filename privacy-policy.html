@@ -21,7 +21,7 @@ meta_keywords_localized:
     
     <div class="banner-inner">
      
-      <h3>Privacy Policy</h3>
+      {% regionblock heading %} <h3>Privacy Policy</h3> {% endregionblock %}
  
     </div>
   </div>
@@ -31,6 +31,7 @@ meta_keywords_localized:
 		<div class="col-sm-12">
 			
 			<div class="press privacy"><br>
+				{% regionblock text %}
 				<p>Stanford Court (“Hotel,” “we,” “us,” or “our”) is committed to protecting your privacy when you visit and/or interact with our website located at http://www.stanfordcourt.com/ (the “Site”). As such, our privacy practices for the Site are explained in this Privacy Policy (this “Policy”). This Policy contains details about how we collect, use, and share information from you when you use the Site.</p>
 				<p>We may update this Policy from time to time. By using the Site, you (on behalf of yourself and your organization, if applicable) are expressly agreeing to the terms and conditions of the then-posted version of this Policy. If you do not agree with the terms and conditions of this Policy, you must immediately cease your use of the Site.</p>
 				<h4>Changes to Policy</h4>
@@ -129,6 +130,7 @@ meta_keywords_localized:
 				</ul>
 				<h4>Contact</h4>
 				<p>If you have any questions regarding this Policy, please contact us at: <a href="mailto:mbaier@stanfordcourt.com">mbaier@stanfordcourt.com</a>.</p>
+				{% endregionblock %}
 			</div>
 		</div>
 	</div>

@@ -1,756 +1,578 @@
 {
   "blog": [
-    [
-      {
-        "title": "The Stanford Court Guide 2 Nob Hill",
-        "file": "blog.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Things to Do in January",
-        "file": "blog10.json"
-      }
-    ],
-    [
-      {
-        "title": "Our Favourite San Francisco Views",
-        "file": "blog11.json"
-      }
-    ],
-    [
-      {
-        "title": "Union Square Holiday Fun",
-        "file": "blog12.json"
-      }
-    ],
-    [
-      {
-        "title": "Best Nob Hill Desserts",
-        "file": "blog13.json"
-      }
-    ],
-    [
-      {
-        "title": "Union Square Christmas Tree Lighting",
-        "file": "blog14.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Halloween Events",
-        "file": "blog15.json"
-      }
-    ],
-    [
-      {
-        "title": "Rainy Day Activities in Nob Hill",
-        "file": "blog16.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Giants NDLS",
-        "file": "blog17.json"
-      }
-    ],
-    [
-      {
-        "title": "Fleet Week 2016 Events",
-        "file": "blog18.json"
-      }
-    ],
-    [
-      {
-        "title": "Stay at our San Francisco Dog Friendly Hotel",
-        "file": "blog19.json"
-      }
-    ],
-    [
-      {
-        "title": "The Apps WeΓÇÖre Downloading in February 2017",
-        "file": "blog2.json"
-      }
-    ],
-    [
-      {
-        "title": "Best San Francisco Activities in September",
-        "file": "blog20.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Celebrations for Tony Bennett",
-        "file": "blog21.json"
-      }
-    ],
-    [
-      {
-        "title": "StanΓÇÖs San Francisco Activity Suggestions",
-        "file": "blog22.json"
-      }
-    ],
-    [
-      {
-        "title": "@Stanford Court Receives TripAdvisor Certificate of Excellence Award",
-        "file": "blog23.json"
-      }
-    ],
-    [
-      {
-        "title": "FatherΓÇÖs Day Activities in San Francisco",
-        "file": "blog24.json"
-      }
-    ],
-    [
-      {
-        "title": "Summer Travels to San Francisco",
-        "file": "blog25.json"
-      }
-    ],
-    [
-      {
-        "title": "Best Nob Hill Date Night Spots",
-        "file": "blog26.json"
-      }
-    ],
-    [
-      {
-        "title": "Get to Know Stan",
-        "file": "blog27.json"
-      }
-    ],
-    [
-      {
-        "title": "The Perfect San Francisco Hotel for Groups",
-        "file": "blog28.json"
-      }
-    ],
-    [
-      {
-        "title": "MotherΓÇÖs Day Activities in San Francisco",
-        "file": "blog29.json"
-      }
-    ],
-    [
-      {
-        "title": "RSA Conference 2017 Preview",
-        "file": "blog3.json"
-      }
-    ],
-    [
-      {
-        "title": "SF Earth Day: Celebrate Earth Day with Stanford Court",
-        "file": "blog30.json"
-      }
-    ],
-    [
-      {
-        "title": "Our Favorite #SF Farmers Markets",
-        "file": "blog31.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Earth Month Events",
-        "file": "blog32.json"
-      }
-    ],
-    [
-      {
-        "title": "Best Nob Hill Spots to Watch March Madness",
-        "file": "blog33.json"
-      }
-    ],
-    [
-      {
-        "title": "#StanfordCourtSF Details",
-        "file": "blog34.json"
-      }
-    ],
-    [
-      {
-        "title": "Continuing To Go Green",
-        "file": "blog35.json"
-      }
-    ],
-    [
-      {
-        "title": "Nob Hill Hidden Gems",
-        "file": "blog36.json"
-      }
-    ],
-    [
-      {
-        "title": "Packing Tips for Your San Francisco Trip!",
-        "file": "blog37.json"
-      }
-    ],
-    [
-      {
-        "title": "Best San Francisco Hikes!",
-        "file": "blog38.json"
-      }
-    ],
-    [
-      {
-        "title": "Super Bowl 50",
-        "file": "blog39.json"
-      }
-    ],
-    [
-      {
-        "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
-        "file": "blog4.json"
-      }
-    ],
-    [
-      {
-        "title": "Super Bowl 50!",
-        "file": "blog40.json"
-      }
-    ],
-    [
-      {
-        "title": "Super Bowl 50",
-        "file": "blog41.json"
-      }
-    ],
-    [
-      {
-        "title": "super-bowl-50",
-        "file": "blog42.json"
-      }
-    ],
-    [
-      {
-        "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
-        "file": "blog43.json"
-      }
-    ],
-    [
-      {
-        "title": "Best San Francisco Hikes!",
-        "file": "blog44.json"
-      }
-    ],
-    [
-      {
-        "title": "Aw Shucks! 5 Great Places To Eat Oysters!",
-        "file": "blog45.json"
-      }
-    ],
-    [
-      {
-        "title": "Our Favorite Apps!",
-        "file": "blog46.json"
-      }
-    ],
-    [
-      {
-        "title": "San Francisco Murals!",
-        "file": "blog47.json"
-      }
-    ],
-    [
-      {
-        "title": "3 Restaurants To Check Out In Nob Hill!",
-        "file": "blog48.json"
-      }
-    ],
-    [
-      {
-        "title": "3 Coffee Shops in Nob Hill!",
-        "file": "blog49.json"
-      }
-    ],
-    [
-      {
-        "title": "The 10th Annual Crunchies ΓÇô Our Picks",
-        "file": "blog5.json"
-      }
-    ],
-    [
-      {
-        "title": "Stanford Court Recommended Listening: Bay Area Tunes",
-        "file": "blog50.json"
-      }
-    ],
-    [
-      {
-        "title": "Where to Eat Clam Chowder in San Francisco",
-        "file": "blog51.json"
-      }
-    ],
-    [
-      {
-        "title": "Google Next Conference 2017",
-        "file": "blog52.json"
-      }
-    ],
-    [
-      {
-        "title": "6 Things to Do in San Francsico in March 2017",
-        "file": "blog53.json"
-      }
-    ],
-    [
-      {
-        "title": "5 Things You Must Try @ The Ferry Building",
-        "file": "blog54.json"
-      }
-    ],
-    [
-      {
-        "title": "Hamilton Comes to San Francsico",
-        "file": "blog55.json"
-      }
-    ],
-    [
-      {
-        "title": "Levi Strauss, San Francisco, & Stanford Court Hotel",
-        "file": "blog56.json"
-      }
-    ],
-    [
-      {
-        "title": "The Apps We're Downloading Now - March 2017",
-        "file": "blog57.json"
-      }
-    ],
-    [
-      {
-        "title": "Monet: The Early Years @ The Legion of Honor",
-        "file": "blog58.json"
-      }
-    ],
-    [
-      {
-        "title": "The 5 Best Food Trucks in SF, according 2 SCH",
-        "file": "blog59.json"
-      }
-    ],
-    [
-      {
-        "title": "Things to Do in San Francisco ΓÇô February 2017",
-        "file": "blog6.json"
-      }
-    ],
-    [
-      {
-        "title": "The Most Scenic Running Routes in SF",
-        "file": "blog60.json"
-      }
-    ],
-    [
-      {
-        "title": "The Best Ice Cream in SF, according 2 SCH",
-        "file": "blog61.json"
-      }
-    ],
-    [
-      {
-        "title": "The Most Instagrammable Eats in SF Right Now",
-        "file": "blog62.json"
-      }
-    ],
-    [
-      {
-        "title": "The Stanford Court Guide 2 Polk Street",
-        "file": "blog63.json"
-      }
-    ],
-    [
-      {
-        "title": "The SF Festivals We LUV",
-        "file": "blog64.json"
-      }
-    ],
-    [
-      {
-        "title": "The Best Places to Go #OffTheGrid near SF",
-        "file": "blog65.json"
-      }
-    ],
-    [
-      {
-        "title": "Where to Eat Pizza in Nob Hill",
-        "file": "blog7.json"
-      }
-    ],
-    [
-      {
-        "title": "SF Indie Fest 2017",
-        "file": "blog8.json"
-      }
-    ],
-    [
-      {
-        "title": "Happy Holidays from Stan and our Team",
-        "file": "blog9.json"
-      }
-    ]
+    {
+      "title": "The Stanford Court Guide 2 Nob Hill",
+      "file": "blog1.json"
+    },
+    {
+      "title": "San Francisco Things to Do in January",
+      "file": "blog10.json"
+    },
+    {
+      "title": "Our Favourite San Francisco Views",
+      "file": "blog11.json"
+    },
+    {
+      "title": "Union Square Holiday Fun",
+      "file": "blog12.json"
+    },
+    {
+      "title": "Best Nob Hill Desserts",
+      "file": "blog13.json"
+    },
+    {
+      "title": "Union Square Christmas Tree Lighting",
+      "file": "blog14.json"
+    },
+    {
+      "title": "San Francisco Halloween Events",
+      "file": "blog15.json"
+    },
+    {
+      "title": "Rainy Day Activities in Nob Hill",
+      "file": "blog16.json"
+    },
+    {
+      "title": "San Francisco Giants NDLS",
+      "file": "blog17.json"
+    },
+    {
+      "title": "Fleet Week 2016 Events",
+      "file": "blog18.json"
+    },
+    {
+      "title": "Stay at our San Francisco Dog Friendly Hotel",
+      "file": "blog19.json"
+    },
+    {
+      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "file": "blog2.json"
+    },
+    {
+      "title": "Best San Francisco Activities in September",
+      "file": "blog20.json"
+    },
+    {
+      "title": "San Francisco Celebrations for Tony Bennett",
+      "file": "blog21.json"
+    },
+    {
+      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "file": "blog22.json"
+    },
+    {
+      "title": "@Stanford Court Receives TripAdvisor Certificate of Excellence Award",
+      "file": "blog23.json"
+    },
+    {
+      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "file": "blog24.json"
+    },
+    {
+      "title": "Summer Travels to San Francisco",
+      "file": "blog25.json"
+    },
+    {
+      "title": "Best Nob Hill Date Night Spots",
+      "file": "blog26.json"
+    },
+    {
+      "title": "Get to Know Stan",
+      "file": "blog27.json"
+    },
+    {
+      "title": "The Perfect San Francisco Hotel for Groups",
+      "file": "blog28.json"
+    },
+    {
+      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "file": "blog29.json"
+    },
+    {
+      "title": "RSA Conference 2017 Preview",
+      "file": "blog3.json"
+    },
+    {
+      "title": "SF Earth Day: Celebrate Earth Day with Stanford Court",
+      "file": "blog30.json"
+    },
+    {
+      "title": "Our Favorite #SF Farmers Markets",
+      "file": "blog31.json"
+    },
+    {
+      "title": "San Francisco Earth Month Events",
+      "file": "blog32.json"
+    },
+    {
+      "title": "Best Nob Hill Spots to Watch March Madness",
+      "file": "blog33.json"
+    },
+    {
+      "title": "#StanfordCourtSF Details",
+      "file": "blog34.json"
+    },
+    {
+      "title": "Continuing To Go Green",
+      "file": "blog35.json"
+    },
+    {
+      "title": "Nob Hill Hidden Gems",
+      "file": "blog36.json"
+    },
+    {
+      "title": "Packing Tips for Your San Francisco Trip!",
+      "file": "blog37.json"
+    },
+    {
+      "title": "Best San Francisco Hikes!",
+      "file": "blog38.json"
+    },
+    {
+      "title": "Super Bowl 50",
+      "file": "blog39.json"
+    },
+    {
+      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "file": "blog4.json"
+    },
+    {
+      "title": "Super Bowl 50!",
+      "file": "blog40.json"
+    },
+    {
+      "title": "Super Bowl 50",
+      "file": "blog41.json"
+    },
+    {
+      "title": "super-bowl-50",
+      "file": "blog42.json"
+    },
+    {
+      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "file": "blog43.json"
+    },
+    {
+      "title": "Best San Francisco Hikes!",
+      "file": "blog44.json"
+    },
+    {
+      "title": "Aw Shucks! 5 Great Places To Eat Oysters!",
+      "file": "blog45.json"
+    },
+    {
+      "title": "Our Favorite Apps!",
+      "file": "blog46.json"
+    },
+    {
+      "title": "San Francisco Murals!",
+      "file": "blog47.json"
+    },
+    {
+      "title": "3 Restaurants To Check Out In Nob Hill!",
+      "file": "blog48.json"
+    },
+    {
+      "title": "3 Coffee Shops in Nob Hill!",
+      "file": "blog49.json"
+    },
+    {
+      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "file": "blog5.json"
+    },
+    {
+      "title": "Stanford Court Recommended Listening: Bay Area Tunes",
+      "file": "blog50.json"
+    },
+    {
+      "title": "Where to Eat Clam Chowder in San Francisco",
+      "file": "blog51.json"
+    },
+    {
+      "title": "Google Next Conference 2017",
+      "file": "blog52.json"
+    },
+    {
+      "title": "6 Things to Do in San Francsico in March 2017",
+      "file": "blog53.json"
+    },
+    {
+      "title": "5 Things You Must Try @ The Ferry Building",
+      "file": "blog54.json"
+    },
+    {
+      "title": "Hamilton Comes to San Francsico",
+      "file": "blog55.json"
+    },
+    {
+      "title": "Levi Strauss, San Francisco, & Stanford Court Hotel",
+      "file": "blog56.json"
+    },
+    {
+      "title": "The Apps We're Downloading Now - March 2017",
+      "file": "blog57.json"
+    },
+    {
+      "title": "Monet: The Early Years @ The Legion of Honor",
+      "file": "blog58.json"
+    },
+    {
+      "title": "The 5 Best Food Trucks in SF, according 2 SCH",
+      "file": "blog59.json"
+    },
+    {
+      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "file": "blog6.json"
+    },
+    {
+      "title": "The Most Scenic Running Routes in SF",
+      "file": "blog60.json"
+    },
+    {
+      "title": "The Best Ice Cream in SF, according 2 SCH",
+      "file": "blog61.json"
+    },
+    {
+      "title": "The Most Instagrammable Eats in SF Right Now",
+      "file": "blog62.json"
+    },
+    {
+      "title": "The Stanford Court Guide 2 Polk Street",
+      "file": "blog63.json"
+    },
+    {
+      "title": "The Best Places to Go #OffTheGrid near SF",
+      "file": "blog65.json"
+    },
+    {
+      "title": "Farm-2-Table Restaurants in SF",
+      "file": "blog66.json"
+    },
+    {
+      "title": "Re-Live the Summer of Love @ SCH",
+      "file": "blog67.json"
+    },
+    {
+      "title": "Things to Do in San Francisco in May 2017",
+      "file": "blog68.json"
+    },
+    {
+      "title": "The SCH Guide 2 Unplugging",
+      "file": "blog69.json"
+    },
+    {
+      "title": "Where to Eat Pizza in Nob Hill",
+      "file": "blog7.json"
+    },
+    {
+      "title": "The Local Brews You Need to Try in SF",
+      "file": "blog70.json"
+    },
+    {
+      "title": "#LocalTips for Optimizing Your Ferry Building Experience",
+      "file": "blog71.json"
+    },
+    {
+      "title": "SF Indie Fest 2017",
+      "file": "blog8.json"
+    },
+    {
+      "title": "Happy Holidays from Stan and our Team",
+      "file": "blog9.json"
+    }
   ],
   "events": [
-    [
-      {
-        "title": "Monet, The Early Years at the Legion of Honor",
-        "file": "event1.json"
-      }
-    ],
-    [
-      {
-        "title": "Adam Devine (Bumper from Pitch Perfect 1 and 2) at the Masonic",
-        "file": "event2.json"
-      }
-    ],
-    [
-      {
-        "title": "Google Next conference at Moscone Center",
-        "file": "event3.json"
-      }
-    ],
-    [
-      {
-        "title": "Hamilton at Orpheum Theater ",
-        "file": "event4.json"
-      }
-    ],
-    [
-      {
-        "title": "St. Patrick's Day Parade",
-        "file": "event5.json"
-      }
-    ],
-    [
-      {
-        "title": "Michael Carbonaro at the Masonic",
-        "file": "event6.json"
-      }
-    ],
-    [
-      {
-        "title": "Rock and Roll Half Marathon",
-        "file": "event7.json"
-      }
-    ]
+    {
+      "title": "Monet, The Early Years at the Legion of Honor",
+      "file": "event1.json"
+    },
+    {
+      "title": "Adam Devine (Bumper from Pitch Perfect 1 and 2) at the Masonic",
+      "file": "event2.json"
+    },
+    {
+      "title": "Google Next conference at Moscone Center",
+      "file": "event3.json"
+    },
+    {
+      "title": "Hamilton at Orpheum Theater ",
+      "file": "event4.json"
+    },
+    {
+      "title": "St. Patrick's Day Parade",
+      "file": "event5.json"
+    },
+    {
+      "title": "Michael Carbonaro at the Masonic",
+      "file": "event6.json"
+    },
+    {
+      "title": "Rock and Roll Half Marathon",
+      "file": "event7.json"
+    }
   ],
   "event_category": [
-    [
-      {
-        "title": "Local",
-        "file": "event_category1.json"
-      }
-    ]
+    {
+      "title": "Local",
+      "file": "event_category1.json"
+    }
   ],
   "gallery_hotel_images": [
-    [
-      {
-        "file": "gallery_hotel_image1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image10.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image11.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image12.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image13.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image14.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image15.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image16.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image17.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image18.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image19.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image20.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image21.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image22.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image23.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image24.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image25.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image26.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image27.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image28.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image29.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image30.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image31.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_hotel_image9.json"
-      }
-    ]
+    {
+      "file": "gallery_hotel_image1.json"
+    },
+    {
+      "file": "gallery_hotel_image10.json"
+    },
+    {
+      "file": "gallery_hotel_image11.json"
+    },
+    {
+      "file": "gallery_hotel_image12.json"
+    },
+    {
+      "file": "gallery_hotel_image13.json"
+    },
+    {
+      "file": "gallery_hotel_image14.json"
+    },
+    {
+      "file": "gallery_hotel_image15.json"
+    },
+    {
+      "file": "gallery_hotel_image16.json"
+    },
+    {
+      "file": "gallery_hotel_image17.json"
+    },
+    {
+      "file": "gallery_hotel_image18.json"
+    },
+    {
+      "file": "gallery_hotel_image19.json"
+    },
+    {
+      "file": "gallery_hotel_image2.json"
+    },
+    {
+      "file": "gallery_hotel_image20.json"
+    },
+    {
+      "file": "gallery_hotel_image21.json"
+    },
+    {
+      "file": "gallery_hotel_image22.json"
+    },
+    {
+      "file": "gallery_hotel_image23.json"
+    },
+    {
+      "file": "gallery_hotel_image24.json"
+    },
+    {
+      "file": "gallery_hotel_image25.json"
+    },
+    {
+      "file": "gallery_hotel_image26.json"
+    },
+    {
+      "file": "gallery_hotel_image27.json"
+    },
+    {
+      "file": "gallery_hotel_image28.json"
+    },
+    {
+      "file": "gallery_hotel_image29.json"
+    },
+    {
+      "file": "gallery_hotel_image3.json"
+    },
+    {
+      "file": "gallery_hotel_image30.json"
+    },
+    {
+      "file": "gallery_hotel_image31.json"
+    },
+    {
+      "file": "gallery_hotel_image4.json"
+    },
+    {
+      "file": "gallery_hotel_image5.json"
+    },
+    {
+      "file": "gallery_hotel_image6.json"
+    },
+    {
+      "file": "gallery_hotel_image7.json"
+    },
+    {
+      "file": "gallery_hotel_image8.json"
+    },
+    {
+      "file": "gallery_hotel_image9.json"
+    }
   ],
   "gallery_room_images": [
-    [
-      {
-        "file": "gallery_room_images1.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images10.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images11.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images12.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images13.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images14.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images15.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images16.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images17.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images18.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images19.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images2.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images20.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images21.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images22.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images23.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images24.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images25.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images26.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images27.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images28.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images29.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images3.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images30.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images4.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images5.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images6.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images7.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images8.json"
-      }
-    ],
-    [
-      {
-        "file": "gallery_room_images9.json"
-      }
-    ]
+    {
+      "file": "gallery_room_images1.json"
+    },
+    {
+      "file": "gallery_room_images10.json"
+    },
+    {
+      "file": "gallery_room_images11.json"
+    },
+    {
+      "file": "gallery_room_images12.json"
+    },
+    {
+      "file": "gallery_room_images13.json"
+    },
+    {
+      "file": "gallery_room_images14.json"
+    },
+    {
+      "file": "gallery_room_images15.json"
+    },
+    {
+      "file": "gallery_room_images16.json"
+    },
+    {
+      "file": "gallery_room_images17.json"
+    },
+    {
+      "file": "gallery_room_images18.json"
+    },
+    {
+      "file": "gallery_room_images19.json"
+    },
+    {
+      "file": "gallery_room_images2.json"
+    },
+    {
+      "file": "gallery_room_images20.json"
+    },
+    {
+      "file": "gallery_room_images21.json"
+    },
+    {
+      "file": "gallery_room_images22.json"
+    },
+    {
+      "file": "gallery_room_images23.json"
+    },
+    {
+      "file": "gallery_room_images24.json"
+    },
+    {
+      "file": "gallery_room_images25.json"
+    },
+    {
+      "file": "gallery_room_images26.json"
+    },
+    {
+      "file": "gallery_room_images27.json"
+    },
+    {
+      "file": "gallery_room_images28.json"
+    },
+    {
+      "file": "gallery_room_images29.json"
+    },
+    {
+      "file": "gallery_room_images3.json"
+    },
+    {
+      "file": "gallery_room_images30.json"
+    },
+    {
+      "file": "gallery_room_images4.json"
+    },
+    {
+      "file": "gallery_room_images5.json"
+    },
+    {
+      "file": "gallery_room_images6.json"
+    },
+    {
+      "file": "gallery_room_images7.json"
+    },
+    {
+      "file": "gallery_room_images8.json"
+    },
+    {
+      "file": "gallery_room_images9.json"
+    }
+  ],
+  "press": [
+    {
+      "title": "STANFORD COURT SETS UPDATES",
+      "file": "press1.json"
+    },
+    {
+      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "file": "press10.json"
+    },
+    {
+      "title": "STANFORD COURT INTRODUCES FESTIVE HOLIDAY EXPERIENCES FOR GUESTS AND LOCALS",
+      "file": "press11.json"
+    },
+    {
+      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "file": "press12.json"
+    },
+    {
+      "title": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
+      "file": "press13.json"
+    },
+    {
+      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "file": "press14.json"
+    },
+    {
+      "title": "LUXURY TRAVEL MAGAZINE",
+      "file": "press15.json"
+    },
+    {
+      "title": "HUFFINGTON POST",
+      "file": "press16.json"
+    },
+    {
+      "title": "CONDE NAST TRAVELER",
+      "file": "press17.json"
+    },
+    {
+      "title": "STANFORD COURT HOTEL PLANS 2014 TRANSFORMATION",
+      "file": "press2.json"
+    },
+    {
+      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "file": "press3.json"
+    },
+    {
+      "title": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
+      "file": "press4.json"
+    },
+    {
+      "title": "HOTELS SEEK THE GEEKS",
+      "file": "press5.json"
+    },
+    {
+      "title": "DRINK HERE NOW: FIVE PLACES TO SIP THIS WEEK",
+      "file": "press6.json"
+    },
+    {
+      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "file": "press7.json"
+    },
+    {
+      "title": "3 TECH-SAAVY HOTELS OFFERING GREAT 21ST CENTURY AMENITIES",
+      "file": "press8.json"
+    },
+    {
+      "title": "TRAVEL INTELLIGENCE: 8 WAYS TO SLEEP AROUND",
+      "file": "press9.json"
+    }
   ],
   "simple": [
 

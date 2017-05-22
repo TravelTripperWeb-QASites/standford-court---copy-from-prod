@@ -24,9 +24,13 @@ meta_keywords_localized:
 	    <div class="col-md-6">
 	    <div class="contact-wrapper special-banner"> 
 	        <div class="banner-inner">
-	          <h3>A Nob Hill Hotel in San Francisco</h3>
+	           {% regionblock heading %}
+                 <h3>A Nob Hill Hotel in San Francisco</h3>
 	          <h1>Contact <br /> Stanford Court </h1>
-	          <p>Stanford Court San Francisco is always happy to respond to inquiries. Simply fill out the form and click Submit when you are done, or call us at: <br><a href="tel:415-989-3500">415-989-3500</a>.</p>
+                {% endregionblock %} 
+	          {% regionblock text %}
+                 <p>Stanford Court San Francisco is always happy to respond to inquiries. Simply fill out the form and click Submit when you are done, or call us at: <br><a href="tel:415-989-3500">415-989-3500</a>.</p>
+                 {% endregionblock %} 
 	        </div>
 	      </div>
 	    </div>
@@ -40,9 +44,11 @@ meta_keywords_localized:
 
                 <div class="col-sm-12 no-padding  bg-dark"> 
                   <div class="article-wrapper">
-					<p>As the leading Union Square SF hotel, Stanford Court is always happy to respond to inquiries. Whether you’re thinking about staying at our hotel on California Street in San Francisco, or want to share any relevant thoughts during or after your stay, we’ll do everything we can to respond in a timely and helpful manner.</p>
+					{% regionblock formtext %}
+                              <p>As the leading Union Square SF hotel, Stanford Court is always happy to respond to inquiries. Whether you’re thinking about staying at our hotel on California Street in San Francisco, or want to share any relevant thoughts during or after your stay, we’ll do everything we can to respond in a timely and helpful manner.</p>
 
 					<p><strong>Simply complete the form on this page and click Submit to contact Stanford Court.</strong></p>
+                              {% endregionblock %} 
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.17642" type="text/javascript"></script>
 <script type="text/javascript">
