@@ -35,6 +35,6 @@ page_gen:
     dir: 'events'
   - data: 'promos'
     template: 'promos'
-    dir: 'promo'
+    dir: 'promos'
     
 

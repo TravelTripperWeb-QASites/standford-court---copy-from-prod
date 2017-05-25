@@ -20,7 +20,7 @@
       {
         "data": "promos",
         "template": "promos",
-        "dir": "promo"
+        "dir": "promos"
       }
     ],
     "locales": [
@@ -910,5 +910,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "1ce726be46ebc5e76cd361e63d2ec3989b83bed0"
+  "__SHA__": "ed65b6fca146311d2644032c0629a46013acdee2"
 }
