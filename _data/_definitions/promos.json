@@ -12,7 +12,7 @@
 "url_friendly_name":
 	{"type":"url_slug"},
 "promolink":
-	{},
+	{"type":"text"},
 "promocontent":
 	{"required":true,"type":"richtext"},
 "promoimage":

@@ -461,6 +461,19 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_3501_media_2017-05-24-201135_TSC-6thfloor-Menu.pdf.json"
   },
   {
+    "name": "tripadvisor",
+    "file_name": "tripadvisor.png",
+    "file_type": "image/png",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_3513/media/2017-05-25-064837/tripadvisor.png",
+    "date_added": "2017-05-25-064837",
+    "tags": "",
+    "file_size": 17910.0,
+    "width": 550,
+    "height": 370,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_3513_media_2017-05-25-064837_tripadvisor.png.json"
+  },
+  {
     "name": "gallery-hotel-26",
     "file_name": "gallery-hotel-26.jpg",
     "file_type": "image/jpeg",

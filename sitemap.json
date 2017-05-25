@@ -874,11 +874,6 @@
     "promos/enjoy-three-free-rewards.html/ct_text.json",
     "promos/enjoy-three-free-rewards.html/footeraddress.json",
     "promos/enjoy-three-free-rewards.html/footerlinks.json",
-    "promos/enjoy-three.html/footeroffersheading.json",
-    "promos/enjoy-three.html/footerofferslink.json",
-    "promos/enjoy-three.html/ct_text.json",
-    "promos/enjoy-three.html/footeraddress.json",
-    "promos/enjoy-three.html/footerlinks.json",
     "blog/page2/index.html/ct_text.json",
     "blog/page2/index.html/footeraddress.json",
     "blog/page2/index.html/footerlinks.json",
@@ -920,5 +915,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "a3771050d995191cf89d413750379f8bdd4121ae"
+  "__SHA__": "b9fb6d404825082c5b7ad23bf07538798f8ee251"
 }
