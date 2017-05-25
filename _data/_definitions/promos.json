@@ -14,5 +14,7 @@
 "promolink":
 	{},
 "promocontent":
-	{"required":true,"type":"richtext"}
+	{"required":true,"type":"richtext"},
+"promoimage":
+	{"type":"image","required":true}
 }
