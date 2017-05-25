@@ -1,6 +1,9 @@
 {
   "subtitle": "TripAdvisor",
   "title": "SAVE UP TO 20% OFF + ENJOY 3 FREE REWARDS",
+  "bannerimage": {
+    "url": "https://cdn.traveltripper.io/site-assets/446_617_1962/media/2017-02-23-072807/01.jpg"
+  },
   "promoimage": {
     "url": "https://cdn.traveltripper.io/site-assets/446_617_1962/media/2017-02-23-072807/01.jpg"
   },
