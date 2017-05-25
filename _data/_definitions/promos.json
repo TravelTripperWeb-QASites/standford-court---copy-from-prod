@@ -1,0 +1,18 @@
+{
+"subtitle":
+	{"required":true},
+"title":
+	{"required":true},
+"promoimage":
+	{"type":"image","required":true},
+"seo_title":
+	{"type":"text"},
+"meta_description":
+	{"type":"text"},
+"url_friendly_name":
+	{"type":"url_slug"},
+"promolink":
+	{},
+"promocontent":
+	{"required":true,"type":"richtext"}
+}

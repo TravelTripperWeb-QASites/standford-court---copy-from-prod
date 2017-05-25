@@ -1,0 +1,65 @@
+---
+excerpt: stanfordcourt.com
+parent: promos
+title_localized:
+  en: San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: 
+meta_description_localized:
+  en: 
+meta_keywords_localized:
+  en: 
+---
+{% assign promo = site.data._models.promo[0] %}
+
+<section>
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<div class="container">
+  <div class="special-details-banner" style="background-image:url({{promo.promoimage.url}})">
+    <div class="special-content">
+      <h2>{{promo.subtitle}}</h2>
+      <h3>{{promo.title}}</h3>
+     
+      <div class="btn-holder">
+        <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="{{promo.promolink.url}}">
+          book this Offer
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="description-container">
+    <div class="col-sm-6">
+      <img src="{{promo.promoimage.url}}" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <div class="description">
+       <div class="bold-text">
+       <p>{{promo.promocontent}}</p>
+       </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
+
+ <div class="heading-circle">
+               <h4>a unique boutique<br>hotel experience</h4>
+               <h2>San Francisco at its Best</h2>
+               <div class="btn-holder text-center">
+                <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                    book your stay
+                </a>
+               </div>
+        </div>
+</div>
+</div>
+</section>
+{% include offers.html %}
