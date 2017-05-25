@@ -1,0 +1,15 @@
+{
+  "subtitle": "test",
+  "title": "test",
+  "bannerimage": {
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_3513/media/2017-05-25-064837/tripadvisor.png"
+  },
+  "seo_title": "test",
+  "meta_description": "test",
+  "url_friendly_name": "test",
+  "promolink": "test",
+  "promocontent": "<p>test</p>",
+  "promoimage": {
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_3513/media/2017-05-25-064837/tripadvisor.png"
+  }
+}
