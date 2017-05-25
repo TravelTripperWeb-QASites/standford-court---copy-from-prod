@@ -19,7 +19,7 @@
       },
       {
         "data": "promos",
-        "template": "promos",
+        "template": "promo-details",
         "dir": "promos"
       }
     ],
@@ -171,6 +171,19 @@
         }
       ]
     },
+    "promos": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Events | Things to Do in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/promos/"
+          },
+          "data_source": null,
+          "source_path": "promos/index.html"
+        }
+      ]
+    },
     "bill": {
       "__PAGES__": [
         {
@@ -283,19 +296,6 @@
           },
           "data_source": null,
           "source_path": "privacy-policy.html"
-        }
-      ]
-    },
-    "promos": {
-      "__PAGES__": [
-        {
-          "label": "San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel",
-          "published": true,
-          "locales": {
-            "en": "/promos/"
-          },
-          "data_source": null,
-          "source_path": "promos.html"
         }
       ]
     },
@@ -511,6 +511,11 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
     "events/index.html/ct_text.json",
     "events/index.html/footeraddress.json",
     "events/index.html/footerlinks.json",
@@ -547,11 +552,6 @@
     "privacy-policy.html/ct_text.json",
     "privacy-policy.html/footeraddress.json",
     "privacy-policy.html/footerlinks.json",
-    "promos.html/footeroffersheading.json",
-    "promos.html/footerofferslink.json",
-    "promos.html/ct_text.json",
-    "promos.html/footeraddress.json",
-    "promos.html/footerlinks.json",
     "reboot.html/ct_text.json",
     "reboot.html/footeraddress.json",
     "reboot.html/footerlinks.json",
@@ -869,6 +869,16 @@
     "events/rock-and-roll-half-marathon.html/ct_text.json",
     "events/rock-and-roll-half-marathon.html/footeraddress.json",
     "events/rock-and-roll-half-marathon.html/footerlinks.json",
+    "promos/enjoy-three-free-rewards.html/footeroffersheading.json",
+    "promos/enjoy-three-free-rewards.html/footerofferslink.json",
+    "promos/enjoy-three-free-rewards.html/ct_text.json",
+    "promos/enjoy-three-free-rewards.html/footeraddress.json",
+    "promos/enjoy-three-free-rewards.html/footerlinks.json",
+    "promos/enjoy-three.html/footeroffersheading.json",
+    "promos/enjoy-three.html/footerofferslink.json",
+    "promos/enjoy-three.html/ct_text.json",
+    "promos/enjoy-three.html/footeraddress.json",
+    "promos/enjoy-three.html/footerlinks.json",
     "blog/page2/index.html/ct_text.json",
     "blog/page2/index.html/footeraddress.json",
     "blog/page2/index.html/footerlinks.json",
@@ -910,5 +920,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "05f049e999ef102f3f37382e1de4172b1fb11de1"
+  "__SHA__": "a3771050d995191cf89d413750379f8bdd4121ae"
 }

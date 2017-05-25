@@ -34,7 +34,7 @@ page_gen:
     template: 'event-details'
     dir: 'events'
   - data: 'promos'
-    template: 'promos'
+    template: 'promo-details'
     dir: 'promos'
     
 

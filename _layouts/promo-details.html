@@ -1,20 +1,10 @@
 ---
-excerpt: stanfordcourt.com
-parent: promos
-title_localized:
-  en: San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel
-label_localized:
-  en: 
-layout_localized:
-  en: default
-permalink_localized:
-  en: 
-meta_description_localized:
-  en: 
-meta_keywords_localized:
-  en: 
+layout: default
 ---
-{% assign promo = site.data._models.promos[0] %}
+
+{% assign promos = page %}
+{% assign model = page %}
+{% assign promo_seo_title = promos.promo_seo_title %}
 
 <section>
 <div class="container">
@@ -22,13 +12,13 @@ meta_keywords_localized:
   </div>
 </div>
 <div class="container">
-  <div class="special-details-banner" style="background-image:url({{promo.bannerimage.url}})">
+  <div class="special-details-banner" style="background-image:url({{promos.bannerimage.url}})">
     <div class="special-content">
-      <h2>{{promo.subtitle}}</h2>
-      <h3>{{promo.title}}</h3>
+      <h2>{{promos.subtitle}}</h2>
+      <h3>{{promos.title}}</h3>
      
       <div class="btn-holder">
-        <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="{{promo.promolink.url}}">
+        <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="{{promos.promolink.url}}">
           book this Offer
         </a>
       </div>
@@ -36,12 +26,12 @@ meta_keywords_localized:
   </div>
   <div class="description-container">
     <div class="col-sm-6">
-      <img src="{{promo.promoimage.url}}" class="img-responsive">
+      <img src="{{promos.promoimage.url}}" class="img-responsive">
     </div>
     <div class="col-sm-6">
       <div class="description">
        <div class="bold-text">
-       <p>{{promo.promocontent}}</p>
+       <p>{{promos.promocontent}}</p>
        </div>
       </div>
   </div>
