@@ -34,20 +34,22 @@
             <h2 class="title">
            <a href="/contact-us/"> Contact </a>
             </h2>
-            <p class="contacts"><a href="tel:415-989-3500">    415 989-3500</a> <br />
-              <a href="/contact-us/">Contact Us</a></p>
+            {% regionblock ct_text %} 
+             <p class="contacts"><a href="tel:415-989-3500">    415 989-3500</a> <br />
+              <a href="/contact-us/">Contact Us</a></p> {% endregionblock %}
           </div>
         </div>
        <div class="col-sm-4 border-right">
           <div class="content clearfix">
+           {% regionblock footeraddress %} 
             <p class="address"><a href="https://goo.gl/maps/A6NkAC9ZUPN2" target="_blank">905 California Street,<br />
 Nob Hill, San Francisco, CA <br />
 
-94108</a></p> 
+94108</a></p>   {% endregionblock %}
 
               <ul class="social">
-                <li><a href="http://www.facebook.com/StanfordCourtSF" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="http://www.twitter.com/StanfordCourtSF" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/StanfordCourtSF" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/StanfordCourtSF" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://plus.google.com/101732238009151670246/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="https://www.instagram.com/stanfordcourtsf" target="_blank"><i class="fa fa-instagram"></i></a></li>
                  <li><a href="https://www.youtube.com/user/StanfordCourtSF" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
@@ -88,16 +90,18 @@ good stuff.</p>
     </div>
 
     <div class="copy-wrapper clearfix">
+        {% regionblock footerlinks %} 
         <ul class="infolinks">
           <li>© Stanford Court 2017 All Rights Reserved</li>
           <li><a href="https://www.chargerback.com/ReportLostItemCBEmbed.asp?CustomerID=2880" target="_blank">Lost Items</a></li>
           <li><a href="/privacy-policy/">Privacy Policy</a></li>
           <li><a href="/press/">Press</a></li>
+          <li><a href="/reboot/">Reboot</a></li>
           <li><a href="/sitemap/">Site Map</a></li>
           <li><a href="mailto:frontdesk@stanfordcourt.com?subject=I'd like a copy of my bill please">Copy of Bill </a></li>
           <li class="menu-item-grouprfp"><a href="" onclick="srfp_widget.show()">Speed RFP</a></li>
         </ul>
-
+    {% endregionblock %}
 
     </div>
 </footer>
@@ -142,11 +146,10 @@ function getIp(data){
         var myLatLng = {lat: 37.791529, lng: -122.409594};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 18,
+          zoom: 19,
           
           center: new google.maps.LatLng(37.791529, -122.409594),
       scrollwheel: false,
-      disableDefaultUI: true,
       styles: [
             {elementType: 'geometry', stylers: [{color: '#e4e1dc'}]},
             {elementType: 'labels.text.stroke', stylers: [{color: '#fefefe'}]},

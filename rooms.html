@@ -10,8 +10,7 @@ layout_localized:
 permalink_localized:
   en: 
 meta_description_localized:
-  en: Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping
-    window views of this picturesque city, so guests truly feel connected at all times.
+  en: Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of the picturesque city, so guests truly feel connected at all times
 meta_keywords_localized:
   en: 
 ---
@@ -33,9 +32,12 @@ meta_keywords_localized:
   <div class="special-banner">
 
     <div class="banner-inner">
+     {% regionblock heading %}
       <h3>Stanford court rooms & Suites</h3>
       <h1>Luxury Redefined</h1>
-      <p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p>
+      {% endregionblock %}
+       {% regionblock maintext %}<p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p> 
+      {% endregionblock %}
 
     </div>
   </div>

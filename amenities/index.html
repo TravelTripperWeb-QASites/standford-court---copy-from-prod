@@ -1,6 +1,6 @@
 ---
 excerpt: Hi-tech meets hi-comfort in our iconic Nob Hill landmark hotel.
-parent: events
+parent: amenities
 child: culture
 title_localized:
   en: San Francisco Modern Boutique Hotels | Stanford Court 
@@ -11,8 +11,7 @@ layout_localized:
 permalink_localized:
   en: 
 meta_description_localized:
-  en: Enjoy the very latest in state-of-the-art amenities and unparalleled service
-    during your stay with us in San Francisco’s Nob Hill, where Hi-Tech meets High-Comfort
+  en: Enjoy the latest in state-of-the-art amenities and unparalleled service during your stay with us in San Francisco’s Nob Hill, where Hi-Tech meets High-Comfort
 meta_keywords_localized:
   en: 
 ---
@@ -29,10 +28,13 @@ meta_keywords_localized:
   <div class="location-banner amenities-banner" style="background-image:url(/images/amenities/amenities_banner.jpg)">
     
     <div class="banner-inner">
+     {% regionblock heading %}
       <h2>Stanford Court</h2>
       <h3>Amenities</h3>
+     {% endregionblock %}
+     {% regionblock maintext %}
       <p>Unparalleled Service During Your Stay With Us</p>
-
+     {% endregionblock %}
     </div>
   </div>
 </section>
@@ -43,9 +45,11 @@ meta_keywords_localized:
       <div class="table-eq">
           <div class="left-cell">
               <div class="padd-60 m-venue"> 
+               {% regionblock subheading %}
                <h1 class="title2 whtText">HI-TECH </h1>
                <h4 class="heading4 uppercase">meets </h4>
                <h1 class="title2 whtText"  style="letter-spacing: 0.01em;">HI-COMFORT </h1> 
+               {% endregionblock %}
                </div>
                 <div id="venuesSlider" class="carousel slide">
                   
@@ -63,11 +67,12 @@ meta_keywords_localized:
           <div class="right-cell">  
                   <div class="content ">   
                   <hr align="left"> 
+                  {% regionblock sort_detail %}
                   <p>Enjoy the very latest in state-of-the-art amenities and unparalleled service during your stay with us in San Francisco’s Nob Hill. The locally progressive tech culture that San Francisco and Silicon Valley thrives on inspires many Stanford Court amenities.
                    </p>
                   <p> Our lobby and business center come equipped with seven MacBooks, iPads and iPad minis all running on our high-speed WiFi. Ideal for boarding passes and tickets, our wireless printing service can be accessed by the community computers and our guests’ personal devices. One of our newest San Francisco hotel amenities is an on-site electric vehicle charging station. By maintaining an ecologically and culturally relevant space, Stanford Court can serve as a greater San Francisco host. 
                   </p>
-                  
+                  {% endregionblock %}
                   </div>
               <div class="btn-holder text-left marginLeft144">
                
@@ -80,15 +85,17 @@ meta_keywords_localized:
        
        <div class="local-living clearfix">
             <div class="col-sm-12 col-md-11">
-                  <p>Outside of the room, we offer access to a 24-hour fitness center equipped to accommodate all levels of physically active guests. Our bike sharing program is another popular source of exercise with six bikes available for complimentary street use. Stanford’s onsite eatery, the Aurea Cafe sources food and coffee from local farms and vendors. Inside of the room, we offer individual climate control, towel rack warmers and more. We offer WiFi everywhere. Stanford Court is also pet friendly, which is just another effort to have the most accommodating San Francisco hotel amenities.</p>
+                 {% regionblock full_detail %} 
+                 <p>Outside of the room, we offer access to a 24-hour fitness center equipped to accommodate all levels of physically active guests. Our bike sharing program is another popular source of exercise with six bikes available for complimentary street use. Stanford’s onsite eatery, the Aurea Cafe sources food and coffee from local farms and vendors. Inside of the room, we offer individual climate control, towel rack warmers and more. We offer WiFi everywhere. Stanford Court is also pet friendly, which is just another effort to have the most accommodating San Francisco hotel amenities.</p>
 
                   <p>The locally progressive tech culture that San Francisco and Silicon Valley thrives on inspires many Stanford Court amenities. Our lobby and business center come equipped with seven MacBooks, iPads and iPad minis all running on our high-speed WiFi. Ideal for boarding passes and tickets, our wireless printing service can be accessed by the community computers and our guests’ personal devices. One of our newest San Francisco hotel amenities is an on-site electric vehicle charging station. By maintaining an ecologically and culturally relevant space, Stanford Court can serve as a greater San Francisco host. 
                   </p>
 
                    <p>From premium cable in the bedrooms to a variety of local beverages and liquors on tap in our café, Stanford Court thoughtfully scatters entertainment throughout the property. We make sure to provide all of our guests’ necessities and more. We are obsessed with our guests and with giving you a great experience that showcases the best of San Francisco. Urban Bundle gives you access to a bundle of great perks and privileges. During your stay, we encourage you to utilize our 24-hour front desk and concierge to serve any additional desires or concerns. We’re proud of our San Francisco hotel amenities, but they are all individual parts of what makes Stanford Court a great San Francisco hotel.</p> 
                     <p><strong>We offer our guests the best of everything with the following hotel services and amenities:</strong></p> 
-                  
+                  {% endregionblock %}
                    <div class="amenities-list">
+                   {% regionblock list_amenities %} 
                     <ul>
 
                        <li>24 hour front desk</li>
@@ -103,6 +110,7 @@ meta_keywords_localized:
                        <li>Bus Parking is available with advance notice. Please contact hotel to make arrangments.</li>
                       <li>Safe deposit box at front desk</li>
                    </ul> 
+                  {% endregionblock %}
                </div>
             </div>
             
