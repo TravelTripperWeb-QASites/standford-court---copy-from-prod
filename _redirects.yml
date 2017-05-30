@@ -1,4 +1,5 @@
 ---
+---
 - sitemap_index.xml: sitemap.xml
 - articles-sitemap.xml: sitemap.xml
 - attractions-sitemap.xml: sitemap.xml
@@ -175,7 +176,7 @@
 - ja/gallery/neighborhood/: location/
 - ja/gallery/rooms/: rooms/
 - ja/location/: location/
-- ja/locations/culinary/料理/: attractions/culinary/
+- ja/locations/culinary/??/: attractions/culinary/
 - ja/locations/culture-ja/culture/: attractions/culinary/
 - ja/locations/fitnesswellness-ja/crissy-field/: attractions/fitness/
 - ja/locations/fitnesswellness-ja/mission-cliffs-climbing/: attractions/fitness/
@@ -804,3 +805,9 @@
 - Press/Conde-Nast-Traveler/: pdf/press/stanford-court-2016-conde-nast-readers-choice-final.pdf
 - PRESS/CONDE-NAST-TRAVELER: pdf/press/stanford-court-2016-conde-nast-readers-choice-final.pdf
 - PRESS/CONDE-NAST-TRAVELER/: pdf/press/stanford-court-2016-conde-nast-readers-choice-final.pdf
+- promos: specials/
+- promos/: specials/
+- Promos: specials/
+- Promos/: specials/
+- PROMOS: specials/
+- PROMOS/: specials/

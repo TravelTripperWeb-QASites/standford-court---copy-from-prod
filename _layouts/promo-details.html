@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% assign promos = page %}
+{% assign model = page %}
+{% assign promo_seo_title = promos.promo_seo_title %}
+
+<section>
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<div class="container">
+  <div class="special-details-banner" style="background-image:url({{promos.bannerimage.url}})">
+    <div class="special-content">
+      <h2>{{promos.subtitle}}</h2>
+      <div class="position">
+      <h3>{{promos.title}}</h3>
+      </div>
+      <div class="btn-holder">
+        <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="{{promos.promolink}}">
+          book this Offer
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="description-container">
+    <div class="col-sm-6">
+      <img src="{{promos.promoimage.url}}" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <div class="description">
+       <div class="bold-text">
+       <p>{{promos.promocontent}}</p>
+       </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
+
+ <div class="heading-circle">
+               <h4>a unique boutique<br>hotel experience</h4>
+               <h2>San Francisco at its Best</h2>
+               <div class="btn-holder text-center">
+                <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                    book your stay
+                </a>
+               </div>
+        </div>
+</div>
+</div>
+</section>
+{% include offers.html %}
