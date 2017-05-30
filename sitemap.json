@@ -16,6 +16,11 @@
         "data": "events",
         "template": "event-details",
         "dir": "events"
+      },
+      {
+        "data": "promos",
+        "template": "promo-details",
+        "dir": "promos"
       }
     ],
     "locales": [
@@ -153,28 +158,6 @@
         }
       ]
     },
-    "css": {
-      "__PAGES__": [
-        {
-          "label": "custom.css",
-          "published": true,
-          "locales": {
-            "en": "/css/custom.css"
-          },
-          "data_source": null,
-          "source_path": "css/custom.scss"
-        },
-        {
-          "label": "main.css",
-          "published": true,
-          "locales": {
-            "en": "/css/main.css"
-          },
-          "data_source": null,
-          "source_path": "css/main.scss"
-        }
-      ]
-    },
     "events": {
       "__PAGES__": [
         {
@@ -185,6 +168,19 @@
           },
           "data_source": null,
           "source_path": "events/index.html"
+        }
+      ]
+    },
+    "promos": {
+      "__PAGES__": [
+        {
+          "label": "Promos",
+          "published": true,
+          "locales": {
+            "en": "/promos/"
+          },
+          "data_source": null,
+          "source_path": "promos/index.html"
         }
       ]
     },
@@ -453,6 +449,20 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
+    "blog/index.html/ct_text.json",
+    "blog/index.html/footeraddress.json",
+    "blog/index.html/footerlinks.json",
     "attractions/index.html/heading.json",
     "attractions/index.html/maintext.json",
     "attractions/index.html/subheading.json",
@@ -466,9 +476,6 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
-    "blog/index.html/ct_text.json",
-    "blog/index.html/footeraddress.json",
-    "blog/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -504,17 +511,11 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
     "events/index.html/ct_text.json",
     "events/index.html/footeraddress.json",
     "events/index.html/footerlinks.json",
@@ -868,6 +869,11 @@
     "events/rock-and-roll-half-marathon.html/ct_text.json",
     "events/rock-and-roll-half-marathon.html/footeraddress.json",
     "events/rock-and-roll-half-marathon.html/footerlinks.json",
+    "promos/enjoy-three-free-rewards.html/footeroffersheading.json",
+    "promos/enjoy-three-free-rewards.html/footerofferslink.json",
+    "promos/enjoy-three-free-rewards.html/ct_text.json",
+    "promos/enjoy-three-free-rewards.html/footeraddress.json",
+    "promos/enjoy-three-free-rewards.html/footerlinks.json",
     "blog/page2/index.html/ct_text.json",
     "blog/page2/index.html/footeraddress.json",
     "blog/page2/index.html/footerlinks.json",
@@ -909,5 +915,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "f067043e69583c94966753333ab11a99928d7d46"
+  "__SHA__": "2920fe22eb0fa83adea32d24975593a997f83b87"
 }
