@@ -174,7 +174,7 @@
     "promos": {
       "__PAGES__": [
         {
-          "label": "San Francisco Events | Things to Do in San Francisco",
+          "label": "Promos",
           "published": true,
           "locales": {
             "en": "/promos/"
@@ -915,5 +915,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "b9fb6d404825082c5b7ad23bf07538798f8ee251"
+  "__SHA__": "2920fe22eb0fa83adea32d24975593a997f83b87"
 }
