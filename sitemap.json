@@ -918,5 +918,9 @@
     "config",
     "menu"
   ],
+<<<<<<< HEAD
   "__SHA__": "bba56df600bb57709638e775d2ff8dcf6316f4fb"
+=======
+  "__SHA__": "43c53a5ee5889d25e5fb197e91ccbd3041030fa7"
+>>>>>>> 9281dc5630f516dd657ad12c0c1df77323a86de3
 }
