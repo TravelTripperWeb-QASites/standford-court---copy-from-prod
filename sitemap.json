@@ -842,6 +842,9 @@
     "blog/local-tips-for-surviving-bay-to-breakers.html/ct_text.json",
     "blog/local-tips-for-surviving-bay-to-breakers.html/footeraddress.json",
     "blog/local-tips-for-surviving-bay-to-breakers.html/footerlinks.json",
+    "blog/short-history-of-the-summer-of-love.html/ct_text.json",
+    "blog/short-history-of-the-summer-of-love.html/footeraddress.json",
+    "blog/short-history-of-the-summer-of-love.html/footerlinks.json",
     "blog/sf-indie-fest-2017.html/ct_text.json",
     "blog/sf-indie-fest-2017.html/footeraddress.json",
     "blog/sf-indie-fest-2017.html/footerlinks.json",
@@ -915,5 +918,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "2920fe22eb0fa83adea32d24975593a997f83b87"
+  "__SHA__": "43c53a5ee5889d25e5fb197e91ccbd3041030fa7"
 }
