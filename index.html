@@ -20,13 +20,47 @@ meta_keywords_localized:
     <div class="item" ng-style="{'background-image': 'url([[room.photos[0].large]])'}" ng-repeat="room in browser.roomsList">
     </div>
   </div>
-  <div id="thumbs" class="owl-carousel owl-theme">
+<div id="thumbs" >
+</div>
+  <div class="od-booking">
+    <form method="get" action="https://poconomanor.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
+    <span class="field-holder">
+      <input type="text" class="textfield hasDatepicker" placeholder="Arrival" id="od_arrival" name="arrival_date" autocomplete="off">
+      <span class="cal od_arr"><img src="/images/calender-icon.png" alt=""></span></span> <span class="field-holder">
+      <input type="text" class="textfield hasDatepicker" placeholder="Departure" id="od_departure" name="departure_date" autocomplete="off">
+      <span class="cal"><img src="/images/calender-icon.png" alt=""></span></span> <span class="field-holder sb">
+      <select class="select-dropdown" name="adults[]" id="adults">
+        <option value="1" selected="">1 Adult</option>
+        <option value="2">2 Adults</option>
+        <option value="3">3 Adults</option>
+        <option value="4">4 Adults</option>
+        <option value="5">5 Adults</option>
+        <option value="6">6 Adults</option>
+      </select>
+      </span> <span class="field-holder sb">
+      <select class="select-dropdown" name="children[]" id="children">
+        <option value="0" selected="">0 Children</option>
+        <option value="1">1 Children</option>
+        <option value="2">2 Children</option>
+        <option value="3">3 Children</option>
+        <option value="4">4 Children</option>
+        <option value="5">5 Children</option>
+      </select>
+      </span>
+      <!--<span class="field-holder codebox">
+      <p class="iata"><a href="javascript:void(0);">IATA Code</a><input type="text" class="textfield hfield" placeholder="IATA Code" name="iata_code" autocomplete="off"></p>
+      </span> -->
+      <input type="hidden" name="selected_room" value="L1QN">
+      <button type="submit" class="btn-common btn-od-form">Book Room</button>
+      </form>
+      </div>
+  <!-- <div id="thumbs" class="owl-carousel owl-theme">
     <div class="item" ng-repeat="room in browser.roomsList">
       <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
       <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
       <h2><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
     </div>
-  </div>
+  </div> -->
 </div>
 <section class="container">
   <div class="welcome-wrapper">

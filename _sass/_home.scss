@@ -1566,3 +1566,154 @@ hr{
     }
 }
 }
+
+.od-booking {
+		margin: 30px auto 0 auto;
+		border: solid 1px #e1e1e1;
+		text-align: center;
+		padding: 31px 20px;
+		width: 289px;
+		background-color: #fff;
+			@media(min-width: $screen-sm-min){
+				padding: 31px 20px;
+				width: auto;
+				margin: 30px 0 0 0;
+			}
+			@media(min-width: $screen-md-min){
+				margin: 0 0 0 0;
+			}
+		.textfield {
+			border: none;
+			border-radius: 0px;
+			outline: none;
+			font-family: $base-font-family;
+			font-size: 14px;
+			color: #3e4440;
+			width: 100%;
+			height: 54px;
+			padding: 0 0 0 14px;
+			position: relative;
+    		z-index: 10;
+			cursor: default;
+			background-color: transparent;
+
+		}
+		.select-dropdown {
+			border: none;
+			border-radius: 0px;
+			outline: none;
+			font-family: $base-font-family;
+			font-size: 14px;
+			color: #3e4440;
+			width: 100%;
+			height: 54px;
+			padding: 0 0 0 10px;
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			text-indent: 0.01px;
+			text-overflow:'';
+			background: url(/images/arrow-down.png) no-repeat 85% center;
+				&::-ms-expand {
+					display: none;
+				}
+
+		}
+		.field-holder {
+			position: relative;
+			display: inline-block;
+			border: solid 1px #e1e1e1;
+			width: 100%;
+			margin: 0 0 15px 0;
+				@media(min-width: $screen-sm-min) {
+					width: 155px;
+					margin: 0 6px;
+				}
+				@media(min-width: $screen-lg-min) {
+					margin: 0 14px;
+				}
+				.cal {
+					position: absolute;
+					right: 0;
+					top: 0;
+					padding: 14px;
+					text-align: center;
+					width: 55px;
+					border-left: solid 1px #e1e1e1;
+					position: absolute;
+					z-index: 9;
+						img {
+							width: 100%;
+						}
+				}
+		}
+		.sb {
+			width: 49%;
+				@media(min-width: $screen-sm-min) {
+					width: 110px;
+				}
+
+		}
+		.codebox {
+			width: 100%;
+			border: none;
+			margin: 0 0 15px 0;
+
+				@media(min-width: $screen-sm-min) {
+					margin: 0 5px 0 3px;
+					width: 76px;
+				}
+				.iata {
+					font-family: $base-font-family;
+					font-size: 14px;
+					text-transform: uppercase;
+					text-align: center;
+						a{
+							display: block;
+							color: #3e4440;
+							text-decoration: none;
+							padding: 14px 0;
+						}
+						.hfield {
+							display: none;
+							border: solid 1px #e1e1e1;
+							padding: 0 15px 0 15px;
+							text-align: center;
+								@media(min-width: $screen-sm-min) {
+									padding: 0 4px 0 4px;
+								}
+						}
+				}
+		}
+		.btn-od-form {
+		background-color: #1f1e1e;
+		color: #fff;
+		border-color: #1f1e1e;
+		line-height: 50px;
+		height: 53px;
+		padding: 0 30px;
+		margin: 0 0 0 0;
+		transition: all 0.4s;
+		display: block;
+		width: 100%;
+		appearance: none;
+		-webkit-appearance: none;
+		border-radius: 0px;
+		outline: none;
+			@media(min-width: $screen-sm-min){
+				margin: 30px 14px 0 10px;
+				display: inline-block;
+				width: auto;
+			}
+			@media(min-width: $screen-md-min){
+				margin: 0 14px 0 10px;
+			}
+			&:hover {
+				background-color: #fff;
+				color: #1f1e1e;
+			}
+			&:focus {
+				box-shadow: none;
+			}
+	}
+
+}

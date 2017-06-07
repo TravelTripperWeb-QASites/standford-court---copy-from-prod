@@ -487,6 +487,19 @@
     "git_file_name": "_assets/image_data/site-assets_192_617_3513_media_2017-05-25-064837_tripadvisor.png.json"
   },
   {
+    "name": "tripadvisor",
+    "file_name": "tripadvisor.png",
+    "file_type": "image/png",
+    "url": "https://cdn.traveltripper.io/site-assets/192_617_3795/media/2017-06-05-140338/tripadvisor.png",
+    "date_added": "2017-06-05-140339",
+    "tags": "",
+    "file_size": 829214.0,
+    "width": 550,
+    "height": 370,
+    "description": "",
+    "git_file_name": "_assets/image_data/site-assets_192_617_3795_media_2017-06-05-140338_tripadvisor.png.json"
+  },
+  {
     "name": "gallery-hotel-26",
     "file_name": "gallery-hotel-26.jpg",
     "file_type": "image/jpeg",
