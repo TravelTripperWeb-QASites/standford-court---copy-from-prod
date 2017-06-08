@@ -1,18 +1,18 @@
 {
-	"title": "Google Next conference at Moscone Center",
-	"event_seo_title": "Google Next conference at Moscone Center",
+	"title": "Semicon 2017 at Moscone Center ",
+	"event_seo_title": "Semicon 2017 at Moscone Center",
 	"meta_description": "",
 	"category": "event_category1",
-	"schedule": "March 8-10",
-	"short_description": "<p>The future of cloud is now, at Next.</p>",
-	"long_description": "<p>Get new ideas. Learn from industry experts. Engage with peers. Join us for an immersive event that brings together executives, customers, partners, developers, IT decision makers, and Google Engineers to build the future of the cloud. Choose from over 200 sessions on Google Cloud Platform, G Suite, Maps, Devices, and more.</p>",
-	"website_url": "https://cloudnext.withgoogle.com/",
-	"url_friendly_name": "google-next-at-moscone-center",
+	"schedule": "July 11-13",
+	"short_description": "",
+	"long_description": "",
+	"website_url": "http://www.semiconwest.org/",
+	"url_friendly_name": "semicon-2017-at-moscone-center ",
 	"sort_order": 3,
 	"thumb_image": {
-		"url": "https://cdn.traveltripper.io/site-assets/446_617_2044/media/2017-03-02-124526/google-next-big.jpg"
+		"url": "https://cdn.traveltripper.io/site-assets/192_617_3868/media/2017-06-08-020414/semicon.jpg"
 	},
 	"g_image1": {
-		"url": "https://cdn.traveltripper.io/site-assets/446_617_2044/media/2017-03-02-115333/google-next.jpg"
+		"url": "https://cdn.traveltripper.io/site-assets/192_617_3868/media/2017-06-08-020415/semicon-big.jpg"
 	}
 }

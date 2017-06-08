@@ -18,48 +18,17 @@ $(document).ready(function() {
 
     bigimage.owlCarousel({
       items : 1,
-      slideSpeed : 3000,
+      slideSpeed : 6000,
       autoplay: true,
       dots: false,
       loop: true,
       nav: true,
       animateIn: 'fadeIn',
-      animateOut: 'fadeOut',
-      responsiveRefreshRate : 200,
+      animateOut: 'fadeOut', 
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
-    }).on('changed.owl.carousel', syncPosition);
+    });
 
-    thumbs
-      .on('initialized.owl.carousel', function () {
-        thumbs.find(".owl-item").eq(0).addClass("current");
-      })
-      .owlCarousel({
-      dots: true,
-      items:3,
-      nav: false,
-      navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
-      smartSpeed: 200,
-      slideSpeed : 500,
-      slideBy: totalslides,
-      responsiveRefreshRate : 100,
-      responsive : {
-            // breakpoint from 0 up
-            0 : {
-                 items:1
-            },
-            // breakpoint from 480 up
-            600 : {
-                items:2
-            },
-            // breakpoint from 768 up
-            900 : {
-                items:3
-            },
-            1600 : {
-                items:4
-            }
-        }
-    }).on('changed.owl.carousel', syncPosition2);
+     
 
     function syncPosition(el) {
       //if loop is set to false, then you have to uncomment the next line
@@ -106,7 +75,6 @@ $(document).ready(function() {
       bigimage.data('owl.carousel').to(number, 300, true);
     });
   },4300);
-
 
   //offers info
 
@@ -171,6 +139,7 @@ function init() {
 window.onload = init();
 
 
+//
 $(function() {
    var today = new Date();
 //   var firstdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -361,6 +330,43 @@ $(document).ready(function(){
 
   });
 
+     // get instagram feed
+    var instaurl = 'https://api.instagram.com/v1/users/458067763/media/recent/?access_token=458067763.1677ed0.128c22ee3cd94d3f9db3be61fa42e26c&callback=?';
+     $.ajax({
+        url: instaurl,
+        dataType: "jsonp",
+        success: function (response) { 
+          setTimeout(function(){
+          $.each(response.data, function(i, item) { 
+              $('.t-feeds').find('.photolist'+i).html('<a href="'+item.link+'" target="_blank"><img src="'+item.images.standard_resolution.url+'" class="img-respond"/><span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span><div class="insta-overlay"><div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div></div></a>');
+          });
+        },1000);
+        }
+      });
+       var configProfile = {
+      "domId": 'soicalfeed',
+      "maxTweets": 7,
+      "enableLinks": true, 
+      "showUser": true,
+      "showTime": true,
+      "showImages": false,
+      "lang": 'en'
+      };
 
+});
 
+$(window).load(function(){
+  if( $(window).width() > 768 ) {
+
+     jQuery('ul.mr-auto li.dropdown a').attr('data-toggle','disable');
+   //Add Hover effect to menus
+        jQuery('ul.mr-auto li.nav-item').hover(function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+        }, function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+        });
+  }
+  else{
+     //jQuery('ul.nav li.dropdown a.dropdown-toggle').removeAttr('data-toggle');
+  }
 });

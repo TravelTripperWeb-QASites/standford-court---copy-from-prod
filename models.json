@@ -297,6 +297,10 @@
       "file": "blog77.json"
     },
     {
+      "title": "SCH #ProTips for Parking in SF",
+      "file": "blog78.json"
+    },
+    {
       "title": "SF Indie Fest 2017",
       "file": "blog8.json"
     },
@@ -311,11 +315,11 @@
       "file": "event1.json"
     },
     {
-      "title": "Adam Devine (Bumper from Pitch Perfect 1 and 2) at the Masonic",
+      "title": "DURAN DURAN AT THE MASONIC",
       "file": "event2.json"
     },
     {
-      "title": "Google Next conference at Moscone Center",
+      "title": "Semicon 2017 at Moscone Center ",
       "file": "event3.json"
     },
     {
@@ -323,15 +327,15 @@
       "file": "event4.json"
     },
     {
-      "title": "St. Patrick's Day Parade",
+      "title": "San Francisco Pride",
       "file": "event5.json"
     },
     {
-      "title": "Michael Carbonaro at the Masonic",
+      "title": "The Summer of Love Experience at the de Young Museum",
       "file": "event6.json"
     },
     {
-      "title": "Rock and Roll Half Marathon",
+      "title": "San Franciso Marathon",
       "file": "event7.json"
     }
   ],

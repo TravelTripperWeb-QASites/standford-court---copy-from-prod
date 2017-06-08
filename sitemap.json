@@ -223,6 +223,19 @@
         }
       ]
     },
+    "explore": {
+      "__PAGES__": [
+        {
+          "label": "Hotels near Union Square | Stanford Court Location",
+          "published": true,
+          "locales": {
+            "en": "/explore/"
+          },
+          "data_source": null,
+          "source_path": "explore.html"
+        }
+      ]
+    },
     "gallery": {
       "__PAGES__": [
         {
@@ -247,19 +260,6 @@
         "source_path": "index.html"
       }
     ],
-    "location": {
-      "__PAGES__": [
-        {
-          "label": "Hotels near Union Square | Stanford Court Location",
-          "published": true,
-          "locales": {
-            "en": "/location/"
-          },
-          "data_source": null,
-          "source_path": "location.html"
-        }
-      ]
-    },
     "press%20-%20Copy": {
       "__PAGES__": [
         {
@@ -423,6 +423,18 @@
     "dining.html/ct_text.json",
     "dining.html/footeraddress.json",
     "dining.html/footerlinks.json",
+    "explore.html/bannertext.json",
+    "explore.html/bannerlink.json",
+    "explore.html/subheading.json",
+    "explore.html/locationtext.json",
+    "explore.html/localheading.json",
+    "explore.html/locallink.json",
+    "explore.html/localtext.json",
+    "explore.html/experienceheading.json",
+    "explore.html/experiencelink.json",
+    "explore.html/ct_text.json",
+    "explore.html/footeraddress.json",
+    "explore.html/footerlinks.json",
     "attractions/fitness.html/heading.json",
     "attractions/fitness.html/maintext.json",
     "attractions/fitness.html/subheading.json",
@@ -449,17 +461,6 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
     "blog/index.html/ct_text.json",
     "blog/index.html/footeraddress.json",
     "blog/index.html/footerlinks.json",
@@ -476,6 +477,25 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -511,26 +531,6 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
-    "promos/index.html/footeroffersheading.json",
-    "promos/index.html/footerofferslink.json",
-    "promos/index.html/ct_text.json",
-    "promos/index.html/footeraddress.json",
-    "promos/index.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
-    "location.html/bannertext.json",
-    "location.html/bannerlink.json",
-    "location.html/subheading.json",
-    "location.html/locationtext.json",
-    "location.html/localheading.json",
-    "location.html/locallink.json",
-    "location.html/localtext.json",
-    "location.html/experienceheading.json",
-    "location.html/experiencelink.json",
-    "location.html/ct_text.json",
-    "location.html/footeraddress.json",
-    "location.html/footerlinks.json",
     "amenities/pet-friendly.html/heading.json",
     "amenities/pet-friendly.html/maintext.json",
     "amenities/pet-friendly.html/subheading.json",
@@ -845,6 +845,9 @@
     "blog/short-history-of-the-summer-of-love.html/ct_text.json",
     "blog/short-history-of-the-summer-of-love.html/footeraddress.json",
     "blog/short-history-of-the-summer-of-love.html/footerlinks.json",
+    "blog/sch-protips-for-parking-in-sf.html/ct_text.json",
+    "blog/sch-protips-for-parking-in-sf.html/footeraddress.json",
+    "blog/sch-protips-for-parking-in-sf.html/footerlinks.json",
     "blog/sf-indie-fest-2017.html/ct_text.json",
     "blog/sf-indie-fest-2017.html/footeraddress.json",
     "blog/sf-indie-fest-2017.html/footerlinks.json",
@@ -854,24 +857,24 @@
     "events/monet.html/ct_text.json",
     "events/monet.html/footeraddress.json",
     "events/monet.html/footerlinks.json",
-    "events/adam-devine.html/ct_text.json",
-    "events/adam-devine.html/footeraddress.json",
-    "events/adam-devine.html/footerlinks.json",
-    "events/google-next-at-moscone-center.html/ct_text.json",
-    "events/google-next-at-moscone-center.html/footeraddress.json",
-    "events/google-next-at-moscone-center.html/footerlinks.json",
+    "events/duranduranat-the-mosonic.html/ct_text.json",
+    "events/duranduranat-the-mosonic.html/footeraddress.json",
+    "events/duranduranat-the-mosonic.html/footerlinks.json",
+    "events/semicon-2017-at-moscone-center.html/ct_text.json",
+    "events/semicon-2017-at-moscone-center.html/footeraddress.json",
+    "events/semicon-2017-at-moscone-center.html/footerlinks.json",
     "events/hamilton-at-orpheum-theater.html/ct_text.json",
     "events/hamilton-at-orpheum-theater.html/footeraddress.json",
     "events/hamilton-at-orpheum-theater.html/footerlinks.json",
-    "events/st-patrick-parade.html/ct_text.json",
-    "events/st-patrick-parade.html/footeraddress.json",
-    "events/st-patrick-parade.html/footerlinks.json",
+    "events/san-francisco-pride.html/ct_text.json",
+    "events/san-francisco-pride.html/footeraddress.json",
+    "events/san-francisco-pride.html/footerlinks.json",
     "events/michael-carbonaro-at-the-masonic.html/ct_text.json",
     "events/michael-carbonaro-at-the-masonic.html/footeraddress.json",
     "events/michael-carbonaro-at-the-masonic.html/footerlinks.json",
-    "events/rock-and-roll-half-marathon.html/ct_text.json",
-    "events/rock-and-roll-half-marathon.html/footeraddress.json",
-    "events/rock-and-roll-half-marathon.html/footerlinks.json",
+    "events/san-franciso-marathon.html/ct_text.json",
+    "events/san-franciso-marathon.html/footeraddress.json",
+    "events/san-franciso-marathon.html/footerlinks.json",
     "promos/enjoy-three-free-rewards.html/footeroffersheading.json",
     "promos/enjoy-three-free-rewards.html/footerofferslink.json",
     "promos/enjoy-three-free-rewards.html/ct_text.json",
@@ -918,9 +921,5 @@
     "config",
     "menu"
   ],
-<<<<<<< HEAD
-  "__SHA__": "bba56df600bb57709638e775d2ff8dcf6316f4fb"
-=======
-  "__SHA__": "43c53a5ee5889d25e5fb197e91ccbd3041030fa7"
->>>>>>> 9281dc5630f516dd657ad12c0c1df77323a86de3
+  "__SHA__": "4092891584233cf6941e99cbc7f1d9571f5d2047"
 }

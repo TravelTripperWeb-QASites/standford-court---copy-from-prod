@@ -17,18 +17,64 @@ meta_keywords_localized:
 ---
 <div class="home-slider">
   <div id="big" class="owl-carousel owl-theme" >
-    <div class="item" ng-style="{'background-image': 'url([[room.photos[0].large]])'}" ng-repeat="room in browser.roomsList">
+ 
+      <div class="item" style="background-image: url(/images/homepage/slider-1.jpg);"  ></div>
+      <div class="item" style="background-image: url(/images/homepage/slider-2.jpg);"  >
+      
+          <div class="hero-play-icon">
+            <div class="home-video-play-button"><a href="#" data-toggle="modal" data-target="#videoModal-1" ><img src="/images/play-icon.svg"></a></div>
+                   
+                  </div>
+       
+
+      </div>
+       <div class="item" style="background-image: url(/images/homepage/slider-3.jpg);" ></div>
+       <div class="item" style="background-image: url(/images/homepage/slider-4.jpg);" >
+         
+       <div class="hero-play-icon">
+          <div class="home-video-play-button"><a href="#" data-toggle="modal" data-target="#videoModal-2"><img src="/images/play-icon.svg"></a></div>
+                  
+        </div>
+
+       </div>
+       <div class="item" style="background-image: url(/images/homepage/slider-5.jpg);" ></div>
     </div>
   </div>
-<div id="thumbs" >
+ 
+  
+  <!-- <div id="thumbs" class="owl-carousel owl-theme">
+    <div class="item" ng-repeat="room in browser.roomsList">
+      <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
+      <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
+      <h2><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
+    </div>
+  </div> -->
 </div>
-  <div class="od-booking">
-    <form method="get" action="https://poconomanor.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
+<div class="od-booking" >
+    <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
     <span class="field-holder">
-      <input type="text" class="textfield hasDatepicker" placeholder="Arrival" id="od_arrival" name="arrival_date" autocomplete="off">
+      <input type="text" class="textfield" placeholder="Arrival" id="od_arrival" name="arrival_date">
       <span class="cal od_arr"><img src="/images/calender-icon.png" alt=""></span></span> <span class="field-holder">
-      <input type="text" class="textfield hasDatepicker" placeholder="Departure" id="od_departure" name="departure_date" autocomplete="off">
-      <span class="cal"><img src="/images/calender-icon.png" alt=""></span></span> <span class="field-holder sb">
+      <input type="text" class="textfield" placeholder="Departure" id="od_departure" name="departure_date" autocomplete="off">
+      <span class="cal"><img src="/images/calender-icon.png" alt=""></span></span> 
+      <span class="field-holder sb">
+      <select class="select-dropdown" name="adults[]" id="adults">
+        <option value="1" selected="">Select Room </option>
+        <option value="2">Standard Queen</option>
+        <option value="3">Standard King</option>
+        <option value="4">Deluxe Queen</option>
+        <option value="5">Deluxe King</option>
+        <option value="6">Accessible King</option>
+        <option value="7">Premier View Queen</option>
+         <option value="8">Premier View King</option>
+          <option value="9">Premier View Two Doubles</option>
+           <option value="10">Studio Suite Queen</option>
+           <option value="11">Studio Suite King</option>
+           <option value="12">Studio Suite Tow Doubles</option>
+           <option value="12">Parlor Suite</option>
+      </select>
+      </span>
+      <span class="field-holder sb">
       <select class="select-dropdown" name="adults[]" id="adults">
         <option value="1" selected="">1 Adult</option>
         <option value="2">2 Adults</option>
@@ -54,14 +100,6 @@ meta_keywords_localized:
       <button type="submit" class="btn-common btn-od-form">Book Room</button>
       </form>
       </div>
-  <!-- <div id="thumbs" class="owl-carousel owl-theme">
-    <div class="item" ng-repeat="room in browser.roomsList">
-      <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
-      <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
-      <h2><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
-    </div>
-  </div> -->
-</div>
 <section class="container">
   <div class="welcome-wrapper">
     {% regionblock welcome-heading %}
@@ -85,7 +123,7 @@ meta_keywords_localized:
           {% endregionblock %}
           <div class="btn-holder text-center">
            {% regionblock bluebox-link %}
-            <a href="/location/" class="butn btn-white btn-wide uppercase">
+            <a href="/explore/" class="butn btn-white btn-wide uppercase">
               Discover The Hotel
             </a>
            {% endregionblock %}
@@ -301,7 +339,7 @@ meta_keywords_localized:
           <img src="/images/homepage/events/locals.jpg" class="img-responsive minus-1 pull-right">
           <div class="btn-holder center-white text-center">
           {% regionblock locallivinglink %}
-            <a href="/location/" class="butn btn-wide uppercase">
+            <a href="/explore/" class="butn btn-wide uppercase">
               discover more
             </a>
           {% endregionblock %}
@@ -347,7 +385,7 @@ meta_keywords_localized:
             </div>
             <div class="btn-holder text-right">
             {% regionblock locationlink %}
-              <a href="/location/" class="butn uppercase">
+              <a href="/explore/" class="butn uppercase">
                 Discover Location
               </a>
             {% endregionblock %}
@@ -541,3 +579,55 @@ meta_keywords_localized:
   </div>
 </div>
 
+
+<div class="homevideo-model">
+  <div class="modal fade" id="videoModal-1" tabindex="-1" role="dialog" aria-labelledby="videoModal-1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-video">
+                      <div class="">
+                         <div class="videoContainer hide-for-small-only " >
+                           <!--  <div class="v-overlay"></div> -->
+                            <video autoplay  loop>
+                            <source src="/images/homepage/cityscape-sunset.mp4" type="video/mp4">
+                            </video> 
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="homevideo-model">
+  <div class="modal fade" id="videoModal-2" tabindex="-1" role="dialog" aria-labelledby="videoModal-2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-video">
+                      <div class="">
+                         <div class="videoContainer hide-for-small-only " >
+                           <!--  <div class="v-overlay"></div> -->
+                            <video autoplay loop >
+                            <source src="/images/homepage/bridge-w-clouds.mp4" type="video/mp4">
+                            </video> 
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

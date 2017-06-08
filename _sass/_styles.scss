@@ -328,6 +328,7 @@ body{
 	 	 	 font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
 	 	 	 line-height: 16px;
 	 	 	 font-size: 16px;
+	 	 	 position:relative;
 	 	 	a{
 	 	 		color: $darkgrey;
 	 	 		text-align: center;
@@ -338,7 +339,7 @@ body{
 	 	 		@media( min-width: $screen-md-min){
 		 	 		color: $darkgrey;
 		 	 		font-size: 17px;
-		 	 		padding: 0px 15px;
+		 	 		padding: 0px 20px;
 		 	 		letter-spacing: 0.1em;
 		 	 		border-right: 1px solid $darkgrey;
 		 	 		display: inline-block;
@@ -349,11 +350,11 @@ body{
  	 			padding: 10px 10px;
 	 	 		@media( min-width: $screen-md-min){
 	 	 			letter-spacing: 0.02em;
-	 	 			padding: 0px 10px;
+	 	 			padding: 0px 20px;
 	 	 		}
 	 	 		@media( min-width: $screen-lg-min){
 	 	 			letter-spacing: 0.05em;
-	 	 			padding: 0px 11px;
+	 	 			padding: 0px 20px;
 	 	 			letter-spacing: 0.07em;
 	 	 		}
 	 	 		@media( min-width: $screen-custom-min){
@@ -370,6 +371,28 @@ body{
 	 	 	&:last-child{
 	 	 		a{
 	 	 			border-right: 0px;
+	 	 		}
+	 	 	}
+
+	 	 	ul{
+	 	 		border: 1px solid $darkgrey;
+	 	 		border-radius:0px;
+	 	 		margin-top:5px;
+	 	 		li{
+	 	 			a{
+	 	 			border-right: 0px;
+	 	 			letter-spacing: 0.10em;
+				    display: block;
+				    text-align: left;
+				    line-height: 28px;
+					    &.active{
+		 	 			 color: $black;
+		 	 			}
+			 	 		&:hover, &:active{
+			 	 			 color: $black;
+			 	 			 text-decoration: none;
+			 	 		}
+	 	 			}
 	 	 		}
 	 	 	}
 	 	 }
@@ -444,6 +467,16 @@ body{
     			margin: 0px;
     		}
 
+    		.hero-play-icon{
+	   	    	max-width: 100px;
+			    left: 0;
+			    right: 0;
+			    margin: auto;
+			    top: 45%;
+			    transform:translateY(-45%);
+			    position: absolute;
+		    }
+
    	   }
    	   .fa{
    	   	display:none;
@@ -491,6 +524,8 @@ body{
 					right: 10px;
 				}
 		}
+
+
 
    }
    #thumbs{
@@ -559,8 +594,6 @@ body{
    	    		 float: left;
 
    	    	}
-
-
 
 
    	    }
@@ -1049,8 +1082,40 @@ body{
 		 		 padding-right: 15px;
 		 	}
 		 }
+
+		 .f-logo{
+		 	margin:0px 0;
+			 	@media(min-width: $screen-sm-min){
+					 	   margin:40px 0 39px 0;
+					 	   }
+		 		ul{
+			 	   list-style:none;
+			 	   padding:0;
+			 	   margin:0px 0;
+
+				 	li{
+				 		 display: inline-block; 
+				 		 margin:0px;
+				 		 @media(min-width: $screen-sm-min){
+				 		 	display: inline-block; 
+				 		 	
+				 		 }
+				 		img{width: 57px;
+				 			&.green{
+				 				width: 100px;
+				 			}
+				 			&.red{
+				 				width: 50px;
+				 			}
+				 		}
+
+				 	}
+
+			 	}
+		 	}
 		 .address{
 		 	margin: 10px 0px;
+		 	
 		 }
 		 .social{
 		 	 margin: 0px;
@@ -1305,3 +1370,19 @@ body{
     transform: rotate(360deg);
   }
 }
+
+.videoContainer 
+{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position:relative;
+  
+          video 
+            {
+                 display:block;
+                 width: 100%;
+                 min-height: 100%;  
+                 }
+                
+            }
