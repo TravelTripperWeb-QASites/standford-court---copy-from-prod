@@ -330,14 +330,14 @@ body{
 	 	 	 font-size: 16px;
 	 	 	 position:relative;
 	 	 	a{
-	 	 		color: $darkgrey;
+	 	 		color: $black;
 	 	 		text-align: center;
 	 	 		display: block;
 	 	 		line-height: 34px;
 	 	 		font-size: 15px;
 	 	 		line-height: 15px;
 	 	 		@media( min-width: $screen-md-min){
-		 	 		color: $darkgrey;
+		 	 		color: $black;
 		 	 		font-size: 17px;
 		 	 		padding: 0px 20px;
 		 	 		letter-spacing: 0.1em;
@@ -361,10 +361,10 @@ body{
 	 	 			letter-spacing: 0.10em;
 	 	 		}
 	 	 		&.active{
-	 	 			 color: $black;
+	 	 			 color: $darkgrey;
 	 	 		}
 	 	 		&:hover, &:active{
-	 	 			 color: $black;
+	 	 			 color: $darkgrey;
 	 	 			 text-decoration: none;
 	 	 		}
 	 	 	}
