@@ -466,6 +466,21 @@ body {
                 transform: translateY(-45%);
                 position: absolute;
             }
+            .videoContainer {
+              width: 100%;
+              height: 100%;
+              background-size: cover;
+              position:relative;
+              min-height:550px;
+                video {
+                 display:none;
+                 @media(min-width: $screen-sm-min){
+                 display:block;
+                 width: 100%;
+                 min-height: 100%;  
+                  }
+                }
+            }
         }
         .fa {
             display: none;

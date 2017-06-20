@@ -18,8 +18,8 @@ $(document).ready(function() {
 
     bigimage.owlCarousel({
       items : 1,
-      slideSpeed : 6000,
-      autoplay: true,
+      slideSpeed : 9000,
+      autoplay: false,
       dots: false,
       loop: true,
       nav: true,
