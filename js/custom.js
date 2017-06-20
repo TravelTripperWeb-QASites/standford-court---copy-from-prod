@@ -23,12 +23,22 @@ $(document).ready(function() {
       dots: false,
       loop: true,
       nav: true,
+      video:true,
+      responsiveRefreshRate : 200,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut', 
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
     });
 
-     
+     bigimage.on('translate.owl.carousel',function(e){
+         $('.owl-item video').each(function(){
+           $(this).get(0).pause();
+
+         });
+       });
+      bigimage.on('translated.owl.carousel',function(e){
+         $('.owl-item.active video').get(0).play(); 
+       });
 
     function syncPosition(el) {
       //if loop is set to false, then you have to uncomment the next line
