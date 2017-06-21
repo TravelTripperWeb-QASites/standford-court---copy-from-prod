@@ -17,51 +17,37 @@ meta_keywords_localized:
 ---
 <div class="home-slider">
   <div id="big" class="owl-carousel owl-theme" >
- 
-      <div class="item" style="background-image: url(/images/homepage/slider-1.jpg);"  ></div>
-      <div class="item" style="background-image: url(/images/homepage/slider-2.jpg);"  >
-      
-         <!--  <div class="hero-play-icon">
-            <div class="home-video-play-button"><a href="#" data-toggle="modal" data-target="#videoModal-1" ><img src="/images/play-icon.svg"></a></div>
-                   
-                  </div>
-        -->
-        <div class="videoContainer hide-for-small-only">
 
-          <video autoplay>
+      <!--Bridge Video-->
+      <div class="item" style="background-image: url(/images/homepage/slider-4.jpg);" >
+        <div class="videoContainer hide-for-small-only">
+        <video autoplay loop>
+          <source src="/images/bridge-w-clouds.mp4" >
+        </video> 
+      </div>
+      </div>
+
+      <!--City View Photo-->
+      <div class="item" style="background-image: url(/images/homepage/slider-3.jpg);"></div>
+
+      <!--City View Video-->
+      <div class="item" style="background-image: url(/images/homepage/slider-2.jpg);">
+        <div class="videoContainer hide-for-small-only">
+          <video autoplay loop>
             <source src="/images/cityscape-sunset.mp4" >
           </video> 
+        </div>
       </div>
+  
+      <!--Hotel Exterior Photo-->
+      <div class="item" style="background-image: url(/images/homepage/slider-1-dark.jpg);"></div>
+        
+      <!--Bay View Photo-->
+      <div class="item" style="background-image: url(/images/homepage/slider-5.jpg);"></div>
 
-      </div>
-       <div class="item" style="background-image: url(/images/homepage/slider-3.jpg);" ></div>
-       <div class="item" style="background-image: url(/images/homepage/slider-4.jpg);" >
-         
-       <!-- <div class="hero-play-icon">
-          <div class="home-video-play-button"><a href="#" data-toggle="modal" data-target="#videoModal-2"><img src="/images/play-icon.svg"></a></div>
-                  
-        </div> -->
-         <div class="videoContainer hide-for-small-only">
-       <!--  <div class="v-overlay"></div> -->
-          <video autoplay>
-            <source src="/images/bridge-w-clouds.mp4" >
-          </video> 
-      </div>
-
-
-       </div>
-       <div class="item" style="background-image: url(/images/homepage/slider-5.jpg);" ></div>
     </div>
   </div>
- 
-  
-  <!-- <div id="thumbs" class="owl-carousel owl-theme">
-    <div class="item" ng-repeat="room in browser.roomsList">
-      <img ng-src="[[room.photos[0].yankee_large]]" class="thumbImg">
-      <h4><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">Tonight’s Rate [[ room.todayRate ]]</a></h4>
-      <h2><a ng-href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></h2>
-    </div>
-  </div> -->
+
 </div>
 <div class="od-booking" >
     <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
