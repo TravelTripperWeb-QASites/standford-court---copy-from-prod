@@ -1,6 +1,4 @@
 
-$(document).ready(function() {
-  setTimeout(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
     var totalslides = 10;
@@ -84,7 +82,6 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },0);
 
   //offers info
 
@@ -112,8 +109,6 @@ $(document).ready(function() {
 
        $('.loading').css('display','none');
      },4500);
-
-});
 
 function init() {
     window.addEventListener('scroll', function(e){
