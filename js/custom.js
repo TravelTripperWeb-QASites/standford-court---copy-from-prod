@@ -84,7 +84,7 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },4300);
+  },0);
 
   //offers info
 
