@@ -1,6 +1,8 @@
+$('.carousel').carousel({
+    interval: 4500
+}); 
 
-$(document).ready(function() {
-  setTimeout(function(){
+$(document).ready(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
     var totalslides = 10;
@@ -18,17 +20,28 @@ $(document).ready(function() {
 
     bigimage.owlCarousel({
       items : 1,
-      slideSpeed : 6000,
-      autoplay: true,
+      slideSpeed : 9000,
+      autoplay: false,
       dots: false,
       loop: true,
       nav: true,
+      video:true,
+      responsiveRefreshRate : 200,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut', 
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
     });
 
-     
+
+     bigimage.on('translate.owl.carousel',function(e){
+         $('.owl-item video').each(function(){
+           $(this).get(0).pause();
+         });
+       });
+
+      bigimage.on('translated.owl.carousel',function(e){
+         $('.owl-item.active video').get(0).play(); 
+       });
 
     function syncPosition(el) {
       //if loop is set to false, then you have to uncomment the next line
@@ -74,7 +87,6 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },4300);
 
   //offers info
 
@@ -102,7 +114,6 @@ $(document).ready(function() {
 
        $('.loading').css('display','none');
      },4500);
-
 });
 
 function init() {
