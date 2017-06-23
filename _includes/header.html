@@ -16,8 +16,14 @@
   <ul class="navbar-nav mr-auto">
  
    {% for topmenu in toplinks.topmenu %}
-     <li class="nav-item">
-      <a {% if topmenu.parent == page.parent %} class="active" {% endif %} href="{{topmenu.url}}">{{topmenu.name}}</a>
+     <li class="nav-item" {% if topmenu.submenu == "true" %} class="dropdown" {% endif %}> <a {% if topmenu.parent == page.parent %} class="active" {% endif %} {% if topmenu.submenu == "true" %} data-toggle="dropdown"  {% endif %} href="{{topmenu.url}}">{{topmenu.name}}</a>
+            {% if topmenu.submenu == "true" %}
+            <ul class="dropdown-menu ">
+              {% for dropdown in topmenu.subitems %}
+                  <li class="nav-item"><a href="{{ dropdown.url }}">{{ dropdown.name }}</a></li>
+                {% endfor %}
+            </ul>
+      {% endif %}
      </li>
    {% endfor %}   
     

@@ -5,9 +5,13 @@
                {"name":"Amenities","url":"/amenities/","parent":"amenities"},
                {"name":"Dining","url":"/dining/","parent":"dining"},
                {"name":"Gallery","url":"/gallery/","parent":"gallery"},
-               {"name":"Attractions","url":"/attractions/","parent":"attractions"},
+               {"name":"Explore","url":"/explore/","parent":"location",
+                "submenu": "true","subitems": [
+               {"name": "Reboot","url": "/reboot/"},
                {"name":"Events","url":"/events/","parent":"events"},
-               {"name":"Location","url":"/location/","parent":"location"},
+               {"name":"Attractions","url":"/attractions/","parent":"attractions"}
+                 ]
+               },
 		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
                {"name":"Contact","url":"/contact-us/","parent":"contact"}
            ],

@@ -1,344 +1,453 @@
 {
   "blog": [
     {
+      "name": "The Stanford Court Guide 2 Nob Hill",
       "title": "The Stanford Court Guide 2 Nob Hill",
       "file": "blog1.json"
     },
     {
+      "name": "San Francisco Things to Do in January",
       "title": "San Francisco Things to Do in January",
       "file": "blog10.json"
     },
     {
+      "name": "Our Favourite San Francisco Views",
       "title": "Our Favourite San Francisco Views",
       "file": "blog11.json"
     },
     {
+      "name": "Union Square Holiday Fun",
       "title": "Union Square Holiday Fun",
       "file": "blog12.json"
     },
     {
+      "name": "Best Nob Hill Desserts",
       "title": "Best Nob Hill Desserts",
       "file": "blog13.json"
     },
     {
+      "name": "Union Square Christmas Tree Lighting",
       "title": "Union Square Christmas Tree Lighting",
       "file": "blog14.json"
     },
     {
+      "name": "San Francisco Halloween Events",
       "title": "San Francisco Halloween Events",
       "file": "blog15.json"
     },
     {
+      "name": "Rainy Day Activities in Nob Hill",
       "title": "Rainy Day Activities in Nob Hill",
       "file": "blog16.json"
     },
     {
+      "name": "San Francisco Giants NDLS",
       "title": "San Francisco Giants NDLS",
       "file": "blog17.json"
     },
     {
+      "name": "Fleet Week 2016 Events",
       "title": "Fleet Week 2016 Events",
       "file": "blog18.json"
     },
     {
+      "name": "Stay at our San Francisco Dog Friendly Hotel",
       "title": "Stay at our San Francisco Dog Friendly Hotel",
       "file": "blog19.json"
     },
     {
-      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "name": "The Apps We’re Downloading in February 2017",
+      "title": "The Apps We’re Downloading in February 2017",
       "file": "blog2.json"
     },
     {
+      "name": "Best San Francisco Activities in September",
       "title": "Best San Francisco Activities in September",
       "file": "blog20.json"
     },
     {
+      "name": "San Francisco Celebrations for Tony Bennett",
       "title": "San Francisco Celebrations for Tony Bennett",
       "file": "blog21.json"
     },
     {
-      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "name": "Stan’s San Francisco Activity Suggestions",
+      "title": "Stan’s San Francisco Activity Suggestions",
       "file": "blog22.json"
     },
     {
+      "name": "@Stanford Court Receives TripAdvisor Certificate of Excellence Award",
       "title": "@Stanford Court Receives TripAdvisor Certificate of Excellence Award",
       "file": "blog23.json"
     },
     {
-      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "name": "Father’s Day Activities in San Francisco",
+      "title": "Father’s Day Activities in San Francisco",
       "file": "blog24.json"
     },
     {
+      "name": "Summer Travels to San Francisco",
       "title": "Summer Travels to San Francisco",
       "file": "blog25.json"
     },
     {
+      "name": "Best Nob Hill Date Night Spots",
       "title": "Best Nob Hill Date Night Spots",
       "file": "blog26.json"
     },
     {
+      "name": "Get to Know Stan",
       "title": "Get to Know Stan",
       "file": "blog27.json"
     },
     {
+      "name": "The Perfect San Francisco Hotel for Groups",
       "title": "The Perfect San Francisco Hotel for Groups",
       "file": "blog28.json"
     },
     {
-      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "name": "Mother’s Day Activities in San Francisco",
+      "title": "Mother’s Day Activities in San Francisco",
       "file": "blog29.json"
     },
     {
+      "name": "RSA Conference 2017 Preview",
       "title": "RSA Conference 2017 Preview",
       "file": "blog3.json"
     },
     {
+      "name": "SF Earth Day: Celebrate Earth Day with Stanford Court",
       "title": "SF Earth Day: Celebrate Earth Day with Stanford Court",
       "file": "blog30.json"
     },
     {
+      "name": "Our Favorite #SF Farmers Markets",
       "title": "Our Favorite #SF Farmers Markets",
       "file": "blog31.json"
     },
     {
+      "name": "San Francisco Earth Month Events",
       "title": "San Francisco Earth Month Events",
       "file": "blog32.json"
     },
     {
+      "name": "Best Nob Hill Spots to Watch March Madness",
       "title": "Best Nob Hill Spots to Watch March Madness",
       "file": "blog33.json"
     },
     {
+      "name": "#StanfordCourtSF Details",
       "title": "#StanfordCourtSF Details",
       "file": "blog34.json"
     },
     {
+      "name": "Continuing To Go Green",
       "title": "Continuing To Go Green",
       "file": "blog35.json"
     },
     {
+      "name": "Nob Hill Hidden Gems",
       "title": "Nob Hill Hidden Gems",
       "file": "blog36.json"
     },
     {
+      "name": "Packing Tips for Your San Francisco Trip!",
       "title": "Packing Tips for Your San Francisco Trip!",
       "file": "blog37.json"
     },
     {
+      "name": "Best San Francisco Hikes!",
       "title": "Best San Francisco Hikes!",
       "file": "blog38.json"
     },
     {
+      "name": "Super Bowl 50",
       "title": "Super Bowl 50",
       "file": "blog39.json"
     },
     {
-      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "name": "I Left My <3 in San Francisco - Valentine’s Day Package",
+      "title": "I Left My <3 in San Francisco - Valentine’s Day Package",
       "file": "blog4.json"
     },
     {
+      "name": "Super Bowl 50!",
       "title": "Super Bowl 50!",
       "file": "blog40.json"
     },
     {
+      "name": "Super Bowl 50",
       "title": "Super Bowl 50",
       "file": "blog41.json"
     },
     {
+      "name": "super-bowl-50",
       "title": "super-bowl-50",
       "file": "blog42.json"
     },
     {
-      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "name": "Stay On Track At San Francisco’s Stanford Court Hotel!",
+      "title": "Stay On Track At San Francisco’s Stanford Court Hotel!",
       "file": "blog43.json"
     },
     {
+      "name": "Best San Francisco Hikes!",
       "title": "Best San Francisco Hikes!",
       "file": "blog44.json"
     },
     {
+      "name": "Aw Shucks! 5 Great Places To Eat Oysters!",
       "title": "Aw Shucks! 5 Great Places To Eat Oysters!",
       "file": "blog45.json"
     },
     {
+      "name": "Our Favorite Apps!",
       "title": "Our Favorite Apps!",
       "file": "blog46.json"
     },
     {
+      "name": "San Francisco Murals!",
       "title": "San Francisco Murals!",
       "file": "blog47.json"
     },
     {
+      "name": "3 Restaurants To Check Out In Nob Hill!",
       "title": "3 Restaurants To Check Out In Nob Hill!",
       "file": "blog48.json"
     },
     {
+      "name": "3 Coffee Shops in Nob Hill!",
       "title": "3 Coffee Shops in Nob Hill!",
       "file": "blog49.json"
     },
     {
-      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "name": "The 10th Annual Crunchies – Our Picks",
+      "title": "The 10th Annual Crunchies – Our Picks",
       "file": "blog5.json"
     },
     {
+      "name": "Stanford Court Recommended Listening: Bay Area Tunes",
       "title": "Stanford Court Recommended Listening: Bay Area Tunes",
       "file": "blog50.json"
     },
     {
+      "name": "Where to Eat Clam Chowder in San Francisco",
       "title": "Where to Eat Clam Chowder in San Francisco",
       "file": "blog51.json"
     },
     {
+      "name": "Google Next Conference 2017",
       "title": "Google Next Conference 2017",
       "file": "blog52.json"
     },
     {
+      "name": "6 Things to Do in San Francsico in March 2017",
       "title": "6 Things to Do in San Francsico in March 2017",
       "file": "blog53.json"
     },
     {
+      "name": "5 Things You Must Try @ The Ferry Building",
       "title": "5 Things You Must Try @ The Ferry Building",
       "file": "blog54.json"
     },
     {
+      "name": "Hamilton Comes to San Francsico",
       "title": "Hamilton Comes to San Francsico",
       "file": "blog55.json"
     },
     {
+      "name": "Levi Strauss, San Francisco, & Stanford Court Hotel",
       "title": "Levi Strauss, San Francisco, & Stanford Court Hotel",
       "file": "blog56.json"
     },
     {
+      "name": "The Apps We're Downloading Now - March 2017",
       "title": "The Apps We're Downloading Now - March 2017",
       "file": "blog57.json"
     },
     {
+      "name": "Monet: The Early Years @ The Legion of Honor",
       "title": "Monet: The Early Years @ The Legion of Honor",
       "file": "blog58.json"
     },
     {
+      "name": "The 5 Best Food Trucks in SF, according 2 SCH",
       "title": "The 5 Best Food Trucks in SF, according 2 SCH",
       "file": "blog59.json"
     },
     {
-      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "name": "Things to Do in San Francisco – February 2017",
+      "title": "Things to Do in San Francisco – February 2017",
       "file": "blog6.json"
     },
     {
+      "name": "The Most Scenic Running Routes in SF",
       "title": "The Most Scenic Running Routes in SF",
       "file": "blog60.json"
     },
     {
+      "name": "The Best Ice Cream in SF, according 2 SCH",
       "title": "The Best Ice Cream in SF, according 2 SCH",
       "file": "blog61.json"
     },
     {
+      "name": "The Most Instagrammable Eats in SF Right Now",
       "title": "The Most Instagrammable Eats in SF Right Now",
       "file": "blog62.json"
     },
     {
+      "name": "The Stanford Court Guide 2 Polk Street",
       "title": "The Stanford Court Guide 2 Polk Street",
       "file": "blog63.json"
     },
     {
+      "name": "The Best Places to Go #OffTheGrid near SF",
       "title": "The Best Places to Go #OffTheGrid near SF",
       "file": "blog65.json"
     },
     {
+      "name": "Farm-2-Table Restaurants in SF",
       "title": "Farm-2-Table Restaurants in SF",
       "file": "blog66.json"
     },
     {
+      "name": "Re-Live the Summer of Love @ SCH",
       "title": "Re-Live the Summer of Love @ SCH",
       "file": "blog67.json"
     },
     {
+      "name": "Things to Do in San Francisco in May 2017",
       "title": "Things to Do in San Francisco in May 2017",
       "file": "blog68.json"
     },
     {
+      "name": "The SCH Guide 2 Unplugging",
       "title": "The SCH Guide 2 Unplugging",
       "file": "blog69.json"
     },
     {
+      "name": "Where to Eat Pizza in Nob Hill",
       "title": "Where to Eat Pizza in Nob Hill",
       "file": "blog7.json"
     },
     {
+      "name": "The Local Brews You Need to Try in SF",
       "title": "The Local Brews You Need to Try in SF",
       "file": "blog70.json"
     },
     {
+      "name": "#LocalTips for Optimizing Your Ferry Building Experience",
       "title": "#LocalTips for Optimizing Your Ferry Building Experience",
       "file": "blog71.json"
     },
     {
+      "name": "Where 2 Take Mom This #MothersDay in SF",
       "title": "Where 2 Take Mom This #MothersDay in SF",
       "file": "blog72.json"
     },
     {
-      "title": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
+      "name": "What We’re Excited 4 @ Google I/O 2017",
+      "title": "What We’re Excited 4 @ Google I/O 2017",
       "file": "blog73.json"
     },
     {
+      "name": "A SCH #SneakPeek @ The Summer of Love Experience",
       "title": "A SCH #SneakPeek @ The Summer of Love Experience",
       "file": "blog74.json"
     },
     {
+      "name": "6 Reasons 2 Go 2 Outside Lands",
       "title": "6 Reasons 2 Go 2 Outside Lands",
       "file": "blog75.json"
     },
     {
+      "name": "#LocalTips 4 Surviving Bay to Breakers",
       "title": "#LocalTips 4 Surviving Bay to Breakers",
       "file": "blog76.json"
     },
     {
+      "name": "A Short History of the Summer of Love",
       "title": "A Short History of the Summer of Love",
       "file": "blog77.json"
     },
     {
+      "name": "SCH #ProTips for Parking in SF",
+      "title": "SCH #ProTips for Parking in SF",
+      "file": "blog78.json"
+    },
+    {
+      "name": "Have Breakfast on Us @ SCH",
+      "title": "Have Breakfast on Us @ SCH",
+      "file": "blog79.json"
+    },
+    {
+      "name": "SF Indie Fest 2017",
       "title": "SF Indie Fest 2017",
       "file": "blog8.json"
     },
     {
+      "name": "The June Festivals U Can’t Miss in SF",
+      "title": "The June Festivals U Can’t Miss in SF",
+      "file": "blog80.json"
+    },
+    {
+      "name": "The SCH Guide 2 the Summer of Love in the Haight-Ashbury",
+      "title": "The SCH Guide 2 the Summer of Love in the Haight-Ashbury",
+      "file": "blog81.json"
+    },
+    {
+      "name": "Money-Saving Tips 4 Your Trip 2 SF",
+      "title": "Money-Saving Tips 4 Your Trip 2 SF",
+      "file": "blog82.json"
+    },
+    {
+      "name": "A Brief History of Pride",
+      "title": "A Brief History of Pride",
+      "file": "blog83.json"
+    },
+    {
+      "name": "Happy Holidays from Stan and our Team",
       "title": "Happy Holidays from Stan and our Team",
       "file": "blog9.json"
     }
   ],
+  "event_category": [
+    {
+      "name": "Local",
+      "title": "Local",
+      "file": "event_category1.json"
+    }
+  ],
   "events": [
     {
-      "title": "Monet, The Early Years at the Legion of Honor",
-      "file": "event1.json"
-    },
-    {
-      "title": "Adam Devine (Bumper from Pitch Perfect 1 and 2) at the Masonic",
+      "name": "DURAN DURAN AT THE MASONIC",
+      "title": "DURAN DURAN AT THE MASONIC",
       "file": "event2.json"
     },
     {
-      "title": "Google Next conference at Moscone Center",
+      "name": "Semicon 2017 at Moscone Center ",
+      "title": "Semicon 2017 at Moscone Center ",
       "file": "event3.json"
     },
     {
+      "name": "Hamilton at Orpheum Theater ",
       "title": "Hamilton at Orpheum Theater ",
       "file": "event4.json"
     },
     {
-      "title": "St. Patrick's Day Parade",
+      "name": "San Francisco Pride",
+      "title": "San Francisco Pride",
       "file": "event5.json"
     },
     {
-      "title": "Michael Carbonaro at the Masonic",
+      "name": "The Summer of Love Experience at the de Young Museum",
+      "title": "The Summer of Love Experience at the de Young Museum",
       "file": "event6.json"
     },
     {
-      "title": "Rock and Roll Half Marathon",
+      "name": "San Franciso Marathon",
+      "title": "San Franciso Marathon",
       "file": "event7.json"
-    }
-  ],
-  "event_category": [
-    {
-      "title": "Local",
-      "file": "event_category1.json"
     }
   ],
   "gallery_hotel_images": [
@@ -530,76 +639,94 @@
   ],
   "press": [
     {
+      "name": "STANFORD COURT SETS UPDATES",
       "title": "STANFORD COURT SETS UPDATES",
       "file": "press1.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCO’S NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press10.json"
     },
     {
+      "name": "STANFORD COURT INTRODUCES FESTIVE HOLIDAY EXPERIENCES FOR GUESTS AND LOCALS",
       "title": "STANFORD COURT INTRODUCES FESTIVE HOLIDAY EXPERIENCES FOR GUESTS AND LOCALS",
       "file": "press11.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCO’S NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press12.json"
     },
     {
+      "name": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
       "title": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
       "file": "press13.json"
     },
     {
-      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "name": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
+      "title": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
       "file": "press14.json"
     },
     {
+      "name": "LUXURY TRAVEL MAGAZINE",
       "title": "LUXURY TRAVEL MAGAZINE",
       "file": "press15.json"
     },
     {
+      "name": "HUFFINGTON POST",
       "title": "HUFFINGTON POST",
       "file": "press16.json"
     },
     {
+      "name": "CONDE NAST TRAVELER",
       "title": "CONDE NAST TRAVELER",
       "file": "press17.json"
     },
     {
+      "name": "STANFORD COURT HOTEL PLANS 2014 TRANSFORMATION",
       "title": "STANFORD COURT HOTEL PLANS 2014 TRANSFORMATION",
       "file": "press2.json"
     },
     {
-      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "name": "NOB HILL’S STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "title": "NOB HILL’S STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
       "file": "press3.json"
     },
     {
+      "name": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
       "title": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
       "file": "press4.json"
     },
     {
+      "name": "HOTELS SEEK THE GEEKS",
       "title": "HOTELS SEEK THE GEEKS",
       "file": "press5.json"
     },
     {
+      "name": "DRINK HERE NOW: FIVE PLACES TO SIP THIS WEEK",
       "title": "DRINK HERE NOW: FIVE PLACES TO SIP THIS WEEK",
       "file": "press6.json"
     },
     {
-      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "name": "SAN FRANCISCO’S ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "title": "SAN FRANCISCO’S ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
       "file": "press7.json"
     },
     {
+      "name": "3 TECH-SAAVY HOTELS OFFERING GREAT 21ST CENTURY AMENITIES",
       "title": "3 TECH-SAAVY HOTELS OFFERING GREAT 21ST CENTURY AMENITIES",
       "file": "press8.json"
     },
     {
+      "name": "TRAVEL INTELLIGENCE: 8 WAYS TO SLEEP AROUND",
       "title": "TRAVEL INTELLIGENCE: 8 WAYS TO SLEEP AROUND",
       "file": "press9.json"
     }
   ],
   "promos": [
     {
+      "name": "Save up to 20%",
       "title": "Save up to 20%",
       "file": "promo1.json"
     }

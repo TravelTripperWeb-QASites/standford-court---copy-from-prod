@@ -1,6 +1,8 @@
+$('.carousel').carousel({
+    interval: 4500
+}); 
 
-$(document).ready(function() {
-  setTimeout(function(){
+$(document).ready(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
     var totalslides = 10;
@@ -18,48 +20,28 @@ $(document).ready(function() {
 
     bigimage.owlCarousel({
       items : 1,
-      slideSpeed : 3000,
-      autoplay: true,
+      slideSpeed : 9000,
+      autoplay: false,
       dots: false,
       loop: true,
       nav: true,
-      animateIn: 'fadeIn',
-      animateOut: 'fadeOut',
+      video:true,
       responsiveRefreshRate : 200,
+      animateIn: 'fadeIn',
+      animateOut: 'fadeOut', 
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
-    }).on('changed.owl.carousel', syncPosition);
+    });
 
-    thumbs
-      .on('initialized.owl.carousel', function () {
-        thumbs.find(".owl-item").eq(0).addClass("current");
-      })
-      .owlCarousel({
-      dots: true,
-      items:3,
-      nav: false,
-      navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
-      smartSpeed: 200,
-      slideSpeed : 500,
-      slideBy: totalslides,
-      responsiveRefreshRate : 100,
-      responsive : {
-            // breakpoint from 0 up
-            0 : {
-                 items:1
-            },
-            // breakpoint from 480 up
-            600 : {
-                items:2
-            },
-            // breakpoint from 768 up
-            900 : {
-                items:3
-            },
-            1600 : {
-                items:4
-            }
-        }
-    }).on('changed.owl.carousel', syncPosition2);
+
+     bigimage.on('translate.owl.carousel',function(e){
+         $('.owl-item video').each(function(){
+           $(this).get(0).pause();
+         });
+       });
+
+      bigimage.on('translated.owl.carousel',function(e){
+         $('.owl-item.active video').get(0).play(); 
+       });
 
     function syncPosition(el) {
       //if loop is set to false, then you have to uncomment the next line
@@ -105,8 +87,6 @@ $(document).ready(function() {
       var number = $(this).index();
       bigimage.data('owl.carousel').to(number, 300, true);
     });
-  },4300);
-
 
   //offers info
 
@@ -134,7 +114,6 @@ $(document).ready(function() {
 
        $('.loading').css('display','none');
      },4500);
-
 });
 
 function init() {
@@ -171,6 +150,7 @@ function init() {
 window.onload = init();
 
 
+//
 $(function() {
    var today = new Date();
 //   var firstdate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -283,3 +263,121 @@ $(function() {
           });
       });
   }
+
+//Date Picker
+
+$("#od_arrival").datepicker({
+            dateFormat: "yy-mm-dd",
+      altField  : '#arrival_date',
+      altFormat : 'yy-mm-dd',
+            minDate: 0,
+            onSelect: function (date) {
+                var date2 = $('#od_arrival').datepicker('getDate');
+                date2.setDate(date2.getDate() + 1);
+                $('#od_departure').datepicker('setDate', date2);
+                //sets minDate to dt1 date + 1
+                $('#od_departure').datepicker('option', 'minDate', date2);
+            }
+        });
+        $('#od_departure').datepicker({
+            dateFormat: "yy-mm-dd",
+      altField  : '#departure_dates',
+      altFormat : 'yy-mm-dd',
+            onClose: function () {
+                var dt1 = $('#v').datepicker('getDate');
+                console.log(dt1);
+                var dt2 = $('#od_departure').datepicker('getDate');
+                if (dt2 <= dt1) {
+                    var minDate = $('#od_departure').datepicker('option', 'minDate');
+                    $('#od_departure').datepicker('setDate', minDate);
+                }
+            }
+        });
+    $("#ui-datepicker-div").addClass("od-cal");
+
+
+    $("#arrival_date, .main-date, .main-date-1").datepicker({
+            dateFormat: "yy-mm-dd",
+      altField  : '#arrival_date',
+      altFormat : 'yy-mm-dd',
+            minDate: 0,
+            onSelect: function (date) {
+                var date2 = $('#arrival_date').datepicker('getDate');
+                date2.setDate(date2.getDate() + 1);
+                $('#departure_date').datepicker('setDate', date2);
+                //sets minDate to dt1 date + 1
+                $('#departure_date').datepicker('option', 'minDate', date2);
+            }
+        });
+        $('#departure_date, #departure_date_1, .alternate-date, .alternate-date-1').datepicker({
+            dateFormat: "yy-mm-dd",
+      altField  : '#departure_dates',
+      altFormat : 'yy-mm-dd',
+            onClose: function () {
+                var dt1 = $('#v').datepicker('getDate');
+                console.log(dt1);
+                var dt2 = $('#departure_date').datepicker('getDate');
+                if (dt2 <= dt1) {
+                    var minDate = $('#departure_date').datepicker('option', 'minDate');
+                    $('#departure_date').datepicker('setDate', minDate);
+                }
+            }
+        });
+
+
+$(document).ready(function(){
+    $( ".wedding-date" ).datepicker();
+});
+
+$(document).ready(function(){
+  $(".accord-item").click(function(){
+
+    $(".accord-item").not(this).next(".accord-content").slideUp();
+    $(".accord-item").not(this).removeClass("-minus");
+
+    $(this).next(".accord-content").slideToggle();
+    $(this).toggleClass("-minus");
+
+
+  });
+
+     // get instagram feed
+    var instaurl = 'https://api.instagram.com/v1/users/458067763/media/recent/?access_token=458067763.1677ed0.128c22ee3cd94d3f9db3be61fa42e26c&callback=?';
+     $.ajax({
+        url: instaurl,
+        dataType: "jsonp",
+        success: function (response) { 
+          setTimeout(function(){
+          $.each(response.data, function(i, item) { 
+              $('.t-feeds').find('.photolist'+i).html('<a href="'+item.link+'" target="_blank"><img src="'+item.images.standard_resolution.url+'" class="img-respond"/><span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span><div class="insta-overlay"><div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div></div></a>');
+          });
+        },1000);
+        }
+      });
+       var configProfile = {
+      "domId": 'soicalfeed',
+      "maxTweets": 7,
+      "enableLinks": true, 
+      "showUser": true,
+      "showTime": true,
+      "showImages": false,
+      "lang": 'en'
+      };
+
+});
+
+$(window).load(function(){
+  if( $(window).width() > 768 ) {
+
+     jQuery('ul.mr-auto li.dropdown a').attr('data-toggle','disable');
+   //Add Hover effect to menus
+        jQuery('ul.mr-auto li.nav-item').hover(function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn();
+        }, function() {
+          jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
+        });
+  }
+  else{
+     //jQuery('ul.nav li.dropdown a.dropdown-toggle').removeAttr('data-toggle');
+  }
+});
