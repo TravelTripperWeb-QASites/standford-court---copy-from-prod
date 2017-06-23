@@ -3,6 +3,7 @@ $('.carousel').carousel({
 }); 
 
 $(document).ready(function(){
+
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
     var totalslides = 10;
