@@ -863,6 +863,9 @@
     "blog/money-saving-tips-for-your-trip-to-sf.html/ct_text.json",
     "blog/money-saving-tips-for-your-trip-to-sf.html/footeraddress.json",
     "blog/money-saving-tips-for-your-trip-to-sf.html/footerlinks.json",
+    "blog/a-brief-history-of-pride.html/ct_text.json",
+    "blog/a-brief-history-of-pride.html/footeraddress.json",
+    "blog/a-brief-history-of-pride.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
@@ -933,5 +936,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "f9094daa4981a53eceab7f18122b3980b47646a7"
+  "__SHA__": "d6e8eab52537ba4ce90d318cb2a7f4bc431d7d21"
 }

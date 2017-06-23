@@ -443,10 +443,11 @@ body {
 }
 
 .home-slider {
+    .carousel-indicators li { visibility: hidden; }
     position: relative;
-    #big {
+    #myCarousel {
         .item {
-            height: 100%;
+            height: 855px;
             margin: 0px;
             color: #FFF;
             text-align: center;

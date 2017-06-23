@@ -1,4 +1,8 @@
+$('.carousel').carousel({
+    interval: 3000
+}); 
 
+$(document).ready(function(){
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
     var totalslides = 10;
@@ -17,7 +21,7 @@
     bigimage.owlCarousel({
       items : 1,
       slideSpeed : 9000,
-      autoplay: true,
+      autoplay: false,
       dots: false,
       loop: true,
       nav: true,
@@ -28,12 +32,13 @@
       navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
     });
 
+
      bigimage.on('translate.owl.carousel',function(e){
          $('.owl-item video').each(function(){
            $(this).get(0).pause();
-
          });
        });
+
       bigimage.on('translated.owl.carousel',function(e){
          $('.owl-item.active video').get(0).play(); 
        });
@@ -109,6 +114,7 @@
 
        $('.loading').css('display','none');
      },4500);
+});
 
 function init() {
     window.addEventListener('scroll', function(e){
