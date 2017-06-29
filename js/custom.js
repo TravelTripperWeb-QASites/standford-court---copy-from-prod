@@ -1,8 +1,9 @@
-$('.carousel').carousel({
-    interval: 4500
-}); 
 
 $(document).ready(function(){
+  $('.carousel').carousel({
+        interval: 4500
+    }); 
+
 
     var bigimage = $("#big");
     var thumbs = $("#thumbs");

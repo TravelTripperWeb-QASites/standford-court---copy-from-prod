@@ -866,6 +866,9 @@
     "blog/a-brief-history-of-pride.html/ct_text.json",
     "blog/a-brief-history-of-pride.html/footeraddress.json",
     "blog/a-brief-history-of-pride.html/footerlinks.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/ct_text.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footeraddress.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
@@ -936,5 +939,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "654bc1f343875ab0a3b2de51c45ff191d095d48a"
+  "__SHA__": "3bd25f39386795749442813f42bcfca035b952a0"
 }
