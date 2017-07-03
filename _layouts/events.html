@@ -6,46 +6,22 @@ layout: default
   <div class="location-banner commonbanner" style="background-image:url(/images/events_banner.jpg)">
     
     <div class="banner-inner">
-      
       <h3>Events</h3>
-   
     </div>
   </div>
+
+<div class="wyndow">
+  <h3>So much to see and do in San Francisco!</h3>
+Want more?<br>
+For assistance arranging activities not listed below, contact <a href="mailto:concierge@stanfordcourt.com">concierge@stanfordcourt.com</a>
+  <p>&nbsp;</p>
+<a class="wyndow-app text-center" href="https://wyndow.com" data-embed-id="25-app">Please wait while the events load...</a> 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.wyndow.com/embed.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","wyndow-wjs");</script>
+</div>
+
 </section>
 
- <ul class="gallery-nav events-filter-nav">
-    <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
-     {% assign catlist = site.data._models.event_category %} 
 
-    {% for cat in catlist %}
-    <li><a href="javascript:;" data-rel="{{cat.title}}" class="filter">{{cat.title}}</a></li>
-    {% endfor %}
-  </ul>
-
-
-{% assign eventList = site.data._models.events | sort : 'sort_order' %}
-{% for events in eventList %}
-
-<section class="models events fancybox" data-filter="{{events.category.title}}">
-      <div class="container">
-        <div class="two-col-wrap">
-          	 <div class="col-sm-6 sp-img {% cycle '', 'pulling-right' %}"> <img src="{{events.thumb_image.url}}" alt=""></div>
-          	<div class="col-sm-6 sp-content ">
-           
-              <h3>{{events.title}}</h3>
-                 <h4><strong> {{events.schedule}}</strong> </h4>
-                 <hr>
-               {{events.short_description}}
-
-                <div class="s-link"><a href="{{events.url_friendly_name}}" ><span>View this event</span></a></div>
-    		 
-            </div>
-           
-          
-        </div>
-      </div>
-    </section>
-{% endfor %}
     
         
     

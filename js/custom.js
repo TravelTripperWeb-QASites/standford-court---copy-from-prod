@@ -1,8 +1,9 @@
-$('.carousel').carousel({
-    interval: 4500
-}); 
 
 $(document).ready(function(){
+  $('.carousel').carousel({
+        interval: 4500
+    }); 
+
 
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
@@ -377,8 +378,12 @@ $(window).load(function(){
         }, function() {
           jQuery(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut();
         });
+
   }
   else{
      //jQuery('ul.nav li.dropdown a.dropdown-toggle').removeAttr('data-toggle');
   }
+  jQuery('.nav-item a').click(function(){
+    window.location.href = $(this).attr("href");
+  });
 });
