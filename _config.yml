@@ -9,6 +9,11 @@ booking_widget_url: https://stanfordcourt.reztrip.com/mobile
 
 url: "https://www.stanfordcourt.com"
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
 data_paginate: 
   per_page: 6
   data: 'blog'
@@ -16,8 +21,7 @@ data_paginate:
   pagination_template: 'blog/index.html'
   sort_field: 'date'
   sort_reverse: true
-sass:
-  style: compressed
+
 
 #paginate_path: "/page:num/"
 markdown: kramdown 
@@ -37,4 +41,31 @@ page_gen:
     template: 'promo-details'
     dir: 'promos'
     
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - js/plugins
+  - js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - media.json
+  - models.json
+  - node_modules
+  - old_media.json
+  - package.json
+  - Rakefile
+  - README
+  - sitemap.json
+  - tmp
 

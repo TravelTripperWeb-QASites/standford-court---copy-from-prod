@@ -9,8 +9,7 @@ GEM
       forwardable-extended (~> 2.5)
     fastimage (2.0.1)
       addressable (~> 2)
-    ffi (1.9.18)
-    ffi (1.9.18-x86-mingw32)
+    ffi (1.9.17-x86-mingw32)
     forwardable-extended (2.6.0)
     i18n (0.8.1)
     jekyll (3.1.6)
@@ -41,7 +40,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    public_suffix (2.0.4)
+    public_suffix (2.0.5)
     rack (1.6.5)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
@@ -55,7 +54,6 @@ GEM
     xkeys (2.2.0)
 
 PLATFORMS
-  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -65,4 +63,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.15.1
+   1.13.1
