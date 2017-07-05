@@ -869,6 +869,9 @@
     "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/ct_text.json",
     "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footeraddress.json",
     "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footerlinks.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/ct_text.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footeraddress.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
@@ -939,5 +942,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "325b194b108c56a6d1b0bfe021d5d5c686a295ca"
+  "__SHA__": "0096cbb853f1cae496e1b8acc57036ab62e5dd81"
 }

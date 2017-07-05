@@ -34,7 +34,7 @@ meta_keywords_localized:
     <!--<img  src="{{post.blogimage.url}}" class="img-responsive">-->
 	<div class="blog-img" style="background-image: url({{post.blogimage.url}}) !important">
 		<div class="dl">
-			<h3>{{post.title}}</h3>
+			<a href="{{ post.id | permalink: model_dir: 'blog' }}" ><h3>{{post.title}}</h3></a>
 			<p>
 				{% assign d = post.date | date: "%-d" %}
 				{{ post.date | date: "%B" }}
