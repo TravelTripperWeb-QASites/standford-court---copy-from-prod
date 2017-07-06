@@ -1,4 +1,3 @@
-
 <section class="container instagram">
   <div class="col-md-12 insta-wrapper">
     <div class="col-sm-3">
@@ -55,6 +54,7 @@
               <div id="TA_certificateOfExcellence727" class="TA_certificateOfExcellence">
                 <ul id="pKCN1R" >
                   <li id="3viMvGkx"><a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g60713-d80747-Reviews-Stanford_Court_San_Francisco-San_Francisco_California.html" title="Trip Advisor"><img src="/images/tripadvisor.png" alt="TripAdvisor" id="CDSWIDCOELOGO"/></a></li>
+
                 </ul>
               </div>
             </li>
@@ -127,30 +127,9 @@ function getIp(data){
 <script src="https://api.ipify.org?format=jsonp&callback=getIp"></script> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 
-<script src="/js/jquery.min.js"></script> 
-<script src="/js/jquery-ui.min.js"></script> 
-
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="/js/bootstrap.min.js"></script> 
-<script src="/js/jquery.easing.min.js"></script> 
-<script src="/js/owl.carousel.min.js"></script> 
-<script src="/js/classie.js"></script> 
-<script src="/js/angular.min.js"></script> 
-<script type="text/javascript" src="/js/instafeed.js"></script> 
-<script src="/js/custom.js"></script> 
-<script src="/js/ui-date.js"></script> 
-<script src="/js/booking-widget.js"></script> 
-<script src="/js/lightgallery.js"></script> 
-<script src="/js/lg-fullscreen.js"></script> 
-<script src="/js/lg-thumbnail.js"></script> 
-<script src="/js/lg-video.js"></script> 
-<script src="/js/rt3api.js"></script> 
-<script src="/js/rez-trip.js"></script> 
-<script src="/js/rt3-services.js"></script> 
-<script src="/js/rt3-directives.js"></script> 
-<script src="/js/rt3-filters.js"></script> 
+<script src="/js/main.min.js"></script> 
 <script type="text/javascript">
-        // instafeed 
+      // instafeed 
        var userFeed = new Instafeed({
         get: 'user',
         userId: '458067763',
@@ -253,12 +232,8 @@ function getIp(data){
             }
           ]
         });
-    
-    
-    
     var iconBase = '/images/'; 
-    
-        var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
           title: 'Stanford Court Hotel',
@@ -331,4 +306,4 @@ function getIp(data){
         options.button = "none";
 
         var srfp_widget = new srfp.widget(options);
-      </script> 
+</script> 

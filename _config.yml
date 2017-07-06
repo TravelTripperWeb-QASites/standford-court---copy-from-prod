@@ -50,6 +50,7 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - js/plugins
+  - js/_main.js
   - js/vendor
   - Capfile
   - CHANGELOG
@@ -68,4 +69,3 @@ exclude:
   - README
   - sitemap.json
   - tmp
-
