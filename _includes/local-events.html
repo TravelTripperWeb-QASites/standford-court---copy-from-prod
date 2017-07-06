@@ -1,37 +1,22 @@
 <section class="container  local-events">
-           <div class="table-eq">
-                <div class="left-cell">
-                       <div class="bg-img" style="background:url(/images/homepage/attractions/dancing.jpg) top left no-repeat; background-size:cover;">
-                       </div>
-                      <div class="all-block">
-                        {% regionblock footereventsheading %} <h1 class="heading2">LOCAL EVENTS</h1>{% endregionblock %}
-                       <div class="btn-holder text-center">
-                        {% regionblock footereventslink %}
-                        <a href="/events/" class="butn btn-white uppercase">
-                            Discover all Events
-                        </a>{% endregionblock %}
-                       </div>
-                      </div>
-                </div>
-                <div class="right-cell bg-dark">  
-                     
-                     <ul class="latest-events">
-
-                     {% assign eventList = site.data._models.events | sort : 'sort_order' %}
-                      {% for events in eventList limit:3 %}
-                       <li>
-
-                          <div class="event-details">
-                             <span class="event-type">Event</span>
-                             <span class="event-date-time">{{events.schedule}}</span>
-                          </div>
-                          <a href="/events/{{events.url_friendly_name}}"> {{events.title}}</a>
-                       </li>
-                       
-                    
-                     {% endfor %}
-
-                      </ul>     
-                </div> 
-           </div>
+  <div class="table-eq">
+    <div class="left-cell">
+      <div class="bg-img" style="background:url(/images/homepage/attractions/dancing.jpg) top left no-repeat; background-size:cover;"> </div>
+      <div class="all-block"> {% regionblock footereventsheading %}
+        <h1 class="heading2">LOCAL EVENTS</h1>
+        {% endregionblock %}
+        <div class="btn-holder text-center"> {% regionblock footereventslink %} <a href="/events/" class="butn btn-white uppercase"> Discover all Events </a>{% endregionblock %} </div>
+      </div>
+    </div>
+    <div class="right-cell bg-dark">
+      <ul class="latest-events">
+        {% assign eventList = site.data._models.events | sort : 'sort_order' %}
+        {% for events in eventList limit:3 %}
+        <li>
+          <div class="event-details"> <span class="event-type">Event</span> <span class="event-date-time">{{events.schedule}}</span> </div>
+          <a href="/events/{{events.url_friendly_name}}"> {{events.title}}</a> </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </section>
