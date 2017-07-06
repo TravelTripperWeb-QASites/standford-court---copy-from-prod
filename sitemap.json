@@ -464,6 +464,14 @@
     "blog/index.html/ct_text.json",
     "blog/index.html/footeraddress.json",
     "blog/index.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
     "attractions/index.html/heading.json",
     "attractions/index.html/maintext.json",
     "attractions/index.html/subheading.json",
@@ -488,14 +496,6 @@
     "amenities/index.html/ct_text.json",
     "amenities/index.html/footeraddress.json",
     "amenities/index.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
-    "promos/index.html/footeroffersheading.json",
-    "promos/index.html/footerofferslink.json",
-    "promos/index.html/ct_text.json",
-    "promos/index.html/footeraddress.json",
-    "promos/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -942,5 +942,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "0096cbb853f1cae496e1b8acc57036ab62e5dd81"
+  "__SHA__": "be8165d2cca641ecdbdcc279a915ae29cd9b490a"
 }
