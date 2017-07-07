@@ -1,8 +1,8 @@
-
-$(document).ready(function(){
   $('.carousel').carousel({
         interval: 4500
     }); 
+    
+$(document).ready(function(){
 
 
     var bigimage = $("#big");
