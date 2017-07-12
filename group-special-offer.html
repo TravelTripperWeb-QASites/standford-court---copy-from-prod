@@ -1,0 +1,95 @@
+---
+excerpt: stanfordcourt.com
+parent: home
+title_localized:
+  en: San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: 
+meta_description_localized:
+  en: 
+meta_keywords_localized:
+  en: 
+---
+
+<section rt3-special-rates= "offers" ng-controller="offerDetail">
+    <input type="hidden" id="offerList" value="[[ offers.special_rates ]]"   />
+    <div class="container">
+        <div id="top-spacer">
+        </div>
+    </div>
+    <div class="container">
+        <div class="special-details-banner" style="background-image:url(https://d31f902anbz5po.cloudfront.net/321/21519_2_yankee_large.jpg)">
+            <div class="special-content">
+                <h2>STANFORD COURT SPECIAL</h2>
+                <div class="position">
+                    <h3>Special Offer</h3>
+                </div>
+                <div class="btn-holder">
+                    <a class="butn btn-white uppercase bgwhite-btn" href="#" target="_blank">
+                    book this Offer
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="description-container">
+            <div class="col-sm-6">
+                <img src="https://d31f902anbz5po.cloudfront.net/321/40793_1_yankee_large.jpg" class="img-responsive">
+            </div>
+            <div class="col-sm-6">
+                <div class="description">
+                    <div class="bold-text">
+                        <p>PLANNING AN OFFSITE MEETING?<br><br>
+                            DON’T WAIT BOOK NOW
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contactus-container groupspecial">
+        <div class="col-sm-6 background-img" style="background-image:url(/images/special-details/specials-offfer.jpg)">
+            <!-- <div class="btn-holder">
+                <a href="/contact-us/" class="butn btn-white uppercase bgwhite-btn"  >
+                Contact us
+                </a>
+                </div> -->
+        </div>
+        <div class="col-sm-6">
+            <div class="details-container groupcontainer">
+                <h4>PLANNING AN OFFSITE MEETING?</h4>
+                <h4>DON’T WAIT BOOK NOW</h4>
+                <p>SPEND A MINIMUM OF $5K & EARN OUR SUMMER REWARDS</p> 
+                <span>Up to 25% off on group rates<br>
+                    1 Comp upgrade per 20 room<br>
+                    1 comp per 25<br>
+                    2% off your master bill</span>
+                <p>Must book group by June 30, 2017 to receive rewards and actualize by December 30, 2017.</p>
+                <p>Only valid on new group bookings and can not be applied to existing contracts.</p>
+                <img src="/images/logo.png" alt="Stanford Court Hotel">
+                <div class="left">
+                <p>905 california st.san francisco, ca 94106</p>
+                <p>T:415.989.3500 / F:415.391.0513</p>
+                <p>Stanfordcourt.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
+            <div class="heading-circle">
+                <h4>a unique boutique<br>hotel experience</h4>
+                <h2>San Francisco at its Best</h2>
+                <div class="btn-holder text-center">
+                    <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                    book your stay
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include offers.html %}
