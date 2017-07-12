@@ -378,6 +378,12 @@
 .groupspecial{
     background-color: #fff !important;
     .groupcontainer{
+        .rfp{
+            padding: 20px !important;
+            .pad{
+                border: 1px solid #161515 !important;
+            }
+        }
         padding: 25px 0px !important;
         text-align: center !important;
         .left{
