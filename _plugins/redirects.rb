@@ -27,6 +27,7 @@ module Jekyll
 <html>
   <head>
     <noscript><meta http-equiv="refresh" content="0; url=/#{@redirect_to}" /></noscript>
+    <link rel="canonical" href="/#{@redirect_to}" />    
   </head>
   <body>
     <span style="display:none;">Redirecting from #{@name} to #{@redirect_to}</span>
