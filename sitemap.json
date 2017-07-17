@@ -66,13 +66,13 @@
           }
         ]
       },
-      "urban-bandle": {
+      "urban-bundle": {
         "__PAGES__": [
           {
             "label": "San Francisco Hotel with Modern Amenities | Stanford Court",
             "published": true,
             "locales": {
-              "en": "/amenities/urban-bandle/"
+              "en": "/amenities/urban-bundle/"
             },
             "data_source": null,
             "source_path": "amenities/urban-bandle.html"
@@ -899,6 +899,9 @@
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/ct_text.json",
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/footeraddress.json",
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/footerlinks.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/ct_text.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footeraddress.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
@@ -972,5 +975,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "bf9895adb9f41b74d3eba8f3e8bf7420880a1bc3"
+  "__SHA__": "bf68e8f4c9e9b7dd5cf1d686d9b64f8b8a42c02b"
 }
