@@ -66,13 +66,13 @@
           }
         ]
       },
-      "urban-bandle": {
+      "urban-bundle": {
         "__PAGES__": [
           {
             "label": "San Francisco Hotel with Modern Amenities | Stanford Court",
             "published": true,
             "locales": {
-              "en": "/amenities/urban-bandle/"
+              "en": "/amenities/urban-bundle/"
             },
             "data_source": null,
             "source_path": "amenities/urban-bandle.html"
@@ -474,8 +474,6 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
-    "group-special-offer.html/footeroffersheading.json",
-    "group-special-offer.html/footerofferslink.json",
     "group-special-offer.html/ct_text.json",
     "group-special-offer.html/footeraddress.json",
     "group-special-offer.html/footerlinks.json",
@@ -899,6 +897,9 @@
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/ct_text.json",
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/footeraddress.json",
     "blog/where-2-eat-clean-in-sf-according-2-sch.html/footerlinks.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/ct_text.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footeraddress.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
@@ -972,5 +973,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "3136865e8cc86180da807c67b9e210825deaf791"
+  "__SHA__": "85364331b06acbca68915cfa216b181afa1a16ac"
 }
