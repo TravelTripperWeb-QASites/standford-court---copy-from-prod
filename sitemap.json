@@ -903,6 +903,9 @@
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/ct_text.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footeraddress.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -973,5 +976,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "85364331b06acbca68915cfa216b181afa1a16ac"
+  "__SHA__": "628e9a902648bb6d6f09fb4151bfa58d3f6b082d"
 }
