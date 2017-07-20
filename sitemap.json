@@ -636,8 +636,6 @@
     "amenities/urban-bandle.html/ct_text.json",
     "amenities/urban-bandle.html/footeraddress.json",
     "amenities/urban-bandle.html/footerlinks.json",
-    "web-exclusive-offer.html/footeroffersheading.json",
-    "web-exclusive-offer.html/footerofferslink.json",
     "web-exclusive-offer.html/ct_text.json",
     "web-exclusive-offer.html/footeraddress.json",
     "web-exclusive-offer.html/footerlinks.json",
@@ -905,6 +903,9 @@
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/ct_text.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footeraddress.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -975,5 +976,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "d719e9e919cbd355d634fda5b99dc480a37294d2"
+  "__SHA__": "30ec9fab3d9955cfdf71477d4e17d36df3961718"
 }
