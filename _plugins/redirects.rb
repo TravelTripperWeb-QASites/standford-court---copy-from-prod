@@ -5,14 +5,14 @@ module Jekyll
     
     def initialize(site, source, redirect_to)
       @site = site
-      @redirect_to = redirect_to.gsub(/^\//,'')
+      @redirect_to = redirect_to.to_s.gsub(/^\//,'')
       
-      @name = source.gsub(/^\/+/,'')
+      @name = source.to_s.gsub(/^\/+/,'')
       self.process(@name)
       @content = contents
       @data = { "permalink" => @name }
 
-      puts url, permalink, @name
+      #puts url, permalink, @name
       
     end
     
@@ -64,7 +64,7 @@ END
             source += '/' if !source.end_with?('/')
             source += 'index.html' 
           end
-          redirect_to = URI.encode(destination)
+          redirect_to = URI.encode(destination.to_s)
           
           if !(redirect_to.to_s.split('/').last =~ /\./)
             #if it doesn't have an extension, it's a directory and should end with a slash to prevent dbl redirects
