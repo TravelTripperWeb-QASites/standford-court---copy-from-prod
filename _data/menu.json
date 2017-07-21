@@ -4,12 +4,13 @@
                {"name":"Specials","url":"/specials/","parent":"specials"},
                {"name":"Amenities","url":"/amenities/","parent":"amenities"},
                {"name":"Dining","url":"/dining/","parent":"dining"},
-               {"name":"Gallery","url":"/gallery/","parent":"gallery"},
+               {"name":"Meetings","url":"/group-special-offer/","parent":"Meetings"},
                {"name":"Explore","url":"/explore/","parent":"location",
                 "submenu": "true","subitems": [
                {"name": "Reboot","url": "/reboot/"},
                {"name":"Events","url":"/events/","parent":"events"},
-               {"name":"Attractions","url":"/attractions/","parent":"attractions"}
+               {"name":"Attractions","url":"/attractions/","parent":"attractions"},
+               {"name":"Gallery","url":"/gallery/","parent":"gallery"}
                  ]
                },
 		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
