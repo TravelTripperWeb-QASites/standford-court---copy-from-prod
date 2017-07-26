@@ -32,6 +32,10 @@ class SitemapGenerator
           page_list.each_with_index do |page, i|
             page_orders[page] = i
           end
+        elsif (page_list["paths"] || page_list[:paths]).is_a?(Array)
+          page_list["paths"].each_with_index do |page, i|
+            page_orders[page] = i
+          end
         else
           page_orders = page_list
         end

@@ -14,7 +14,7 @@ sass:
   style: compressed
 
 
-data_paginate: 
+data_paginate:
   per_page: 6
   data: 'blog'
   path: 'blog/page:num'
@@ -24,16 +24,16 @@ data_paginate:
 
 
 #paginate_path: "/page:num/"
-markdown: kramdown 
+markdown: kramdown
 empty_array: []
 page_gen:
 
   - data: 'blog'
     template: 'blog-details'
     dir: 'blog'
-  - data: 'category'
-    template: 'category'
-    dir: 'categories'
+  # - data: 'category'
+  #   template: 'category'
+  #   dir: 'categories'
   - data: 'events'
     template: 'event-details'
     dir: 'events'
