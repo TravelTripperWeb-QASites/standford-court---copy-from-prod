@@ -8,11 +8,6 @@
         "dir": "blog"
       },
       {
-        "data": "category",
-        "template": "category",
-        "dir": "categories"
-      },
-      {
         "data": "events",
         "template": "event-details",
         "dir": "events"
@@ -37,7 +32,7 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 19
+        "order": 0
       }
     ],
     "amenities": {
@@ -50,7 +45,7 @@
           },
           "data_source": null,
           "source_path": "amenities/index.html",
-          "order": 2
+          "order": 1
         }
       ],
       "green-hotel": {
@@ -63,7 +58,7 @@
             },
             "data_source": null,
             "source_path": "amenities/green-hotel.html",
-            "order": 1
+            "order": 2
           }
         ]
       },
@@ -119,7 +114,7 @@
             },
             "data_source": null,
             "source_path": "attractions/culinary.html",
-            "order": 5
+            "order": 8
           }
         ]
       },
@@ -133,7 +128,7 @@
             },
             "data_source": null,
             "source_path": "attractions/fitness.html",
-            "order": 6
+            "order": 11
           }
         ]
       },
@@ -147,7 +142,7 @@
             },
             "data_source": null,
             "source_path": "attractions/retail.html",
-            "order": 8
+            "order": 10
           }
         ]
       },
@@ -176,7 +171,7 @@
           },
           "data_source": null,
           "source_path": "blog/index.html",
-          "order": 10
+          "order": 12
         }
       ]
     },
@@ -190,7 +185,7 @@
           },
           "data_source": null,
           "source_path": "events/index.html",
-          "order": 11
+          "order": 6
         }
       ]
     },
@@ -204,7 +199,7 @@
           },
           "data_source": null,
           "source_path": "promos/index.html",
-          "order": 12
+          "order": 5
         }
       ]
     },
@@ -218,7 +213,7 @@
           },
           "data_source": null,
           "source_path": "bill.html",
-          "order": 13
+          "order": 15
         }
       ]
     },
@@ -232,7 +227,7 @@
           },
           "data_source": null,
           "source_path": "contact-us.html",
-          "order": 14
+          "order": 25
         }
       ]
     },
@@ -246,7 +241,7 @@
           },
           "data_source": null,
           "source_path": "dining.html",
-          "order": 15
+          "order": 27
         }
       ]
     },
@@ -260,7 +255,7 @@
           },
           "data_source": null,
           "source_path": "explore.html",
-          "order": 16
+          "order": 22
         }
       ]
     },
@@ -274,7 +269,7 @@
           },
           "data_source": null,
           "source_path": "gallery.html",
-          "order": 17
+          "order": 19
         }
       ]
     },
@@ -302,7 +297,7 @@
           },
           "data_source": null,
           "source_path": "press - Copy.html",
-          "order": 20
+          "order": 14
         }
       ]
     },
@@ -316,7 +311,7 @@
           },
           "data_source": null,
           "source_path": "press.html",
-          "order": 21
+          "order": 16
         }
       ]
     },
@@ -330,7 +325,7 @@
           },
           "data_source": null,
           "source_path": "privacy-policy.html",
-          "order": 22
+          "order": 24
         }
       ]
     },
@@ -344,7 +339,7 @@
           },
           "data_source": null,
           "source_path": "reboot.html",
-          "order": 23
+          "order": 17
         }
       ]
     },
@@ -358,7 +353,7 @@
           },
           "data_source": null,
           "source_path": "room.html",
-          "order": 24
+          "order": 20
         }
       ]
     },
@@ -372,7 +367,7 @@
           },
           "data_source": null,
           "source_path": "rooms.html",
-          "order": 25
+          "order": 26
         }
       ]
     },
@@ -386,7 +381,7 @@
           },
           "data_source": null,
           "source_path": "sitemap.html",
-          "order": 26
+          "order": 21
         }
       ]
     },
@@ -400,7 +395,7 @@
           },
           "data_source": null,
           "source_path": "special.html",
-          "order": 27
+          "order": 18
         }
       ]
     },
@@ -414,7 +409,7 @@
           },
           "data_source": null,
           "source_path": "specials.html",
-          "order": 28
+          "order": 13
         }
       ]
     },
@@ -428,7 +423,7 @@
           },
           "data_source": null,
           "source_path": "thankyou.html",
-          "order": 29
+          "order": 23
         }
       ]
     },
@@ -520,23 +515,12 @@
     "group-special-offer.html/ct_text.json",
     "group-special-offer.html/footeraddress.json",
     "group-special-offer.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
     "blog/index.html/ct_text.json",
     "blog/index.html/footeraddress.json",
     "blog/index.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
     "promos/index.html/footeroffersheading.json",
     "promos/index.html/footerofferslink.json",
     "promos/index.html/ct_text.json",
@@ -555,6 +539,17 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -1033,5 +1028,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "fdf3374e9f5f56851fae6752331705fd573cafa0"
+  "__SHA__": "4f74bc8a8cfaf07d7adbbdfdb102514b3f786319"
 }
