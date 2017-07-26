@@ -58,8 +58,12 @@ body {
         }
         &.uppercase {
             text-transform: uppercase;
-            margin: 10px 30px;
-            display: inline-block;
+            /*margin: 10px 30px;
+            display: inline-block;*/
+            &.excluse{
+                margin: 10px 30px;
+                display: inline-block;
+            }
         }
         &.btn-wide {
             @media(min-width: $screen-custom-min) {
