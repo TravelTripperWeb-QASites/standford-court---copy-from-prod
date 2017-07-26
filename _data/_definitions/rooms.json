@@ -1,0 +1,21 @@
+{"title":
+	{"required":true},
+"roomimage":
+	{"type":"image","required":true},
+"alttag":
+	{"required":true,"type":"richtext"},
+"long_description":
+	{"required":true,"type":"richtext"},
+"tonight_rate":
+	{"required":true,"type":"richtext"},
+"book_this_room":
+    {
+      "type": "url",
+      "label": "Book this room URL"
+    },
+"more_info":
+	{
+		"type": "url",
+		"label": "More Info URL"
+	}
+}

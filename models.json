@@ -444,6 +444,21 @@
       "name": "20% OFF + A PACKING LIST 4 OUTSIDE LANDS 2017",
       "title": "20% OFF + A PACKING LIST 4 OUTSIDE LANDS 2017",
       "file": "blog90.json"
+    },
+    {
+      "name": "The Top 10 Reasons to Stay at Stanford Court",
+      "title": "The Top 10 Reasons to Stay at Stanford Court",
+      "file": "blog91.json"
+    },
+    {
+      "name": "5 Ways to Make the Most of Your Urban Bundle",
+      "title": "5 Ways to Make the Most of Your Urban Bundle",
+      "file": "blog92.json"
+    },
+    {
+      "name": "Treat Yourself to Christmas in July",
+      "title": "Treat Yourself to Christmas in July",
+      "file": "blog93.json"
     }
   ],
   "events": [
@@ -764,6 +779,18 @@
       "name": "Save up to 20%",
       "title": "Save up to 20%",
       "file": "promo1.json"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "The Stanford Court Guide 2 Nob Hill",
+      "title": "The Stanford Court Guide 2 Nob Hill",
+      "file": "room1.json"
+    },
+    {
+      "name": "The Stanford Court Guide 2 Nob Hill",
+      "title": "The Stanford Court Guide 2 Nob Hill",
+      "file": "room2.json"
     }
   ],
   "simple": [
