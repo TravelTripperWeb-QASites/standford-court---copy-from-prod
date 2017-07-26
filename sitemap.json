@@ -66,13 +66,13 @@
           }
         ]
       },
-      "urban-bandle": {
+      "urban-bundle": {
         "__PAGES__": [
           {
             "label": "San Francisco Hotel with Modern Amenities | Stanford Court",
             "published": true,
             "locales": {
-              "en": "/amenities/urban-bandle/"
+              "en": "/amenities/urban-bundle/"
             },
             "data_source": null,
             "source_path": "amenities/urban-bandle.html"
@@ -246,6 +246,19 @@
           },
           "data_source": null,
           "source_path": "gallery.html"
+        }
+      ]
+    },
+    "group-special-offer": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/group-special-offer/"
+          },
+          "data_source": null,
+          "source_path": "group-special-offer.html"
         }
       ]
     },
@@ -461,12 +474,26 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
-    "blog/index.html/ct_text.json",
-    "blog/index.html/footeraddress.json",
-    "blog/index.html/footerlinks.json",
+    "group-special-offer.html/ct_text.json",
+    "group-special-offer.html/footeraddress.json",
+    "group-special-offer.html/footerlinks.json",
     "events/index.html/ct_text.json",
     "events/index.html/footeraddress.json",
     "events/index.html/footerlinks.json",
+    "blog/index.html/ct_text.json",
+    "blog/index.html/footeraddress.json",
+    "blog/index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
     "promos/index.html/footeroffersheading.json",
     "promos/index.html/footerofferslink.json",
     "promos/index.html/ct_text.json",
@@ -485,17 +512,6 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -872,9 +888,24 @@
     "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/ct_text.json",
     "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footeraddress.json",
     "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footerlinks.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/ct_text.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/footeraddress.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/footerlinks.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/ct_text.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/footeraddress.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/footerlinks.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/ct_text.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/footeraddress.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/footerlinks.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/ct_text.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footeraddress.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footerlinks.json",
     "blog/happy-holidays.html/ct_text.json",
     "blog/happy-holidays.html/footeraddress.json",
     "blog/happy-holidays.html/footerlinks.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/ct_text.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footeraddress.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -936,7 +967,10 @@
     "blog/page13/index.html/footerlinks.json",
     "blog/page14/index.html/ct_text.json",
     "blog/page14/index.html/footeraddress.json",
-    "blog/page14/index.html/footerlinks.json"
+    "blog/page14/index.html/footerlinks.json",
+    "blog/page15/index.html/ct_text.json",
+    "blog/page15/index.html/footeraddress.json",
+    "blog/page15/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
     "config",

@@ -4,19 +4,21 @@ parent: home
 title_localized:
   en: Stanford Court Hotel | Boutique Hotel in San Francisco
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
-  en: 
+  en:
 meta_description_localized:
   en: Stanford Court pushes the envelope for boutique hotels in San Francisco. Just
     a few steps from Union Square it offers top-tier rooms and the best in amenities!
 meta_keywords_localized:
-  en: 
+  en:
 ---
+
 <div class="home-slider">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -30,23 +32,23 @@ meta_keywords_localized:
     <div class="carousel-inner">
 
       <!--City View Video-->
-      <!--<div class="item active videoContainer">
-          <video autoplay loop>
-              <source src="/images/cityscape-sunset.mp4" >
-          </video> 
-      </div>-->
-      
+      <div class="item active videoContainer">
+        <video autoplay loop>
+          <source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140325/cityscape-sunset.mp4">
+        </video>
+      </div>
+
       <!--Hotel Exterior Photo-->
       <div class="item active">
         <img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">
       </div>
 
       <!--Bridge Video-->
-      <!--<div class="item videoContainer">
-          <video autoplay loop>
-              <source src="/images/bridge-w-clouds.mp4" >
-          </video> 
-      </div>-->
+      <div class="item videoContainer">
+        <video autoplay loop>
+          <source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140324/bridge-w-clouds.mp4">
+        </video>
+      </div>
 
       <!--Bay View Photo-->
       <div class="item">
@@ -57,7 +59,7 @@ meta_keywords_localized:
       <div class="item">
         <img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">
       </div>
-        
+
     </div>
 
     <!-- Left and right controls -->
@@ -69,11 +71,12 @@ meta_keywords_localized:
       <span class="glyphicon glyphicon-chevron-right"></span>
       <!--<span class="sr-only">Next</span>-->
     </a>
+
   </div>
 </div>
 
 <div class="od-booking" >
-    <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
+  <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
     <span class="field-holder">
       <input type="text" class="textfield" placeholder="Arrival" id="od_arrival" name="arrival_date" aria-label="Arrival Date">
       <span class="cal od_arr"><img src="/images/calender-icon.png" alt="Calendar"></span></span> <span class="field-holder">
@@ -88,12 +91,12 @@ meta_keywords_localized:
         <option value="5">Deluxe King</option>
         <option value="6">Accessible King</option>
         <option value="7">Premier View Queen</option>
-         <option value="8">Premier View King</option>
-          <option value="9">Premier View Two Doubles</option>
-           <option value="10">Studio Suite Queen</option>
-           <option value="11">Studio Suite King</option>
-           <option value="12">Studio Suite Tow Doubles</option>
-           <option value="12">Parlor Suite</option>
+        <option value="8">Premier View King</option>
+        <option value="9">Premier View Two Doubles</option>
+        <option value="10">Studio Suite Queen</option>
+        <option value="11">Studio Suite King</option>
+        <option value="12">Studio Suite Tow Doubles</option>
+        <option value="12">Parlor Suite</option>
       </select>
       </span>
       <span class="field-holder sb">
@@ -125,7 +128,7 @@ meta_keywords_localized:
 <section class="container">
   <div class="welcome-wrapper">
     {% regionblock welcome-heading %}
-    <h1> welcome to<br> stanford court </h1>
+    <h1>welcome to<br> stanford court</h1>
     <h4>where innovation & creativity meet</h4>
     {% endregionblock %}
     <hr align="right">
@@ -134,6 +137,7 @@ meta_keywords_localized:
     {% endregionblock %}
   </div>
 </section>
+
 <section class="container">
   <div class="nob-slide clearfix">
     <div class="row">
@@ -273,7 +277,7 @@ meta_keywords_localized:
             <div class="item active">
               <img src="/images/homepage/events/1.jpg" alt="Stanfordcourt Events">
             </div>
-            
+
           </div>
           <!-- Controls
           <a class="left carousel-control" href="#eventsSlider" role="button" data-slide="prev">
@@ -419,7 +423,7 @@ meta_keywords_localized:
     <section class="container">
       <div class="col-md-12  bg-light attractions-wrapper no-padding clearfix">
         <div class="map" id="map" >
-          
+
         </div>
         <div class="col-sm-6 col-md-5 no-padding">
           <img src="/images/homepage/attractions/houses-san-francisco.jpg" class="img-responsive pull-left"  alt="san francisco houses">
@@ -462,7 +466,7 @@ meta_keywords_localized:
 
    <section class="container wyndow">
 <h3 class="text-center">Explore San Francisco </h3>
-<a class="wyndow-carousel text-center" href="https://wyndow.com" data-embed-id="52">Please wait while events load...</a> 
+<a class="wyndow-carousel text-center" href="https://wyndow.com" data-embed-id="52">Please wait while events load...</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.wyndow.com/embed.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","wyndow-wjs");</script>
 </section>
     {% include local-events.html %}
@@ -484,7 +488,7 @@ meta_keywords_localized:
       <div class="row no-gutter">
         <div class="tiles">
           {% assign blogs = site.data._models.blog %}
-          
+
           {% for blog in blogs limit:1 %}
             {% if forloop.index == 1 %}
               <div class="gross col-sm-5 no-padding   imgScale firstpost schwarz " style="background-image: url({{blog.blogimage.url}}) !important;">
@@ -500,11 +504,11 @@ meta_keywords_localized:
                     <i class="fa fa-twitter"></i></a>
                   </li>
                   <li><a href="https://plus.google.com/share?url=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a></li>
-                  
+
                 </ul>
               </div>
             </div>
-            
+
           {% endif %}
         {% endfor %}
         <div class="gross col-sm-7 no-padding">
@@ -526,7 +530,7 @@ meta_keywords_localized:
                         <i class="fa fa-twitter"></i></a>
                       </li>
                       <li><a href="https://plus.google.com/share?url=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a></li>
-                      
+
                     </ul>
                   </div>
                 </div>
@@ -536,8 +540,8 @@ meta_keywords_localized:
               {% if forloop.index == 3 %}
                 <div class="col-sm-6 no-padding mini-post schwarz"  style="background-image: url({{blog.blogimage.url}}) !important;">
                   <div class="post-detail">
-                    
-                    
+
+
                     <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">
                     <h3>{{ blog.title }}</h3>
                     Read Blog Post</a>
@@ -550,7 +554,7 @@ meta_keywords_localized:
                       <i class="fa fa-twitter"></i></a>
                     </li>
                     <li><a href="https://plus.google.com/share?url=https://www.stanfordcourt.com{{ blog.id | permalink: model_dir: 'blog' }}" rel="nofollow" target="_blank" title="Share on Google+"> <i class="fa fa-google-plus"></i></a></li>
-                    
+
                   </ul>
                 </div>
               </div>
@@ -560,10 +564,10 @@ meta_keywords_localized:
             {% if forloop.index == 4 %}
               <div class="col-sm-6 no-padding  mini-post schwarz" style="background-image: url({{blog.blogimage.url}}) !important;">
                 <div class="post-detail">
-                  
-                  
+
+
                   <a href="{{ blog.id | permalink: model_dir: 'blog' }}" class="readon">
-                  
+
                   <h3>{{ blog.title }}</h3>
                   Read Blog Post</a>
                   <ul class="share-social">
@@ -578,7 +582,7 @@ meta_keywords_localized:
         </div>
       </div>
     </div>
-    
+
   </div>
 </div>
 </div>
@@ -623,7 +627,7 @@ meta_keywords_localized:
                            <!--  <div class="v-overlay"></div> -->
                             <video autoplay loop>
                             <source src="/images/homepage/cityscape-sunset.mp4" type="video/mp4">
-                            </video> 
+                            </video>
                           </div>
                       </div>
                   </div>
@@ -649,7 +653,7 @@ meta_keywords_localized:
                            <!--  <div class="v-overlay"></div> -->
                             <video autoplay loop >
                             <source src="/images/homepage/bridge-w-clouds.mp4" type="video/mp4">
-                            </video> 
+                            </video>
                           </div>
                       </div>
                   </div>
