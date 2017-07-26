@@ -37,7 +37,7 @@
         },
         "data_source": null,
         "source_path": "index.html",
-        "order": 18
+        "order": 19
       }
     ],
     "amenities": {
@@ -278,6 +278,20 @@
         }
       ]
     },
+    "group-special-offer": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/group-special-offer/"
+          },
+          "data_source": null,
+          "source_path": "group-special-offer.html",
+          "order": 18
+        }
+      ]
+    },
     "press%20-%20Copy": {
       "__PAGES__": [
         {
@@ -288,7 +302,7 @@
           },
           "data_source": null,
           "source_path": "press - Copy.html",
-          "order": 19
+          "order": 20
         }
       ]
     },
@@ -302,7 +316,7 @@
           },
           "data_source": null,
           "source_path": "press.html",
-          "order": 20
+          "order": 21
         }
       ]
     },
@@ -316,7 +330,7 @@
           },
           "data_source": null,
           "source_path": "privacy-policy.html",
-          "order": 21
+          "order": 22
         }
       ]
     },
@@ -330,7 +344,7 @@
           },
           "data_source": null,
           "source_path": "reboot.html",
-          "order": 22
+          "order": 23
         }
       ]
     },
@@ -344,7 +358,7 @@
           },
           "data_source": null,
           "source_path": "room.html",
-          "order": 23
+          "order": 24
         }
       ]
     },
@@ -358,7 +372,7 @@
           },
           "data_source": null,
           "source_path": "rooms.html",
-          "order": 24
+          "order": 25
         }
       ]
     },
@@ -372,7 +386,7 @@
           },
           "data_source": null,
           "source_path": "sitemap.html",
-          "order": 25
+          "order": 26
         }
       ]
     },
@@ -386,7 +400,7 @@
           },
           "data_source": null,
           "source_path": "special.html",
-          "order": 26
+          "order": 27
         }
       ]
     },
@@ -400,7 +414,7 @@
           },
           "data_source": null,
           "source_path": "specials.html",
-          "order": 27
+          "order": 28
         }
       ]
     },
@@ -414,7 +428,7 @@
           },
           "data_source": null,
           "source_path": "thankyou.html",
-          "order": 28
+          "order": 29
         }
       ]
     },
@@ -428,7 +442,7 @@
           },
           "data_source": null,
           "source_path": "web-exclusive-offer.html",
-          "order": 29
+          "order": 30
         }
       ]
     }
@@ -503,6 +517,12 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
+    "group-special-offer.html/ct_text.json",
+    "group-special-offer.html/footeraddress.json",
+    "group-special-offer.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
     "blog/index.html/ct_text.json",
     "blog/index.html/footeraddress.json",
     "blog/index.html/footerlinks.json",
@@ -517,6 +537,24 @@
     "amenities/index.html/ct_text.json",
     "amenities/index.html/footeraddress.json",
     "amenities/index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
+    "attractions/index.html/heading.json",
+    "attractions/index.html/maintext.json",
+    "attractions/index.html/subheading.json",
+    "attractions/index.html/title.json",
+    "attractions/index.html/details.json",
+    "attractions/index.html/featuredtitle.json",
+    "attractions/index.html/featuredtext.json",
+    "attractions/index.html/featuredlink.json",
+    "attractions/index.html/footereventsheading.json",
+    "attractions/index.html/footereventslink.json",
+    "attractions/index.html/ct_text.json",
+    "attractions/index.html/footeraddress.json",
+    "attractions/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -550,27 +588,6 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
-    "attractions/index.html/heading.json",
-    "attractions/index.html/maintext.json",
-    "attractions/index.html/subheading.json",
-    "attractions/index.html/title.json",
-    "attractions/index.html/details.json",
-    "attractions/index.html/featuredtitle.json",
-    "attractions/index.html/featuredtext.json",
-    "attractions/index.html/featuredlink.json",
-    "attractions/index.html/footereventsheading.json",
-    "attractions/index.html/footereventslink.json",
-    "attractions/index.html/ct_text.json",
-    "attractions/index.html/footeraddress.json",
-    "attractions/index.html/footerlinks.json",
-    "promos/index.html/footeroffersheading.json",
-    "promos/index.html/footerofferslink.json",
-    "promos/index.html/ct_text.json",
-    "promos/index.html/footeraddress.json",
-    "promos/index.html/footerlinks.json",
     "amenities/pet-friendly.html/heading.json",
     "amenities/pet-friendly.html/maintext.json",
     "amenities/pet-friendly.html/subheading.json",
@@ -936,6 +953,12 @@
     "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/ct_text.json",
     "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footeraddress.json",
     "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footerlinks.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/ct_text.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footeraddress.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footerlinks.json",
+    "blog/treat-yourself-to-christmas-in-july.html/ct_text.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footeraddress.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -1000,12 +1023,15 @@
     "blog/page14/index.html/footerlinks.json",
     "blog/page15/index.html/ct_text.json",
     "blog/page15/index.html/footeraddress.json",
-    "blog/page15/index.html/footerlinks.json"
+    "blog/page15/index.html/footerlinks.json",
+    "blog/page16/index.html/ct_text.json",
+    "blog/page16/index.html/footeraddress.json",
+    "blog/page16/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
     "pageorder",
     "config",
     "menu"
   ],
-  "__SHA__": "4eef6a4c22967de1eb59d7cca0061fc65583e645"
+  "__SHA__": "1555dc6937c9e22c097ca645fe4db8fea9a746bf"
 }

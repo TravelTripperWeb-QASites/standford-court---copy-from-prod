@@ -8,5 +8,10 @@
     {
       "type": "image",
       "required": true
+    },
+	"image_alt_txt":
+    {
+      "type": "text",
+      "required": true
     }
 }
