@@ -15,18 +15,14 @@ meta_keywords_localized:
   en: 
 ---
 <div class="container sub-nav ">
-
-<nav class="rooms-list-nav">
-
-  <ul class="rooms-nav-nav mr-auto">
-    <li class="nav-item" ng-repeat="cat in browser.roomCategories">
-      <a href="#[[cat]]" class="link">[[cat]]</a>
-    </li>
-  </ul>
-
-</nav>
+	<nav class="rooms-list-nav">
+	  <ul class="rooms-nav-nav mr-auto">
+		<li class="nav-item" ng-repeat="cat in browser.roomCategories">
+		  <a href="#[[cat]]" class="link">[[cat]]</a>
+		</li>
+	  </ul>
+	</nav>
 </div>
-
 <section class="container no-gutter">
 
   <div class="special-banner">
@@ -50,7 +46,7 @@ meta_keywords_localized:
 
 
   <div class="col-md-4" ng-class="{'' : $first == $last }" ng-repeat="room in browser.roomsList | filter: {category: cat}">
-  <img  ng-src="[[room.photos[0].yankee_large]]" class="img-responsive">
+  <img  ng-src="[[room.photos[0].yankee_large]]" class="img-responsive" alt="[[room.name]]">
     <div class="btn-holder text-left">
        <a class="butn btn-white uppercase" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
         BOOK THIS ROOM

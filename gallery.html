@@ -43,32 +43,32 @@ meta_keywords_localized:
         <ul>
         <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
           <a class="item" href="https://www.youtube.com/watch?v=FmiE9i-lI3k">
-                  <img src="/images/gallery/video1_thumb.jpg" class="img-responsive" />
+                  <img src="/images/gallery/video1_thumb.jpg" class="img-responsive" alt="At Stanfordcourt"/>
                   <div class="play-icon"><i class="fa fa-play"></i></div>
             </a>
         </li>
         <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
           <a class="item" href="https://www.youtube.com/watch?v=g_TXVVhpcOQ">
-                  <img src="/images/gallery/video2_thumb.jpg" class="img-responsive" />
+                  <img src="/images/gallery/video2_thumb.jpg" class="img-responsive" alt="At Stanfordcourt"/>
                   <div class="play-icon"><i class="fa fa-play"></i></div>
             </a>
         </li>
         <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
           <a class="item" href="https://www.youtube.com/watch?v=cPyLQNtZ_ng">
-                  <img src="/images/gallery/video3_thumb.jpg" class="img-responsive" />
+                  <img src="/images/gallery/video3_thumb.jpg" class="img-responsive" alt="At Stanfordcourt"/>
                   <div class="play-icon"><i class="fa fa-play"></i></div>
             </a>
         </li>
         {% assign hotel_images = site.data._models.gallery_hotel_images %}
 {% for hotel_gallery in hotel_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
-            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive" alt="hotel_gallery.image_alt_txt"/> </div> 
           </li>  
 {% endfor %}
 {% assign room_images = site.data._models.gallery_room_images %}
 {% for room_gallery in room_images %}          
           <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
-            <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive"/> </div> 
+            <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive" alt="room_gallery.image_alt_txt"/> </div> 
           </li>
 {% endfor %}
              
