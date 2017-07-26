@@ -21,10 +21,10 @@
 <footer class="container">
   <div class="footer-wrapper bg-light clearfix">
     <div class="col-sm-4 border-right">
-      <div class="content"> 
+      <div class="content">
         <!-- <h2 class="title">
            <a href="/contact-us/"> Contact </a>
-            </h2> --> 
+            </h2> -->
         {% regionblock ct_text %}
         <p class="contacts"> <a style="font-size: 19px;" href="/contact-us/"><strong>Contact Us</strong></a><br/>
           <a href="https://goo.gl/maps/A6NkAC9ZUPN2" target="_blank">905 California Street,<br />
@@ -36,10 +36,10 @@
         {% endregionblock %} </div>
     </div>
     <div class="col-sm-4 border-right">
-      <div class="content clearfix"> {% regionblock footeraddress %} 
+      <div class="content clearfix"> {% regionblock footeraddress %}
         {% endregionblock %}
         <p class="address">
-        
+
         <div class="f-logo">
           <ul>
             <li>
@@ -59,7 +59,7 @@
             <li><img src="/images/conde-logo.png" alt="Conde Logo" class="red"></li>
           </ul>
         </div>
-        <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=727&locationId=80747&lang=en_US&year=2016&display_version=2"></script> 
+        <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=727&locationId=80747&lang=en_US&year=2016&display_version=2"></script>
         <script src="https://www.jscache.com/wejs?wtype=greenleader&uniq=978&locationId=80747&lang=en_US&border=true&display_version=2"></script>
         </p>
         <ul class="social">
@@ -114,13 +114,20 @@
 function getIp(data){
    sessionStorage.ip_add =  data.ip;
 }
-</script> 
-<script src="https://api.ipify.org?format=jsonp&callback=getIp"></script> 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIp"></script>
 
-<script src="/js/main.min.js"></script> 
+<!-- jQuery is included in main.min.js (necessary for Bootstrap's JavaScript plugins) -->
+<script src="/js/main.min.js"></script>
+
+{% if page.url == '/' %}
+  <!-- Mobile detection and custom functions for homepage slider videos -->
+  <script src="/js/mobile-detect.js"></script>
+  <script src="/js/jquery.mobile.js"></script>
+{% endif %}
+
 <script type="text/javascript">
-      // instafeed 
+      // instafeed
        var userFeed = new Instafeed({
         get: 'user',
         userId: '458067763',
@@ -139,7 +146,7 @@ function getIp(data){
 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
-          
+
           center: new google.maps.LatLng(37.791529, -122.409594),
       scrollwheel: false,
       styles: [
@@ -223,18 +230,18 @@ function getIp(data){
             }
           ]
         });
-    var iconBase = '/images/'; 
+    var iconBase = '/images/';
     var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
           title: 'Stanford Court Hotel',
       icon: iconBase + 'loc.png'
         });
-    
+
       }
-    
-    </script> 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeQ3-Pa0C_o06zvS5iLtO3is3-TXbufzY&callback=initMap"></script> 
+
+    </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeQ3-Pa0C_o06zvS5iLtO3is3-TXbufzY&callback=initMap"></script>
 <script type="text/javascript">
 
     $(document).ready(function() {
@@ -266,8 +273,8 @@ function getIp(data){
    $(".home-banner-wrap .item").hover(function(){
      $(this).find(".transparent-bg").toggle();
    });
-   
-   
+
+
     $(".filter").on("click", function () {
     var $this = $(this);
     // if we click the active tab, do nothing
@@ -276,25 +283,25 @@ function getIp(data){
       $this.addClass("active"); // set the active tab
       var $filter = $this.data("rel"); // get the data-rel value from selected tab and set as filter
       $filter == 'all' ? // if we select "view all", return to initial settings and show all
-        $(".fancybox").attr("data-fancybox-group", "gallery").not(":visible").fadeIn() 
+        $(".fancybox").attr("data-fancybox-group", "gallery").not(":visible").fadeIn()
         : // otherwise
-        $(".fancybox").fadeOut(0).filter(function () { 
+        $(".fancybox").fadeOut(0).filter(function () {
           return $(this).data("filter") == $filter; // set data-filter value as the data-rel value of selected tab
         }).attr("data-fancybox-group", $filter).fadeIn(1000); // set data-fancybox-group and show filtered elements
     } // if
   }); // on
-   
-   
+
+
  });
 
-</script> 
-<script src="https://www.speedrfp.com/irfps/js/widget/" type="text/javascript"></script> 
+</script>
+<script src="https://www.speedrfp.com/irfps/js/widget/" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
         var options = {};
         options.display = "overlay";
-        options.key = "f9aad5bfed895570"; 
+        options.key = "f9aad5bfed895570";
         options.uid = "5LBFZ";
         options.button = "none";
 
         var srfp_widget = new srfp.widget(options);
-</script> 
+</script>
