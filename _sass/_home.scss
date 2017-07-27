@@ -563,10 +563,10 @@ hr{
 
 }
 .title2{
-	font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
+	font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif !important;
 	font-size: 25px;
 	line-height: 28px;
-	color: #ffffff;
+	color: #ffffff!important;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	@media(min-width: $screen-sm-min){
