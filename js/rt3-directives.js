@@ -128,7 +128,7 @@ angular.module('rezTrip')
                 }
                 
               }); 
-          },2900);
+          },3300);
           
           
           
