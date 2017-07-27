@@ -954,6 +954,9 @@
     "blog/treat-yourself-to-christmas-in-july.html/ct_text.json",
     "blog/treat-yourself-to-christmas-in-july.html/footeraddress.json",
     "blog/treat-yourself-to-christmas-in-july.html/footerlinks.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/ct_text.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footeraddress.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -1028,5 +1031,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "4f74bc8a8cfaf07d7adbbdfdb102514b3f786319"
+  "__SHA__": "3818ddf041eca1f28643ede31b94789d2062a61f"
 }
