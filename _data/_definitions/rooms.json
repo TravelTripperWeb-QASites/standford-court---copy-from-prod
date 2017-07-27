@@ -2,8 +2,6 @@
 	{"required":true},
 "roomimage":
 	{"type":"image","required":true},
-"room_id":
-	{"required":true},
 "long_description":
 	{"required":true,"type":"richtext"},
 "book_this_room":
