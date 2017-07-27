@@ -14,7 +14,7 @@ meta_description_localized:
 meta_keywords_localized:
   en: 
 ---
-<!-- <div class="container sub-nav ">
+<div class="container sub-nav ">
 
 <nav class="rooms-list-nav">
 
@@ -25,7 +25,7 @@ meta_keywords_localized:
   </ul>
 
 </nav>
-</div> -->
+</div>
 
 <section class="container no-gutter">
 
@@ -133,7 +133,9 @@ meta_keywords_localized:
   <div> 
     <div class="col-md-6" >
     <img src="{{room.roomimage.url}}" class="img-responsive">
-      
+    </div>
+    <div class="col-md-6" >
+      <p class="r-link">{{room.long_description}}</p>
       <div class="r-cost">
         <a><span>CHECK AVAILABILITY:</span>&nbsp;<strong>{{room.tonight_rate}}</strong></a>
       </div>
@@ -141,9 +143,6 @@ meta_keywords_localized:
           Book This Room
         </a></div>
       <div class="r-link"><a href="{{room.more_info}}">More Info</a></div>
-    </div>
-    <div class="col-md-6" >
-      <p class="r-link">{{room.long_description}}</p>
     </div>
   </div>
 </div>
