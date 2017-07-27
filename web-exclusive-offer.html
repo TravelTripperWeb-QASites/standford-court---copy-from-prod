@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+{% assign promos = page %}
+{% assign model = page %}
+{% assign promo_seo_title = promos.promo_seo_title %}
+
+<section>
+<div class="container">
+  <div id="top-spacer">
+  </div>
+</div>
+<div class="container">
+  <div class="special-details-banner" style="background-image:url(/images/specials/bridge-nyc.jpg)">
+    <div class="special-content">
+      <h2>EXCLUSIVE</h2>
+      <div class="position">
+      <h3>WEB EXCLUSIVE OFFER</h3>
+      </div>
+      <div class="btn-holder">
+        <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="https://stanfordcourt.reztrip.com/classic/en/special_offer?action=show&controller=landings&locale=en&rate_code=WEBEXC&rate_code=WEBEXC&starting_page=special_offer&vr=3">
+          book this Offer
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="description-container">
+    <div class="col-sm-6">
+      <img src="/images/specials/road-nyc.jpg" class="img-responsive">
+    </div>
+    <div class="col-sm-6">
+      <div class="description blockbox">
+       <div class="bold-text">
+       <h2>LOOK NO FURTHER</h2>
+       <p>&nbsp;</p>
+       <p>We love finding the lowest rates!</p>
+       <p>Book direct for the lowest rates, guaranteed!</p>
+       </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
+
+ <div class="heading-circle">
+               <h4>a unique boutique<br>hotel experience</h4>
+               <h2>San Francisco at its Best</h2>
+               <div class="btn-holder text-center">
+                <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                    book your stay
+                </a>
+               </div>
+        </div>
+</div>
+</div>
+</section>
+
+
+
+{% include exclusive-offer.html %}

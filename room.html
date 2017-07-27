@@ -47,7 +47,6 @@ meta_keywords_localized:
                  <p>Select a [[selectedRoom.category]] Type:</p>
                   <ul>
                      <li ng-class="{'active' : selectedRoom.name == room.name}" ng-repeat="room in browser.roomsList | filter: {category: selectedRoom.category}"><a href="/room/#[[room.name | formatNameForLink]]">[[room.name]]</a></li>
-                    
                   </ul>
             </div>
       </div>
@@ -124,7 +123,7 @@ meta_keywords_localized:
             <h2 class="title"> All in the Details </h2>
             <p>[[selectedRoom.description]]</p>
           </div>
-          <img src="/images/rooms/room-amen.jpg" class="img-responsive">
+          <img src="/images/rooms/room-amen.jpg" class="img-responsive" alt="Stanfordcourt">
        </div>
   </div>
 
@@ -133,7 +132,7 @@ meta_keywords_localized:
 <section class="container-fluid amenities-wrapper  bg-dark clearfix">
     <div class="row no-gutter">
           <div class="col-sm-6 no-padding">
-            <img src="/images/rooms/amenities.jpg" class="img-responsive abs">
+            <img src="/images/rooms/amenities.jpg" class="img-responsive abs" alt="Amenities">
             <div class="btn-holder center-white-middle text-center">
                               <a class="butn  uppercase">
                                   View hotel amenities
@@ -174,10 +173,10 @@ meta_keywords_localized:
                         
                       </div>
                       <!-- Controls -->
-                       <a class="left carousel-control white-control" href="#roomsSlider" role="button" data-slide="prev">
+                       <a class="left carousel-control white-control" href="#roomsSlider" role="button" data-slide="prev" title="Previous">
                           <i class="fa fa-angle-left" aria-hidden="true"></i>
                        </a>
-                       <a class="right carousel-control white-control" href="#roomsSlider" role="button" data-slide="next">
+                       <a class="right carousel-control white-control" href="#roomsSlider" role="button" data-slide="next" title="Next">
                           <i class="fa fa-angle-right" aria-hidden="true"></i>
                        </a>
         </div>
