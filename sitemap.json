@@ -8,11 +8,6 @@
         "dir": "blog"
       },
       {
-        "data": "category",
-        "template": "category",
-        "dir": "categories"
-      },
-      {
         "data": "events",
         "template": "event-details",
         "dir": "events"
@@ -28,7 +23,31 @@
     ]
   },
   "__ROOT__": {
+    "__PAGES__": [
+      {
+        "label": "Stanford Court Hotel | Boutique Hotel in San Francisco",
+        "published": true,
+        "locales": {
+          "en": "/"
+        },
+        "data_source": null,
+        "source_path": "index.html",
+        "order": 0
+      }
+    ],
     "amenities": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Modern Boutique Hotels | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/amenities/"
+          },
+          "data_source": null,
+          "source_path": "amenities/index.html",
+          "order": 1
+        }
+      ],
       "green-hotel": {
         "__PAGES__": [
           {
@@ -38,21 +57,11 @@
               "en": "/amenities/green-hotel/"
             },
             "data_source": null,
-            "source_path": "amenities/green-hotel.html"
+            "source_path": "amenities/green-hotel.html",
+            "order": 2
           }
         ]
       },
-      "__PAGES__": [
-        {
-          "label": "San Francisco Modern Boutique Hotels | Stanford Court",
-          "published": true,
-          "locales": {
-            "en": "/amenities/"
-          },
-          "data_source": null,
-          "source_path": "amenities/index.html"
-        }
-      ],
       "pet-friendly": {
         "__PAGES__": [
           {
@@ -62,7 +71,8 @@
               "en": "/amenities/pet-friendly/"
             },
             "data_source": null,
-            "source_path": "amenities/pet-friendly.html"
+            "source_path": "amenities/pet-friendly.html",
+            "order": 3
           }
         ]
       },
@@ -75,12 +85,25 @@
               "en": "/amenities/urban-bundle/"
             },
             "data_source": null,
-            "source_path": "amenities/urban-bandle.html"
+            "source_path": "amenities/urban-bandle.html",
+            "order": 4
           }
         ]
       }
     },
     "attractions": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Attractions and Things to do | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/attractions/"
+          },
+          "data_source": null,
+          "source_path": "attractions/index.html",
+          "order": 7
+        }
+      ],
       "culinary": {
         "__PAGES__": [
           {
@@ -90,7 +113,8 @@
               "en": "/attractions/culinary/"
             },
             "data_source": null,
-            "source_path": "attractions/culinary.html"
+            "source_path": "attractions/culinary.html",
+            "order": 8
           }
         ]
       },
@@ -103,21 +127,11 @@
               "en": "/attractions/fitness/"
             },
             "data_source": null,
-            "source_path": "attractions/fitness.html"
+            "source_path": "attractions/fitness.html",
+            "order": 11
           }
         ]
       },
-      "__PAGES__": [
-        {
-          "label": "San Francisco Attractions and Things to do | Stanford Court",
-          "published": true,
-          "locales": {
-            "en": "/attractions/"
-          },
-          "data_source": null,
-          "source_path": "attractions/index.html"
-        }
-      ],
       "retail": {
         "__PAGES__": [
           {
@@ -127,7 +141,8 @@
               "en": "/attractions/retail/"
             },
             "data_source": null,
-            "source_path": "attractions/retail.html"
+            "source_path": "attractions/retail.html",
+            "order": 10
           }
         ]
       },
@@ -140,7 +155,8 @@
               "en": "/attractions/san-francisco-sites/"
             },
             "data_source": null,
-            "source_path": "attractions/san-francisco-sites.html"
+            "source_path": "attractions/san-francisco-sites.html",
+            "order": 9
           }
         ]
       }
@@ -154,7 +170,8 @@
             "en": "/blog/"
           },
           "data_source": null,
-          "source_path": "blog/index.html"
+          "source_path": "blog/index.html",
+          "order": 12
         }
       ]
     },
@@ -167,7 +184,8 @@
             "en": "/events/"
           },
           "data_source": null,
-          "source_path": "events/index.html"
+          "source_path": "events/index.html",
+          "order": 6
         }
       ]
     },
@@ -180,7 +198,8 @@
             "en": "/promos/"
           },
           "data_source": null,
-          "source_path": "promos/index.html"
+          "source_path": "promos/index.html",
+          "order": 5
         }
       ]
     },
@@ -193,7 +212,8 @@
             "en": "/bill/"
           },
           "data_source": null,
-          "source_path": "bill.html"
+          "source_path": "bill.html",
+          "order": 15
         }
       ]
     },
@@ -206,7 +226,8 @@
             "en": "/contact-us/"
           },
           "data_source": null,
-          "source_path": "contact-us.html"
+          "source_path": "contact-us.html",
+          "order": 25
         }
       ]
     },
@@ -219,7 +240,8 @@
             "en": "/dining/"
           },
           "data_source": null,
-          "source_path": "dining.html"
+          "source_path": "dining.html",
+          "order": 27
         }
       ]
     },
@@ -232,7 +254,8 @@
             "en": "/explore/"
           },
           "data_source": null,
-          "source_path": "explore.html"
+          "source_path": "explore.html",
+          "order": 22
         }
       ]
     },
@@ -245,7 +268,8 @@
             "en": "/gallery/"
           },
           "data_source": null,
-          "source_path": "gallery.html"
+          "source_path": "gallery.html",
+          "order": 19
         }
       ]
     },
@@ -258,21 +282,11 @@
             "en": "/group-special-offer/"
           },
           "data_source": null,
-          "source_path": "group-special-offer.html"
+          "source_path": "group-special-offer.html",
+          "order": 18
         }
       ]
     },
-    "__PAGES__": [
-      {
-        "label": "Stanford Court Hotel | Boutique Hotel in San Francisco",
-        "published": true,
-        "locales": {
-          "en": "/"
-        },
-        "data_source": null,
-        "source_path": "index.html"
-      }
-    ],
     "press%20-%20Copy": {
       "__PAGES__": [
         {
@@ -282,7 +296,8 @@
             "en": "/press%20-%20Copy/"
           },
           "data_source": null,
-          "source_path": "press - Copy.html"
+          "source_path": "press - Copy.html",
+          "order": 14
         }
       ]
     },
@@ -295,7 +310,8 @@
             "en": "/press/"
           },
           "data_source": null,
-          "source_path": "press.html"
+          "source_path": "press.html",
+          "order": 16
         }
       ]
     },
@@ -308,7 +324,8 @@
             "en": "/privacy-policy/"
           },
           "data_source": null,
-          "source_path": "privacy-policy.html"
+          "source_path": "privacy-policy.html",
+          "order": 24
         }
       ]
     },
@@ -321,7 +338,8 @@
             "en": "/reboot/"
           },
           "data_source": null,
-          "source_path": "reboot.html"
+          "source_path": "reboot.html",
+          "order": 17
         }
       ]
     },
@@ -334,7 +352,8 @@
             "en": "/room/"
           },
           "data_source": null,
-          "source_path": "room.html"
+          "source_path": "room.html",
+          "order": 20
         }
       ]
     },
@@ -347,7 +366,8 @@
             "en": "/rooms/"
           },
           "data_source": null,
-          "source_path": "rooms.html"
+          "source_path": "rooms.html",
+          "order": 26
         }
       ]
     },
@@ -360,7 +380,8 @@
             "en": "/sitemap/"
           },
           "data_source": null,
-          "source_path": "sitemap.html"
+          "source_path": "sitemap.html",
+          "order": 21
         }
       ]
     },
@@ -373,7 +394,8 @@
             "en": "/special/"
           },
           "data_source": null,
-          "source_path": "special.html"
+          "source_path": "special.html",
+          "order": 18
         }
       ]
     },
@@ -386,7 +408,8 @@
             "en": "/specials/"
           },
           "data_source": null,
-          "source_path": "specials.html"
+          "source_path": "specials.html",
+          "order": 13
         }
       ]
     },
@@ -399,7 +422,22 @@
             "en": "/thankyou/"
           },
           "data_source": null,
-          "source_path": "thankyou.html"
+          "source_path": "thankyou.html",
+          "order": 23
+        }
+      ]
+    },
+    "web-exclusive-offer": {
+      "__PAGES__": [
+        {
+          "label": "web-exclusive-offer",
+          "published": true,
+          "locales": {
+            "en": "/web-exclusive-offer/"
+          },
+          "data_source": null,
+          "source_path": "web-exclusive-offer.html",
+          "order": 30
         }
       ]
     }
@@ -477,23 +515,12 @@
     "group-special-offer.html/ct_text.json",
     "group-special-offer.html/footeraddress.json",
     "group-special-offer.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
     "blog/index.html/ct_text.json",
     "blog/index.html/footeraddress.json",
     "blog/index.html/footerlinks.json",
-    "amenities/index.html/heading.json",
-    "amenities/index.html/maintext.json",
-    "amenities/index.html/subheading.json",
-    "amenities/index.html/sort_detail.json",
-    "amenities/index.html/full_detail.json",
-    "amenities/index.html/list_amenities.json",
-    "amenities/index.html/footereventsheading.json",
-    "amenities/index.html/footereventslink.json",
-    "amenities/index.html/ct_text.json",
-    "amenities/index.html/footeraddress.json",
-    "amenities/index.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
     "promos/index.html/footeroffersheading.json",
     "promos/index.html/footerofferslink.json",
     "promos/index.html/ct_text.json",
@@ -512,6 +539,17 @@
     "attractions/index.html/ct_text.json",
     "attractions/index.html/footeraddress.json",
     "attractions/index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -523,8 +561,6 @@
     "index.html/amenities-heading.json",
     "index.html/amenities-content.json",
     "index.html/amenities-link.json",
-    "index.html/footeroffersheading.json",
-    "index.html/footerofferslink.json",
     "index.html/events-heading.json",
     "index.html/events-link.json",
     "index.html/venueheading.json",
@@ -639,6 +675,9 @@
     "amenities/urban-bandle.html/ct_text.json",
     "amenities/urban-bandle.html/footeraddress.json",
     "amenities/urban-bandle.html/footerlinks.json",
+    "web-exclusive-offer.html/ct_text.json",
+    "web-exclusive-offer.html/footeraddress.json",
+    "web-exclusive-offer.html/footerlinks.json",
     "blog/stanford-court-guide-2-nob-hill.html/ct_text.json",
     "blog/stanford-court-guide-2-nob-hill.html/footeraddress.json",
     "blog/stanford-court-guide-2-nob-hill.html/footerlinks.json",
@@ -906,6 +945,18 @@
     "blog/a-packing-list-for-outside-lands-2017.html/ct_text.json",
     "blog/a-packing-list-for-outside-lands-2017.html/footeraddress.json",
     "blog/a-packing-list-for-outside-lands-2017.html/footerlinks.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/ct_text.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footeraddress.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footerlinks.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/ct_text.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footeraddress.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footerlinks.json",
+    "blog/treat-yourself-to-christmas-in-july.html/ct_text.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footeraddress.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footerlinks.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/ct_text.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footeraddress.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -970,11 +1021,15 @@
     "blog/page14/index.html/footerlinks.json",
     "blog/page15/index.html/ct_text.json",
     "blog/page15/index.html/footeraddress.json",
-    "blog/page15/index.html/footerlinks.json"
+    "blog/page15/index.html/footerlinks.json",
+    "blog/page16/index.html/ct_text.json",
+    "blog/page16/index.html/footeraddress.json",
+    "blog/page16/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
+    "pageorder",
     "config",
     "menu"
   ],
-  "__SHA__": "628e9a902648bb6d6f09fb4151bfa58d3f6b082d"
+  "__SHA__": "da30ad9829c1b2d517e62b825c682a92189d7a2c"
 }

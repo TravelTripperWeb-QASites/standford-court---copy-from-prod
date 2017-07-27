@@ -30,7 +30,7 @@ module Jekyll
               image_data = JSON.parse(file_contents)
               site.photos << image_data
               tags = image_data["tags"]
-              if !tags.empty?
+              if tags && !tags.empty?
                 tags.split(',').each do |t|
                   t_name = t.strip
                   site.photo_tags[t_name] ||= []
