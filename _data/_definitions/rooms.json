@@ -2,8 +2,6 @@
 	{"required":true},
 "roomimage":
 	{"type":"image","required":true},
-"alttag":
-	{"required":true},
 "room_id":
 	{"required":true},
 "long_description":
@@ -17,5 +15,10 @@
 	{
 		"type": "url",
 		"label": "More Info URL"
-	}
+	},
+"sort_order":
+    {
+      "type": "integer",
+      "required": true
+    }
 }
