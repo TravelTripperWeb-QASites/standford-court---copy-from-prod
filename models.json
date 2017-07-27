@@ -56,8 +56,8 @@
       "file": "blog19.json"
     },
     {
-      "name": "The Apps WeΓÇÖre Downloading in February 2017",
-      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "name": "The Apps We’re Downloading in February 2017",
+      "title": "The Apps We’re Downloading in February 2017",
       "file": "blog2.json"
     },
     {
@@ -71,8 +71,8 @@
       "file": "blog21.json"
     },
     {
-      "name": "StanΓÇÖs San Francisco Activity Suggestions",
-      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "name": "Stan’s San Francisco Activity Suggestions",
+      "title": "Stan’s San Francisco Activity Suggestions",
       "file": "blog22.json"
     },
     {
@@ -81,8 +81,8 @@
       "file": "blog23.json"
     },
     {
-      "name": "FatherΓÇÖs Day Activities in San Francisco",
-      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "name": "Father’s Day Activities in San Francisco",
+      "title": "Father’s Day Activities in San Francisco",
       "file": "blog24.json"
     },
     {
@@ -106,8 +106,8 @@
       "file": "blog28.json"
     },
     {
-      "name": "MotherΓÇÖs Day Activities in San Francisco",
-      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "name": "Mother’s Day Activities in San Francisco",
+      "title": "Mother’s Day Activities in San Francisco",
       "file": "blog29.json"
     },
     {
@@ -166,8 +166,8 @@
       "file": "blog39.json"
     },
     {
-      "name": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
-      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "name": "I Left My <3 in San Francisco - Valentine’s Day Package",
+      "title": "I Left My <3 in San Francisco - Valentine’s Day Package",
       "file": "blog4.json"
     },
     {
@@ -186,8 +186,8 @@
       "file": "blog42.json"
     },
     {
-      "name": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
-      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "name": "Stay On Track At San Francisco’s Stanford Court Hotel!",
+      "title": "Stay On Track At San Francisco’s Stanford Court Hotel!",
       "file": "blog43.json"
     },
     {
@@ -221,8 +221,8 @@
       "file": "blog49.json"
     },
     {
-      "name": "The 10th Annual Crunchies ΓÇô Our Picks",
-      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "name": "The 10th Annual Crunchies – Our Picks",
+      "title": "The 10th Annual Crunchies – Our Picks",
       "file": "blog5.json"
     },
     {
@@ -276,8 +276,8 @@
       "file": "blog59.json"
     },
     {
-      "name": "Things to Do in San Francisco ΓÇô February 2017",
-      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "name": "Things to Do in San Francisco – February 2017",
+      "title": "Things to Do in San Francisco – February 2017",
       "file": "blog6.json"
     },
     {
@@ -346,8 +346,8 @@
       "file": "blog72.json"
     },
     {
-      "name": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
-      "title": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
+      "name": "What We’re Excited 4 @ Google I/O 2017",
+      "title": "What We’re Excited 4 @ Google I/O 2017",
       "file": "blog73.json"
     },
     {
@@ -386,8 +386,8 @@
       "file": "blog8.json"
     },
     {
-      "name": "The June Festivals U CanΓÇÖt Miss in SF",
-      "title": "The June Festivals U CanΓÇÖt Miss in SF",
+      "name": "The June Festivals U Can’t Miss in SF",
+      "title": "The June Festivals U Can’t Miss in SF",
       "file": "blog80.json"
     },
     {
@@ -466,6 +466,13 @@
       "file": "blog94.json"
     }
   ],
+  "event_category": [
+    {
+      "name": "Local",
+      "title": "Local",
+      "file": "event_category1.json"
+    }
+  ],
   "events": [
     {
       "name": "DURAN DURAN AT THE MASONIC",
@@ -496,13 +503,6 @@
       "name": "San Franciso Marathon",
       "title": "San Franciso Marathon",
       "file": "event7.json"
-    }
-  ],
-  "event_category": [
-    {
-      "name": "Local",
-      "title": "Local",
-      "file": "event_category1.json"
     }
   ],
   "gallery_hotel_images": [
@@ -699,8 +699,8 @@
       "file": "press1.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCO’S NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press10.json"
     },
     {
@@ -709,8 +709,8 @@
       "file": "press11.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCO’S NOB HILL",
+      "title": "SAN FRANCISCO’S NOB HILL",
       "file": "press12.json"
     },
     {
@@ -719,8 +719,8 @@
       "file": "press13.json"
     },
     {
-      "name": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
-      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "name": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
+      "title": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
       "file": "press14.json"
     },
     {
@@ -744,8 +744,8 @@
       "file": "press2.json"
     },
     {
-      "name": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
-      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "name": "NOB HILL’S STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "title": "NOB HILL’S STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
       "file": "press3.json"
     },
     {
@@ -764,8 +764,8 @@
       "file": "press6.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
-      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "name": "SAN FRANCISCO’S ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "title": "SAN FRANCISCO’S ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
       "file": "press7.json"
     },
     {
@@ -788,14 +788,24 @@
   ],
   "rooms": [
     {
-      "name": "The Stanford Court Guide 2 Nob Hill",
-      "title": "The Stanford Court Guide 2 Nob Hill",
+      "name": "STANDARD",
+      "title": "STANDARD",
       "file": "room1.json"
     },
     {
-      "name": "The Stanford Court Guide 2 Nob Hill",
-      "title": "The Stanford Court Guide 2 Nob Hill",
+      "name": "DELUXE",
+      "title": "DELUXE",
       "file": "room2.json"
+    },
+    {
+      "name": "PREMIER",
+      "title": "PREMIER",
+      "file": "room3.json"
+    },
+    {
+      "name": "SUITES",
+      "title": "SUITES",
+      "file": "room4.json"
     }
   ],
   "simple": [
