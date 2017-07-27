@@ -6,7 +6,7 @@
 	{"required":true,"type":"richtext"},
 "long_description":
 	{"required":true,"type":"richtext"},
-"tonight_rate":
+"room_id":
 	{"required":true,"type":"richtext"},
 "book_this_room":
     {
