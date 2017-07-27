@@ -3,10 +3,10 @@
 "roomimage":
 	{"type":"image","required":true},
 "alttag":
-	{"required":true,"type":"richtext"},
-"long_description":
-	{"required":true,"type":"richtext"},
+	{"required":true},
 "room_id":
+	{"required":true},
+"long_description":
 	{"required":true,"type":"richtext"},
 "book_this_room":
     {
