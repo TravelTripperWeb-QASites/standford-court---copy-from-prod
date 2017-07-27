@@ -1,20 +1,22 @@
-<section class="container offers-wrapper">
-    {% regionblock footeroffersheading %}
-    <h4 class="text-center">Stanford Court Specials</h4>
-    <h1>enjoy our unique offers</h1>
-    {% endregionblock %}
+<section class="container offers-wrapper nofurther">
+    <h2>Who Doesn't Love a Deal?</h2>
+    <h4 class="text-center">Stanford Court Specials #Book Direct</h4>
     <div class="btn-holder text-center">
-        {% regionblock footerofferslink %} 
-        <a class="butn  uppercase" href="/specials/">Discover all offers</a>{% endregionblock %}
+        <a class="butn  uppercase excluse" href="/web-exclusive-offer/" target="_blank">
+        Look No Further
+        </a>
+        <a class="butn  uppercase excluse" href="/specials/">Discover all offers</a>
     </div>
 </section>
+
+
+
 <section  rt3-special-rates= "offers"  >
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 offers-card" ng-repeat="offer in offers.special_rates | limitTo:3 ">
                 <a ng-href="/special/#[[offer.rate_plan_name | formatNameForLink]]">
                     <div class="background" ng-style="{'background-image': 'url([[offer.lead_photo_url.yankee_large]])'}"></div>
-                    <!-- <span class="item_no">[[$index +1]]</span> -->
                     <div class="info">
                         <h2 ng-bind-html="offer.rate_plan_name | renderHTMLCorrectly"></h2>
                     </div>
