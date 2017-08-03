@@ -464,6 +464,21 @@
       "name": "3 Tips for Doing SF w/Kids",
       "title": "3 Tips for Doing SF w/Kids",
       "file": "blog94.json"
+    },
+    {
+      "name": "The Perfect Summer of Love Playlist, by SCH",
+      "title": "The Perfect Summer of Love Playlist, by SCH",
+      "file": "blog95.json"
+    },
+    {
+      "name": "Plan Ahead for Dreamforce 2017",
+      "title": "Plan Ahead for Dreamforce 2017",
+      "file": "blog96.json"
+    },
+    {
+      "name": "3 Tips 4 Techies Visiting SF",
+      "title": "3 Tips 4 Techies Visiting SF",
+      "file": "blog97.json"
     }
   ],
   "event_category": [
@@ -620,9 +635,6 @@
       "file": "gallery_room_images14.json"
     },
     {
-      "file": "gallery_room_images15.json"
-    },
-    {
       "file": "gallery_room_images16.json"
     },
     {
@@ -642,12 +654,6 @@
     },
     {
       "file": "gallery_room_images21.json"
-    },
-    {
-      "file": "gallery_room_images22.json"
-    },
-    {
-      "file": "gallery_room_images23.json"
     },
     {
       "file": "gallery_room_images24.json"
@@ -784,6 +790,11 @@
       "name": "Save up to 20%",
       "title": "Save up to 20%",
       "file": "promo1.json"
+    },
+    {
+      "name": "Discover San Francisco! Save 15%",
+      "title": "Discover San Francisco! Save 15%",
+      "file": "promos1.json"
     }
   ],
   "simple": [
