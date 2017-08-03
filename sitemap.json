@@ -977,6 +977,12 @@
     "blog/the-perfect-summer-of-love-playlist-by-sch.html/ct_text.json",
     "blog/the-perfect-summer-of-love-playlist-by-sch.html/footeraddress.json",
     "blog/the-perfect-summer-of-love-playlist-by-sch.html/footerlinks.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/ct_text.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/footeraddress.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/footerlinks.json",
+    "blog/three-tips-for-techies-visiting-sf.html/ct_text.json",
+    "blog/three-tips-for-techies-visiting-sf.html/footeraddress.json",
+    "blog/three-tips-for-techies-visiting-sf.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -1000,6 +1006,11 @@
     "promos/enjoy-three-free-rewards.html/ct_text.json",
     "promos/enjoy-three-free-rewards.html/footeraddress.json",
     "promos/enjoy-three-free-rewards.html/footerlinks.json",
+    "promos/discover-san-francisco.html/footeroffersheading.json",
+    "promos/discover-san-francisco.html/footerofferslink.json",
+    "promos/discover-san-francisco.html/ct_text.json",
+    "promos/discover-san-francisco.html/footeraddress.json",
+    "promos/discover-san-francisco.html/footerlinks.json",
     "blog/page2/index.html/ct_text.json",
     "blog/page2/index.html/footeraddress.json",
     "blog/page2/index.html/footerlinks.json",
@@ -1051,5 +1062,5 @@
     "config",
     "menu"
   ],
-  "__SHA__": "78b392e4f595d6a11f991b87c5e721eb4c775839"
+  "__SHA__": "bf22d9b8700d2be6fe094a11173bdd916d8b8c3e"
 }

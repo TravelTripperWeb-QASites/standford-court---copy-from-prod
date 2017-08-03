@@ -469,6 +469,23 @@
       "name": "The Perfect Summer of Love Playlist, by SCH",
       "title": "The Perfect Summer of Love Playlist, by SCH",
       "file": "blog95.json"
+    },
+    {
+      "name": "Plan Ahead for Dreamforce 2017",
+      "title": "Plan Ahead for Dreamforce 2017",
+      "file": "blog96.json"
+    },
+    {
+      "name": "3 Tips 4 Techies Visiting SF",
+      "title": "3 Tips 4 Techies Visiting SF",
+      "file": "blog97.json"
+    }
+  ],
+  "event_category": [
+    {
+      "name": "The Perfect Summer of Love Playlist, by SCH",
+      "title": "The Perfect Summer of Love Playlist, by SCH",
+      "file": "blog95.json"
     }
   ],
   "events": [
@@ -780,6 +797,11 @@
       "name": "Save up to 20%",
       "title": "Save up to 20%",
       "file": "promo1.json"
+    },
+    {
+      "name": "Discover San Francisco! Save 15%",
+      "title": "Discover San Francisco! Save 15%",
+      "file": "promos1.json"
     }
   ],
   "simple": [
