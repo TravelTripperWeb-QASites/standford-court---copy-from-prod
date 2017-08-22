@@ -472,7 +472,7 @@
     .right-cell {
       display: table-cell;
       width: 50%;
-      background-color: #808080;
+      background-color: #5c6f7b;
       vertical-align: top;
       @media(min-width: $screen-md-min) {
         width: 65.4%;
@@ -539,6 +539,7 @@
 
         p {
           padding: 0 31px;
+          font-weight: 700;
           line-height: 24px;
           color: #fff;
           @media(min-width: $screen-md-min) {
@@ -550,7 +551,12 @@
           }
 
           &.text-green {
-            color: #008000;
+            color: #579983;
+          }
+
+          a {
+            text-decoration: underline;
+            color: #fff;
           }
 
         }
