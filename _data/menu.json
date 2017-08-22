@@ -1,32 +1,113 @@
-{  
-      "topmenu":[
-               {"name":"Rooms","url":"/rooms/","parent":"rooms"},
-               {"name":"Specials","url":"/specials/","parent":"specials"},
-               {"name":"Amenities","url":"/amenities/","parent":"amenities"},
-               {"name":"Dining","url":"/dining/","parent":"dining"},
-               {"name":"Meetings","url":"/group-special-offer/","parent":"Meetings"},
-               {"name":"Explore","url":"/explore/","parent":"location",
-                "submenu": "true","subitems": [
-               {"name": "Reboot","url": "/reboot/"},
-               {"name":"Events","url":"/events/","parent":"events"},
-               {"name":"Attractions","url":"/attractions/","parent":"attractions"},
-               {"name":"Gallery","url":"/gallery/","parent":"gallery"}
-                 ]
-               },
-		  	   {"name":"Blog","url":"/blog/","parent":"blog"},
-               {"name":"Contact","url":"/contact-us/","parent":"contact"}
-           ],
-      "attractions":[
-               {"name":"Culture","url":"/attractions/","child":"culture"},
-               {"name":"Culinary","url":"/attractions/culinary/","child":"culinary"},
-               {"name":"Retail","url":"/attractions/retail/","child":"retail"},
-               {"name":"SAN FRANCISCO SITES","url":"/attractions/san-francisco-sites/","child":"san-francisco-sites"},
-               {"name":"Fitness","url":"/attractions/fitness/","child":"fitness"}
-           ],
-      "amenities":[
-               {"name":"Urban Bundle","url":"/amenities/urban-bandle","child":"urban-bundle"},
-               {"name":"Green Hotel","url":"/amenities/green-hotel/","child":"green-hotel"},
-               {"name":"Pet Friendly","url":"/amenities/pet-friendly/","child":"pet-friendly"}
-               
-           ]
-  }
+{
+  "topmenu": [{
+      "name": "Rooms",
+      "url": "/rooms/",
+      "parent": "rooms"
+    },
+    {
+      "name": "Specials",
+      "url": "/specials/",
+      "parent": "specials"
+    },
+    {
+      "name": "Amenities",
+      "url": "/amenities/",
+      "parent": "amenities"
+    },
+    {
+      "name": "Dining",
+      "url": "/dining/",
+      "parent": "dining"
+    },
+    {
+      "name": "Meetings",
+      "url": "/group-special-offer/",
+      "parent": "Meetings",
+      "submenu": "true",
+      "subitems": [{
+          "name": "Business Travel",
+          "url": "/business-travel/"
+        }
+      ]
+    },
+    {
+      "name": "Explore",
+      "url": "/explore/",
+      "parent": "location",
+      "submenu": "true",
+      "subitems": [{
+          "name": "Reboot",
+          "url": "/reboot/"
+        },
+        {
+          "name": "Events",
+          "url": "/events/",
+          "parent": "events"
+        },
+        {
+          "name": "Attractions",
+          "url": "/attractions/",
+          "parent": "attractions"
+        },
+        {
+          "name": "Gallery",
+          "url": "/gallery/",
+          "parent": "gallery"
+        }
+      ]
+    },
+    {
+      "name": "Blog",
+      "url": "/blog/",
+      "parent": "blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact-us/",
+      "parent": "contact"
+    }
+  ],
+  "attractions": [{
+      "name": "Culture",
+      "url": "/attractions/",
+      "child": "culture"
+    },
+    {
+      "name": "Culinary",
+      "url": "/attractions/culinary/",
+      "child": "culinary"
+    },
+    {
+      "name": "Retail",
+      "url": "/attractions/retail/",
+      "child": "retail"
+    },
+    {
+      "name": "SAN FRANCISCO SITES",
+      "url": "/attractions/san-francisco-sites/",
+      "child": "san-francisco-sites"
+    },
+    {
+      "name": "Fitness",
+      "url": "/attractions/fitness/",
+      "child": "fitness"
+    }
+  ],
+  "amenities": [{
+      "name": "Urban Bundle",
+      "url": "/amenities/urban-bandle",
+      "child": "urban-bundle"
+    },
+    {
+      "name": "Green Hotel",
+      "url": "/amenities/green-hotel/",
+      "child": "green-hotel"
+    },
+    {
+      "name": "Pet Friendly",
+      "url": "/amenities/pet-friendly/",
+      "child": "pet-friendly"
+    }
+
+  ]
+}
