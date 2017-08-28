@@ -46,9 +46,15 @@ meta_keywords_localized:
       <div class="left-cell">
 
         <div class="padd-60 m-venue">
-          <h1 class="title2 whtText">Hi-Tech</h1>
-          <h4 class="heading4 uppercase">Meets</h4>
-          <h1 class="title2 whtText" style="letter-spacing: 0.01em;">Hi-Comfort</h1>
+          {% regionblock heading_h1_top, type: header %}
+            <h1 class="title2 whtText">Hi-Tech</h1>
+          {% endregionblock %}
+          {% regionblock heading_h4, type: header %}
+            <h4 class="heading4 uppercase">Meets</h4>
+          {% endregionblock %}
+          {% regionblock heading_h1_bottom, type: header %}
+            <h1 class="title2 whtText" style="letter-spacing: 0.01em;">Hi-Comfort</h1>
+          {% endregionblock %}
         </div>
 
         <div id="venuesSlider" class="carousel slide">
