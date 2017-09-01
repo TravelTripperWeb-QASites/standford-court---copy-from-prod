@@ -1,33 +1,29 @@
-permalink: pretty
+# Site settings
+url: "https://www.stanfordcourt.com"
+booking_widget_url: https://stanfordcourt.reztrip.com/mobile
 
+# Language settings
 default_lang: 'en'
 languages: ['en']
 
-
+# Build settings
+permalink: pretty
 port: 8080
-booking_widget_url: https://stanfordcourt.reztrip.com/mobile
-
-url: "https://www.stanfordcourt.com"
-
+markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-
 
 data_paginate:
   per_page: 6
   data: 'blog'
   path: 'blog/page:num'
+  #paginate_path: "/page:num/"
   pagination_template: 'blog/index.html'
   sort_field: 'date'
   sort_reverse: true
 
-
-#paginate_path: "/page:num/"
-markdown: kramdown
-empty_array: []
 page_gen:
-
   - data: 'blog'
     template: 'blog-details'
     dir: 'blog'
@@ -40,7 +36,7 @@ page_gen:
   - data: 'promos'
     template: 'promo-details'
     dir: 'promos'
-    
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

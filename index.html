@@ -52,20 +52,10 @@ meta_keywords_localized:
       <input type="text" class="textfield" placeholder="Departure" id="od_departure" name="departure_date" autocomplete="off" aria-label="Departure Date">
       <span class="cal"><img src="/images/calender-icon.png" alt="Calendar"></span></span>
       <span style="width: 148px;" class="field-holder sb">
-      <select class="select-dropdown" name="rooms[]" id="od_room" aria-label="Select Room">
+      <select class="select-dropdown" name="selected_room" id="od_room" aria-label="Select Room">
         <option value="1" selected="">Select Room </option>
-        <option value="2">Standard Queen</option>
-        <option value="3">Standard King</option>
-        <option value="4">Deluxe Queen</option>
-        <option value="5">Deluxe King</option>
-        <option value="6">Accessible King</option>
-        <option value="7">Premier View Queen</option>
-        <option value="8">Premier View King</option>
-        <option value="9">Premier View Two Doubles</option>
-        <option value="10">Studio Suite Queen</option>
-        <option value="11">Studio Suite King</option>
-        <option value="12">Studio Suite Tow Doubles</option>
-        <option value="12">Parlor Suite</option>
+        <option ng-repeat="r in browser.roomsList" value="[[r.code]]">[[r.name]]</option>
+        
       </select>
       </span>
       <span class="field-holder sb">
@@ -90,7 +80,7 @@ meta_keywords_localized:
       <!--<span class="field-holder codebox">
       <p class="iata"><a href="javascript:void(0);">IATA Code</a><input type="text" class="textfield hfield" placeholder="IATA Code" name="iata_code" autocomplete="off"></p>
       </span> -->
-      <input type="hidden" name="selected_room" value="L1QN" aria-label="Hidden">
+      <input type="hidden" name="rooms" value="1" aria-label="Hidden">
       <button type="submit" class="btn-common btn-od-form">Book Room</button>
       </form>
       </div>

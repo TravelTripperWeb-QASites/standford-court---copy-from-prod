@@ -24,9 +24,13 @@ meta_keywords_localized:
     <div class="container">
         <div class="special-details-banner" style="background-image:url(https://cdn.traveltripper.io/site-assets/192_617_5096/media/2017-07-13-112055/HS2.jpg)">
             <div class="special-content">
-                <h2>STANFORD COURT SPECIAL</h2>
+                {% regionblock heading %}
+                <h2>STANFORD COURT SPECIAL</h2> 
+                {% endregionblock %}
                 <div class="position">
-                    <h3>Special Offer</h3>
+                    {% regionblock offer %}
+                    <h3>Special Offer</h3> 
+                   {% endregionblock %}
                 </div>
             </div>
         </div>
@@ -37,11 +41,15 @@ meta_keywords_localized:
         </div>
         <div class="col-sm-6">
             <div class="details-container groupcontainer">
+            {% regionblock content-heading %}
                 <h4>PLANNING AN OFFSITE MEETING?</h4>
                 <h4>DON’T WAIT BOOK NOW</h4>
+                {% endregionblock %}
                 <div class="btn-holder rfp">
-                <a class="butn btn-white uppercase bgwhite-btn pad" href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a>
+                 {% regionblock specials-link %}
+                <a class="butn btn-white uppercase bgwhite-btn pad" href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a> {% endregionblock %}
                 </div>
+                 {% regionblock content %}
                 <p>SPEND A MINIMUM OF $5K & EARN OUR SUMMER REWARDS</p> 
                 <span>Up to 25% off on group rates<br>
                     1 Comp upgrade per 20 rooms<br>
@@ -51,7 +59,7 @@ meta_keywords_localized:
                 <p>Only valid on new group bookings and can not be applied to existing contracts.</p>
                 <div class="left">
                   <p>P: <a href="tel:1415989350">415.989.3500</a></p>
-                  <p>E: <a href="mailto:sales@stanfordcourt.com">sales@stanfordcourt.com</a></p>
+                  <p>E: <a href="mailto:sales@stanfordcourt.com">sales@stanfordcourt.com</a></p> {% endregionblock %}
               </div>
             </div>
         </div>
@@ -60,12 +68,13 @@ meta_keywords_localized:
     <div class="container-fluid">
         <div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
             <div class="heading-circle">
+            {% regionblock heading-circle %}
                 <h4>AN ELEVATED BOUTIQUE HOTEL EXPERIENCE</h4>
-                <h2>San Francisco at its Best</h2>
+                <h2>San Francisco at its Best</h2> {% endregionblock %}
                 <div class="btn-holder text-center">
-                    <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                  {% regionblock heading-circle-link %}  <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
                     book your stay
-                    </a>
+                    </a> {% endregionblock %}
                 </div>
             </div>
         </div>

@@ -1,0 +1,1144 @@
+{
+  "__CONFIG__": {
+    "default_locale": "en",
+    "page_gen": [
+      {
+        "data": "blog",
+        "template": "blog-details",
+        "dir": "blog"
+      },
+      {
+        "data": "events",
+        "template": "event-details",
+        "dir": "events"
+      },
+      {
+        "data": "promos",
+        "template": "promo-details",
+        "dir": "promos"
+      }
+    ],
+    "locales": [
+      "en"
+    ]
+  },
+  "__ROOT__": {
+    "__PAGES__": [
+      {
+        "label": "Stanford Court Hotel | Boutique Hotel in San Francisco",
+        "published": true,
+        "locales": {
+          "en": "/"
+        },
+        "data_source": null,
+        "source_path": "index.html",
+        "order": 0
+      }
+    ],
+    "amenities": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Modern Boutique Hotels | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/amenities/"
+          },
+          "data_source": null,
+          "source_path": "amenities/index.html",
+          "order": 1
+        }
+      ],
+      "green-hotel": {
+        "__PAGES__": [
+          {
+            "label": "Green Hotels in San Francisco | Stanford Court Hotel",
+            "published": true,
+            "locales": {
+              "en": "/amenities/green-hotel/"
+            },
+            "data_source": null,
+            "source_path": "amenities/green-hotel.html",
+            "order": 2
+          }
+        ]
+      },
+      "pet-friendly": {
+        "__PAGES__": [
+          {
+            "label": "Pet Friendly Hotels in San Francisco | Stanford Court Hotel",
+            "published": true,
+            "locales": {
+              "en": "/amenities/pet-friendly/"
+            },
+            "data_source": null,
+            "source_path": "amenities/pet-friendly.html",
+            "order": 3
+          }
+        ]
+      },
+      "urban-bundle": {
+        "__PAGES__": [
+          {
+            "label": "San Francisco Hotel with Modern Amenities | Stanford Court",
+            "published": true,
+            "locales": {
+              "en": "/amenities/urban-bundle/"
+            },
+            "data_source": null,
+            "source_path": "amenities/urban-bandle.html",
+            "order": 4
+          }
+        ]
+      }
+    },
+    "attractions": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Attractions and Things to do | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/attractions/"
+          },
+          "data_source": null,
+          "source_path": "attractions/index.html",
+          "order": 7
+        }
+      ],
+      "culinary": {
+        "__PAGES__": [
+          {
+            "label": "Best Restaurants in San Francisco | Stanford Court Hotel",
+            "published": true,
+            "locales": {
+              "en": "/attractions/culinary/"
+            },
+            "data_source": null,
+            "source_path": "attractions/culinary.html",
+            "order": 8
+          }
+        ]
+      },
+      "fitness": {
+        "__PAGES__": [
+          {
+            "label": "San Francisco Fitness & Activities | Stanford Court Hotel",
+            "published": true,
+            "locales": {
+              "en": "/attractions/fitness/"
+            },
+            "data_source": null,
+            "source_path": "attractions/fitness.html",
+            "order": 11
+          }
+        ]
+      },
+      "retail": {
+        "__PAGES__": [
+          {
+            "label": "Shopping in San Francisco | Shopping Hotel in San Francisco",
+            "published": true,
+            "locales": {
+              "en": "/attractions/retail/"
+            },
+            "data_source": null,
+            "source_path": "attractions/retail.html",
+            "order": 10
+          }
+        ]
+      },
+      "san-francisco-sites": {
+        "__PAGES__": [
+          {
+            "label": "San Francisco Attractions | Places to visit in San Francisco",
+            "published": true,
+            "locales": {
+              "en": "/attractions/san-francisco-sites/"
+            },
+            "data_source": null,
+            "source_path": "attractions/san-francisco-sites.html",
+            "order": 9
+          }
+        ]
+      }
+    },
+    "blog": {
+      "__PAGES__": [
+        {
+          "label": "Events in San Francisco | Stanford Court Hotel Blog",
+          "published": true,
+          "locales": {
+            "en": "/blog/"
+          },
+          "data_source": null,
+          "source_path": "blog/index.html",
+          "order": 12
+        }
+      ]
+    },
+    "events": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Events | Things to Do in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/events/"
+          },
+          "data_source": null,
+          "source_path": "events/index.html",
+          "order": 6
+        }
+      ]
+    },
+    "promos": {
+      "__PAGES__": [
+        {
+          "label": "Promos",
+          "published": true,
+          "locales": {
+            "en": "/promos/"
+          },
+          "data_source": null,
+          "source_path": "promos/index.html",
+          "order": 5
+        }
+      ]
+    },
+    "bill": {
+      "__PAGES__": [
+        {
+          "label": "Copy of your Hotel Bill | Stanford Court Modern Hotel",
+          "published": true,
+          "locales": {
+            "en": "/bill/"
+          },
+          "data_source": null,
+          "source_path": "bill.html",
+          "order": 15
+        }
+      ]
+    },
+    "business-travel": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Modern Boutique Hotels | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/business-travel/"
+          },
+          "data_source": null,
+          "source_path": "business-travel.html",
+          "order": 14
+        }
+      ]
+    },
+    "contact-us-business": {
+      "__PAGES__": [
+        {
+          "label": "Contact Us | Stanford Court Hotel Official Website",
+          "published": true,
+          "locales": {
+            "en": "/contact-us-business/"
+          },
+          "data_source": null,
+          "source_path": "contact-us-business.html",
+          "order": 15
+        }
+      ]
+    },
+    "contact-us": {
+      "__PAGES__": [
+        {
+          "label": "Contact Us | Stanford Court Hotel Official Website",
+          "published": true,
+          "locales": {
+            "en": "/contact-us/"
+          },
+          "data_source": null,
+          "source_path": "contact-us.html",
+          "order": 25
+        }
+      ]
+    },
+    "dining": {
+      "__PAGES__": [
+        {
+          "label": "Dining at Stanford Court Hotel in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/dining/"
+          },
+          "data_source": null,
+          "source_path": "dining.html",
+          "order": 27
+        }
+      ]
+    },
+    "explore": {
+      "__PAGES__": [
+        {
+          "label": "Hotels near Union Square | Stanford Court Location",
+          "published": true,
+          "locales": {
+            "en": "/explore/"
+          },
+          "data_source": null,
+          "source_path": "explore.html",
+          "order": 22
+        }
+      ]
+    },
+    "gallery": {
+      "__PAGES__": [
+        {
+          "label": "Photo Gallery | Stanford Court Hotel in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/gallery/"
+          },
+          "data_source": null,
+          "source_path": "gallery.html",
+          "order": 19
+        }
+      ]
+    },
+    "group-special-offer": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/group-special-offer/"
+          },
+          "data_source": null,
+          "source_path": "group-special-offer.html",
+          "order": 20
+        }
+      ]
+    },
+    "page-not-found": {
+      "__PAGES__": [
+        {
+          "label": "Page Not Found | Stanford Court Hotel in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/page-not-found/"
+          },
+          "data_source": null,
+          "source_path": "page-not-found.html",
+          "order": 22
+        }
+      ]
+    },
+    "press%20-%20Copy": {
+      "__PAGES__": [
+        {
+          "label": "Press Releases and Hotel News | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/press%20-%20Copy/"
+          },
+          "data_source": null,
+          "source_path": "press - Copy.html",
+          "order": 14
+        }
+      ]
+    },
+    "press": {
+      "__PAGES__": [
+        {
+          "label": "Press Releases and Hotel News | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/press/"
+          },
+          "data_source": null,
+          "source_path": "press.html",
+          "order": 16
+        }
+      ]
+    },
+    "privacy-policy": {
+      "__PAGES__": [
+        {
+          "label": "Privacy Policy | Stanford Court Hotel in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/privacy-policy/"
+          },
+          "data_source": null,
+          "source_path": "privacy-policy.html",
+          "order": 24
+        }
+      ]
+    },
+    "reboot": {
+      "__PAGES__": [
+        {
+          "label": "Hotels near Union Square | Stanford Court Location",
+          "published": true,
+          "locales": {
+            "en": "/reboot/"
+          },
+          "data_source": null,
+          "source_path": "reboot.html",
+          "order": 17
+        }
+      ]
+    },
+    "room": {
+      "__PAGES__": [
+        {
+          "label": "Rooms Template",
+          "published": true,
+          "locales": {
+            "en": "/room/"
+          },
+          "data_source": null,
+          "source_path": "room.html",
+          "order": 20
+        }
+      ]
+    },
+    "rooms": {
+      "__PAGES__": [
+        {
+          "label": "Luxury Hotel Rooms in San Francisco | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/rooms/"
+          },
+          "data_source": null,
+          "source_path": "rooms.html",
+          "order": 26
+        }
+      ]
+    },
+    "sitemap": {
+      "__PAGES__": [
+        {
+          "label": "Sitemap | Boutique Stanford Court Hotel in San Francisco",
+          "published": true,
+          "locales": {
+            "en": "/sitemap/"
+          },
+          "data_source": null,
+          "source_path": "sitemap.html",
+          "order": 21
+        }
+      ]
+    },
+    "special": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel",
+          "published": true,
+          "locales": {
+            "en": "/special/"
+          },
+          "data_source": null,
+          "source_path": "special.html",
+          "order": 18
+        }
+      ]
+    },
+    "specials": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Hotel Deals | Special Offers at Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/specials/"
+          },
+          "data_source": null,
+          "source_path": "specials.html",
+          "order": 13
+        }
+      ]
+    },
+    "thankyou": {
+      "__PAGES__": [
+        {
+          "label": "Thank You | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/thankyou/"
+          },
+          "data_source": null,
+          "source_path": "thankyou.html",
+          "order": 23
+        }
+      ]
+    },
+    "web-exclusive-offer": {
+      "__PAGES__": [
+        {
+          "label": "web-exclusive-offer",
+          "published": true,
+          "locales": {
+            "en": "/web-exclusive-offer/"
+          },
+          "data_source": null,
+          "source_path": "web-exclusive-offer.html",
+          "order": 33
+        }
+      ]
+    }
+  },
+  "__REGIONS__": [
+    "bill.html/ct_text.json",
+    "bill.html/footeraddress.json",
+    "bill.html/footerlinks.json",
+    "business-travel.html/heading_h2.json",
+    "business-travel.html/heading_h3.json",
+    "business-travel.html/heading_description.json",
+    "business-travel.html/heading_h1_top.json",
+    "business-travel.html/heading_h4.json",
+    "business-travel.html/heading_h1_bottom.json",
+    "business-travel.html/body_image_right.json",
+    "business-travel.html/body_text_above_photos.json",
+    "business-travel.html/body_image_left.json",
+    "business-travel.html/body_text_below_photos.json",
+    "business-travel.html/list_amenities.json",
+    "business-travel.html/cta_below_amenities.json",
+    "business-travel.html/ct_text.json",
+    "business-travel.html/footeraddress.json",
+    "business-travel.html/footerlinks.json",
+    "contact-us-business.html/heading_h3.json",
+    "contact-us-business.html/heading_h1.json",
+    "contact-us-business.html/content.json",
+    "contact-us-business.html/formtext.json",
+    "contact-us-business.html/ct_text.json",
+    "contact-us-business.html/footeraddress.json",
+    "contact-us-business.html/footerlinks.json",
+    "contact-us.html/heading.json",
+    "contact-us.html/text.json",
+    "contact-us.html/formtext.json",
+    "contact-us.html/ct_text.json",
+    "contact-us.html/footeraddress.json",
+    "contact-us.html/footerlinks.json",
+    "attractions/culinary.html/heading.json",
+    "attractions/culinary.html/maintext.json",
+    "attractions/culinary.html/subheading.json",
+    "attractions/culinary.html/title.json",
+    "attractions/culinary.html/details.json",
+    "attractions/culinary.html/featuredtitle.json",
+    "attractions/culinary.html/featuredtext.json",
+    "attractions/culinary.html/featuredlink.json",
+    "attractions/culinary.html/footereventsheading.json",
+    "attractions/culinary.html/footereventslink.json",
+    "attractions/culinary.html/ct_text.json",
+    "attractions/culinary.html/footeraddress.json",
+    "attractions/culinary.html/footerlinks.json",
+    "dining.html/heading.json",
+    "dining.html/maintext.json",
+    "dining.html/subheading.json",
+    "dining.html/detail.json",
+    "dining.html/menuheading.json",
+    "dining.html/menutext.json",
+    "dining.html/ct_text.json",
+    "dining.html/footeraddress.json",
+    "dining.html/footerlinks.json",
+    "explore.html/bannertext.json",
+    "explore.html/bannerlink.json",
+    "explore.html/subheading.json",
+    "explore.html/locationtext.json",
+    "explore.html/localheading.json",
+    "explore.html/locallink.json",
+    "explore.html/localtext.json",
+    "explore.html/experienceheading.json",
+    "explore.html/experiencelink.json",
+    "explore.html/ct_text.json",
+    "explore.html/footeraddress.json",
+    "explore.html/footerlinks.json",
+    "attractions/fitness.html/heading.json",
+    "attractions/fitness.html/maintext.json",
+    "attractions/fitness.html/subheading.json",
+    "attractions/fitness.html/title.json",
+    "attractions/fitness.html/details.json",
+    "attractions/fitness.html/featuredtitle.json",
+    "attractions/fitness.html/featuredtext.json",
+    "attractions/fitness.html/featuredlink.json",
+    "attractions/fitness.html/footereventsheading.json",
+    "attractions/fitness.html/footereventslink.json",
+    "attractions/fitness.html/ct_text.json",
+    "attractions/fitness.html/footeraddress.json",
+    "attractions/fitness.html/footerlinks.json",
+    "gallery.html/ct_text.json",
+    "gallery.html/footeraddress.json",
+    "gallery.html/footerlinks.json",
+    "amenities/green-hotel.html/heading.json",
+    "amenities/green-hotel.html/maintext.json",
+    "amenities/green-hotel.html/subheading.json",
+    "amenities/green-hotel.html/sort_detail.json",
+    "amenities/green-hotel.html/full_detail.json",
+    "amenities/green-hotel.html/footereventsheading.json",
+    "amenities/green-hotel.html/footereventslink.json",
+    "amenities/green-hotel.html/ct_text.json",
+    "amenities/green-hotel.html/footeraddress.json",
+    "amenities/green-hotel.html/footerlinks.json",
+    "group-special-offer.html/heading.json",
+    "group-special-offer.html/offer.json",
+    "group-special-offer.html/content-heading.json",
+    "group-special-offer.html/specials-link.json",
+    "group-special-offer.html/content.json",
+    "group-special-offer.html/heading-circle.json",
+    "group-special-offer.html/heading-circle-link.json",
+    "group-special-offer.html/ct_text.json",
+    "group-special-offer.html/footeraddress.json",
+    "group-special-offer.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
+    "promos/index.html/footeroffersheading.json",
+    "promos/index.html/footerofferslink.json",
+    "promos/index.html/ct_text.json",
+    "promos/index.html/footeraddress.json",
+    "promos/index.html/footerlinks.json",
+    "amenities/index.html/heading.json",
+    "amenities/index.html/maintext.json",
+    "amenities/index.html/subheading.json",
+    "amenities/index.html/sort_detail.json",
+    "amenities/index.html/full_detail.json",
+    "amenities/index.html/list_amenities.json",
+    "amenities/index.html/footereventsheading.json",
+    "amenities/index.html/footereventslink.json",
+    "amenities/index.html/ct_text.json",
+    "amenities/index.html/footeraddress.json",
+    "amenities/index.html/footerlinks.json",
+    "blog/index.html/ct_text.json",
+    "blog/index.html/footeraddress.json",
+    "blog/index.html/footerlinks.json",
+    "attractions/index.html/heading.json",
+    "attractions/index.html/maintext.json",
+    "attractions/index.html/subheading.json",
+    "attractions/index.html/title.json",
+    "attractions/index.html/details.json",
+    "attractions/index.html/featuredtitle.json",
+    "attractions/index.html/featuredtext.json",
+    "attractions/index.html/featuredlink.json",
+    "attractions/index.html/footereventsheading.json",
+    "attractions/index.html/footereventslink.json",
+    "attractions/index.html/ct_text.json",
+    "attractions/index.html/footeraddress.json",
+    "attractions/index.html/footerlinks.json",
+    "index.html/welcome-heading.json",
+    "index.html/welcome-text.json",
+    "index.html/bluebox-heading.json",
+    "index.html/bluebox-link.json",
+    "index.html/bluebox-content.json",
+    "index.html/hitech-heading.json",
+    "index.html/rooms-heading.json",
+    "index.html/rooms-details.json",
+    "index.html/amenities-heading.json",
+    "index.html/amenities-content.json",
+    "index.html/amenities-link.json",
+    "index.html/events-heading.json",
+    "index.html/events-link.json",
+    "index.html/venueheading.json",
+    "index.html/venuecontent.json",
+    "index.html/localheading.json",
+    "index.html/locallivingcontent.json",
+    "index.html/locallivinglink.json",
+    "index.html/addresslocal.json",
+    "index.html/locationheading.json",
+    "index.html/locationplace.json",
+    "index.html/locationmaplink.json",
+    "index.html/locationlink.json",
+    "index.html/thingsheading.json",
+    "index.html/thingscontent.json",
+    "index.html/thingscontent.json",
+    "index.html/footereventsheading.json",
+    "index.html/footereventslink.json",
+    "index.html/blogcontent.json",
+    "index.html/bloglink.json",
+    "index.html/ct_text.json",
+    "index.html/footeraddress.json",
+    "index.html/footerlinks.json",
+    "page-not-found.html/ct_text.json",
+    "page-not-found.html/footeraddress.json",
+    "page-not-found.html/footerlinks.json",
+    "amenities/pet-friendly.html/heading.json",
+    "amenities/pet-friendly.html/maintext.json",
+    "amenities/pet-friendly.html/subheading.json",
+    "amenities/pet-friendly.html/sort_detail.json",
+    "amenities/pet-friendly.html/full_detail.json",
+    "amenities/pet-friendly.html/footereventsheading.json",
+    "amenities/pet-friendly.html/footereventslink.json",
+    "amenities/pet-friendly.html/ct_text.json",
+    "amenities/pet-friendly.html/footeraddress.json",
+    "amenities/pet-friendly.html/footerlinks.json",
+    "press - Copy.html/ct_text.json",
+    "press - Copy.html/footeraddress.json",
+    "press - Copy.html/footerlinks.json",
+    "press.html/ct_text.json",
+    "press.html/footeraddress.json",
+    "press.html/footerlinks.json",
+    "privacy-policy.html/heading.json",
+    "privacy-policy.html/text.json",
+    "privacy-policy.html/ct_text.json",
+    "privacy-policy.html/footeraddress.json",
+    "privacy-policy.html/footerlinks.json",
+    "reboot.html/ct_text.json",
+    "reboot.html/footeraddress.json",
+    "reboot.html/footerlinks.json",
+    "attractions/retail.html/heading.json",
+    "attractions/retail.html/maintext.json",
+    "attractions/retail.html/subheading.json",
+    "attractions/retail.html/title.json",
+    "attractions/retail.html/details.json",
+    "attractions/retail.html/featuredtitle.json",
+    "attractions/retail.html/featuredtext.json",
+    "attractions/retail.html/featuredlink.json",
+    "attractions/retail.html/footereventsheading.json",
+    "attractions/retail.html/footereventslink.json",
+    "attractions/retail.html/ct_text.json",
+    "attractions/retail.html/footeraddress.json",
+    "attractions/retail.html/footerlinks.json",
+    "room.html/heading.json",
+    "room.html/content.json",
+    "room.html/footeroffersheading.json",
+    "room.html/footerofferslink.json",
+    "room.html/ct_text.json",
+    "room.html/footeraddress.json",
+    "room.html/footerlinks.json",
+    "rooms.html/heading.json",
+    "rooms.html/maintext.json",
+    "rooms.html/ct_text.json",
+    "rooms.html/footeraddress.json",
+    "rooms.html/footerlinks.json",
+    "attractions/san-francisco-sites.html/heading.json",
+    "attractions/san-francisco-sites.html/maintext.json",
+    "attractions/san-francisco-sites.html/subheading.json",
+    "attractions/san-francisco-sites.html/title.json",
+    "attractions/san-francisco-sites.html/details.json",
+    "attractions/san-francisco-sites.html/featuredtitle.json",
+    "attractions/san-francisco-sites.html/featuredtext.json",
+    "attractions/san-francisco-sites.html/featuredlink.json",
+    "attractions/san-francisco-sites.html/footereventsheading.json",
+    "attractions/san-francisco-sites.html/footereventslink.json",
+    "attractions/san-francisco-sites.html/ct_text.json",
+    "attractions/san-francisco-sites.html/footeraddress.json",
+    "attractions/san-francisco-sites.html/footerlinks.json",
+    "sitemap.html/ct_text.json",
+    "sitemap.html/footeraddress.json",
+    "sitemap.html/footerlinks.json",
+    "special.html/footeroffersheading.json",
+    "special.html/footerofferslink.json",
+    "special.html/ct_text.json",
+    "special.html/footeraddress.json",
+    "special.html/footerlinks.json",
+    "specials.html/heading.json",
+    "specials.html/text.json",
+    "specials.html/listheading.json",
+    "specials.html/ct_text.json",
+    "specials.html/footeraddress.json",
+    "specials.html/footerlinks.json",
+    "thankyou.html/heading.json",
+    "thankyou.html/text.json",
+    "thankyou.html/ct_text.json",
+    "thankyou.html/footeraddress.json",
+    "thankyou.html/footerlinks.json",
+    "amenities/urban-bandle.html/heading.json",
+    "amenities/urban-bandle.html/maintext.json",
+    "amenities/urban-bandle.html/subheading.json",
+    "amenities/urban-bandle.html/sort_detail.json",
+    "amenities/urban-bandle.html/full_detail.json",
+    "amenities/urban-bandle.html/list_amenities.json",
+    "amenities/urban-bandle.html/footereventsheading.json",
+    "amenities/urban-bandle.html/footereventslink.json",
+    "amenities/urban-bandle.html/ct_text.json",
+    "amenities/urban-bandle.html/footeraddress.json",
+    "amenities/urban-bandle.html/footerlinks.json",
+    "web-exclusive-offer.html/ct_text.json",
+    "web-exclusive-offer.html/footeraddress.json",
+    "web-exclusive-offer.html/footerlinks.json",
+    "blog/stanford-court-guide-2-nob-hill.html/ct_text.json",
+    "blog/stanford-court-guide-2-nob-hill.html/footeraddress.json",
+    "blog/stanford-court-guide-2-nob-hill.html/footerlinks.json",
+    "blog/san-francisco-things-january.html/ct_text.json",
+    "blog/san-francisco-things-january.html/footeraddress.json",
+    "blog/san-francisco-things-january.html/footerlinks.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/ct_text.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/footeraddress.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/footerlinks.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/ct_text.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/footeraddress.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/footerlinks.json",
+    "blog/five-free-things-to-do-in-sf.html/ct_text.json",
+    "blog/five-free-things-to-do-in-sf.html/footeraddress.json",
+    "blog/five-free-things-to-do-in-sf.html/footerlinks.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/ct_text.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footeraddress.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footerlinks.json",
+    "blog/favorite-san-francisco-views.html/ct_text.json",
+    "blog/favorite-san-francisco-views.html/footeraddress.json",
+    "blog/favorite-san-francisco-views.html/footerlinks.json",
+    "blog/union-square-holiday-fun.html/ct_text.json",
+    "blog/union-square-holiday-fun.html/footeraddress.json",
+    "blog/union-square-holiday-fun.html/footerlinks.json",
+    "blog/best-nob-hill-desserts.html/ct_text.json",
+    "blog/best-nob-hill-desserts.html/footeraddress.json",
+    "blog/best-nob-hill-desserts.html/footerlinks.json",
+    "blog/san-francisco-union-square-christmas-tree-lighting.html/ct_text.json",
+    "blog/san-francisco-union-square-christmas-tree-lighting.html/footeraddress.json",
+    "blog/san-francisco-union-square-christmas-tree-lighting.html/footerlinks.json",
+    "blog/san-francisco-halloween-events.html/ct_text.json",
+    "blog/san-francisco-halloween-events.html/footeraddress.json",
+    "blog/san-francisco-halloween-events.html/footerlinks.json",
+    "blog/rainy-day-activities-nob-hill.html/ct_text.json",
+    "blog/rainy-day-activities-nob-hill.html/footeraddress.json",
+    "blog/rainy-day-activities-nob-hill.html/footerlinks.json",
+    "blog/giants-ndls.html/ct_text.json",
+    "blog/giants-ndls.html/footeraddress.json",
+    "blog/giants-ndls.html/footerlinks.json",
+    "blog/fleet-week-2016-events.html/ct_text.json",
+    "blog/fleet-week-2016-events.html/footeraddress.json",
+    "blog/fleet-week-2016-events.html/footerlinks.json",
+    "blog/happy-dog.html/ct_text.json",
+    "blog/happy-dog.html/footeraddress.json",
+    "blog/happy-dog.html/footerlinks.json",
+    "blog/apps-downloading-february-2017.html/ct_text.json",
+    "blog/apps-downloading-february-2017.html/footeraddress.json",
+    "blog/apps-downloading-february-2017.html/footerlinks.json",
+    "blog/september-activities-san-francisco.html/ct_text.json",
+    "blog/september-activities-san-francisco.html/footeraddress.json",
+    "blog/september-activities-san-francisco.html/footerlinks.json",
+    "blog/tony-bennett.html/ct_text.json",
+    "blog/tony-bennett.html/footeraddress.json",
+    "blog/tony-bennett.html/footerlinks.json",
+    "blog/sf-activities.html/ct_text.json",
+    "blog/sf-activities.html/footeraddress.json",
+    "blog/sf-activities.html/footerlinks.json",
+    "blog/excellence-award.html/ct_text.json",
+    "blog/excellence-award.html/footeraddress.json",
+    "blog/excellence-award.html/footerlinks.json",
+    "blog/fathers-day-activities.html/ct_text.json",
+    "blog/fathers-day-activities.html/footeraddress.json",
+    "blog/fathers-day-activities.html/footerlinks.json",
+    "blog/summer-in-san-francisco.html/ct_text.json",
+    "blog/summer-in-san-francisco.html/footeraddress.json",
+    "blog/summer-in-san-francisco.html/footerlinks.json",
+    "blog/nob-hill-date-spots.html/ct_text.json",
+    "blog/nob-hill-date-spots.html/footeraddress.json",
+    "blog/nob-hill-date-spots.html/footerlinks.json",
+    "blog/stan.html/ct_text.json",
+    "blog/stan.html/footeraddress.json",
+    "blog/stan.html/footerlinks.json",
+    "blog/groups.html/ct_text.json",
+    "blog/groups.html/footeraddress.json",
+    "blog/groups.html/footerlinks.json",
+    "blog/mothers-day.html/ct_text.json",
+    "blog/mothers-day.html/footeraddress.json",
+    "blog/mothers-day.html/footerlinks.json",
+    "blog/rsa-conference-2017-preview.html/ct_text.json",
+    "blog/rsa-conference-2017-preview.html/footeraddress.json",
+    "blog/rsa-conference-2017-preview.html/footerlinks.json",
+    "blog/earth-day-celebrations.html/ct_text.json",
+    "blog/earth-day-celebrations.html/footeraddress.json",
+    "blog/earth-day-celebrations.html/footerlinks.json",
+    "blog/farmers-markets.html/ct_text.json",
+    "blog/farmers-markets.html/footeraddress.json",
+    "blog/farmers-markets.html/footerlinks.json",
+    "blog/earth-month.html/ct_text.json",
+    "blog/earth-month.html/footeraddress.json",
+    "blog/earth-month.html/footerlinks.json",
+    "blog/best-nob-hill-sportsbars.html/ct_text.json",
+    "blog/best-nob-hill-sportsbars.html/footeraddress.json",
+    "blog/best-nob-hill-sportsbars.html/footerlinks.json",
+    "blog/details.html/ct_text.json",
+    "blog/details.html/footeraddress.json",
+    "blog/details.html/footerlinks.json",
+    "blog/eco-map.html/ct_text.json",
+    "blog/eco-map.html/footeraddress.json",
+    "blog/eco-map.html/footerlinks.json",
+    "blog/nob-hill-hidden-gems.html/ct_text.json",
+    "blog/nob-hill-hidden-gems.html/footeraddress.json",
+    "blog/nob-hill-hidden-gems.html/footerlinks.json",
+    "blog/sf-packing-tips.html/ct_text.json",
+    "blog/sf-packing-tips.html/footeraddress.json",
+    "blog/sf-packing-tips.html/footerlinks.json",
+    "blog/best-san-francisco-hikes-2.html/ct_text.json",
+    "blog/best-san-francisco-hikes-2.html/footeraddress.json",
+    "blog/best-san-francisco-hikes-2.html/footerlinks.json",
+    "blog/super-bowl-50-2.html/ct_text.json",
+    "blog/super-bowl-50-2.html/footeraddress.json",
+    "blog/super-bowl-50-2.html/footerlinks.json",
+    "blog/i-left-my-heart-in-san-francisco-valentines-day-package.html/ct_text.json",
+    "blog/i-left-my-heart-in-san-francisco-valentines-day-package.html/footeraddress.json",
+    "blog/i-left-my-heart-in-san-francisco-valentines-day-package.html/footerlinks.json",
+    "blog/super-bowl-50.html/ct_text.json",
+    "blog/super-bowl-50.html/footeraddress.json",
+    "blog/super-bowl-50.html/footerlinks.json",
+    "blog/super-bowl-50-2.html/ct_text.json",
+    "blog/super-bowl-50-2.html/footeraddress.json",
+    "blog/super-bowl-50-2.html/footerlinks.json",
+    "blog/super-bowl-50.html/ct_text.json",
+    "blog/super-bowl-50.html/footeraddress.json",
+    "blog/super-bowl-50.html/footerlinks.json",
+    "blog/stay-track-san-franciscos-stanford-court-hotel.html/ct_text.json",
+    "blog/stay-track-san-franciscos-stanford-court-hotel.html/footeraddress.json",
+    "blog/stay-track-san-franciscos-stanford-court-hotel.html/footerlinks.json",
+    "blog/best-san-francisco-hikes.html/ct_text.json",
+    "blog/best-san-francisco-hikes.html/footeraddress.json",
+    "blog/best-san-francisco-hikes.html/footerlinks.json",
+    "blog/aw-shucks-5-great-places-eat-oysters.html/ct_text.json",
+    "blog/aw-shucks-5-great-places-eat-oysters.html/footeraddress.json",
+    "blog/aw-shucks-5-great-places-eat-oysters.html/footerlinks.json",
+    "blog/favorite-apps-2.html/ct_text.json",
+    "blog/favorite-apps-2.html/footeraddress.json",
+    "blog/favorite-apps-2.html/footerlinks.json",
+    "blog/san-francisco-murals.html/ct_text.json",
+    "blog/san-francisco-murals.html/footeraddress.json",
+    "blog/san-francisco-murals.html/footerlinks.json",
+    "blog/3-restaurants-check-nob-hill.html/ct_text.json",
+    "blog/3-restaurants-check-nob-hill.html/footeraddress.json",
+    "blog/3-restaurants-check-nob-hill.html/footerlinks.json",
+    "blog/3-coffee-shops-nob-hill.html/ct_text.json",
+    "blog/3-coffee-shops-nob-hill.html/footeraddress.json",
+    "blog/3-coffee-shops-nob-hill.html/footerlinks.json",
+    "blog/tech-crunch-the-crunchies-2017.html/ct_text.json",
+    "blog/tech-crunch-the-crunchies-2017.html/footeraddress.json",
+    "blog/tech-crunch-the-crunchies-2017.html/footerlinks.json",
+    "blog/stanford-court-recommended-listening-bay-area-tunes.html/ct_text.json",
+    "blog/stanford-court-recommended-listening-bay-area-tunes.html/footeraddress.json",
+    "blog/stanford-court-recommended-listening-bay-area-tunes.html/footerlinks.json",
+    "blog/eat-clam-chowder-san-francisco.html/ct_text.json",
+    "blog/eat-clam-chowder-san-francisco.html/footeraddress.json",
+    "blog/eat-clam-chowder-san-francisco.html/footerlinks.json",
+    "blog/google-next-conference-2017.html/ct_text.json",
+    "blog/google-next-conference-2017.html/footeraddress.json",
+    "blog/google-next-conference-2017.html/footerlinks.json",
+    "blog/march-events-san-francisco-2017.html/ct_text.json",
+    "blog/march-events-san-francisco-2017.html/footeraddress.json",
+    "blog/march-events-san-francisco-2017.html/footerlinks.json",
+    "blog/five-things-you-must-try-ferry-building.html/ct_text.json",
+    "blog/five-things-you-must-try-ferry-building.html/footeraddress.json",
+    "blog/five-things-you-must-try-ferry-building.html/footerlinks.json",
+    "blog/hamilton-san-francisco.html/ct_text.json",
+    "blog/hamilton-san-francisco.html/footeraddress.json",
+    "blog/hamilton-san-francisco.html/footerlinks.json",
+    "blog/levi-strauss-history-san-francisco.html/ct_text.json",
+    "blog/levi-strauss-history-san-francisco.html/footeraddress.json",
+    "blog/levi-strauss-history-san-francisco.html/footerlinks.json",
+    "blog/the-apps-were-downloading-now-march-2017.html/ct_text.json",
+    "blog/the-apps-were-downloading-now-march-2017.html/footeraddress.json",
+    "blog/the-apps-were-downloading-now-march-2017.html/footerlinks.json",
+    "blog/monet-the-early-years-legion-of-honor.html/ct_text.json",
+    "blog/monet-the-early-years-legion-of-honor.html/footeraddress.json",
+    "blog/monet-the-early-years-legion-of-honor.html/footerlinks.json",
+    "blog/best-food-trucks-san-francisco.html/ct_text.json",
+    "blog/best-food-trucks-san-francisco.html/footeraddress.json",
+    "blog/best-food-trucks-san-francisco.html/footerlinks.json",
+    "blog/san-francisco-events-february-2017.html/ct_text.json",
+    "blog/san-francisco-events-february-2017.html/footeraddress.json",
+    "blog/san-francisco-events-february-2017.html/footerlinks.json",
+    "blog/the-most-scenic-running-routes-in-sf.html/ct_text.json",
+    "blog/the-most-scenic-running-routes-in-sf.html/footeraddress.json",
+    "blog/the-most-scenic-running-routes-in-sf.html/footerlinks.json",
+    "blog/the-best-ice-cream-in-sf-according-2-sch.html/ct_text.json",
+    "blog/the-best-ice-cream-in-sf-according-2-sch.html/footeraddress.json",
+    "blog/the-best-ice-cream-in-sf-according-2-sch.html/footerlinks.json",
+    "blog/blog62.html/ct_text.json",
+    "blog/blog62.html/footeraddress.json",
+    "blog/blog62.html/footerlinks.json",
+    "blog/stanford-court-guide-polk-street.html/ct_text.json",
+    "blog/stanford-court-guide-polk-street.html/footeraddress.json",
+    "blog/stanford-court-guide-polk-street.html/footerlinks.json",
+    "blog/the-best-placesto-go-offthegrid-near-sf.html/ct_text.json",
+    "blog/the-best-placesto-go-offthegrid-near-sf.html/footeraddress.json",
+    "blog/the-best-placesto-go-offthegrid-near-sf.html/footerlinks.json",
+    "blog/farm-2-table-restaurants-in-sf.html/ct_text.json",
+    "blog/farm-2-table-restaurants-in-sf.html/footeraddress.json",
+    "blog/farm-2-table-restaurants-in-sf.html/footerlinks.json",
+    "blog/re-live-the-summer-of-love.html/ct_text.json",
+    "blog/re-live-the-summer-of-love.html/footeraddress.json",
+    "blog/re-live-the-summer-of-love.html/footerlinks.json",
+    "blog/things-to-do-in-san-francisco-in-may-2017.html/ct_text.json",
+    "blog/things-to-do-in-san-francisco-in-may-2017.html/footeraddress.json",
+    "blog/things-to-do-in-san-francisco-in-may-2017.html/footerlinks.json",
+    "blog/the-sch-guide-2-unplugging.html/ct_text.json",
+    "blog/the-sch-guide-2-unplugging.html/footeraddress.json",
+    "blog/the-sch-guide-2-unplugging.html/footerlinks.json",
+    "blog/eat-pizza-nob-hill.html/ct_text.json",
+    "blog/eat-pizza-nob-hill.html/footeraddress.json",
+    "blog/eat-pizza-nob-hill.html/footerlinks.json",
+    "blog/the-local-brews-you-need-to-try-in-sf.html/ct_text.json",
+    "blog/the-local-brews-you-need-to-try-in-sf.html/footeraddress.json",
+    "blog/the-local-brews-you-need-to-try-in-sf.html/footerlinks.json",
+    "blog/localtips-for-optimizing-your-ferry-building-experince.html/ct_text.json",
+    "blog/localtips-for-optimizing-your-ferry-building-experince.html/footeraddress.json",
+    "blog/localtips-for-optimizing-your-ferry-building-experince.html/footerlinks.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/ct_text.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/footeraddress.json",
+    "blog/where-2-take-mom-this-mothersday-in-sf.html/footerlinks.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/ct_text.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/footeraddress.json",
+    "blog/what-were-excited-for-at-google-io-2017.html/footerlinks.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/ct_text.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/footeraddress.json",
+    "blog/a-sch-sneakpeek-the-summer-of-love-experience.html/footerlinks.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/ct_text.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/footeraddress.json",
+    "blog/six-reasons-to-go-to-outside-lands.html/footerlinks.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/ct_text.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/footeraddress.json",
+    "blog/local-tips-for-surviving-bay-to-breakers.html/footerlinks.json",
+    "blog/short-history-of-the-summer-of-love.html/ct_text.json",
+    "blog/short-history-of-the-summer-of-love.html/footeraddress.json",
+    "blog/short-history-of-the-summer-of-love.html/footerlinks.json",
+    "blog/sch-protips-for-parking-in-sf.html/ct_text.json",
+    "blog/sch-protips-for-parking-in-sf.html/footeraddress.json",
+    "blog/sch-protips-for-parking-in-sf.html/footerlinks.json",
+    "blog/have-breakfast-on-us-sch.html/ct_text.json",
+    "blog/have-breakfast-on-us-sch.html/footeraddress.json",
+    "blog/have-breakfast-on-us-sch.html/footerlinks.json",
+    "blog/sf-indie-fest-2017.html/ct_text.json",
+    "blog/sf-indie-fest-2017.html/footeraddress.json",
+    "blog/sf-indie-fest-2017.html/footerlinks.json",
+    "blog/the-june-festivals-you-cannot-miss-in-sf.html/ct_text.json",
+    "blog/the-june-festivals-you-cannot-miss-in-sf.html/footeraddress.json",
+    "blog/the-june-festivals-you-cannot-miss-in-sf.html/footerlinks.json",
+    "blog/the-sch-guide-2-the-summer-of-love-in-the-haight-ashbury.html/ct_text.json",
+    "blog/the-sch-guide-2-the-summer-of-love-in-the-haight-ashbury.html/footeraddress.json",
+    "blog/the-sch-guide-2-the-summer-of-love-in-the-haight-ashbury.html/footerlinks.json",
+    "blog/money-saving-tips-for-your-trip-to-sf.html/ct_text.json",
+    "blog/money-saving-tips-for-your-trip-to-sf.html/footeraddress.json",
+    "blog/money-saving-tips-for-your-trip-to-sf.html/footerlinks.json",
+    "blog/a-brief-history-of-pride.html/ct_text.json",
+    "blog/a-brief-history-of-pride.html/footeraddress.json",
+    "blog/a-brief-history-of-pride.html/footerlinks.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/ct_text.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footeraddress.json",
+    "blog/the-concerts-were-looking-4ward-2-this-summer-in-sf.html/footerlinks.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/ct_text.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footeraddress.json",
+    "blog/5-ways-to-celebrate-july-4th-in-sf-like-a-local.html/footerlinks.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/ct_text.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/footeraddress.json",
+    "blog/five-spots-to-take-your-pet-in-sf.html/footerlinks.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/ct_text.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/footeraddress.json",
+    "blog/how-to-celebrate-the-40th-sf-marathon-no-running-required.html/footerlinks.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/ct_text.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/footeraddress.json",
+    "blog/where-2-eat-clean-in-sf-according-2-sch.html/footerlinks.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/ct_text.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footeraddress.json",
+    "blog/the-sch-day-trip-guide-to-sausalito.html/footerlinks.json",
+    "blog/happy-holidays.html/ct_text.json",
+    "blog/happy-holidays.html/footeraddress.json",
+    "blog/happy-holidays.html/footerlinks.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/ct_text.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footeraddress.json",
+    "blog/a-packing-list-for-outside-lands-2017.html/footerlinks.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/ct_text.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footeraddress.json",
+    "blog/the-top-ten-reasons-to-stay-at-stanford-court.html/footerlinks.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/ct_text.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footeraddress.json",
+    "blog/five-ways-to-make-the-most-of-your-urban-bundle.html/footerlinks.json",
+    "blog/treat-yourself-to-christmas-in-july.html/ct_text.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footeraddress.json",
+    "blog/treat-yourself-to-christmas-in-july.html/footerlinks.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/ct_text.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footeraddress.json",
+    "blog/three-tips-for-doing-sf-with-kids.html/footerlinks.json",
+    "blog/the-perfect-summer-of-love-playlist-by-sch.html/ct_text.json",
+    "blog/the-perfect-summer-of-love-playlist-by-sch.html/footeraddress.json",
+    "blog/the-perfect-summer-of-love-playlist-by-sch.html/footerlinks.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/ct_text.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/footeraddress.json",
+    "blog/plan-ahead-for-dreamforce-2017.html/footerlinks.json",
+    "blog/three-tips-for-techies-visiting-sf.html/ct_text.json",
+    "blog/three-tips-for-techies-visiting-sf.html/footeraddress.json",
+    "blog/three-tips-for-techies-visiting-sf.html/footerlinks.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/ct_text.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/footeraddress.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/footerlinks.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/ct_text.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/footeraddress.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/footerlinks.json",
+    "events/duranduranat-the-mosonic.html/ct_text.json",
+    "events/duranduranat-the-mosonic.html/footeraddress.json",
+    "events/duranduranat-the-mosonic.html/footerlinks.json",
+    "events/semicon-2017-at-moscone-center.html/ct_text.json",
+    "events/semicon-2017-at-moscone-center.html/footeraddress.json",
+    "events/semicon-2017-at-moscone-center.html/footerlinks.json",
+    "events/hamilton-at-orpheum-theater.html/ct_text.json",
+    "events/hamilton-at-orpheum-theater.html/footeraddress.json",
+    "events/hamilton-at-orpheum-theater.html/footerlinks.json",
+    "events/san-francisco-pride.html/ct_text.json",
+    "events/san-francisco-pride.html/footeraddress.json",
+    "events/san-francisco-pride.html/footerlinks.json",
+    "events/michael-carbonaro-at-the-masonic.html/ct_text.json",
+    "events/michael-carbonaro-at-the-masonic.html/footeraddress.json",
+    "events/michael-carbonaro-at-the-masonic.html/footerlinks.json",
+    "events/san-franciso-marathon.html/ct_text.json",
+    "events/san-franciso-marathon.html/footeraddress.json",
+    "events/san-franciso-marathon.html/footerlinks.json",
+    "promos/enjoy-three-free-rewards.html/footeroffersheading.json",
+    "promos/enjoy-three-free-rewards.html/footerofferslink.json",
+    "promos/enjoy-three-free-rewards.html/ct_text.json",
+    "promos/enjoy-three-free-rewards.html/footeraddress.json",
+    "promos/enjoy-three-free-rewards.html/footerlinks.json",
+    "promos/discover-san-francisco.html/footeroffersheading.json",
+    "promos/discover-san-francisco.html/footerofferslink.json",
+    "promos/discover-san-francisco.html/ct_text.json",
+    "promos/discover-san-francisco.html/footeraddress.json",
+    "promos/discover-san-francisco.html/footerlinks.json",
+    "blog/page2/index.html/ct_text.json",
+    "blog/page2/index.html/footeraddress.json",
+    "blog/page2/index.html/footerlinks.json",
+    "blog/page3/index.html/ct_text.json",
+    "blog/page3/index.html/footeraddress.json",
+    "blog/page3/index.html/footerlinks.json",
+    "blog/page4/index.html/ct_text.json",
+    "blog/page4/index.html/footeraddress.json",
+    "blog/page4/index.html/footerlinks.json",
+    "blog/page5/index.html/ct_text.json",
+    "blog/page5/index.html/footeraddress.json",
+    "blog/page5/index.html/footerlinks.json",
+    "blog/page6/index.html/ct_text.json",
+    "blog/page6/index.html/footeraddress.json",
+    "blog/page6/index.html/footerlinks.json",
+    "blog/page7/index.html/ct_text.json",
+    "blog/page7/index.html/footeraddress.json",
+    "blog/page7/index.html/footerlinks.json",
+    "blog/page8/index.html/ct_text.json",
+    "blog/page8/index.html/footeraddress.json",
+    "blog/page8/index.html/footerlinks.json",
+    "blog/page9/index.html/ct_text.json",
+    "blog/page9/index.html/footeraddress.json",
+    "blog/page9/index.html/footerlinks.json",
+    "blog/page10/index.html/ct_text.json",
+    "blog/page10/index.html/footeraddress.json",
+    "blog/page10/index.html/footerlinks.json",
+    "blog/page11/index.html/ct_text.json",
+    "blog/page11/index.html/footeraddress.json",
+    "blog/page11/index.html/footerlinks.json",
+    "blog/page12/index.html/ct_text.json",
+    "blog/page12/index.html/footeraddress.json",
+    "blog/page12/index.html/footerlinks.json",
+    "blog/page13/index.html/ct_text.json",
+    "blog/page13/index.html/footeraddress.json",
+    "blog/page13/index.html/footerlinks.json",
+    "blog/page14/index.html/ct_text.json",
+    "blog/page14/index.html/footeraddress.json",
+    "blog/page14/index.html/footerlinks.json",
+    "blog/page15/index.html/ct_text.json",
+    "blog/page15/index.html/footeraddress.json",
+    "blog/page15/index.html/footerlinks.json",
+    "blog/page16/index.html/ct_text.json",
+    "blog/page16/index.html/footeraddress.json",
+    "blog/page16/index.html/footerlinks.json",
+    "blog/page17/index.html/ct_text.json",
+    "blog/page17/index.html/footeraddress.json",
+    "blog/page17/index.html/footerlinks.json"
+  ],
+  "__SETTINGS__": [
+    "pageorder",
+    "config",
+    "menu"
+  ],
+  "__SHA__": "a0f44c9156fd4bdc6b3c0b803a5069bb6e3ded32"
+}

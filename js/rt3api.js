@@ -375,9 +375,10 @@ Rt3Api.prototype.recentBookings = function(timeCutOffMinutes) {
 Rt3Api.prototype.rateCalendarForToday = function(searchParams) {
     var path = '/hotels/rate_calendar.json';
     
-    var today = new Date();
-    var startDate = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    var endDate = today.getFullYear()+'-'+(today.getMonth()+12)+'-'+today.getDate();
+    var startDate = new Date().toISOString().slice(0, 10);//today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var today = new Date(startDate);
+    var endFullDate = new Date(today.setDate(today.getDate()+120));
+    var endDate = endFullDate.toISOString().slice(0, 10); //in reztrip format
     
     
     var defaultParams = {

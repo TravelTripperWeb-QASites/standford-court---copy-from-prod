@@ -1,855 +1,900 @@
-.location-banner{
- 	margin-top:100px;
-    background-size: cover;
-    text-align: center;
-    
-    
-     .map{
+.location-banner {
+  margin-top: 100px;
+  background-size: cover;
+  text-align: center;
 
-     	  height: 400px;
+  .map {
 
-	     @media(min-width: $screen-sm-min){
+    height: 400px;
+    @media(min-width: $screen-sm-min) {
 
-	     	height: 678px;
-
-	     }
-
-     }
-
-    .banner-inner{
-
-        color: #fff;
-        padding: 20px 0px;
-
-    h2,h3,p{
-        margin:0px;
-    }
-
-    h2{
-        font-family:$base-font-family;
-        font-size:15px;
-        text-transform: uppercase;
-        padding:44px 0 14px 0;
-        
+      height: 678px;
 
     }
 
-    h3{
-        font-family:$headline-font-family;
-        text-transform: uppercase;
-        font-size: 50px;
-        padding: 20px 15px;
-        line-height: 50px;
-        letter-spacing: 7px;
-        @media(min-width: $screen-sm-min){
+  }
+
+  .banner-inner {
+
+    color: #fff;
+    padding: 20px 0;
+
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h2 {
+      font-family: $base-font-family;
+      font-size: 15px;
+      text-transform: uppercase;
+      padding: 44px 0 14px;
+
+    }
+
+    h3 {
+      font-family: $headline-font-family;
+      text-transform: uppercase;
+      font-size: 50px;
+      padding: 20px 15px;
+      line-height: 50px;
+      letter-spacing: 7px;
+      @media(min-width: $screen-sm-min) {
         font-size: 100px;
-        padding: 40px 15px 17px 15px; 
-        line-height: 100px;     
-        }
-        @media(min-width: $screen-md-min){
-        font-size:150px;
-        padding: 87px 15px 36px 15px;
+        padding: 40px 15px 17px;
+        line-height: 100px;
+      }
+      @media(min-width: $screen-md-min) {
+        font-size: 150px;
+        padding: 87px 15px 36px;
         line-height: 111px;
-        letter-spacing: 12px;     
-        }
-
-    }
-
-
-    p{
-
-        font-family:$base-font-family;
-        font-size:16px;
-        padding:15px;
-        max-width:740px;
-        margin:0 auto;
-        line-height: 24px;
-        color:white;
-
-        .phone{ 
-				    
-				    padding:3px 20px 10px  30px;
-				    background-image:url(/images/phone.png);
-				    background-repeat:no-repeat;
-				    @media( max-width: $screen-sm-min){
-				     text-align:center;		
-				     display:block;
-				    }
-				    @media( min-width: $screen-xs-min){
-				      padding:0px 50px 0px 40px;		
-				    }
-			    }
-
-
-		    .email{
-				   
-				    padding:3px 30px 4px  38px	;
-				    background-image:url(/images/email.png);
-					background-repeat:no-repeat;
-					@media( max-width: $screen-sm-min){
-				     text-align:center;	
-				      display:block;	
-				    }
-					@media( min-width: $screen-xs-min){
-				      padding-left:40px;	
-				    }
-		    	}
-		    
-		     a{
-		    color:#FFF;
-		    text-decoration:none;
-		    }	
-         @media(min-width: $screen-sm-min){
-            padding:11px 0;
-            font-size:24px;
-            line-height: 26px;
-        }
-
-    }
-    .btn-holder{
-    		padding: 25px 15px;
-	    .butn{
-	    	padding: 20px 59px;
-	    	font-size: 13px;
-	    }
-             @media(min-width: $screen-sm-min){
-             padding: 54px 15px;
-          }
-
+        letter-spacing: 12px;
       }
 
     }
-}
 
+    p {
 
-.location-map{
-	position: relative;
-	  img{
-	  width:100%;
-	  height:350px;
-	  @media(min-width: $screen-sm-min){
-		width:100%;
-		height:628px;
-	  }
-	}
+      font-family: $base-font-family;
+      font-size: 16px;
+      padding: 15px;
+      max-width: 740px;
+      margin: 0 auto;
+      line-height: 24px;
+      color: white;
 
-	
+      .phone {
 
-	.map-nav{
-		
-		
-		position: absolute;
-		bottom: 2px;
-    	line-height: 49px;
-    	width:96%;
-
-		
-	  ul{
-		  list-style: none;
-		  margin: 0;
-    	  padding: 0;
-		  
-		  li{
-			  display:inline-block;
-			
-			  list-style: none;
-			  
-			  a{
-				  background: #161515; 
-				  padding:15px 29px 20px 22px;  
-				  margin-right: -2px;
-				  background-image: url(/images/map-icons.svg);
-				  background-repeat: no-repeat;
-    			  background-position: 0px 0px;
-    			  color:#161515;
-    			  text-decoration:none;
-    			  transition: all 0.5s ease;
-				  &:hover{
-				   background: #5c6f7b;
-				   background-image: url(/images/map-icons.svg);
-				   background-repeat: no-repeat;
-    			   background-position: 0px 0px;
-				  }
-			  	}
-			   .bars{
-				 	background-position: -57px 0px;  
-					  &:hover{
-					  background-position: -57px 0px;  
-					  }
-				  }
-				  .coffee{
-					  background-position: -113px 0px; 
-					  &:hover{
-					  background-position: -113px 0px;  
-					  }
-				  }
-				  .locations{
-					  background-position: -167px 0px;
-					  &:hover{
-					  background-position: -167px 0px;  
-					  } 
-				  }
-				  .beachs{
-					   background-position: -220px 0px; 
-					   &:hover{
-					  background-position: -220px 0px;  
-					  }
-				  }
-				  .mta{
-					   background-position: -272px 0px;
-					   &:hover{
-					  background-position: -272px 0px;  
-					  }
-				  }
-				  .stations{
-						 background-position: -328px 0px;
-						 &:hover{
-					  background-position: -328px 0px; 
-					  }
-				  }
-				  .airports{
-					background-position: -382px 0px;
-					&:hover{
-					  background-position: -382px 0px;  
-					  } 
-				  }
-				  .hotels{
-					background-position: -437px 0px;
-					&:hover{
-					 background-position: -437px 0px;  
-					  }  
-				  }
-				  .hospitals{
-					background-position: -490px 0px;
-					&:hover{
-					background-position: -490px 0px;
-					} 
-				  }
-				  .shopping{
-					background-position: -546px 0px;
-					&:hover{
-					background-position: -546px 0px;
-					}
-				  }
-				  .view-all{
-					 
-					 background-image: url(/images/black-flip-arrow.svg);
-				  	 background-repeat: no-repeat;
-    			  	 background-position: 16px 18px;
-					 font-family:$base-font-family1;
-					 background-color:$primary-color;
-					 padding:16px 29px 20px 61px;
-					 background-size:34px;
-					 &:hover{
-					  background-image: url(/images/black-flip-arrow.svg);
-				  	 background-repeat: no-repeat;
-    			  	 background-position: 16px 18px;
-    			  	  background-size:34px;
-    			  	  color:#FFF;
-					 }
-				  }
-			  
-		 	 } 
-	  }	
-	}
-}
-	
-.location-bg-light{
-	background:$primary-color;
-	}
-
-.location-wrapper {
-	
-	&.location-bg-light{
-		background-size: 340%; 
-		background-image: url('/images/location/train.jpg');
-	  	background-position: bottom center; 
-      	background-repeat: no-repeat; 
-		@media(min-width: 370px){ 
-			background-size: 240%; 
-		}
-		@media(min-width: $screen-sm-min){ 
-			background-size: 110%; 
-		}
-		@media(min-width: $screen-sm-min){ 
-			background-size: 110%; 
-		}
-	     @media(min-width: $screen-md-min){ 
-	     	background-size: 114%; 
-	     }
-		  @media(min-width: $screen-custom-min){ 
-		  
-		  	background-size: 100%; 
-		  }
-	  
-	}
-
-	.table-eq{
-		width: 100%;
-	 	display: table;
-			.padd-60{
-				padding: 30px;
-				@media(min-width: $screen-md-min){ 
-				 padding: 57px 0px 37px 100px;
-				}
-			}
-
- 	       &.margin-15{
-	 	 	width: 94.6%; 
-	 	 	@media(min-width: $screen-custom-min){
-		 		width: 100%;
-		 	}
-		 	@media(max-width: $screen-xs-max){
-			 		display: inherit;
-			 		width: 96%;
-			 		width: calc(100% - 30px);
-			 	}
-	 	 	margin: 0 15px;
-	 	 	.left-cell{
-	 	 		width: 35.4%;
-	 	 		display: table-cell; 
-	 	 		@media(min-width: $screen-custom-min){
-			 		width: 34%;
-			 	}
-			 	@media(max-width: $screen-xs-max){
-			 		display: block;
-			 		width: 100%;
-			 		.ctrl{
-			 			width: 50%;
-			 			float: left;
-			 		}
-			 	}
-			 	 
-	 	 	} 
-	 	 	.high-style{   
-	 	 		vertical-align: bottom;
-	 	 		width: 63.6%; 
-	 	 		@media(min-width: $screen-custom-min){
-	 	 		   width: 66%; 
-	 	 	     }
-	 	 	     @media(max-width: $screen-xs-max){
-	 	 	     	display: block;
-	 	 	     	width: 100%;
-	 	 	     	padding-top:300px
-	 	 	     }
-	 	 		display: table-cell; 
-	 	 		 img{
-	 	 		 	position: absolute;
-	 	 		 	bottom: 0px;
-	 	 		 }
-	 	 		 h2{ 
-	 	 			font-family: $headline-font-family;
-	 	 			font-size: 30px;
-	 	 			padding: 40px 20px;
-	 	 			color: white;
-	 	 			text-align: right; 
-	 	 			letter-spacing: 0.15em;
-	 	 			text-align: right;
-	 	 			line-height: 40px;
-	 	 			@media(max-width: $screen-xs-max){
-	 	 				padding-top: 300px;
-	 	 			}
-	 	 			@media(min-width: $screen-sm-min){
-	 	 				font-size: 40px;
-	 	 				padding: 40px 30px;
-	 	 				line-height: 50px;
-	 	 			}
-	 	 			@media(min-width: $screen-custom-min){
-	 	 				font-size: 76px;
- 	 				    padding: 44px 102px;
- 	 				    line-height: 101px;
- 	 				    letter-spacing: 0.09em;
-	 	 			}
-	 	 		}
-	 	 	}
-	 	 }
-
-	 	.left-cell{
-		 	width: 50%;
-		 	display: table-cell;
-		 	vertical-align: top; 
-		 	@media(min-width: $screen-md-min){
-		 		width: 34.6%;
-		 	}
-		 	@media(max-width: $screen-xs-max){
-		 		display: block;
-		 		width: 100%;
-		 	}
-		 	  @media(max-width: $screen-sm-max){
-					.m-venue{
-			              
-			              text-align: center;
-						}
-				}
-		 	.desctiption{ 
-		 		padding: 20px;
-		 		@media(min-width: $screen-sm-min){
-		 			padding: 20px 30px 20px 20px;
-		 			}
-		 		@media(min-width: $screen-md-min){
-		 			padding: 40px;
-		 			}
-		 		@media(min-width: $screen-custom-min){
-		 			padding: 55px 50px 40px 54px;
-		 		}
-		 		.title{
-		 			text-align: center;
-		 			@media(min-width: $screen-sm-min){ 
-	                      text-align: left;
-		 			 }
-		 			 @media(min-width: $screen-md-min){
-	                      max-width: 400px;
-	                      text-align: left;
-		 			 }
-		 			 @media(min-width: $screen-custom-min){
-	                      max-width: 255px;
-	                      text-align: left;
-	                      padding-bottom: 30px;
-		 			 }
-		 		}
-		 		h4{
-	                 font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
-		         	 font-size: 12px;
-		         	 letter-spacing: 0.12em;
-		         	 text-align: center;
-		         	 @media(min-width: $screen-sm-min){ 
-	                      text-align: left;
-		 			 }
-		         	 @media(min-width: $screen-md-min){
-		         	 	font-size: 14px;
-		         	 	text-align: left;
-		         	 }
-		         	 @media(min-width: $screen-custom-min){
-		         	 	font-size: 15px;
-		         	 	text-align: left;
-		         	 }
-		 		}
-		 		hr{ 
-		 			 margin: 20px 0px;
-		 			 @media(min-width: $screen-custom-min){
-		 			 	margin: 36px 0px;
-		 			 }
-		 			 
-		 			 @media(max-width: $screen-xs-max){ 
-		 			 	margin: 20px auto;
-		 			 }
-		 		}
-		 		p{
-	                  text-align: center;
-	                  @media(min-width: $screen-sm-min){ 
-	                  	text-align: left;
-	                  }
-		 		}
-		 	}
-	 	}
-
-		.right-cell{  
-		 	width: 50%; 
-		 	display: table-cell;
-	        vertical-align: top;
-	        @media(min-width: $screen-md-min){
-	        	width: 65.4%; 
-	        }
-	        @media(max-width: $screen-xs-max){
-	        	display: block;
-	        	width: 100%;
-	        }
-	        .bg-dark{
-	        	color: white;
-	        	.title{
-	        		color: white;
-	        		 @media(min-width: $screen-custom-min){ 
-
-	        		 }
-	        	}
-	        	p{
-	        		color: white;
-	        	}
-	        	hr{
-	        		border-bottom: 1px solid white;
-
-	        	}
-	        }
-	        .content{
-	        	padding:30px;
-	        	text-align: center;
-	        	@media(min-width: $screen-sm-min){
-	        		text-align: left;
-	        		padding:50px  20px 30px 70px;
-	        	}         	
-	        	@media(min-width: $screen-md-min){
-	        		padding:50px;
-	        	}
-	        	@media(min-width: $screen-custom-min){
-	        		padding: 65px 40px 8px 129px;
-	        		
-	        		 &.amenties{
-	        		 	 padding: 43px 40px 84px 169px; 
-	                     hr{
-	    					margin-left: 30px;
-	    					margin-top: 49px;
-	    					argin-bottom: 40px;
-	                     }
-	                     
-	        		 }
-	        	}
-	        	 
-	        	h2{
-	        	   padding: 0px 20px 10px 10px ;
-	        	 	@media(min-width: $screen-md-min){
-		                  padding: 0px 80px ;
-		              }
-		              @media(min-width: $screen-md-min){
-		                  padding: 0px 73px ;
-		              }
-	        	 	}
-	        		p{
-	        	 	  padding: 0px 31px;
-					  line-height: 24px;
-	        	 	  @media(min-width: $screen-md-min){
-		                  padding: 0px 80px ;
-		              }
-		              @media(min-width: $screen-sm-min){
-		                  padding: 0px 73px ;
-		                  max-width:550px;
-		              }
-	        	 	}
-
-	        	    
-	        	 hr{
-	        	 	 margin: 20px auto;
-	        	     @media(min-width: $screen-sm-min){
-	                   margin-left: 10px;
-	        	     }
-	        	 	 @media(min-width: $screen-md-min){
-		        	 	 margin-left: 69px;
-		        	 	 margin-top: 30px;
-		        	 	 margin-bottom: 35px;
-	        	 	}	
-	        	 } 
-	        }
-		        .btn-holder{
-		        	@media(max-width: $screen-xs-max){
-		        		margin: 0px auto;
-			        	width: auto;
-			        	text-align: center !important;
-			        	
-		        	}
-		        	
-		        	@media(min-width: $screen-sm-min){
-		          	 padding-left: 36px;
-		          	 text-align: left !important;
-		          	}
-		        	@media(min-width: $screen-md-min){
-		          	 padding-left: 35px;
-		          	}
-		        	@media(min-width: $screen-custom-min){
-		          	        padding-left: 53px;
-		   					padding-top: 32px;
-		    				padding-bottom: 72px;
-		          	}
-		          }
-			 } 
-	}
-
-	.local-living{
-			padding: 0px 20px;
-			@media(min-width: $screen-sm-min){
-				padding: 0px 60px;
-			}
-			@media(max-width: $screen-xs-max){
-				text-align: center;
-		.right-cell{  
-	 	width: 50%; 
-	 	display: table-cell;
-        vertical-align: top;
-        @media(min-width: $screen-md-min){
-        	width: 65.4%; 
+        padding: 3px 20px 10px 30px;
+        background-image: url('/images/phone.png');
+        background-repeat: no-repeat;
+        @media( max-width: $screen-sm-min) {
+          text-align: center;
+          display: block;
         }
-        @media(max-width: $screen-xs-max){
-        	display: block;
-        	width: 100%;
+        @media( min-width: $screen-xs-min) {
+          padding: 0 50px 0 40px;
         }
-        .bg-dark{
-        	color: white;
-        	.title{
-        		color: white;
-        		 @media(min-width: $screen-custom-min){ 
+      }
 
-        		 }
-        	}
-        	p{
-        		color: white;
-        	}
-        	hr{
-        		border-bottom: 1px solid white;
+      .email {
 
-        	}
+        padding: 3px 30px 4px 38px;
+        background-image: url('/images/email.png');
+        background-repeat: no-repeat;
+        @media( max-width: $screen-sm-min) {
+          text-align: center;
+          display: block;
         }
+        @media( min-width: $screen-xs-min) {
+          padding-left: 40px;
+        }
+      }
 
+      a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      @media(min-width: $screen-sm-min) {
+        padding: 11px 0;
+        font-size: 24px;
+        line-height: 26px;
+      }
 
-        .content{
-        	padding:30px;
-        	text-align: center;
-        	@media(min-width: $screen-sm-min){
-        		text-align: left;
-        		padding:50px  20px 30px 70px;
-        	}         	
-        	@media(min-width: $screen-md-min){
-        		padding:50px;
-        	}
-        	@media(min-width: $screen-custom-min){
-        		padding: 65px 40px 8px 129px;
-        	}
-        	 
-        	 h2{
-        	   padding: 0px 20px 10px 10px ;
-        	 	@media(min-width: $screen-md-min){
-	                  padding: 0px 80px ;
-	              }
-	              @media(min-width: $screen-md-min){
-	                  padding: 0px 73px ;
-	              }
-        	 }
-        	p{
-        	 	 padding: 0px 31px;
-    			
-                 line-height: 24px;
-        	 	  @media(min-width: $screen-md-min){
-	                  padding: 0px 80px ;
-	              }
-	              @media(min-width: $screen-md-min){
-	                  padding: 0px 73px ;
-	              }
-        	 }
-
-        	    
-        	 hr{
-        	 	 margin: 20px auto;
-        	     @media(min-width: $screen-sm-min){
-                   margin-left: 10px;
-        	     }
-        	 	 @media(min-width: $screen-md-min){
-	        	 	 margin-left: 69px;
-	        	 	 margin-top: 30px;
-	        	 	 margin-bottom: 35px;
-        	 	}	
-        	 } 
-        	}
-        
-	 
-			} 
-			}
-			@media(min-width: $screen-custom-min){ 
-				padding: 30px 20px 30px 72px;
-			}
-
-			 .heading2{
-			font-family: "BebasNeue Regular", Helvetica, Arial, sans-serif;
-			font-size: 35px;
-			line-height: 36px;
-			color: #ffffff;
-			letter-spacing: 0.08em;
-			text-transform: uppercase;
-			@media(min-width: $screen-sm-min){
-				font-size: 40px;
-				line-height: 40px; 
-			}
-			@media(min-width: $screen-md-min){
-				font-size: 80px;
-				line-height: 80px;
-			}
-			@media(min-width: $screen-custom-min){
-				font-size: 117px;
-				line-height: 117px;
-			}
-		}
-		.heading4{
-			 font-size: 12px;
-			 word-spacing: 3px;
-    		 letter-spacing: 1px; 
-			 @media(min-width: $screen-sm-min){
-			 	font-size: 13px; 
-			 }
-			 @media(min-width: $screen-md-min){
-			 	    font-size: 15px;
-			 }
-		} 
-			 .right-content{
-			 	margin-top: 20px;
-			 	@media(min-width: $screen-sm-min){
-			 		margin-top: 30px;
-			 	}
-			 	@media(min-width: $screen-md-min){
-			 		margin-top: 60px;
-			 		margin-left: 13px;
-			 	}
-			 	@media(min-width: $screen-custom-min){
-			 		    margin-top: 131px;
-   					    margin-left: 33px;
-			 	} 
-			 	 hr{
-			 	 	 margin:36px 0px;
-			 	 	 @media(max-width: $screen-xs-max){
-			 	 	 	margin: 20px auto;
-			 	 	 }
-			 	 } 
-			 }
-			 
-			 .btn-holder{
-		        	@media(max-width: $screen-xs-max){
-		        		margin: 0px auto;
-			        	width: auto;
-			        	text-align: center !important;
-			        	
-		        	}
-		        	
-		        	@media(min-width: $screen-sm-min){
-		          	 padding-left: 0px;
-		          	 text-align: left !important;
-		          	}
-		        	@media(min-width: $screen-md-min){
-		          	 padding-left: 0px;
-		          	 padding-bottom: 54px;
-		          	}
-		        	@media(min-width: $screen-custom-min){
-		          	        padding-left: 0px;
-		   					padding-top: 80px;
-    						padding-bottom: 104px;
-		          	}
-		          }
-		        
-		}
- 
-	
-}
-
-
-.location-stay{
-	margin:60px 0px;
-.book-now-container{
-
-    position:relative;
-    height: 250px;
-    @media(min-width: $screen-sm-min){
-    height: 400px; 
-    }
-    @media(min-width: $screen-md-min){
-    height: 626px; 
     }
 
-    .heading-circle{
-             position: absolute;
-             bottom: 50%;
-             left: 50%;
-             transform: translate(-50%, 50%); 
-             border-radius: 50%;
-             background:rgba(255,255,255, 0.6);
-             text-align: center;
-             padding: 20px;
-             height: 200px;
-             width: 200px;
-             @media(min-width: $screen-sm-min){
-                padding: 40px;
-                height: 330px;
-                width: 330px;
-             }
-             @media(min-width: $screen-md-min){
-                 padding: 55px;
-                height: 447px;
-                width: 447px;
-             }
-             
-             
-             h4{
-                text-transform: uppercase;
-                font-size: 10px;
-                line-height: 12px;
-                @media(min-width: $screen-sm-min){
-                    font-size: 12px;
-                    line-height: 18px;
-                }
-                @media(min-width: $screen-md-min){
-                    font-size: 14px;
-                    line-height: 20px;
-                }
-                @media(min-width: $screen-custom-min){
-                    font-size: 15px;
-                    line-height: 30px;
-                }
-             }
-             h2{ 
-                margin-top: 20px;
-                font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
-                font-size: 16px;
-                line-height: 20px;
-                    @media(min-width: $screen-sm-min){
-                        margin-top: 30px;
-                        font-size: 26px;
-                        line-height: 32px;
-                    }
-                    @media(min-width: $screen-md-min){
-                        margin-top: 36px;
-                        font-size: 40px;
-                        line-height: 50px;
-                    }
-                    @media(min-width: $screen-custom-min){
-                        margin-top: 36px;
-                        font-size: 42px;
-                        line-height: 57px;
-                    }
-             }
-             .btn-holder{
-                 margin-top: 10px;
-                 @media(min-width: $screen-sm-min){
-                    margin-top: 27px;
-                 }
-                 @media(min-width: $screen-custom-min){
-                    margin-top: 27px;
-                 }
-             }
-        }
+    .btn-holder {
+      padding: 25px 15px;
+
+      .butn {
+        padding: 20px 59px;
+        font-size: 13px;
+      }
+      @media(min-width: $screen-sm-min) {
+        padding: 54px 15px;
+      }
+
+    }
+
+  }
 }
 
-.background-img{
-            background-size: cover;
+.location-map {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 350px;
+    @media(min-width: $screen-sm-min) {
+      width: 100%;
+      height: 628px;
     }
   }
 
- 	.arrow-link-left {
+  .map-nav {
 
- 		a{
- 			        background: url(/images/arrowroll-icon.png) left 2px;
-				    background-size: 30px;
-				    text-decoration: none;
-				    background-repeat: no-repeat;
-				    padding-left: 52px;
-				    text-decoration: none;
-				    transition: all 0.5s ease;
-				    color: white;
+    position: absolute;
+    bottom: 2px;
+    line-height: 49px;
+    width: 96%;
 
- 			    &:hover{
- 			    	    background: url(/images/arrowroll-icon.png) left -16px;
- 			    	    background-size: 30px;
- 			    	    background-repeat: no-repeat;
- 			    }
- 		}
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
 
- 	}
+      li {
+        display: inline-block;
 
-.location-links{
-	color:white;
-	text-decoration:none;
-	    transition: all 0.5s ease;
-	&:hover{
-		color:#c9d7e0;
-		text-decoration:none;
-		transition: all 0.5s ease;
-	}
+        list-style: none;
+
+        a {
+          background: #161515;
+          padding: 15px 29px 20px 22px;
+          margin-right: -2px;
+          background-image: url('/images/map-icons.svg');
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          color: #161515;
+          text-decoration: none;
+          transition: all .5s ease;
+
+          &:hover {
+            background: #5c6f7b;
+            background-image: url('/images/map-icons.svg');
+            background-repeat: no-repeat;
+            background-position: 0 0;
+          }
+        }
+
+        .bars {
+          background-position: -57px 0;
+
+          &:hover {
+            background-position: -57px 0;
+          }
+        }
+
+        .coffee {
+          background-position: -113px 0;
+
+          &:hover {
+            background-position: -113px 0;
+          }
+        }
+
+        .locations {
+          background-position: -167px 0;
+
+          &:hover {
+            background-position: -167px 0;
+          }
+        }
+
+        .beachs {
+          background-position: -220px 0;
+
+          &:hover {
+            background-position: -220px 0;
+          }
+        }
+
+        .mta {
+          background-position: -272px 0;
+
+          &:hover {
+            background-position: -272px 0;
+          }
+        }
+
+        .stations {
+          background-position: -328px 0;
+
+          &:hover {
+            background-position: -328px 0;
+          }
+        }
+
+        .airports {
+          background-position: -382px 0;
+
+          &:hover {
+            background-position: -382px 0;
+          }
+        }
+
+        .hotels {
+          background-position: -437px 0;
+
+          &:hover {
+            background-position: -437px 0;
+          }
+        }
+
+        .hospitals {
+          background-position: -490px 0;
+
+          &:hover {
+            background-position: -490px 0;
+          }
+        }
+
+        .shopping {
+          background-position: -546px 0;
+
+          &:hover {
+            background-position: -546px 0;
+          }
+        }
+
+        .view-all {
+
+          background-image: url('/images/black-flip-arrow.svg');
+          background-repeat: no-repeat;
+          background-position: 16px 18px;
+          font-family: $base-font-family1;
+          background-color: $primary-color;
+          padding: 16px 29px 20px 61px;
+          background-size: 34px;
+
+          &:hover {
+            background-image: url('/images/black-flip-arrow.svg');
+            background-repeat: no-repeat;
+            background-position: 16px 18px;
+            background-size: 34px;
+            color: #FFF;
+          }
+        }
+
+      }
+    }
+  }
 }
 
-.map{
-
-	height: 515px;
+.location-bg-light {
+  background: $primary-color;
 }
 
+.location-wrapper {
+  &.location-bg-light {
+    background-size: 340%;
+    background-image: url('/images/location/train.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    @media(min-width: 370px) {
+      background-size: 240%;
+    }
+    @media(min-width: $screen-sm-min) {
+      background-size: 110%;
+    }
+    @media(min-width: $screen-sm-min) {
+      background-size: 110%;
+    }
+    @media(min-width: $screen-md-min) {
+      background-size: 114%;
+    }
+    @media(min-width: $screen-custom-min) {
+      background-size: 100%;
+    }
+
+  }
+
+  .table-eq {
+    display: table;
+    width: 100%;
+
+    .padd-60 {
+      padding: 30px;
+      @media(min-width: $screen-md-min) {
+        padding: 57px 0 37px 100px;
+      }
+    }
+
+    &.margin-15 {
+      width: 94.6%;
+      margin: 0 15px;
+      @media(min-width: $screen-custom-min) {
+        width: 100%;
+      }
+      @media(max-width: $screen-xs-max) {
+        display: inherit;
+        width: 96%;
+        width: calc(100% - 30px);
+      }
+
+      .left-cell {
+        display: table-cell;
+        width: 35.4%;
+        @media(min-width: $screen-custom-min) {
+          width: 34%;
+        }
+        @media(max-width: $screen-xs-max) {
+          display: block;
+          width: 100%;
+
+          .ctrl {
+            width: 50%;
+            float: left;
+          }
+        }
+
+      }
+
+      .high-style {
+        vertical-align: bottom;
+        width: 63.6%;
+        @media(min-width: $screen-custom-min) {
+          width: 66%;
+        }
+        @media(max-width: $screen-xs-max) {
+          display: block;
+          width: 100%;
+          padding-top: 300px;
+        }
+        display: table-cell;
+
+        img {
+          position: absolute;
+          bottom: 0;
+        }
+
+        h2 {
+          font-family: $headline-font-family;
+          font-size: 30px;
+          padding: 40px 20px;
+          color: white;
+          text-align: right;
+          letter-spacing: .15em;
+          text-align: right;
+          line-height: 40px;
+          @media(max-width: $screen-xs-max) {
+            padding-top: 300px;
+          }
+          @media(min-width: $screen-sm-min) {
+            font-size: 40px;
+            padding: 40px 30px;
+            line-height: 50px;
+          }
+          @media(min-width: $screen-custom-min) {
+            font-size: 76px;
+            padding: 44px 102px;
+            line-height: 101px;
+            letter-spacing: .09em;
+          }
+        }
+      }
+    }
+
+    .left-cell {
+      width: 50%;
+      display: table-cell;
+      vertical-align: top;
+      @media(min-width: $screen-md-min) {
+        width: 34.6%;
+      }
+      @media(max-width: $screen-xs-max) {
+        display: block;
+        width: 100%;
+      }
+      @media(max-width: $screen-sm-max) {
+        .m-venue {
+
+          text-align: center;
+        }
+      }
+
+      .desctiption {
+        padding: 20px;
+        @media(min-width: $screen-sm-min) {
+          padding: 20px 30px 20px 20px;
+        }
+        @media(min-width: $screen-md-min) {
+          padding: 40px;
+        }
+        @media(min-width: $screen-custom-min) {
+          padding: 55px 50px 40px 54px;
+        }
+
+        .title {
+          text-align: center;
+          @media(min-width: $screen-sm-min) {
+            text-align: left;
+          }
+          @media(min-width: $screen-md-min) {
+            max-width: 400px;
+            text-align: left;
+          }
+          @media(min-width: $screen-custom-min) {
+            max-width: 255px;
+            text-align: left;
+            padding-bottom: 30px;
+          }
+        }
+
+        h4 {
+          font-family: 'GothamHTF Book', Helvetica, Arial, sans-serif;
+          font-size: 12px;
+          letter-spacing: .12em;
+          text-align: center;
+          @media(min-width: $screen-sm-min) {
+            text-align: left;
+          }
+          @media(min-width: $screen-md-min) {
+            font-size: 14px;
+            text-align: left;
+          }
+          @media(min-width: $screen-custom-min) {
+            font-size: 15px;
+            text-align: left;
+          }
+        }
+
+        hr {
+          margin: 20px 0;
+          @media(min-width: $screen-custom-min) {
+            margin: 36px 0;
+          }
+          @media(max-width: $screen-xs-max) {
+            margin: 20px auto;
+          }
+        }
+
+        p {
+          text-align: center;
+          @media(min-width: $screen-sm-min) {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .right-cell {
+      display: table-cell;
+      width: 50%;
+      background-color: #5c6f7b;
+      vertical-align: top;
+      @media(min-width: $screen-md-min) {
+        width: 65.4%;
+      }
+      @media(max-width: $screen-xs-max) {
+        display: block;
+        width: 100%;
+      }
+
+      .bg-dark {
+        color: white;
+
+        .title {
+          color: white;
+          @media(min-width: $screen-custom-min) {
+            }
+        }
+
+        p {
+          color: white;
+        }
+
+        hr {
+          border-bottom: 1px solid white;
+
+        }
+      }
+
+      .content {
+        padding: 30px;
+        text-align: center;
+        @media(min-width: $screen-sm-min) {
+          padding: 50px 20px 30px 70px;
+          text-align: left;
+        }
+        @media(min-width: $screen-md-min) {
+          padding: 50px;
+        }
+        @media(min-width: $screen-custom-min) {
+          padding: 65px 40px 8px 129px;
+
+          &.amenties {
+            padding: 43px 40px 84px 169px;
+
+            hr {
+              margin-left: 30px;
+              margin-top: 49px;
+              argin-bottom: 40px;
+            }
+
+          }
+
+        }
+
+        h2 {
+          padding: 0 20px 10px 10px;
+          @media(min-width: $screen-md-min) {
+            padding: 0 80px;
+          }
+          @media(min-width: $screen-md-min) {
+            padding: 0 73px;
+          }
+        }
+
+        p {
+          padding: 0 31px;
+          font-weight: 700;
+          line-height: 24px;
+          color: #fff;
+          @media(min-width: $screen-md-min) {
+            padding: 0 80px;
+          }
+          @media(min-width: $screen-sm-min) {
+            max-width: 550px;
+            padding: 0 73px;
+          }
+
+          a {
+            text-decoration: underline;
+            color: #fff;
+          }
+
+        }
+
+
+        hr {
+          margin: 20px auto;
+          @media(min-width: $screen-sm-min) {
+            margin-left: 10px;
+          }
+          @media(min-width: $screen-md-min) {
+            margin-left: 69px;
+            margin-top: 30px;
+            margin-bottom: 35px;
+          }
+        }
+      }
+
+      .btn-holder {
+        @media(max-width: $screen-xs-max) {
+          margin: 0 auto;
+          width: auto;
+          text-align: center !important;
+
+        }
+        @media(min-width: $screen-sm-min) {
+          padding-left: 36px;
+          text-align: left !important;
+        }
+        @media(min-width: $screen-md-min) {
+          padding-left: 35px;
+        }
+        @media(min-width: $screen-custom-min) {
+          padding-left: 53px;
+          padding-top: 32px;
+          padding-bottom: 72px;
+        }
+      }
+    }
+  }
+
+  .local-living {
+    padding: 0 20px;
+    @media(min-width: $screen-sm-min) {
+      padding: 0 60px;
+    }
+    @media(max-width: $screen-xs-max) {
+      text-align: center;
+
+      .right-cell {
+        width: 50%;
+        display: table-cell;
+        vertical-align: top;
+        @media(min-width: $screen-md-min) {
+          width: 65.4%;
+        }
+        @media(max-width: $screen-xs-max) {
+          display: block;
+          width: 100%;
+        }
+
+        .bg-dark {
+          color: white;
+
+          .title {
+            color: white;
+            @media(min-width: $screen-custom-min) {
+              }
+          }
+
+          p {
+            color: white;
+          }
+
+          hr {
+            border-bottom: 1px solid white;
+
+          }
+        }
+
+        .content {
+          padding: 30px;
+          text-align: center;
+          @media(min-width: $screen-sm-min) {
+            text-align: left;
+            padding: 50px 20px 30px 70px;
+          }
+          @media(min-width: $screen-md-min) {
+            padding: 50px;
+          }
+          @media(min-width: $screen-custom-min) {
+            padding: 65px 40px 8px 129px;
+          }
+
+          h2 {
+            padding: 0 20px 10px 10px;
+            @media(min-width: $screen-md-min) {
+              padding: 0 80px;
+            }
+            @media(min-width: $screen-md-min) {
+              padding: 0 73px;
+            }
+          }
+
+          p {
+            padding: 0 31px;
+
+            line-height: 24px;
+            @media(min-width: $screen-md-min) {
+              padding: 0 80px;
+            }
+            @media(min-width: $screen-md-min) {
+              padding: 0 73px;
+            }
+          }
+
+          hr {
+            margin: 20px auto;
+            @media(min-width: $screen-sm-min) {
+              margin-left: 10px;
+            }
+            @media(min-width: $screen-md-min) {
+              margin-left: 69px;
+              margin-top: 30px;
+              margin-bottom: 35px;
+            }
+          }
+        }
+
+      }
+    }
+    @media(min-width: $screen-custom-min) {
+      padding: 30px 20px 30px 72px;
+    }
+
+    .heading2 {
+      font-family: 'BebasNeue Regular', Helvetica, Arial, sans-serif;
+      font-size: 35px;
+      line-height: 36px;
+      color: #ffffff;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      @media(min-width: $screen-sm-min) {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      @media(min-width: $screen-md-min) {
+        font-size: 80px;
+        line-height: 80px;
+      }
+      @media(min-width: $screen-custom-min) {
+        font-size: 117px;
+        line-height: 117px;
+      }
+    }
+
+    .heading4 {
+      font-size: 12px;
+      word-spacing: 3px;
+      letter-spacing: 1px;
+      @media(min-width: $screen-sm-min) {
+        font-size: 13px;
+      }
+      @media(min-width: $screen-md-min) {
+        font-size: 15px;
+      }
+    }
+
+    .right-content {
+      margin-top: 20px;
+      @media(min-width: $screen-sm-min) {
+        margin-top: 30px;
+      }
+      @media(min-width: $screen-md-min) {
+        margin-top: 60px;
+        margin-left: 13px;
+      }
+      @media(min-width: $screen-custom-min) {
+        margin-top: 131px;
+        margin-left: 33px;
+      }
+
+      hr {
+        margin: 36px 0;
+        @media(max-width: $screen-xs-max) {
+          margin: 20px auto;
+        }
+      }
+    }
+
+    .btn-holder {
+      @media(max-width: $screen-xs-max) {
+        margin: 0 auto;
+        width: auto;
+        text-align: center !important;
+
+      }
+      @media(min-width: $screen-sm-min) {
+        padding-left: 0;
+        text-align: left !important;
+      }
+      @media(min-width: $screen-md-min) {
+        padding-left: 0;
+        padding-bottom: 54px;
+      }
+      @media(min-width: $screen-custom-min) {
+        padding-left: 0;
+        padding-top: 80px;
+        padding-bottom: 104px;
+      }
+    }
+
+  }
+
+}
+
+.location-stay {
+  margin: 60px 0;
+
+  .book-now-container {
+
+    position: relative;
+    height: 250px;
+    @media(min-width: $screen-sm-min) {
+      height: 400px;
+    }
+    @media(min-width: $screen-md-min) {
+      height: 626px;
+    }
+
+    .heading-circle {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      border-radius: 50%;
+      background: rgba(255,255,255, 0.6);
+      text-align: center;
+      padding: 20px;
+      height: 200px;
+      width: 200px;
+      @media(min-width: $screen-sm-min) {
+        padding: 40px;
+        height: 330px;
+        width: 330px;
+      }
+      @media(min-width: $screen-md-min) {
+        padding: 55px;
+        height: 447px;
+        width: 447px;
+      }
+
+      h4 {
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 12px;
+        @media(min-width: $screen-sm-min) {
+          font-size: 12px;
+          line-height: 18px;
+        }
+        @media(min-width: $screen-md-min) {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        @media(min-width: $screen-custom-min) {
+          font-size: 15px;
+          line-height: 30px;
+        }
+      }
+
+      h2 {
+        margin-top: 20px;
+        font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        @media(min-width: $screen-sm-min) {
+          margin-top: 30px;
+          font-size: 26px;
+          line-height: 32px;
+        }
+        @media(min-width: $screen-md-min) {
+          margin-top: 36px;
+          font-size: 40px;
+          line-height: 50px;
+        }
+        @media(min-width: $screen-custom-min) {
+          margin-top: 36px;
+          font-size: 42px;
+          line-height: 57px;
+        }
+      }
+
+      .btn-holder {
+        margin-top: 10px;
+        @media(min-width: $screen-sm-min) {
+          margin-top: 27px;
+        }
+        @media(min-width: $screen-custom-min) {
+          margin-top: 27px;
+        }
+      }
+    }
+  }
+
+  .background-img {
+    background-size: cover;
+  }
+}
+
+.arrow-link-left {
+  a {
+    background: url('/images/arrowroll-icon.png') left 2px;
+    background-size: 30px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    padding-left: 52px;
+    text-decoration: none;
+    transition: all .5s ease;
+    color: white;
+
+    &:hover {
+      background: url('/images/arrowroll-icon.png') left -16px;
+      background-size: 30px;
+      background-repeat: no-repeat;
+    }
+  }
+
+}
+
+.location-links {
+  color: white;
+  text-decoration: none;
+  transition: all .5s ease;
+
+  &:hover {
+    color: #c9d7e0;
+    text-decoration: none;
+    transition: all .5s ease;
+  }
+}
+
+.map {
+
+  height: 515px;
+}
