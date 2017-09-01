@@ -217,6 +217,34 @@
         }
       ]
     },
+    "business-travel": {
+      "__PAGES__": [
+        {
+          "label": "San Francisco Modern Boutique Hotels | Stanford Court",
+          "published": true,
+          "locales": {
+            "en": "/business-travel/"
+          },
+          "data_source": null,
+          "source_path": "business-travel.html",
+          "order": 14
+        }
+      ]
+    },
+    "contact-us-business": {
+      "__PAGES__": [
+        {
+          "label": "Contact Us | Stanford Court Hotel Official Website",
+          "published": true,
+          "locales": {
+            "en": "/contact-us-business/"
+          },
+          "data_source": null,
+          "source_path": "contact-us-business.html",
+          "order": 15
+        }
+      ]
+    },
     "contact-us": {
       "__PAGES__": [
         {
@@ -283,7 +311,7 @@
           },
           "data_source": null,
           "source_path": "group-special-offer.html",
-          "order": 18
+          "order": 20
         }
       ]
     },
@@ -297,7 +325,7 @@
           },
           "data_source": null,
           "source_path": "page-not-found.html",
-          "order": 20
+          "order": 22
         }
       ]
     },
@@ -451,7 +479,7 @@
           },
           "data_source": null,
           "source_path": "web-exclusive-offer.html",
-          "order": 31
+          "order": 33
         }
       ]
     }
@@ -460,6 +488,28 @@
     "bill.html/ct_text.json",
     "bill.html/footeraddress.json",
     "bill.html/footerlinks.json",
+    "business-travel.html/heading_h2.json",
+    "business-travel.html/heading_h3.json",
+    "business-travel.html/heading_description.json",
+    "business-travel.html/heading_h1_top.json",
+    "business-travel.html/heading_h4.json",
+    "business-travel.html/heading_h1_bottom.json",
+    "business-travel.html/body_image_right.json",
+    "business-travel.html/body_text_above_photos.json",
+    "business-travel.html/body_image_left.json",
+    "business-travel.html/body_text_below_photos.json",
+    "business-travel.html/list_amenities.json",
+    "business-travel.html/cta_below_amenities.json",
+    "business-travel.html/ct_text.json",
+    "business-travel.html/footeraddress.json",
+    "business-travel.html/footerlinks.json",
+    "contact-us-business.html/heading_h3.json",
+    "contact-us-business.html/heading_h1.json",
+    "contact-us-business.html/content.json",
+    "contact-us-business.html/formtext.json",
+    "contact-us-business.html/ct_text.json",
+    "contact-us-business.html/footeraddress.json",
+    "contact-us-business.html/footerlinks.json",
     "contact-us.html/heading.json",
     "contact-us.html/text.json",
     "contact-us.html/formtext.json",
@@ -526,20 +576,24 @@
     "amenities/green-hotel.html/ct_text.json",
     "amenities/green-hotel.html/footeraddress.json",
     "amenities/green-hotel.html/footerlinks.json",
+    "group-special-offer.html/heading.json",
+    "group-special-offer.html/offer.json",
+    "group-special-offer.html/content-heading.json",
+    "group-special-offer.html/specials-link.json",
+    "group-special-offer.html/content.json",
+    "group-special-offer.html/heading-circle.json",
+    "group-special-offer.html/heading-circle-link.json",
     "group-special-offer.html/ct_text.json",
     "group-special-offer.html/footeraddress.json",
     "group-special-offer.html/footerlinks.json",
+    "events/index.html/ct_text.json",
+    "events/index.html/footeraddress.json",
+    "events/index.html/footerlinks.json",
     "promos/index.html/footeroffersheading.json",
     "promos/index.html/footerofferslink.json",
     "promos/index.html/ct_text.json",
     "promos/index.html/footeraddress.json",
     "promos/index.html/footerlinks.json",
-    "blog/index.html/ct_text.json",
-    "blog/index.html/footeraddress.json",
-    "blog/index.html/footerlinks.json",
-    "events/index.html/ct_text.json",
-    "events/index.html/footeraddress.json",
-    "events/index.html/footerlinks.json",
     "amenities/index.html/heading.json",
     "amenities/index.html/maintext.json",
     "amenities/index.html/subheading.json",
@@ -551,6 +605,22 @@
     "amenities/index.html/ct_text.json",
     "amenities/index.html/footeraddress.json",
     "amenities/index.html/footerlinks.json",
+    "blog/index.html/ct_text.json",
+    "blog/index.html/footeraddress.json",
+    "blog/index.html/footerlinks.json",
+    "attractions/index.html/heading.json",
+    "attractions/index.html/maintext.json",
+    "attractions/index.html/subheading.json",
+    "attractions/index.html/title.json",
+    "attractions/index.html/details.json",
+    "attractions/index.html/featuredtitle.json",
+    "attractions/index.html/featuredtext.json",
+    "attractions/index.html/featuredlink.json",
+    "attractions/index.html/footereventsheading.json",
+    "attractions/index.html/footereventslink.json",
+    "attractions/index.html/ct_text.json",
+    "attractions/index.html/footeraddress.json",
+    "attractions/index.html/footerlinks.json",
     "index.html/welcome-heading.json",
     "index.html/welcome-text.json",
     "index.html/bluebox-heading.json",
@@ -584,19 +654,6 @@
     "index.html/ct_text.json",
     "index.html/footeraddress.json",
     "index.html/footerlinks.json",
-    "attractions/index.html/heading.json",
-    "attractions/index.html/maintext.json",
-    "attractions/index.html/subheading.json",
-    "attractions/index.html/title.json",
-    "attractions/index.html/details.json",
-    "attractions/index.html/featuredtitle.json",
-    "attractions/index.html/featuredtext.json",
-    "attractions/index.html/featuredlink.json",
-    "attractions/index.html/footereventsheading.json",
-    "attractions/index.html/footereventslink.json",
-    "attractions/index.html/ct_text.json",
-    "attractions/index.html/footeraddress.json",
-    "attractions/index.html/footerlinks.json",
     "page-not-found.html/ct_text.json",
     "page-not-found.html/footeraddress.json",
     "page-not-found.html/footerlinks.json",
@@ -701,6 +758,18 @@
     "blog/san-francisco-things-january.html/ct_text.json",
     "blog/san-francisco-things-january.html/footeraddress.json",
     "blog/san-francisco-things-january.html/footerlinks.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/ct_text.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/footeraddress.json",
+    "blog/three-tips-for-enjoying-sf-cable-car-culture.html/footerlinks.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/ct_text.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/footeraddress.json",
+    "blog/apps-we-are-downloading-now-summer-2017.html/footerlinks.json",
+    "blog/five-free-things-to-do-in-sf.html/ct_text.json",
+    "blog/five-free-things-to-do-in-sf.html/footeraddress.json",
+    "blog/five-free-things-to-do-in-sf.html/footerlinks.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/ct_text.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footeraddress.json",
+    "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footerlinks.json",
     "blog/favorite-san-francisco-views.html/ct_text.json",
     "blog/favorite-san-francisco-views.html/footeraddress.json",
     "blog/favorite-san-francisco-views.html/footerlinks.json",
@@ -983,6 +1052,12 @@
     "blog/three-tips-for-techies-visiting-sf.html/ct_text.json",
     "blog/three-tips-for-techies-visiting-sf.html/footeraddress.json",
     "blog/three-tips-for-techies-visiting-sf.html/footerlinks.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/ct_text.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/footeraddress.json",
+    "blog/the-best-wine-bars-in-nob-hill-according-to-sch.html/footerlinks.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/ct_text.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/footeraddress.json",
+    "blog/five-things-that-will-steal-your-heart-in-sf.html/footerlinks.json",
     "events/duranduranat-the-mosonic.html/ct_text.json",
     "events/duranduranat-the-mosonic.html/footeraddress.json",
     "events/duranduranat-the-mosonic.html/footerlinks.json",
@@ -1055,12 +1130,15 @@
     "blog/page15/index.html/footerlinks.json",
     "blog/page16/index.html/ct_text.json",
     "blog/page16/index.html/footeraddress.json",
-    "blog/page16/index.html/footerlinks.json"
+    "blog/page16/index.html/footerlinks.json",
+    "blog/page17/index.html/ct_text.json",
+    "blog/page17/index.html/footeraddress.json",
+    "blog/page17/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
     "pageorder",
     "config",
     "menu"
   ],
-  "__SHA__": "bf22d9b8700d2be6fe094a11173bdd916d8b8c3e"
+  "__SHA__": "a0f44c9156fd4bdc6b3c0b803a5069bb6e3ded32"
 }

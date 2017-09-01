@@ -11,6 +11,26 @@
       "file": "blog10.json"
     },
     {
+      "name": "3 Tips for Enjoying SF Cable Car Culture",
+      "title": "3 Tips for Enjoying SF Cable Car Culture",
+      "file": "blog100.json"
+    },
+    {
+      "name": "Apps WeÔÇÖre Downloading Now ÔÇö Summer 2017",
+      "title": "Apps WeÔÇÖre Downloading Now ÔÇö Summer 2017",
+      "file": "blog101.json"
+    },
+    {
+      "name": "5 Free Things 2 Do in SF",
+      "title": "5 Free Things 2 Do in SF",
+      "file": "blog102.json"
+    },
+    {
+      "name": "Chocolate for Days: The 2017 Ghirardelli Chocolate Festival",
+      "title": "Chocolate for Days: The 2017 Ghirardelli Chocolate Festival",
+      "file": "blog103.json"
+    },
+    {
       "name": "Our Favourite San Francisco Views",
       "title": "Our Favourite San Francisco Views",
       "file": "blog11.json"
@@ -56,8 +76,8 @@
       "file": "blog19.json"
     },
     {
-      "name": "The Apps WeΓÇÖre Downloading in February 2017",
-      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "name": "The Apps WeÔÇÖre Downloading in February 2017",
+      "title": "The Apps WeÔÇÖre Downloading in February 2017",
       "file": "blog2.json"
     },
     {
@@ -71,8 +91,8 @@
       "file": "blog21.json"
     },
     {
-      "name": "StanΓÇÖs San Francisco Activity Suggestions",
-      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "name": "StanÔÇÖs San Francisco Activity Suggestions",
+      "title": "StanÔÇÖs San Francisco Activity Suggestions",
       "file": "blog22.json"
     },
     {
@@ -81,8 +101,8 @@
       "file": "blog23.json"
     },
     {
-      "name": "FatherΓÇÖs Day Activities in San Francisco",
-      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "name": "FatherÔÇÖs Day Activities in San Francisco",
+      "title": "FatherÔÇÖs Day Activities in San Francisco",
       "file": "blog24.json"
     },
     {
@@ -106,8 +126,8 @@
       "file": "blog28.json"
     },
     {
-      "name": "MotherΓÇÖs Day Activities in San Francisco",
-      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "name": "MotherÔÇÖs Day Activities in San Francisco",
+      "title": "MotherÔÇÖs Day Activities in San Francisco",
       "file": "blog29.json"
     },
     {
@@ -166,8 +186,8 @@
       "file": "blog39.json"
     },
     {
-      "name": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
-      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "name": "I Left My <3 in San Francisco - ValentineÔÇÖs Day Package",
+      "title": "I Left My <3 in San Francisco - ValentineÔÇÖs Day Package",
       "file": "blog4.json"
     },
     {
@@ -186,8 +206,8 @@
       "file": "blog42.json"
     },
     {
-      "name": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
-      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "name": "Stay On Track At San FranciscoÔÇÖs Stanford Court Hotel!",
+      "title": "Stay On Track At San FranciscoÔÇÖs Stanford Court Hotel!",
       "file": "blog43.json"
     },
     {
@@ -221,8 +241,8 @@
       "file": "blog49.json"
     },
     {
-      "name": "The 10th Annual Crunchies ΓÇô Our Picks",
-      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "name": "The 10th Annual Crunchies ÔÇô Our Picks",
+      "title": "The 10th Annual Crunchies ÔÇô Our Picks",
       "file": "blog5.json"
     },
     {
@@ -276,8 +296,8 @@
       "file": "blog59.json"
     },
     {
-      "name": "Things to Do in San Francisco ΓÇô February 2017",
-      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "name": "Things to Do in San Francisco ÔÇô February 2017",
+      "title": "Things to Do in San Francisco ÔÇô February 2017",
       "file": "blog6.json"
     },
     {
@@ -346,8 +366,8 @@
       "file": "blog72.json"
     },
     {
-      "name": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
-      "title": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
+      "name": "What WeÔÇÖre Excited 4 @ Google I/O 2017",
+      "title": "What WeÔÇÖre Excited 4 @ Google I/O 2017",
       "file": "blog73.json"
     },
     {
@@ -386,8 +406,8 @@
       "file": "blog8.json"
     },
     {
-      "name": "The June Festivals U CanΓÇÖt Miss in SF",
-      "title": "The June Festivals U CanΓÇÖt Miss in SF",
+      "name": "The June Festivals U CanÔÇÖt Miss in SF",
+      "title": "The June Festivals U CanÔÇÖt Miss in SF",
       "file": "blog80.json"
     },
     {
@@ -479,13 +499,16 @@
       "name": "3 Tips 4 Techies Visiting SF",
       "title": "3 Tips 4 Techies Visiting SF",
       "file": "blog97.json"
-    }
-  ],
-  "event_category": [
+    },
     {
-      "name": "The Perfect Summer of Love Playlist, by SCH",
-      "title": "The Perfect Summer of Love Playlist, by SCH",
-      "file": "blog95.json"
+      "name": "The Best Wine Bars in Nob Hill, According 2 SCH",
+      "title": "The Best Wine Bars in Nob Hill, According 2 SCH",
+      "file": "blog98.json"
+    },
+    {
+      "name": "5 Things That Will Steal Your Heart in SF",
+      "title": "5 Things That Will Steal Your Heart in SF",
+      "file": "blog99.json"
     }
   ],
   "events": [
@@ -712,8 +735,8 @@
       "file": "press1.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCOÔÇÖS NOB HILL",
+      "title": "SAN FRANCISCOÔÇÖS NOB HILL",
       "file": "press10.json"
     },
     {
@@ -722,8 +745,8 @@
       "file": "press11.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
-      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "name": "SAN FRANCISCOÔÇÖS NOB HILL",
+      "title": "SAN FRANCISCOÔÇÖS NOB HILL",
       "file": "press12.json"
     },
     {
@@ -732,8 +755,8 @@
       "file": "press13.json"
     },
     {
-      "name": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
-      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "name": "TRIP ADVISOR ÔÇô CERTIFICATE OF EXCELLENCE",
+      "title": "TRIP ADVISOR ÔÇô CERTIFICATE OF EXCELLENCE",
       "file": "press14.json"
     },
     {
@@ -757,8 +780,8 @@
       "file": "press2.json"
     },
     {
-      "name": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
-      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "name": "NOB HILLÔÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "title": "NOB HILLÔÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
       "file": "press3.json"
     },
     {
@@ -777,8 +800,8 @@
       "file": "press6.json"
     },
     {
-      "name": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
-      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "name": "SAN FRANCISCOÔÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "title": "SAN FRANCISCOÔÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
       "file": "press7.json"
     },
     {
