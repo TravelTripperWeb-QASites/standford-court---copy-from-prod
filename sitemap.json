@@ -770,6 +770,12 @@
     "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/ct_text.json",
     "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footeraddress.json",
     "blog/chocolate-for-days-the-2017-ghirardelli-chocolate-festival.html/footerlinks.json",
+    "blog/three-ways-we-are-getting-green-in-cali.html/ct_text.json",
+    "blog/three-ways-we-are-getting-green-in-cali.html/footeraddress.json",
+    "blog/three-ways-we-are-getting-green-in-cali.html/footerlinks.json",
+    "blog/the-color-factory-is-the-most-instagram-worthy-thing-in-sf-right-now.html/ct_text.json",
+    "blog/the-color-factory-is-the-most-instagram-worthy-thing-in-sf-right-now.html/footeraddress.json",
+    "blog/the-color-factory-is-the-most-instagram-worthy-thing-in-sf-right-now.html/footerlinks.json",
     "blog/favorite-san-francisco-views.html/ct_text.json",
     "blog/favorite-san-francisco-views.html/footeraddress.json",
     "blog/favorite-san-francisco-views.html/footerlinks.json",
@@ -1133,12 +1139,15 @@
     "blog/page16/index.html/footerlinks.json",
     "blog/page17/index.html/ct_text.json",
     "blog/page17/index.html/footeraddress.json",
-    "blog/page17/index.html/footerlinks.json"
+    "blog/page17/index.html/footerlinks.json",
+    "blog/page18/index.html/ct_text.json",
+    "blog/page18/index.html/footeraddress.json",
+    "blog/page18/index.html/footerlinks.json"
   ],
   "__SETTINGS__": [
     "pageorder",
     "config",
     "menu"
   ],
-  "__SHA__": "7a51f74cff522f801112b72fa4647eff87d71fcc"
+  "__SHA__": "e6e7ad474407bfbf422d2bca8ac8a5125d8071bd"
 }
