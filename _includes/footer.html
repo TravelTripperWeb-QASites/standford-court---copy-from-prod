@@ -120,6 +120,27 @@ function getIp(data){
 <!-- jQuery is included in main.min.js (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/js/main.min.js"></script>
 
+<!--New Booking Widget-->
+
+<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script> 
+<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script> 
+<script>
+   
+    TTWeb.Config.configure({
+      hotelId: 'SFOSTF', //'orwhatever your values are',
+      portalId: 'stanfordcourt',
+      defaultTimezone: 'America/New_York', // timezone of site
+      ipAddress: sessionStorage.ip_add,
+      defaultCurrency: 'USD'
+    });
+    
+
+    $("[show-booking-widget]").bookingWidget({
+         showRateCalendar: true,
+         showOfferCode: true          
+    });
+</script>
+
 {% if page.url == '/' %}
   <!-- Mobile detection and custom functions for homepage slider videos -->
   <script src="/js/mobile-detect.js"></script>
