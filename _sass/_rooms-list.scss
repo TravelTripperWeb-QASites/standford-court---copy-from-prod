@@ -276,3 +276,61 @@
 	}	
 
 }
+/*instacol*/
+.instagramimg{
+	.img-responsive {
+		height: 150px;
+		/*margin-bottom: 30px;*/
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.row{
+		/*margin-top: 60px;*/
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	.instacol{
+		a{
+			:hover{
+				opacity: 0.8;
+			}
+		}
+		.col-md-1 {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			}
+		.col-sm-3 {
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			} 
+		.col-xs-2{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			} 
+		}
+	}
+.instagram{
+	padding-left: 0px;
+	padding-right: 0px;
+	.insta-wrapper{
+		padding-left: 0px;
+		padding-right: 0px;
+		.col-sm-3{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+			.sharelove{
+				h4{
+					background-color: $darkgrey;
+					a{
+						color: #FFFFFF;
+						&:hover{
+							color: #FFFFFF;
+						}
+					}
+				}
+				/*text-align: left;*/
+			}
+		}
+	}
