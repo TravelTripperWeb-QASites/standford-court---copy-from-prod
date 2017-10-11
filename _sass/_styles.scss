@@ -1189,8 +1189,9 @@ body {
         .butn{
             width: 100%;
             background-color: transparent;
+            padding: 10px 0 10px 0;
             &:hover{
-                background-color: #161515;
+                background-color: $darkgray-color;
                 color: $white;
             }
         }
