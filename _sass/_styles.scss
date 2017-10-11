@@ -1173,8 +1173,29 @@ body {
             }
         }
     }
+    .email-content{
+        padding-right: 0px;
+    }
+    #eclubCheck{
+        overflow: hidden;
+    }
+    .error-code{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-holder{
+        padding: 0px 0 0 0;
+        width: 100%;
+        .butn{
+            width: 100%;
+            background-color: transparent;
+            &:hover{
+                background-color: #161515;
+                color: $white;
+            }
+        }
+    }
     .input-group {
-        border-bottom: 1px solid $black;
         input,
         button,
         .input-group-addon {
@@ -1190,6 +1211,10 @@ body {
                 height: 20px;
             }
         }
+        input[type="email"]{
+            border-bottom: 1px solid $black;
+        }
+
     }
 }
 
