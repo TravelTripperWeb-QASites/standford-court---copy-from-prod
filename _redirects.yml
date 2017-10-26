@@ -381,7 +381,7 @@
 - blog/tsc/stan/feed/: blog/
 - Contact-Us: contact-us/
 - convenience/amenities/: amenities/
-- convenience/green-hotels-san-francisco-2/: amenities/
+- convenience/green-hotels-san-francisco-2/: amenities/green-hotel/
 - convenience/pet-friendly/: amenities/
 - de/attraction-type/culture-de/: attractions/
 - de/attraction-type/fitness-de/feed/: attractions/
