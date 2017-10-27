@@ -1766,3 +1766,11 @@ hr{
     	letter-spacing: 2px;
 	}
 }
+a{
+	&.darkchocolate{
+		color: $dark-chocolate;
+		&:hover{
+			color: $primary-color;
+		}
+	}
+}
