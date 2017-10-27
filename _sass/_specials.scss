@@ -14,6 +14,9 @@
 		     @media( min-width: $screen-xs-min){
 			font-size: 17px;
 		     }
+		     a{
+		     color: #161515;
+		     }
 	    }
 
 	    h1{
@@ -23,6 +26,9 @@
 		    font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
 		    @media( min-width: $screen-xs-min){
 		     font-size: 42px;
+		     }
+		     a{
+		     color: #161515;
 		     }
 	    }
 	    p{
