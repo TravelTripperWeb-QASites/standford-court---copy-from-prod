@@ -1,6 +1,6 @@
 [
   {
     "_template": "html",
-    "content": "<p>Stay in the center of it all, <a title=\"San Francisco area\" href=\"https://www.stanfordcourt.com/explore/\">San Francisco's most intriguing neighborhoods</a> are right at your doorstep. Eat, drink, shop, and immerse yourself in local culture and come back to enjoy some of the city's <a title=\"Nob Hill accommodation\" href=\"https://www.stanfordcourt.com/rooms/\">best accommodations</a> and amenities.</p>"
+    "content": "<p>Stay in the center of it all, <a class=\"darkchocolate\" title=\"San Francisco area\" href=\"https://www.stanfordcourt.com/explore/\">San Francisco's most intriguing neighborhoods</a> are right at your doorstep. Eat, drink, shop, and immerse yourself in local culture and come back to enjoy some of the city's <a class=\"darkchocolate\" title=\"Nob Hill accommodation\" href=\"https://www.stanfordcourt.com/rooms/\">best accommodations</a> and amenities.</p>"
   }
 ]
