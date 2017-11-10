@@ -128,8 +128,12 @@
     }
 </script>
 <script src="https://api.ipify.org?format=jsonp&callback=getIp"></script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeQ3-Pa0C_o06zvS5iLtO3is3-TXbufzY"></script>
 <!-- jQuery is included in main.min.js (necessary for Bootstrap's JavaScript plugins) -->
 <script src="/js/main.min.js"></script>
+
 
 <script src="/js/utm-tracking.js"></script>
 <!--New Booking Widget-->
@@ -155,9 +159,11 @@
 <script src="/js/mobile-detect.js"></script>
 <script src="/js/jquery.mobile.js"></script>
 {% endif %}
+
+
 <script type="text/javascript">
     // instafeed
-     var userFeed = new Instafeed({
+    /* var userFeed = new Instafeed({
       get: 'user',
       userId: '458067763',
       clientId: '8d1b4f56d6dc4a239aff8e5a735ed661',
@@ -169,160 +175,8 @@
       links: false
     });
     userFeed.run();
-    
-    function initMap() {
-      var myLatLng = {lat: 37.791529, lng: -122.409594};
-    
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-    
-        center: new google.maps.LatLng(37.791529, -122.409594),
-    scrollwheel: false,
-    styles: [
-          {elementType: 'geometry', stylers: [{color: '#e4e1dc'}]},
-          {elementType: 'labels.text.stroke', stylers: [{color: '#fefefe'}]},
-          {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-          {
-            featureType: 'administrative.locality',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#d59563'}]
-          },
-          {
-            featureType: 'poi',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#d59563'}]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'geometry',
-            stylers: [{color: '#a3a3a3'}]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#6b9a76'}]
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry',
-            stylers: [{color: '#fefefe'}]
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#fefefe'}]
-          },
-          {
-            featureType: 'road',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#9ca5b3'}]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry',
-            stylers: [{color: '#fefefe'}]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#fefefe'}]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#f3d19c'}]
-          },
-          {
-            featureType: 'transit',
-            elementType: 'geometry',
-            stylers: [{color: '#2f3948'}]
-          },
-          {
-            featureType: 'transit.station',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#d59563'}]
-          },
-          {
-            featureType: 'water',
-            elementType: 'geometry',
-            stylers: [{color: '#9cb9bf'}]
-          },
-          {
-            featureType: 'water',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#515c6d'}]
-          },
-          {
-            featureType: 'water',
-            elementType: 'labels.text.stroke',
-            stylers: [{color: '#9cb9bf'}]
-          }
-        ]
-      });
-    var iconBase = '/images/';
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'Stanford Court Hotel',
-    icon: iconBase + 'loc.png'
-      });
-    
-    }
-    
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeQ3-Pa0C_o06zvS5iLtO3is3-TXbufzY&callback=initMap"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-     $(".menu-btn").click(function(){
-       $(".main-menu").slideToggle(300);
-     });
-     $('#lightgallery').lightGallery({
-        selector: '.item',
-      counter: false,
-      fullScreen: false
-      });
-    $('.video-player-param').lightGallery({
-          youtubePlayerParams: {
-              modestbranding: 1,
-              showinfo: 0,
-              rel: 0,
-              controls: 0
-          },
-          vimeoPlayerParams: {
-              byline: 0,
-              portrait: 0,
-              color: 'A90707'
-          }
-      });
-    
-    });
-    
-    $(document).ready(function() {
-    $(".home-banner-wrap .item").hover(function(){
-     $(this).find(".transparent-bg").toggle();
-    });
-    
-    
-    $(".filter").on("click", function () {
-    var $this = $(this);
-    // if we click the active tab, do nothing
-    if (!$this.hasClass("active")) {
-      $(".filter").removeClass("active");
-      $this.addClass("active"); // set the active tab
-      var $filter = $this.data("rel"); // get the data-rel value from selected tab and set as filter
-      $filter == 'all' ? // if we select "view all", return to initial settings and show all
-        $(".fancybox").attr("data-fancybox-group", "gallery").not(":visible").fadeIn()
-        : // otherwise
-        $(".fancybox").fadeOut(0).filter(function () {
-          return $(this).data("filter") == $filter; // set data-filter value as the data-rel value of selected tab
-        }).attr("data-fancybox-group", $filter).fadeIn(1000); // set data-fancybox-group and show filtered elements
-    } // if
-    }); // on
-    
-    
-    });
-    
-</script>
+    */  
+</script> 
 <script src="https://www.speedrfp.com/irfps/js/widget/" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
     var options = {};
