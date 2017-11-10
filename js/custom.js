@@ -212,15 +212,27 @@ $(document).ready(function () {
 	$.ajax({
 		url: instaurl,
 		dataType: "jsonp",
-		success: function (response) {
-			setTimeout(function () {
-				$.each(response.data, function (i, item) {
-					$('.t-feeds').find('.photolist' + i).html('<a href="' + item.link + '" target="_blank"><img src="' + item.images.standard_resolution.url + '" class="img-respond"/><span class="insta-icon"><img src="/images/gates/location/instagram.png" alt=""/></span><div class="insta-overlay"><div class="overlay-con"><img src="/images/gates/location/instagram.png"><span>Follow Us <br> on Instagram</span></div></div></a>');
-				});
-			}, 1000);
-		}
-	});
-	var configProfile = {
+		success: function (response) { 
+           	console.log('ok insta');
+             setTimeout(function(){
+             $.each(response.data, function(i, item) {
+                 if($(window).width() >= 767){
+                    if(i>5) return false;
+                 }else{
+                   if(i>5) return false;
+                 }
+                 
+                 $('<div class="col-sm-4 col-md-2 insta-image p-0"><a href="'+item.link+'" target="_blank"><figure style="background-image:url('+item.images.standard_resolution.url+');"> </figure> </a></div>').appendTo('#instafeed');
+              });
+             var heightDIV = $('#instafeed div:first-child').innerWidth();
+             $('#instafeed div').each(function(){
+                $(this).css('height', heightDIV+'px');
+             });
+             $('#instafeed').slideDown('slow');
+           },1000);
+           }
+   });
+	/*var configProfile = {
 		"domId": 'soicalfeed',
 		"maxTweets": 7,
 		"enableLinks": true,
@@ -228,7 +240,110 @@ $(document).ready(function () {
 		"showTime": true,
 		"showImages": false,
 		"lang": 'en'
-	};
+	};*/
+
+        //google map
+    	function initMap() {
+    	  var myLatLng = {lat: 37.791529, lng: -122.409594};
+    	
+    	  var map = new google.maps.Map(document.getElementById('map'), {
+    	    zoom: 15,
+    	
+    	    center: new google.maps.LatLng(37.791529, -122.409594),
+    	scrollwheel: false,
+    	styles: [
+    	      {elementType: 'geometry', stylers: [{color: '#e4e1dc'}]},
+    	      {elementType: 'labels.text.stroke', stylers: [{color: '#fefefe'}]},
+    	      {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+    	      {
+    	        featureType: 'administrative.locality',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#d59563'}]
+    	      },
+    	      {
+    	        featureType: 'poi',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#d59563'}]
+    	      },
+    	      {
+    	        featureType: 'poi.park',
+    	        elementType: 'geometry',
+    	        stylers: [{color: '#a3a3a3'}]
+    	      },
+    	      {
+    	        featureType: 'poi.park',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#6b9a76'}]
+    	      },
+    	      {
+    	        featureType: 'road',
+    	        elementType: 'geometry',
+    	        stylers: [{color: '#fefefe'}]
+    	      },
+    	      {
+    	        featureType: 'road',
+    	        elementType: 'geometry.stroke',
+    	        stylers: [{color: '#fefefe'}]
+    	      },
+    	      {
+    	        featureType: 'road',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#9ca5b3'}]
+    	      },
+    	      {
+    	        featureType: 'road.highway',
+    	        elementType: 'geometry',
+    	        stylers: [{color: '#fefefe'}]
+    	      },
+    	      {
+    	        featureType: 'road.highway',
+    	        elementType: 'geometry.stroke',
+    	        stylers: [{color: '#fefefe'}]
+    	      },
+    	      {
+    	        featureType: 'road.highway',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#f3d19c'}]
+    	      },
+    	      {
+    	        featureType: 'transit',
+    	        elementType: 'geometry',
+    	        stylers: [{color: '#2f3948'}]
+    	      },
+    	      {
+    	        featureType: 'transit.station',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#d59563'}]
+    	      },
+    	      {
+    	        featureType: 'water',
+    	        elementType: 'geometry',
+    	        stylers: [{color: '#9cb9bf'}]
+    	      },
+    	      {
+    	        featureType: 'water',
+    	        elementType: 'labels.text.fill',
+    	        stylers: [{color: '#515c6d'}]
+    	      },
+    	      {
+    	        featureType: 'water',
+    	        elementType: 'labels.text.stroke',
+    	        stylers: [{color: '#9cb9bf'}]
+    	      }
+    	    ]
+    	  });
+    	var iconBase = '/images/';
+    	var marker = new google.maps.Marker({
+    	    position: myLatLng,
+    	    map: map,
+    	    title: 'Stanford Court Hotel',
+    	icon: iconBase + 'loc.png'
+    	  });
+    	
+    	}
+    	if($("#map")){
+    		google.maps.event.addDomListener(window, 'load', initMap); 
+    	} 
 });
 
 //Ends here
@@ -418,4 +533,5 @@ $(window).load(function () {
 	jQuery('.nav-item a').click(function () {
 		window.location.href = $(this).attr("href");
 	});
+
 });

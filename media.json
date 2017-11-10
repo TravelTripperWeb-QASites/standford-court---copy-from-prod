@@ -18,6 +18,24 @@
     "git_file_name": "_assets/image_data/art-stanford-court.json"
   },
   {
+    "name": "asian-art-museum-sf",
+    "file_name": "asian-art-museum-sf.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/asian-art-museum-sf.jpg",
+    "tags": "",
+    "file_size": 1110726.0,
+    "width": 1000,
+    "height": 750,
+    "description": "",
+    "date_added": "2017-11-09-192320",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/large_asian-art-museum-sf.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/medium_asian-art-museum-sf.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/small_asian-art-museum-sf.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/xsmall_asian-art-museum-sf.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-192320/thumb_asian-art-museum-sf.jpg",
+    "git_file_name": "_assets/image_data/asian-art-museum-sf.json"
+  },
+  {
     "name": "benny bufano",
     "file_name": "benny bufano.jpg",
     "file_type": "image/jpeg",
@@ -106,6 +124,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-173043/xsmall_bufano.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-173043/thumb_bufano.jpg",
     "git_file_name": "_assets/image_data/bufano.json"
+  },
+  {
+    "name": "cable-car-museum",
+    "file_name": "cable-car-museum.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/cable-car-museum.jpg",
+    "tags": "",
+    "file_size": 1210675.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "date_added": "2017-11-09-193511",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/large_cable-car-museum.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/medium_cable-car-museum.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/small_cable-car-museum.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/xsmall_cable-car-museum.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193511/thumb_cable-car-museum.jpg",
+    "git_file_name": "_assets/image_data/cable-car-museum.json"
   },
   {
     "name": "can-the-golden-state-warriors-do-it-again",
@@ -252,6 +288,24 @@
     "git_file_name": "_assets/image_data/kesha-comes-to-sf.json"
   },
   {
+    "name": "LelandStanford",
+    "file_name": "LelandStanford.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/LelandStanford.jpg",
+    "tags": "",
+    "file_size": 1723998.0,
+    "width": 2315,
+    "height": 3000,
+    "description": "",
+    "date_added": "2017-11-09-215045",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/large_LelandStanford.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/medium_LelandStanford.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/small_LelandStanford.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/xsmall_LelandStanford.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-09-215045/thumb_LelandStanford.jpg",
+    "git_file_name": "_assets/image_data/LelandStanford.json"
+  },
+  {
     "name": "mamaluce-mural",
     "file_name": "mamaluce-mural.jpg",
     "file_type": "image/jpeg",
@@ -268,6 +322,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8896/media/2017-10-30-191647/xsmall_mamaluce-mural.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8896/media/2017-10-30-191647/thumb_mamaluce-mural.jpg",
     "git_file_name": "_assets/image_data/mamaluce-mural.json"
+  },
+  {
+    "name": "museum-de-young-sf",
+    "file_name": "museum-de-young-sf.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/museum-de-young-sf.jpg",
+    "tags": "",
+    "file_size": 1193522.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "date_added": "2017-11-09-193949",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/large_museum-de-young-sf.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/medium_museum-de-young-sf.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/small_museum-de-young-sf.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/xsmall_museum-de-young-sf.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9208/media/2017-11-09-193949/thumb_museum-de-young-sf.jpg",
+    "git_file_name": "_assets/image_data/museum-de-young-sf.json"
   },
   {
     "name": "new-restaurants-we-cant-wait-to-gram-in-sf",
@@ -304,6 +376,19 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-172859/xsmall_restored-bufano.png",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-172859/thumb_restored-bufano.png",
     "git_file_name": "_assets/image_data/restored-bufano.json"
+  },
+  {
+    "name": "SC_UBFAQ",
+    "file_name": "SC_UBFAQ.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_9057/media/2017-11-06-011807/SC-UBFAQ.pdf",
+    "tags": "",
+    "file_size": 15317.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2017-11-06-011807",
+    "git_file_name": "_assets/image_data/SC_UBFAQ.json"
   },
   {
     "name": "sfzoo",
