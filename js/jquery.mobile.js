@@ -28,12 +28,12 @@ var desktop =
     '<img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">' +
   '</div>' +
 
-  '<!--Bridge Video-->' +
+  /*'<!--Bridge Video-->' +
   '<div class="item videoContainer">' +
     '<video autoplay loop>' +
       '<source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140324/bridge-w-clouds.mp4" type="video/mp4">' +
     '</video>' +
-  '</div>' +
+  '</div>' +*/
 
   '<!--Bay View Photo-->' +
   '<div class="item">' +
