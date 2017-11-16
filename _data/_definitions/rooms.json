@@ -10,8 +10,7 @@
       "label": "Book this room URL"
     },
 "more_info":
-	{
-		"type": "url",
+	{ 
 		"label": "More Info URL"
 	},
 "sort_order":
