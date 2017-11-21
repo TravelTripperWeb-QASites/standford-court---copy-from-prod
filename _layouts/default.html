@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
- {% include head.html %}
-  <body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NH75VS"
-height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
-   {% include header.html %}
+{% include head.html %}
 
-        {{ content }}
+<body ng-app="rezTrip" rt3-hotel-info="hotelInfo" rt3-rooms-browser="browser" ng-cloak>
 
-      {% include footer.html %}
-   
-   <!-- Start Voyat -->
-<script> 
-(function(){ var v = document.createElement('script'); var s = document.getElementsByTagName('script')[0]; v.src = '//io.voyat.com/v.js'; v.async = true; s.parentNode.insertBefore(v, s); })();
-</script>
-<!-- End Voyat Code -->
-   
-  </body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NH75VS" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  {% include header.html %}
+
+  {{ content }}
+
+  {% unless page.url == "/charities/" %}
+    {% include save-the-children.html %}
+  {% endunless %}
+  
+  {% include footer.html %}
+
+  <!-- Start Voyat -->
+  <script>
+  (function(){ var v = document.createElement('script'); var s = document.getElementsByTagName('script')[0]; v.src = '//io.voyat.com/v.js'; v.async = true; s.parentNode.insertBefore(v, s); })();
+  </script>
+  <!-- End Voyat Code -->
+
+</body>
+
 </html>
