@@ -28,18 +28,24 @@ var desktop =
     '<img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">' +
   '</div>' +
 
-  '<!--Bridge Video-->' +
+  /*'<!--Bridge Video-->' +
   '<div class="item videoContainer">' +
     '<video autoplay loop>' +
       '<source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140324/bridge-w-clouds.mp4" type="video/mp4">' +
     '</video>' +
-  '</div>' +
+  '</div>' +*/
 
   '<!--Bay View Photo-->' +
   '<div class="item">' +
     '<img src="/images/homepage/slider-5.jpg" alt="Stanfordcourt">' +
   '</div>' +
 
+/*'<!--Ornament Photo-->' +
+  '<div class="item">' +
+    '<img src="/images/homepage/ornamnet-slider-6.jpg" alt="Stanfordcourt">' +
+    '<a href="/">ok</a>' +
+  '</div>' +
+*/
   '<!--City View Photo-->' +
   '<div class="item">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +

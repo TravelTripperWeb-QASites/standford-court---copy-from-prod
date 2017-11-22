@@ -310,6 +310,15 @@
 	 	    }
 	 }
 }
+.carousel-text{
+	h3{
+		letter-spacing:2px;
+		font-family: $headline-font-family;
+	}
+	h5{
+		font-family: $base-font-family;
+	}
+}
 
 .booking-wrapper{
 	 padding: 10px;
