@@ -13,6 +13,19 @@
     "git_file_name": "_assets/image_data/11.16 menu fmt.json"
   },
   {
+    "name": "11.21 menu (4)",
+    "file_name": "11.21 menu (4).pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_9551/media/2017-11-22-193204/11.21-menu--4-.pdf",
+    "tags": "",
+    "file_size": 154140.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2017-11-22-193204",
+    "git_file_name": "_assets/image_data/11.21 menu (4).json"
+  },
+  {
     "name": "art-stanford-court",
     "file_name": "art-stanford-court.jpg",
     "file_type": "image/jpeg",
@@ -227,6 +240,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8267/media/2017-10-16-031246/xsmall_EMBARCADERO.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8267/media/2017-10-16-031246/thumb_EMBARCADERO.jpg",
     "git_file_name": "_assets/image_data/EMBARCADERO.json"
+  },
+  {
+    "name": "FallFuninSF",
+    "file_name": "FallFuninSF.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/FallFuninSF.jpg",
+    "tags": "",
+    "file_size": 3999465.0,
+    "width": 2500,
+    "height": 1660,
+    "description": "",
+    "date_added": "2017-11-21-212407",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/large_FallFuninSF.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/medium_FallFuninSF.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/small_FallFuninSF.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/xsmall_FallFuninSF.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-11-21-212407/thumb_FallFuninSF.jpg",
+    "git_file_name": "_assets/image_data/FallFuninSF.json"
   },
   {
     "name": "five-ways-to-celebrate-lgbt-history-month-in-sf",

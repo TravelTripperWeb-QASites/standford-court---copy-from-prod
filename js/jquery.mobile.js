@@ -33,6 +33,12 @@ var desktop =
     '<img src="/images/homepage/slider-5.jpg" alt="Stanfordcourt">' +
   '</div>' +
 
+/*'<!--Ornament Photo-->' +
+  '<div class="item">' +
+    '<img src="/images/homepage/ornamnet-slider-6.jpg" alt="Stanfordcourt">' +
+    '<a href="/">ok</a>' +
+  '</div>' +
+*/
   '<!--City View Photo-->' +
   '<div class="item">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +
