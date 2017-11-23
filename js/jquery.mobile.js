@@ -17,7 +17,7 @@ var mobile =
 
 var desktop =
   '<!--City View Video-->' +
-  '<div class="item active videoContainer">' +
+  '<div class="item videoContainer">' +
     '<video autoplay loop>' +
       '<source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140325/cityscape-sunset.mp4" type="video/mp4">' +
     '</video>' +
@@ -56,7 +56,7 @@ if (jQuery.browser.mobile) {
   $(".carousel-inner").append( mobile );
 } else {
   $(".carousel-inner").append( desktop );
-  $(".carousel-indicators").append( '<li data-target="#myCarousel" data-slide-to="3"></li><li data-target="#myCarousel" data-slide-to="4"></li>' );
+  $(".carousel-indicators").append( '<li data-target="#myCarousel" data-slide-to="4"></li><li data-target="#myCarousel" data-slide-to="5"></li>' );
 
 }
 
