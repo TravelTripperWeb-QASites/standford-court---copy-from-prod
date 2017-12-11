@@ -40,19 +40,17 @@ meta_keywords_localized:
 </section>  
 
 <section class="container">
-  <div class="row">
-  </div>
    <!-- gallery wrap --> 
   <div class="gallery-wrapper">
     <div class="gallery-listing">
       <div class="container gallery-wrap" id="lightgallery">
         <ul>
-        {% assign hotel_images = site.data._models.gallery_discover_hotel_images %}
-{% for hotel_gallery in hotel_images %}            
+        {% assign discover_hotel_images = site.data._models.gallery_discover_the_hotel %}
+{% for hotel_gallery in discover_hotel_images %}            
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
             <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive" alt="hotel_gallery.image_alt_txt"/> </div> 
           </li>  
-{% endfor %}             
+{% endfor %}           
         </ul>
       </div>
     </div>
@@ -62,4 +60,3 @@ meta_keywords_localized:
   </div>
   <!--/gallery wrap --> 
 </section>
-

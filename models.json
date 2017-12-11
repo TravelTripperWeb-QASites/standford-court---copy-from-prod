@@ -776,7 +776,9 @@
     }
   ],
   "gallery_discover_the_hotel": [
-
+    {
+      "file": "gallery_discover_the_hotel1.json"
+    }
   ],
   "gallery_hotel_images": [
     {

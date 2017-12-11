@@ -471,6 +471,24 @@
     "git_file_name": "_assets/image_data/LelandStanford.json"
   },
   {
+    "name": "lg-1",
+    "file_name": "lg-1.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/lg-1.jpg",
+    "tags": "",
+    "file_size": 197629.0,
+    "width": 1600,
+    "height": 1080,
+    "description": "",
+    "date_added": "2017-12-11-025934",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/large_lg-1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/medium_lg-1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/small_lg-1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/xsmall_lg-1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025934/thumb_lg-1.jpg",
+    "git_file_name": "_assets/image_data/lg-1.json"
+  },
+  {
     "name": "mamaluce-mural",
     "file_name": "mamaluce-mural.jpg",
     "file_type": "image/jpeg",
@@ -4822,6 +4840,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9324/media/2017-11-14-215526/xsmall_Support_Napa_Valley_with_These_Great_Local_WinesSupport_NapaValleyWithTheseGreatLocalWines.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9324/media/2017-11-14-215526/thumb_Support_Napa_Valley_with_These_Great_Local_WinesSupport_NapaValleyWithTheseGreatLocalWines.jpg",
     "git_file_name": "_assets/image_data/Support Napa Valley with These Great Local WinesSupport NapaValleyWithTheseGreatLocalWines.json"
+  },
+  {
+    "name": "tb-1",
+    "file_name": "tb-1.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/tb-1.jpg",
+    "tags": "",
+    "file_size": 43208.0,
+    "width": 500,
+    "height": 373,
+    "description": "",
+    "date_added": "2017-12-11-025908",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/large_tb-1.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/medium_tb-1.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/small_tb-1.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/xsmall_tb-1.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-025908/thumb_tb-1.jpg",
+    "git_file_name": "_assets/image_data/tb-1.json"
   },
   {
     "name": "teotihuacan-mexico",
