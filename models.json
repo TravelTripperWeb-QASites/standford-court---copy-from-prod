@@ -251,6 +251,31 @@
       "file": "blog144.json"
     },
     {
+      "name": "The View from Stanford Court Hotel",
+      "title": "The View from Stanford Court Hotel",
+      "file": "blog145.json"
+    },
+    {
+      "name": "7 Films Shot in San Francisco",
+      "title": "7 Films Shot in San Francisco",
+      "file": "blog146.json"
+    },
+    {
+      "name": "Healthier You Will Become: SCH Yoda Yoga Mats Are Here to Inspire",
+      "title": "Healthier You Will Become: SCH Yoda Yoga Mats Are Here to Inspire",
+      "file": "blog147.json"
+    },
+    {
+      "name": "Stanford Court #LobbyReveal",
+      "title": "Stanford Court #LobbyReveal",
+      "file": "blog148.json"
+    },
+    {
+      "name": "SCH in the News",
+      "title": "SCH in the News",
+      "file": "blog149.json"
+    },
+    {
       "name": "San Francisco Halloween Events",
       "title": "San Francisco Halloween Events",
       "file": "blog15.json"
@@ -749,6 +774,9 @@
       "title": "Local",
       "file": "event_category1.json"
     }
+  ],
+  "gallery_discover_the_hotel": [
+
   ],
   "gallery_hotel_images": [
     {
