@@ -1,0 +1,43 @@
+{
+  "thumb_image": {
+    "name": "lg-9",
+    "file_name": "lg-9.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/lg-9.jpg",
+    "tags": "",
+    "file_size": 241103,
+    "width": 1600,
+    "height": 1080,
+    "description": "",
+    "date_added": "2017-12-11-044230",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/large_lg-9.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/medium_lg-9.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/small_lg-9.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/xsmall_lg-9.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/thumb_lg-9.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044230/lg-9.jpg",
+    "alt": "breakfast-buffet",
+    "caption": ""
+  },
+  "large_image": {
+    "name": "tb-9",
+    "file_name": "tb-9.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/tb-9.jpg",
+    "tags": "",
+    "file_size": 41079,
+    "width": 500,
+    "height": 373,
+    "description": "",
+    "date_added": "2017-12-11-044300",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/large_tb-9.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/medium_tb-9.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/small_tb-9.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/xsmall_tb-9.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/thumb_tb-9.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044300/tb-9.jpg",
+    "alt": "breakfast-buffet",
+    "caption": ""
+  },
+  "image_alt_txt": "breakfast-buffet"
+}
