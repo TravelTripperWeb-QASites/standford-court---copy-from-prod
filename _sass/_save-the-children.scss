@@ -16,8 +16,12 @@
   margin-top: 40px;
 
   .row {
-    display: flex;
     align-items: center;
+    .description-center{
+      h5{
+        font-size: 30px;
+      }
+    }
   }
 
 }
