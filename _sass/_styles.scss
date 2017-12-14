@@ -1088,7 +1088,7 @@ body {
         .f-logo {
             margin: 0px 0;
             @media(min-width: $screen-sm-min) {
-                margin:40px 0 39px 0;
+                margin:0px 0 39px 0;
             }
             ul {
                 list-style: none;
@@ -1106,7 +1106,8 @@ body {
                             width: 100px;
                         }
                         &.red {
-                            width: 50px;
+                            width: 100px;
+                            margin-bottom: 15px;
                         }
                     }
                 }
