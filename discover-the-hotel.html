@@ -1,0 +1,62 @@
+---
+excerpt: stanfordcourt.com
+parent: location
+title_localized:
+  en: Discover the Hotel | Stanford Court Location
+label_localized:
+  en: 
+layout_localized:
+  en: default
+permalink_localized:
+  en: 
+meta_description_localized:
+  en: Stanford Court is conveniently located atop historic Nob Hill, just steps from
+    Union Square and within walking distance to many of San Francisco’s attractions.
+meta_keywords_localized:
+  en: 
+---
+<div class="container">
+     <div id="top-spacer">
+     </div>
+</div> 
+
+
+
+
+<section class="container attraction-wrapper">
+      <div class="row no-gutter">
+        <div class="col-sm-6 no-padding clearfix w-70">
+          <div class="short-description">
+                
+                {% regionblock heading-discover, type:header %} 
+                <h2 class="title">New Spaces!</h2>
+                {% endregionblock %} 
+                {% regionblock discover-maintext, type:text %} 
+                <p class="short-detail discover"><strong>We are excited to share our multi-million dollar transformation that includes updates & revamps that transcend to our lobby, bar, lounge & fitness center. Stanford Court partnered with EDG, a leading interior architecture and design firm known for creating transformative experiences to incorporates sleek design elements and communal working spaces reflective of Bay Area startups. Our new 1500 square foot Fitness Center features state of the art equipment including interactive Kinima stations offering personalized workouts and floor-to-ceiling windows that fill the space with natural light and views of the famed cable cars.</strong> </p>
+                {% endregionblock %} 
+          </div>
+      </div>  
+     </div>
+</section>  
+
+<section class="container">
+   <!-- gallery wrap --> 
+  <div class="gallery-wrapper">
+    <div class="gallery-listing">
+      <div class="container gallery-wrap" id="lightgallery">
+        <ul>
+        {% assign discover_hotel_images = site.data._models.gallery_discover_the_hotel %}
+{% for hotel_gallery in discover_hotel_images %}            
+           <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
+            <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive" alt="hotel_gallery.image_alt_txt"/> </div> 
+          </li>  
+{% endfor %}           
+        </ul>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <!--/gallery wrap --> 
+</section>

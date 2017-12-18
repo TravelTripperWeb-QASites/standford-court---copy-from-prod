@@ -29,7 +29,24 @@ meta_keywords_localized:
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-    <div class="item active">
+      <div class="item active">
+    <img src="/images/homepage/discover-the-hotel.jpg" alt="Stanfordcourt">
+    <div class="container">
+            <div class="carousel-caption carousel-text">
+              {% regionblock  banner_heading1, type:header %}
+             <h1><strong>SNEAK PEAK</strong></h1>
+              {% endregionblock %} 
+              <div class="btn-holder">
+        {% regionblock  banner_button1, type:button %}
+        <a href="/discover-the-hotel/" class="butn btn-white btn-wide uppercase opacity w-index">
+              Discover our New Design
+            </a>
+        {% endregionblock %} 
+     </div>
+   </div>
+  </div>
+    </div>
+    <div class="item">
     <img src="/images/homepage/ornamnet-slider-6.jpg" alt="Stanfordcourt">
     <div class="container">
             <div class="carousel-caption carousel-text">
@@ -122,15 +139,8 @@ meta_keywords_localized:
         <div class="blue-fixed-box">
           {% regionblock bluebox-heading %}
           <h4 class="text-center">SAN FRANCISCO BOUTIQUE HOTEL</h4>
-          <h2 class="text-center">An Iconic Landmark in Nob Hill</h2>
+          <h2 class="text-center">Our Newly Redesigned Hotel in Nob Hill</h2>
           {% endregionblock %}
-          <div class="btn-holder text-center">
-           {% regionblock bluebox-link %}
-            <a href="/explore/" class="butn btn-white btn-wide uppercase">
-              Discover The Hotel
-            </a>
-           {% endregionblock %}
-          </div>
         </div>
         <div class="details-whiteLeft">
           <div class="white-left"></div>
@@ -139,6 +149,11 @@ meta_keywords_localized:
             {% regionblock bluebox-content %}
             <p>Stanford Court prides itself on being one of the most respected hotels in Nob Hill, a prized and affluent San Francisco neighborhood. Our hilltop location provides guests with the opportunity to enjoy breathtaking views of the city.</p>
             {% endregionblock %}
+          </div>
+          <div class="btn-holder text-center">
+           {% regionblock bluebox-link %}
+           <a class="butn  uppercase excluse" href="/discover-the-hotel/">DISCOVER THE HOTEL</a>
+           {% endregionblock %}
           </div>
         </div>
       </div>

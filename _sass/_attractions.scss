@@ -35,7 +35,11 @@
 		            strong{
 		            	font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
 		            }
+		            &.discover{
+			       max-width: 100%;
 			 }
+			 }
+			 
 		}
 
 		.main-image{
