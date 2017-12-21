@@ -26,6 +26,13 @@
     h2 {
         text-transform: uppercase;
         color: $secondary-color;
+        
+        @media (max-width: $screen-md-max){
+            padding-bottom: 1em;
+        }
+        @media (max-width: $screen-xs-max){
+            font-size: 20px;
+        }
     }
     a {
         font-size: 18px;
@@ -46,6 +53,7 @@
             text-transform: uppercase;
         font-family: $base-font-family;
         margin-top: 0;
+        
             span {
                 font-size: 20px;
                 color:#ed1c25;
