@@ -844,15 +844,6 @@
   ],
   "gallery_hotel_images": [
     {
-      "file": "gallery_hotel_image1.json"
-    },
-    {
-      "file": "gallery_hotel_image10.json"
-    },
-    {
-      "file": "gallery_hotel_image11.json"
-    },
-    {
       "file": "gallery_hotel_image12.json"
     },
     {
@@ -865,25 +856,7 @@
       "file": "gallery_hotel_image15.json"
     },
     {
-      "file": "gallery_hotel_image16.json"
-    },
-    {
-      "file": "gallery_hotel_image17.json"
-    },
-    {
-      "file": "gallery_hotel_image18.json"
-    },
-    {
       "file": "gallery_hotel_image19.json"
-    },
-    {
-      "file": "gallery_hotel_image2.json"
-    },
-    {
-      "file": "gallery_hotel_image20.json"
-    },
-    {
-      "file": "gallery_hotel_image21.json"
     },
     {
       "file": "gallery_hotel_image23.json"
@@ -913,13 +886,7 @@
       "file": "gallery_hotel_image30.json"
     },
     {
-      "file": "gallery_hotel_image31.json"
-    },
-    {
       "file": "gallery_hotel_image4.json"
-    },
-    {
-      "file": "gallery_hotel_image5.json"
     },
     {
       "file": "gallery_hotel_image6.json"
@@ -929,9 +896,6 @@
     },
     {
       "file": "gallery_hotel_image8.json"
-    },
-    {
-      "file": "gallery_hotel_image9.json"
     }
   ],
   "gallery_room_images": [
@@ -973,9 +937,6 @@
     },
     {
       "file": "gallery_room_images21.json"
-    },
-    {
-      "file": "gallery_room_images24.json"
     },
     {
       "file": "gallery_room_images25.json"
