@@ -41,6 +41,7 @@
 			display: inline-block; 
     	margin: 0 0px 30px ;
 			float:left;
+			cursor: pointer;
 		}
 		.item+.item { 
 				@media (min-width: $screen-sm-min) {   
