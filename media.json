@@ -255,6 +255,19 @@
     "git_file_name": "_assets/image_data/can-the-golden-state-warriors-do-it-again.json"
   },
   {
+    "name": "capchartb",
+    "file_name": "capchartb.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10459/media/2017-12-21-101336/capchartb.pdf",
+    "tags": "",
+    "file_size": 19386.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2017-12-21-101336",
+    "git_file_name": "_assets/image_data/capchartb.json"
+  },
+  {
     "name": "DSC_9612",
     "file_name": "DSC_9612.JPG",
     "file_type": "image/jpeg",
@@ -1202,6 +1215,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_7731/media/2017-10-02-205151/xsmall_SF_FleetWeek2017.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_7731/media/2017-10-02-205151/thumb_SF_FleetWeek2017.jpg",
     "git_file_name": "_assets/image_data/SF_FleetWeek2017.json"
+  },
+  {
+    "name": "shutterstock_240458995",
+    "file_name": "shutterstock_240458995.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/shutterstock-240458995.jpg",
+    "tags": "",
+    "file_size": 14810918.0,
+    "width": 6120,
+    "height": 4084,
+    "description": "",
+    "date_added": "2017-12-19-195632",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/large_shutterstock_240458995.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/medium_shutterstock_240458995.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/small_shutterstock_240458995.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/xsmall_shutterstock_240458995.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8398/media/2017-12-19-195632/thumb_shutterstock_240458995.jpg",
+    "git_file_name": "_assets/image_data/shutterstock_240458995.json"
   },
   {
     "name": "shutterstock_267360212",
