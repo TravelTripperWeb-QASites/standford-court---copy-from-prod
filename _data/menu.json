@@ -89,7 +89,7 @@
   ],
   "amenities": [{
       "name": "Urban Bundle",
-      "url": "/amenities/urban-bandle",
+      "url": "/amenities/urban-bundle",
       "child": "urban-bundle"
     },
     {
