@@ -255,6 +255,19 @@
     "git_file_name": "_assets/image_data/can-the-golden-state-warriors-do-it-again.json"
   },
   {
+    "name": "capchartb",
+    "file_name": "capchartb.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10459/media/2017-12-21-101336/capchartb.pdf",
+    "tags": "",
+    "file_size": 19386.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2017-12-21-101336",
+    "git_file_name": "_assets/image_data/capchartb.json"
+  },
+  {
     "name": "DSC_9612",
     "file_name": "DSC_9612.JPG",
     "file_type": "image/jpeg",

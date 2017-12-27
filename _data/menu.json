@@ -21,14 +21,8 @@
     },
     {
       "name": "Meetings",
-      "url": "/group-special-offer/",
-      "parent": "Meetings",
-      "submenu": "true",
-      "subitems": [{
-          "name": "Business Travel",
-          "url": "/business-travel/"
-        }
-      ]
+      "url": "/meetings-delivery/",
+      "parent": "Meetings"
     },
     {
       "name": "Explore",
