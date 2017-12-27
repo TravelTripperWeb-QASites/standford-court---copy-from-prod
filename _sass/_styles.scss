@@ -449,9 +449,9 @@ body {
 }
 
 .home-slider {
-    @media(max-width: $screen-sm-min){
+    /* @media(max-width: $screen-sm-min){
         margin-top: 80px;
-    }
+    } */
     .carousel-indicators li { visibility: hidden; }
     position: relative;
     #myCarousel {

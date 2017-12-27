@@ -8,7 +8,7 @@ languages: ['en']
 
 # Build settings
 permalink: pretty
-port: 8080
+
 markdown: kramdown
 sass:
   sass_dir: _sass
