@@ -30,7 +30,8 @@ meta_keywords_localized:
 	<div class="row">
 		<div class="col-sm-12">
 			
-			<div class="press privacy"><br>
+			<div class="faq"><br>
+				{% regionblock content-faq, type:text %}
 				<p><strong>What is check in/check out time?</strong></p>
 				<p>Check in: 4pm, Check out: 12pm Noon</p>
 				<p><strong>Is Late Check out available?</strong></p>
@@ -69,7 +70,11 @@ meta_keywords_localized:
 				<p>No minimum age to check-in</p>
 				<p><strong>Are there a maximum number of occupants permitted in each guestroom?</strong></p>
 				<p>Yes. The maximum number of occupants is based on room type, ex- 3 persons max permitted in a single bed room; a maximum of 4 persons is allowed in a double bed room and in our Suite.</p>
+				{% endregionblock %}
+				{% regionblock policies-faq, type:heading %}
 				<h4>Reservations & Policies</h4>
+				{% endregionblock %}
+				{% regionblock policies-content-faq, type:text %}
 				<p><strong>Is a credit card required to gaurantee a reservation?</strong></p>
 				<p>Yes, a valid credit card is required to guarantee and secure your reservations. The credit card must be present at check in along with valid photo identification of the card holder and registered hotel guest.</p>
 				<p><strong>Can I change or cancel a reservation online?</strong></p>
@@ -102,7 +107,7 @@ meta_keywords_localized:
 				<p>Complete a CC Authorization form and fax to us. Must be recevied at least 24 hrs prior to arrival to accommodate for approval process. Contact our reservations department for form, reservations@stanfordcourt.com</p>
 				<p><strong>How can I make a group reservation? Do you offer discounts to groups?</strong></p>
 				<p>For groups needing 10 or more rooms, please contact our Sales Department at <a href="mailto:sales@stanfordcourt.com">sales@stanfordcourt.com</a></p>
-
+                {% endregionblock %}
 			</div>
 		</div>
 	</div>
