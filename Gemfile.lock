@@ -5,7 +5,7 @@ GEM
     concurrent-ruby (1.0.5)
     extras (0.3.0)
       forwardable-extended (~> 2.5)
-    fastimage (2.1.1)
+    fastimage (2.1.0)
     ffi (1.9.18-x64-mingw32)
     forwardable-extended (2.6.0)
     i18n (0.9.1)
@@ -67,4 +67,4 @@ DEPENDENCIES
   xkeys
 
 BUNDLED WITH
-   1.16.1
+   1.16.0
