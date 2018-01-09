@@ -111,6 +111,24 @@
     "git_file_name": "_assets/image_data/asian-art-museum-sf.json"
   },
   {
+    "name": "bar-and-lounge",
+    "file_name": "bar-and-lounge.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/bar-and-lounge.jpg",
+    "tags": "",
+    "file_size": 124040.0,
+    "width": 1000,
+    "height": 620,
+    "description": "",
+    "date_added": "2018-01-04-011038",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/large_bar-and-lounge.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/medium_bar-and-lounge.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/small_bar-and-lounge.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/xsmall_bar-and-lounge.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011038/thumb_bar-and-lounge.jpg",
+    "git_file_name": "_assets/image_data/bar-and-lounge.json"
+  },
+  {
     "name": "benny bufano",
     "file_name": "benny bufano.jpg",
     "file_type": "image/jpeg",
@@ -862,6 +880,24 @@
     "git_file_name": "_assets/image_data/lg-9.json"
   },
   {
+    "name": "lobby-toward-library",
+    "file_name": "lobby-toward-library.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/lobby-toward-library.jpg",
+    "tags": "",
+    "file_size": 78987.0,
+    "width": 1000,
+    "height": 669,
+    "description": "",
+    "date_added": "2018-01-04-011016",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/large_lobby-toward-library.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/medium_lobby-toward-library.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/small_lobby-toward-library.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/xsmall_lobby-toward-library.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-011016/thumb_lobby-toward-library.jpg",
+    "git_file_name": "_assets/image_data/lobby-toward-library.json"
+  },
+  {
     "name": "mamaluce-mural",
     "file_name": "mamaluce-mural.jpg",
     "file_type": "image/jpeg",
@@ -968,6 +1004,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9753/media/2017-11-30-215601/xsmall_photo-_happyisprettyblog.png",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9753/media/2017-11-30-215601/thumb_photo-_happyisprettyblog.png",
     "git_file_name": "_assets/image_data/photo-@happyisprettyblog.json"
+  },
+  {
+    "name": "porte-cochere",
+    "file_name": "porte-cochere.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/porte-cochere.jpg",
+    "tags": "",
+    "file_size": 115351.0,
+    "width": 1000,
+    "height": 625,
+    "description": "",
+    "date_added": "2018-01-04-010948",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/large_porte-cochere.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/medium_porte-cochere.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/small_porte-cochere.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/xsmall_porte-cochere.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10713/media/2018-01-04-010948/thumb_porte-cochere.jpg",
+    "git_file_name": "_assets/image_data/porte-cochere.json"
   },
   {
     "name": "restored-bufano",
@@ -1174,6 +1228,24 @@
     "description": "",
     "date_added": "2017-11-06-011807",
     "git_file_name": "_assets/image_data/SC_UBFAQ.json"
+  },
+  {
+    "name": "sf-fog-festival",
+    "file_name": "sf-fog-festival.jpeg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/sf-fog-festival.jpeg",
+    "tags": "",
+    "file_size": 178370.0,
+    "width": 857,
+    "height": 571,
+    "description": "",
+    "date_added": "2018-01-08-174331",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/large_sf-fog-festival.jpeg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/medium_sf-fog-festival.jpeg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/small_sf-fog-festival.jpeg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/xsmall_sf-fog-festival.jpeg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10827/media/2018-01-08-174331/thumb_sf-fog-festival.jpeg",
+    "git_file_name": "_assets/image_data/sf-fog-festival.json"
   },
   {
     "name": "sf-free-things-2017",
