@@ -20,8 +20,12 @@ meta_keywords_localized:
     <section class="container-fluid meetings-box" style="background-image: url(/images/meetings/meetings-box.jpg);">
         <div class="row">
             <div class="col mx-auto">
+                {% regionblock content_title, type:text %}
                 <p class="title">Meetings & Events</p>
+                {% endregionblock %}
+                 {% regionblock content1, type:text %}
                 <p class="content">Let our team help make your meetings flow with ease and innovation. We’ll craft a creative space that fosters thought and ingenuity. Big, small or in between.</p>
+                {% endregionblock %}
             </div>
         </div>
     </section>
@@ -29,9 +33,14 @@ meta_keywords_localized:
         <div class="row">
             <div class=" col-md-4">
                 <div class="content-box">
-                    <p class="title"><span>PLANNING AN OFFSITE?</span>
+                    <p class="title">
+                        {% regionblock content_plan, type:text %}
+                        <span>PLANNING AN OFFSITE?</span>
                         DON’T WAIT. BOOK NOW
-                        <br><a href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a></p>
+                        {% endregionblock %}
+                        <br>{% regionblock content_link, type:text %}
+                        <a href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a>
+                    {% endregionblock %}</p>
                 </div>
             </div>
             <div class=" col-md-4">
@@ -60,7 +69,7 @@ meta_keywords_localized:
             <div class="col">
                 <div class="btn-holder text-center btns-sec">
                     <a class="butn btn-wide uppercase" href="" onclick="srfp_widget.show()">Request for proposal</a>
-                    <a class="butn btn-wide uppercase" href="https://cdn.traveltripper.io/site-assets/192_617_10459/media/2017-12-21-101336/capchartb.pdf" target="_blank">Capacity Charts</a>
+                    <a class="butn btn-wide uppercase" href="https://cdn.traveltripper.io/site-assets/192_617_10936/media/2018-01-11-005624/Cap-Chart--003.pdf" target="_blank">Capacity Charts</a>
                 </div>
             </div>
         </div>
