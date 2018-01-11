@@ -33,14 +33,12 @@ meta_keywords_localized:
         <div class="row">
             <div class=" col-md-4">
                 <div class="content-box">
+                     {% regionblock content_plan, type:text %}
                     <p class="title">
-                        {% regionblock content_plan, type:text %}
                         <span>PLANNING AN OFFSITE?</span>
                         DON’T WAIT. BOOK NOW
-                        {% endregionblock %}
-                        <br>{% regionblock content_link, type:text %}
-                        <a href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a>
-                    {% endregionblock %}</p>
+                        <br><a href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a>
+                    </p>{% endregionblock %}
                 </div>
             </div>
             <div class=" col-md-4">
