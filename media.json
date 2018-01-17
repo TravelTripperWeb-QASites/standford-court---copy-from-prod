@@ -273,6 +273,19 @@
     "git_file_name": "_assets/image_data/can-the-golden-state-warriors-do-it-again.json"
   },
   {
+    "name": "Cap Chart _003",
+    "file_name": "Cap Chart _003.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10936/media/2018-01-11-005624/Cap-Chart--003.pdf",
+    "tags": "",
+    "file_size": 16623.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2018-01-11-005624",
+    "git_file_name": "_assets/image_data/Cap Chart _003.json"
+  },
+  {
     "name": "capchartb",
     "file_name": "capchartb.pdf",
     "file_type": "application/pdf",
@@ -284,6 +297,24 @@
     "description": "",
     "date_added": "2017-12-21-101336",
     "git_file_name": "_assets/image_data/capchartb.json"
+  },
+  {
+    "name": "Dragon-Gate-1",
+    "file_name": "Dragon-Gate-1.JPG",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/Dragon-Gate-1.JPG",
+    "tags": "",
+    "file_size": 282181.0,
+    "width": 1000,
+    "height": 664,
+    "description": "",
+    "date_added": "2018-01-11-010151",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/large_Dragon-Gate-1.JPG",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/medium_Dragon-Gate-1.JPG",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/small_Dragon-Gate-1.JPG",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/xsmall_Dragon-Gate-1.JPG",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10937/media/2018-01-11-010151/thumb_Dragon-Gate-1.JPG",
+    "git_file_name": "_assets/image_data/Dragon-Gate-1.json"
   },
   {
     "name": "DSC_9612",
@@ -1040,6 +1071,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-172859/xsmall_restored-bufano.png",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8928/media/2017-10-31-172859/thumb_restored-bufano.png",
     "git_file_name": "_assets/image_data/restored-bufano.json"
+  },
+  {
+    "name": "san-francisco-dua-lipa",
+    "file_name": "san-francisco-dua-lipa.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/san-francisco-dua-lipa.jpg",
+    "tags": "",
+    "file_size": 617334.0,
+    "width": 1000,
+    "height": 668,
+    "description": "",
+    "date_added": "2018-01-16-152248",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/large_san-francisco-dua-lipa.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/medium_san-francisco-dua-lipa.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/small_san-francisco-dua-lipa.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/xsmall_san-francisco-dua-lipa.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_11197/media/2018-01-16-152248/thumb_san-francisco-dua-lipa.jpg",
+    "git_file_name": "_assets/image_data/san-francisco-dua-lipa.json"
   },
   {
     "name": "san-francisco-vertigo",
