@@ -21,9 +21,15 @@
   ],
   "events": [
     {
+<<<<<<< HEAD
       "name": "The Summer of Love Experience at the de Young Museum",
       "title": "The Summer of Love Experience at the de Young Museum",
       "file": "event6.json"
+=======
+      "name": "Apps WeΓÇÖre Downloading Now ΓÇö Summer 2017",
+      "title": "Apps WeΓÇÖre Downloading Now ΓÇö Summer 2017",
+      "file": "blog101.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "San Franciso Marathon",
@@ -36,9 +42,15 @@
       "file": "event4.json"
     },
     {
+<<<<<<< HEAD
       "name": "San Francisco Pride",
       "title": "San Francisco Pride",
       "file": "event5.json"
+=======
+      "name": "3 Ways WeΓÇÖre Getting Green in Cali",
+      "title": "3 Ways WeΓÇÖre Getting Green in Cali",
+      "file": "blog104.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "DURAN DURAN AT THE MASONIC",
@@ -78,7 +90,13 @@
       "file": "gallery_hotel_image8.json"
     },
     {
+<<<<<<< HEAD
       "file": "gallery_hotel_image4.json"
+=======
+      "name": "3 Reasons to Drop What YouΓÇÖre Doing and Get to SF Right Now",
+      "title": "3 Reasons to Drop What YouΓÇÖre Doing and Get to SF Right Now",
+      "file": "blog110.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "file": "gallery_hotel_image27.json"
@@ -228,9 +246,15 @@
       "file": "press7.json"
     },
     {
+<<<<<<< HEAD
       "name": "HUFFINGTON POST",
       "title": "HUFFINGTON POST",
       "file": "press16.json"
+=======
+      "name": "5 of SFΓÇÖs Best Coffee Shops for Digital Nomads",
+      "title": "5 of SFΓÇÖs Best Coffee Shops for Digital Nomads",
+      "file": "blog151.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "CONDE NAST TRAVELER",
@@ -238,9 +262,35 @@
       "file": "press17.json"
     },
     {
+<<<<<<< HEAD
       "name": "STANFORD COURT SETS UPDATES",
       "title": "STANFORD COURT SETS UPDATES",
       "file": "press1.json"
+=======
+      "name": "New Year, New Look!",
+      "title": "New Year, New Look!",
+      "file": "blog153.json"
+    },
+    {
+      "name": "January Happenings in SF",
+      "title": "January Happenings in SF",
+      "file": "blog154.json"
+    },
+    {
+      "name": "Explore Nob Hill on Foot",
+      "title": "Explore Nob Hill on Foot",
+      "file": "blog155.json"
+    },
+    {
+      "name": "Upcoming Concerts You Don't Want to Miss",
+      "title": "Upcoming Concerts You Don't Want to Miss",
+      "file": "blog156.json"
+    },
+    {
+      "name": "Rainy Day Activities in Nob Hill",
+      "title": "Rainy Day Activities in Nob Hill",
+      "file": "blog16.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "TRIP ADVISOR – CERTIFICATE OF EXCELLENCE",
@@ -258,9 +308,15 @@
       "file": "press3.json"
     },
     {
+<<<<<<< HEAD
       "name": "LUXURY TRAVEL MAGAZINE",
       "title": "LUXURY TRAVEL MAGAZINE",
       "file": "press15.json"
+=======
+      "name": "The Apps WeΓÇÖre Downloading in February 2017",
+      "title": "The Apps WeΓÇÖre Downloading in February 2017",
+      "file": "blog2.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "3 TECH-SAAVY HOTELS OFFERING GREAT 21ST CENTURY AMENITIES",
@@ -273,9 +329,15 @@
       "file": "press12.json"
     },
     {
+<<<<<<< HEAD
       "name": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
       "title": "HOTELS DITCH BRANDS AND GEEK OUT TO ATTRACT YOUNGER TRAVELERS",
       "file": "press4.json"
+=======
+      "name": "StanΓÇÖs San Francisco Activity Suggestions",
+      "title": "StanΓÇÖs San Francisco Activity Suggestions",
+      "file": "blog22.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "HOTELS SEEK THE GEEKS",
@@ -283,9 +345,15 @@
       "file": "press5.json"
     },
     {
+<<<<<<< HEAD
       "name": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
       "title": "STANFORD COURT INTRODUCES POWERMAT CHARGING STATIONS",
       "file": "press13.json"
+=======
+      "name": "FatherΓÇÖs Day Activities in San Francisco",
+      "title": "FatherΓÇÖs Day Activities in San Francisco",
+      "file": "blog24.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "TRAVEL INTELLIGENCE: 8 WAYS TO SLEEP AROUND",
@@ -315,9 +383,15 @@
       "file": "blog60.json"
     },
     {
+<<<<<<< HEAD
       "name": "#LocalTips 4 Surviving Bay to Breakers",
       "title": "#LocalTips 4 Surviving Bay to Breakers",
       "file": "blog76.json"
+=======
+      "name": "MotherΓÇÖs Day Activities in San Francisco",
+      "title": "MotherΓÇÖs Day Activities in San Francisco",
+      "file": "blog29.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "New Year, New Look!",
@@ -375,6 +449,7 @@
       "file": "blog56.json"
     },
     {
+<<<<<<< HEAD
       "name": "5 Ways 2 Celebrate LGBT History Month in SF",
       "title": "5 Ways 2 Celebrate LGBT History Month in SF",
       "file": "blog124.json"
@@ -388,6 +463,11 @@
       "name": "Take a Day Trip to Half Moon Bay",
       "title": "Take a Day Trip to Half Moon Bay",
       "file": "blog132.json"
+=======
+      "name": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "title": "I Left My <3 in San Francisco - ValentineΓÇÖs Day Package",
+      "file": "blog4.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "Super Bowl 50!",
@@ -405,9 +485,15 @@
       "file": "blog16.json"
     },
     {
+<<<<<<< HEAD
       "name": "Can the Golden State Warriors Do it Again?",
       "title": "Can the Golden State Warriors Do it Again?",
       "file": "blog133.json"
+=======
+      "name": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "title": "Stay On Track At San FranciscoΓÇÖs Stanford Court Hotel!",
+      "file": "blog43.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "Bike trails we love",
@@ -440,9 +526,15 @@
       "file": "blog82.json"
     },
     {
+<<<<<<< HEAD
       "name": "#SCH Guide 2 the Embarcadero",
       "title": "#SCH Guide 2 the Embarcadero",
       "file": "blog129.json"
+=======
+      "name": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "title": "The 10th Annual Crunchies ΓÇô Our Picks",
+      "file": "blog5.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "The Color Factory is the Most #InstagramWorthy Thing in SF Right Now",
@@ -495,9 +587,15 @@
       "file": "blog85.json"
     },
     {
+<<<<<<< HEAD
       "name": "Where to Eat Pizza in Nob Hill",
       "title": "Where to Eat Pizza in Nob Hill",
       "file": "blog7.json"
+=======
+      "name": "Things to Do in San Francisco ΓÇô February 2017",
+      "title": "Things to Do in San Francisco ΓÇô February 2017",
+      "file": "blog6.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "Treat Yourself to Christmas in July",
@@ -600,9 +698,20 @@
       "file": "blog71.json"
     },
     {
+<<<<<<< HEAD
       "name": "Re-Live the Summer of Love @ SCH",
       "title": "Re-Live the Summer of Love @ SCH",
       "file": "blog67.json"
+=======
+      "name": "Where 2 Take Mom This #MothersDay in SF",
+      "title": "Where 2 Take Mom This #MothersDay in SF",
+      "file": "blog72.json"
+    },
+    {
+      "name": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
+      "title": "What WeΓÇÖre Excited 4 @ Google I/O 2017",
+      "file": "blog73.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "2017 Fall Fun in SF",
@@ -640,9 +749,15 @@
       "file": "blog10.json"
     },
     {
+<<<<<<< HEAD
       "name": "A Brief History of Hardly Strictly Bluegrass",
       "title": "A Brief History of Hardly Strictly Bluegrass",
       "file": "blog123.json"
+=======
+      "name": "The June Festivals U CanΓÇÖt Miss in SF",
+      "title": "The June Festivals U CanΓÇÖt Miss in SF",
+      "file": "blog80.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "name": "Where to Eat Clam Chowder in San Francisco",
@@ -1057,23 +1172,42 @@
   ],
   "event_category": [
     {
+<<<<<<< HEAD
       "name": "Local",
       "title": "Local",
       "file": "event_category1.json"
     }
   ],
   "gallery_discover_the_hotel": [
+=======
+      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "file": "press10.json"
+    },
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     {
       "file": "gallery_discover_the_hotel3.json"
     },
     {
+<<<<<<< HEAD
       "file": "gallery_discover_the_hotel19.json"
+=======
+      "name": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "title": "SAN FRANCISCOΓÇÖS NOB HILL",
+      "file": "press12.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "file": "gallery_discover_the_hotel15.json"
     },
     {
+<<<<<<< HEAD
       "file": "gallery_discover_the_hotel14.json"
+=======
+      "name": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "title": "TRIP ADVISOR ΓÇô CERTIFICATE OF EXCELLENCE",
+      "file": "press14.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "file": "gallery_discover_the_hotel18.json"
@@ -1088,7 +1222,13 @@
       "file": "gallery_discover_the_hotel5.json"
     },
     {
+<<<<<<< HEAD
       "file": "gallery_discover_the_hotel4.json"
+=======
+      "name": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "title": "NOB HILLΓÇÖS STANFORD COURT HOTEL ANNOUNCES PLANS FOR A CULTURAL TRANSFORMATION IN 2014",
+      "file": "press3.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "file": "gallery_discover_the_hotel12.json"
@@ -1100,7 +1240,13 @@
       "file": "gallery_discover_the_hotel11.json"
     },
     {
+<<<<<<< HEAD
       "file": "gallery_discover_the_hotel7.json"
+=======
+      "name": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "title": "SAN FRANCISCOΓÇÖS ICONIC NOB HILL NEIGHBORHOOD REEMERGES",
+      "file": "press7.json"
+>>>>>>> 0fdb595c99796491f3bf93722bb93160f358d5f8
     },
     {
       "file": "gallery_discover_the_hotel6.json"
