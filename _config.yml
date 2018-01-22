@@ -37,6 +37,10 @@ page_gen:
     template: 'promo-details'
     dir: 'promos'
 
+# File Handling
+include:
+  - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
