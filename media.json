@@ -1150,6 +1150,19 @@
     "git_file_name": "_assets/image_data/SCHFitnessCenter7.json"
   },
   {
+    "name": "SC_FAQ_Card p1_4x5_007",
+    "file_name": "SC_FAQ_Card p1_4x5_007.pdf",
+    "file_type": "application/pdf",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10554/media/2017-12-27-181731/SC-FAQ-Card-p1-4x5-007.pdf",
+    "tags": "",
+    "file_size": 15301.0,
+    "width": null,
+    "height": null,
+    "description": "",
+    "date_added": "2017-12-27-181731",
+    "git_file_name": "_assets/image_data/SC_FAQ_Card p1_4x5_007.json"
+  },
+  {
     "name": "SC_UBFAQ",
     "file_name": "SC_UBFAQ.pdf",
     "file_type": "application/pdf",
@@ -1253,6 +1266,24 @@
     "git_file_name": "_assets/image_data/shutterstock_267360212.json"
   },
   {
+    "name": "shutterstock_355896992",
+    "file_name": "shutterstock_355896992.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/shutterstock-355896992.jpg",
+    "tags": "",
+    "file_size": 10309247.0,
+    "width": 4896,
+    "height": 3264,
+    "description": "",
+    "date_added": "2017-12-22-174358",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/large_shutterstock_355896992.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/medium_shutterstock_355896992.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/small_shutterstock_355896992.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/xsmall_shutterstock_355896992.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10511/media/2017-12-22-174358/thumb_shutterstock_355896992.jpg",
+    "git_file_name": "_assets/image_data/shutterstock_355896992.json"
+  },
+  {
     "name": "shutterstock_384375166 (2)",
     "file_name": "shutterstock_384375166 (2).jpg",
     "file_type": "image/jpeg",
@@ -1269,6 +1300,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8369/media/2017-10-16-212856/xsmall_shutterstock_384375166__2_.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8369/media/2017-10-16-212856/thumb_shutterstock_384375166__2_.jpg",
     "git_file_name": "_assets/image_data/shutterstock_384375166 (2).json"
+  },
+  {
+    "name": "shutterstock_43658266",
+    "file_name": "shutterstock_43658266.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/shutterstock-43658266.jpg",
+    "tags": "",
+    "file_size": 5325968.0,
+    "width": 2400,
+    "height": 3600,
+    "description": "",
+    "date_added": "2017-12-27-212656",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/large_shutterstock_43658266.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/medium_shutterstock_43658266.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/small_shutterstock_43658266.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/xsmall_shutterstock_43658266.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8645/media/2017-12-27-212656/thumb_shutterstock_43658266.jpg",
+    "git_file_name": "_assets/image_data/shutterstock_43658266.json"
   },
   {
     "name": "shutterstock_663741934",
