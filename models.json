@@ -854,55 +854,64 @@
   ],
   "gallery_hotel_images": [
     {
-      "file": "gallery_hotel_image12.json"
+      "file": "gallery_discover_the_hotel1.json"
     },
     {
-      "file": "gallery_hotel_image13.json"
+      "file": "gallery_discover_the_hotel10.json"
     },
     {
-      "file": "gallery_hotel_image14.json"
+      "file": "gallery_discover_the_hotel11.json"
     },
     {
-      "file": "gallery_hotel_image15.json"
+      "file": "gallery_discover_the_hotel12.json"
     },
     {
-      "file": "gallery_hotel_image19.json"
+      "file": "gallery_discover_the_hotel13.json"
     },
     {
-      "file": "gallery_hotel_image23.json"
+      "file": "gallery_discover_the_hotel14.json"
     },
     {
-      "file": "gallery_hotel_image24.json"
+      "file": "gallery_discover_the_hotel15.json"
     },
     {
-      "file": "gallery_hotel_image25.json"
+      "file": "gallery_discover_the_hotel16.json"
     },
     {
-      "file": "gallery_hotel_image26.json"
+      "file": "gallery_discover_the_hotel17.json"
     },
     {
-      "file": "gallery_hotel_image27.json"
+      "file": "gallery_discover_the_hotel18.json"
     },
     {
-      "file": "gallery_hotel_image28.json"
+      "file": "gallery_discover_the_hotel19.json"
     },
     {
-      "file": "gallery_hotel_image29.json"
+      "file": "gallery_discover_the_hotel2.json"
     },
     {
-      "file": "gallery_hotel_image30.json"
+      "file": "gallery_discover_the_hotel20.json"
     },
     {
-      "file": "gallery_hotel_image4.json"
+      "file": "gallery_discover_the_hotel21.json"
     },
     {
-      "file": "gallery_hotel_image6.json"
+      "file": "gallery_discover_the_hotel3.json"
     },
     {
-      "file": "gallery_hotel_image7.json"
+      "file": "gallery_discover_the_hotel4.json"
     },
     {
-      "file": "gallery_hotel_image8.json"
+      "file": "gallery_discover_the_hotel5.json"
+    },
+    {
+      "file": "gallery_discover_the_hotel6.json"
+    },
+    {
+      "file": "gallery_discover_the_hotel7.json"
+    },
+    {
+      "file": "gallery_discover_the_hotel8.json"
     }
   ],
   "gallery_room_images": [
