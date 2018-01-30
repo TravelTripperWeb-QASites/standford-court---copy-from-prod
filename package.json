@@ -11,7 +11,7 @@
   "uglify-js": "^2.6.1"
  },
  "scripts": {
-  "uglify": "uglifyjs js/jquery.min.js js/jquery-ui.min.js js/bootstrap.min.js js/jquery.easing.min.js js/owl.carousel.min.js js/rez-gallery.js js/classie.js js/angular.min.js js/ui-date.js js/lightgallery.js js/lg-fullscreen.js js/lg-thumbnail.js js/lg-video.js js/rt3api.js js/rez-trip.js js/rt3-services.js js/rt3-directives.js js/rt3-filters.js  js/custom.js  -c  -o js/main.min.js",
+  "uglify": "uglifyjs js/jquery.min.js js/jquery-ui.min.js js/bootstrap.min.js js/jquery.easing.min.js js/owl.carousel.min.js js/rez-gallery.js js/classie.js js/angular.min.js js/cookies.js js/custom.js js/ui-date.js js/lightgallery.js js/lg-fullscreen.js js/lg-thumbnail.js js/lg-video.js js/rt3api.js js/rez-trip.js js/rt3-services.js js/rt3-directives.js js/rt3-filters.js -c  -o js/main.min.js",
   "watch:js": "onchange \"js/**/*.js\" -e \"js/main.min.js\" -- npm run build:js",
   "build:js": "npm run uglify"
  }

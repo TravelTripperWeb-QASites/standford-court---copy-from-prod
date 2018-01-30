@@ -19,6 +19,8 @@ _asset_bundler_cache
 Gemfile.lock
 npm-debug.log*
 sitemap.json
+models.json
+media.json
 _site/
 .sass-cache/
 .jekyll-metadata

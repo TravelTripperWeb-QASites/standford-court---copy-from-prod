@@ -8,7 +8,7 @@ languages: ['en']
 
 # Build settings
 permalink: pretty
-port: 8080
+
 markdown: kramdown
 sass:
   sass_dir: _sass
@@ -36,6 +36,10 @@ page_gen:
   - data: 'promos'
     template: 'promo-details'
     dir: 'promos'
+
+# File Handling
+include:
+  - _pages
 
 exclude:
   - "*.sublime-project"
