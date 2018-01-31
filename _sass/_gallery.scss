@@ -41,6 +41,7 @@
 			display: inline-block; 
     	margin: 0 0px 30px ;
 			float:left;
+			cursor: pointer;
 		}
 		.item+.item { 
 				@media (min-width: $screen-sm-min) {   
@@ -115,5 +116,59 @@
 }
 @media (max-width: $screen-sm-min) {
 	.m-b-m-30{ margin-bottom:30px;}
+
+}
+
+
+//offers gallery click styles
+
+.lg-sub-html{
+	padding: 30px 10px;
+	 width: 400px;
+	 min-height: 200px;
+	 max-width: 100%;
+	 left: 30% !important;
+	 bottom: calc(50% - 50px) !important;
+	 left: calc(50% - 200px)  !important;
+	 background-color: rgba(255,255,255,0.8) !important;
+	 color: #000 !important;
+	 z-index: 1070;
+	 h4{
+	 	padding-top: 10px;
+	 	font-weight: 300;
+	 	font-family: $base-font-family1;
+	 	color: $secondary-color;
+	 	font-size: 12px;
+	 	letter-spacing: 1px;
+	 	padding-bottom: 20px;
+
+	 }
+	 h3{
+	 	 font-family: 'GothamHTF Medium';
+ 	     font-size: 24px;
+ 	     padding: 0;
+ 	     margin-top: 0px;
+ 	     text-transform: uppercase;
+	 }
+	 p{
+	 	margin-top: 10px;
+	 	padding-bottom: 1rem;
+	 }
+	 a{
+	 	margin-top:10px;
+	 	&.btn-od-form{
+	 		border: 1px solid $black;
+	 		margin-top: 1rem;
+	 		padding: 1rem 2rem;
+	 		text-align: center;
+	 		color: $black;
+	 		transition: all 0.3s ease;
+	 		&:hover{
+	 			background-color: $secondary-color;
+	 			text-decoration: none;
+	 			color: $white;
+	 		}
+	 	}
+	 }
 
 }

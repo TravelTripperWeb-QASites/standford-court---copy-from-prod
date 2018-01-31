@@ -290,6 +290,18 @@ $(document).ready(function () {
            },1000);
            }
    });
+
+	// get rt3 offers in gallery
+	$('#lightgallery').rezGallery({
+	          hotelID : 'SFOSTF',
+	          portalID : 'stanfordcourt',
+	          buttonClass :'btn-common btn-od-form',
+	          pageLink : true,
+	          description : true,
+	          offerdetailPage : '/special/'
+	});
+
+	
 	/*var configProfile = {
 		"domId": 'soicalfeed',
 		"maxTweets": 7,

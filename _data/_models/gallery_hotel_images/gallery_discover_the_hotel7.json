@@ -1,0 +1,43 @@
+{
+  "thumb_image": {
+    "name": "tb-7",
+    "file_name": "tb-7.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/tb-7.jpg",
+    "tags": "",
+    "file_size": 39043,
+    "width": 500,
+    "height": 373,
+    "description": "",
+    "date_added": "2017-12-11-043847",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/large_tb-7.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/medium_tb-7.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/small_tb-7.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/xsmall_tb-7.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/thumb_tb-7.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043847/tb-7.jpg",
+    "alt": "lounge-bar",
+    "caption": ""
+  },
+  "large_image": {
+    "name": "lg-7",
+    "file_name": "lg-7.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/lg-7.jpg",
+    "tags": "",
+    "file_size": 218942,
+    "width": 1600,
+    "height": 1080,
+    "description": "",
+    "date_added": "2017-12-11-043909",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/large_lg-7.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/medium_lg-7.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/small_lg-7.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/xsmall_lg-7.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/thumb_lg-7.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-043909/lg-7.jpg",
+    "alt": "lounge-bar",
+    "caption": ""
+  },
+  "image_alt_txt": "lounge and bar"
+}

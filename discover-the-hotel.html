@@ -39,24 +39,30 @@ meta_keywords_localized:
      </div>
 </section>  
 
-<section class="container">
+<section class="container ">
    <!-- gallery wrap --> 
   <div class="gallery-wrapper">
-    <div class="gallery-listing">
+    <div class="gallery-listing special">
+       
       <div class="container gallery-wrap" id="lightgallery">
+        <div class="s-link m-bottom"> <a href="/gallery/">BACK TO GALLERY </a> </div> 
         <ul>
         {% assign discover_hotel_images = site.data._models.gallery_discover_the_hotel %}
-{% for hotel_gallery in discover_hotel_images %}            
+{% for hotel_gallery in discover_hotel_images %}      
+        {% assign mod = forloop.index | modulo: 3 %}      
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
             <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive" alt="hotel_gallery.image_alt_txt"/> </div> 
           </li>  
+           {% if mod == 2 %}  
+          <li class="col-md-4 col-sm-4 fancybox hidden" data-filter="hotel" >
+              <div class="item rez-offer" data-sub-html="" data-src=""> </div> 
+            </li>
+             
+          {% endif %}
 {% endfor %}           
         </ul>
       </div>
     </div>
-    
-    
-    
   </div>
   <!--/gallery wrap --> 
 </section>

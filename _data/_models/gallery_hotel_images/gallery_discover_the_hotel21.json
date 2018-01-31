@@ -1,0 +1,43 @@
+{
+  "thumb_image": {
+    "name": "tb-21",
+    "file_name": "tb-21.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/tb-21.jpg",
+    "tags": "",
+    "file_size": 33947,
+    "width": 500,
+    "height": 373,
+    "description": "",
+    "date_added": "2017-12-11-055711",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/large_tb-21.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/medium_tb-21.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/small_tb-21.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/xsmall_tb-21.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/thumb_tb-21.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055711/tb-21.jpg",
+    "alt": "music-room",
+    "caption": ""
+  },
+  "large_image": {
+    "name": "lg-21",
+    "file_name": "lg-21.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/lg-21.jpg",
+    "tags": "",
+    "file_size": 253152,
+    "width": 1600,
+    "height": 1080,
+    "description": "",
+    "date_added": "2017-12-11-055730",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/large_lg-21.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/medium_lg-21.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/small_lg-21.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/xsmall_lg-21.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/thumb_lg-21.jpg",
+    "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-055730/lg-21.jpg",
+    "alt": "music-room",
+    "caption": ""
+  },
+  "image_alt_txt": "music-room"
+}

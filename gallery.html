@@ -33,7 +33,7 @@ meta_keywords_localized:
       <div class="row">
             <ul class="gallery-nav">
              <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
-              <li><a href="javascript:;" data-rel="hotel" class="filter">Hotel</a></li>
+              <li><a href="javascript:;" data-rel="hotel"  class="filter">Hotel</a></li>
               <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms</a></li>
                <li><a href="javascript:;" data-rel="video" class="filter">Video</a></li>
             </ul>
@@ -59,25 +59,42 @@ meta_keywords_localized:
                   <div class="play-icon"><i class="fa fa-play"></i></div>
             </a>
         </li>
+        <li class="col-md-4 col-sm-4 fancybox hidden" data-filter="hotel" >
+        <div class="item rez-offer" data-sub-html="" data-src=""> </div> 
+      </li>
         {% assign hotel_images = site.data._models.gallery_hotel_images %}
-{% for hotel_gallery in hotel_images %}            
+{% for hotel_gallery in hotel_images %}     
+        {% assign mod = forloop.index | modulo: 3 %}
            <li class="col-md-4 col-sm-4 fancybox" data-filter="hotel">
             <div class="item" data-src="{{hotel_gallery.large_image.url}}"><img src="{{hotel_gallery.thumb_image.url}}" class="img-responsive" alt="hotel_gallery.image_alt_txt"/> </div> 
           </li>  
+           {% if mod == 2 %}  
+          <li class="col-md-4 col-sm-4 fancybox hidden" data-filter="hotel" >
+              <div class="item rez-offer" data-sub-html="" data-src=""> </div> 
+            </li>
+             
+          {% endif %}
+
 {% endfor %}
 {% assign room_images = site.data._models.gallery_room_images %}
-{% for room_gallery in room_images %}          
+{% for room_gallery in room_images %}  
+ {% assign mod = forloop.index | modulo: 3 %}        
           <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
             <div class="item" data-src="{{room_gallery.large_image.url}}"><img src="{{room_gallery.thumb_image.url}}" class="img-responsive" alt="room_gallery.image_alt_txt"/> </div> 
           </li>
+   {% if mod == 2 %}  
+       <li class="col-md-4 col-sm-4 fancybox hidden" data-filter="hotel" >
+        <div class="item rez-offer" data-sub-html="" data-src=""> </div> 
+      </li>
+       
+    {% endif %}
 {% endfor %}
              
         </ul>
       </div>
     </div>
     
-    
-    
+
   </div>
   <!--/gallery wrap --> 
 </section>

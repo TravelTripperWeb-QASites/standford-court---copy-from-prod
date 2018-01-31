@@ -42,14 +42,14 @@
           "name": "Attractions",
           "url": "/attractions/",
           "parent": "attractions"
-        },
-        {
-          "name": "Gallery",
-          "url": "/gallery/",
-          "parent": "gallery"
         }
       ]
     },
+    {
+          "name": "Gallery",
+          "url": "/gallery/",
+          "parent": "gallery"
+        },
     {
       "name": "Blog",
       "url": "/blog/",
