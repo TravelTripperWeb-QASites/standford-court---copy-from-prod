@@ -348,6 +348,24 @@
     "git_file_name": "_assets/image_data/chinese-new-year-san-fran.json"
   },
   {
+    "name": "craft-beer-sf",
+    "file_name": "craft-beer-sf.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/craft-beer-sf.jpg",
+    "tags": "",
+    "file_size": 106819.0,
+    "width": 1000,
+    "height": 642,
+    "description": "",
+    "date_added": "2018-02-06-123203",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/large_craft-beer-sf.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/medium_craft-beer-sf.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/small_craft-beer-sf.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/xsmall_craft-beer-sf.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123203/thumb_craft-beer-sf.jpg",
+    "git_file_name": "_assets/image_data/craft-beer-sf.json"
+  },
+  {
     "name": "Dragon-Gate-1",
     "file_name": "Dragon-Gate-1.JPG",
     "file_type": "image/jpeg",
@@ -1230,6 +1248,24 @@
     "git_file_name": "_assets/image_data/SCH-Fitness-2.json"
   },
   {
+    "name": "sch-guide",
+    "file_name": "sch-guide.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/sch-guide.jpg",
+    "tags": "",
+    "file_size": 274740.0,
+    "width": 1000,
+    "height": 642,
+    "description": "",
+    "date_added": "2018-02-07-003429",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/large_sch-guide.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/medium_sch-guide.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/small_sch-guide.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/xsmall_sch-guide.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12068/media/2018-02-07-003429/thumb_sch-guide.jpg",
+    "git_file_name": "_assets/image_data/sch-guide.json"
+  },
+  {
     "name": "SCHFitnessCente4",
     "file_name": "SCHFitnessCente4.jpg",
     "file_type": "image/jpeg",
@@ -1382,6 +1418,24 @@
     "git_file_name": "_assets/image_data/SC_UBFAQ.json"
   },
   {
+    "name": "sf-beer-week-2018",
+    "file_name": "sf-beer-week-2018.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/sf-beer-week-2018.jpg",
+    "tags": "",
+    "file_size": 478111.0,
+    "width": 900,
+    "height": 1158,
+    "description": "",
+    "date_added": "2018-02-06-123200",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/large_sf-beer-week-2018.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/medium_sf-beer-week-2018.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/small_sf-beer-week-2018.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/xsmall_sf-beer-week-2018.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123200/thumb_sf-beer-week-2018.jpg",
+    "git_file_name": "_assets/image_data/sf-beer-week-2018.json"
+  },
+  {
     "name": "sf-beer-week-pan",
     "file_name": "sf-beer-week-pan.jpeg",
     "file_type": "image/jpeg",
@@ -1434,6 +1488,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_9300/media/2017-11-14-103943/xsmall_sf-free-things-2017.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_9300/media/2017-11-14-103943/thumb_sf-free-things-2017.jpg",
     "git_file_name": "_assets/image_data/sf-free-things-2017.json"
+  },
+  {
+    "name": "sf-giants-fan-fast",
+    "file_name": "sf-giants-fan-fast.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/sf-giants-fan-fast.jpg",
+    "tags": "",
+    "file_size": 231567.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "date_added": "2018-02-06-123156",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/large_sf-giants-fan-fast.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/medium_sf-giants-fan-fast.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/small_sf-giants-fan-fast.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/xsmall_sf-giants-fan-fast.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12055/media/2018-02-06-123156/thumb_sf-giants-fan-fast.jpg",
+    "git_file_name": "_assets/image_data/sf-giants-fan-fast.json"
   },
   {
     "name": "sfzoo",
