@@ -1,6 +1,6 @@
 var mobile =
   '<!--Hotel Exterior Photo-->' +
-  '<div class="item active">' +
+  '<div class="item">' +
     '<img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">' +
   '</div>' +
 /*
@@ -10,18 +10,21 @@ var mobile =
   '</div>' +*/
 
   '<!--City View Photo-->' +
-  '<div class="item">' +
+  '<div class="item active">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +
+    '<div class="carousel-caption carousel-text">' +
+    '<h1><strong>A LOOKOUT FOR A NEW OUTLOOK</strong></h1>' +
+    '</div>' +
   '</div>'
 ;
 
 var desktop =
-  '<!--City View Video-->' +
+  /*'<!--City View Video-->' +
   '<div class="item videoContainer">' +
     '<video autoplay loop>' +
       '<source src="https://cdn.traveltripper.io/site-assets/192_617_5474/media/2017-07-24-140325/cityscape-sunset.mp4" type="video/mp4">' +
     '</video>' +
-  '</div>' +
+  '</div>' +*/
 
   '<!--Hotel Exterior Photo-->' +
   '<div class="item">' +
@@ -40,8 +43,13 @@ var desktop =
   '</div>' +
 */
   '<!--City View Photo-->' +
-  '<div class="item">' +
+  '<div class="item active">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +
+    '<div class="carousel-caption carousel-text">' +
+    '<h1><strong>A LOOKOUT FOR A NEW OUTLOOK</strong></h1>' +
+    '<br>' +
+    '<br>' +
+    '</div>' +
   '</div>'
 ;
 
