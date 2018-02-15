@@ -13,6 +13,14 @@
  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <!--<link rel='canonical' href='{{page.permalink}}' />-->
 {% endif %}
+
+{% if page.meta_tags !="" %}
+ {% if page.url =='/blog/'%}
+   <meta name="robots" content="">
+ {% else %}
+   <meta name="robots" content="{{ page.meta_tags }}">
+ {%endif%}
+{% endif %}
      
 <meta name="google-site-verification" content="wbls7iYBq8RJU8fAd16oZBDyIiXfWa6MpVYw54SrMbk" />
 <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
