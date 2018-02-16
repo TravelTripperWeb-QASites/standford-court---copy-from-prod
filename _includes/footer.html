@@ -18,6 +18,11 @@
     <h4 class="text-center">Got a Question?</h4>
     <div class="btn-holder text-center"> <a href="/contact-us/" class="butn btn-wide uppercase"> CONTACT US </a> </div>
 </section>
+
+{% unless page.url == "/charities/" %}
+    {% include save-the-children.html %}
+  {% endunless %}
+
 <footer class="container">
     <div class="footer-wrapper bg-light clearfix">
         <div class="col-sm-4 border-right">
