@@ -16,7 +16,7 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044332/xsmall_tb-10.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044332/thumb_tb-10.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044332/tb-10.jpg",
-    "alt": "gym",
+    "alt": "fitness center",
     "caption": ""
   },
   "large_image": {
@@ -36,8 +36,8 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044355/xsmall_lg-10.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044355/thumb_lg-10.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044355/lg-10.jpg",
-    "alt": "gym",
+    "alt": "fitness center",
     "caption": ""
   },
-  "image_alt_txt": "gym"
+  "image_alt_txt": "fitness center"
 }
