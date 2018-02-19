@@ -1421,12 +1421,12 @@ body {
 
  .header-btn{
     a{ 
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 a:hover{
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
  }
 }
 
@@ -1435,4 +1435,14 @@ a:hover{
         display: none;
      }
 
+}
+
+.link-room{
+    a{
+        color: #337ab7;
+    }
+    a:hover{
+        color: #000000;
+        text-decoration: none;
+    }
 }
