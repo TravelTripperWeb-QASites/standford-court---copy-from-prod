@@ -1,1 +1,15 @@
-{"thumb_image":{"url":"https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123358/gallery-rooms-thumb-12.JPG"},"large_image":{"url":"https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-122801/gallery-rooms-12.JPG"},"image_alt_txt":"Stanfordcourt"}
+{
+  "thumb_image": {
+    "url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123358/gallery-rooms-thumb-12.JPG",
+    "alt": "premier view two doubles",
+    "caption": "",
+    "description": ""
+  },
+  "large_image": {
+    "url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-122801/gallery-rooms-12.JPG",
+    "alt": "premier view two doubles",
+    "caption": "",
+    "description": ""
+  },
+  "image_alt_txt": "premier view two doubles"
+}
