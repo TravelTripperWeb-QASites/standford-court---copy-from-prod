@@ -1419,3 +1419,20 @@ body {
     border: 1px solid #5c6f7b;
 }
 
+ .header-btn{
+    a{ 
+    background-color: black;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+ }
+}
+
+@media only screen and (max-width: 991px) {
+     .fade1{
+        display: none;
+     }
+
+}
