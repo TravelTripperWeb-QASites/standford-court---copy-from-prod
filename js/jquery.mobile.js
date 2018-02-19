@@ -3,11 +3,11 @@ var mobile =
   '<div class="item active">' +
     '<img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">' +
   '</div>' +
-
+/*
   '<!--Bay View Photo-->' +
   '<div class="item">' +
     '<img src="/images/homepage/slider-5.jpg" alt="Stanfordcourt">' +
-  '</div>' +
+  '</div>' +*/
 
   '<!--City View Photo-->' +
   '<div class="item">' +
@@ -28,10 +28,10 @@ var desktop =
     '<img src="/images/homepage/slider-1-dark-crop.jpg" alt="Stanfordcourt">' +
   '</div>' +
 
-  '<!--Bay View Photo-->' +
+  /*'<!--Bay View Photo-->' +
   '<div class="item">' +
     '<img src="/images/homepage/slider-5.jpg" alt="Stanfordcourt">' +
-  '</div>' +
+  '</div>' +*/
 
 /*'<!--Ornament Photo-->' +
   '<div class="item">' +
