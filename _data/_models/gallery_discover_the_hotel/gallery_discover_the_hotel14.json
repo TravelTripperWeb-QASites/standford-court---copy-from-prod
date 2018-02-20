@@ -16,7 +16,7 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044829/xsmall_tb-14.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044829/thumb_tb-14.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044829/tb-14.jpg",
-    "alt": "lobby-seating",
+    "alt": "lounge seating",
     "caption": ""
   },
   "large_image": {
@@ -36,8 +36,8 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044920/xsmall_lg-14.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044920/thumb_lg-14.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_10128/media/2017-12-11-044920/lg-14.jpg",
-    "alt": "lobby-seating",
+    "alt": "lounge seating",
     "caption": ""
   },
-  "image_alt_txt": "lobby-seating"
+  "image_alt_txt": "lounge seating"
 }
