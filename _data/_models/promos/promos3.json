@@ -1,6 +1,6 @@
 {
   "subtitle": "Stanford Court ",
-  "title": "Bed & Breakfast Bundle ",
+  "title": "Bed & Breakfast ",
   "bannerimage": {
     "name": "breakfast buffet SFSC3560",
     "file_name": "breakfast buffet SFSC3560.jpg",
@@ -36,7 +36,7 @@
     "file_size": 1237271,
     "width": 3264,
     "height": 4928,
-    "description": "Painted Ladies",
+    "description": "",
     "date_added": "2018-02-19-171102",
     "url_large": "//cdn.traveltripper.io/site-assets/192_617_12481/media/2018-02-19-171102/large_DSC_9583_2_2_.JPG",
     "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12481/media/2018-02-19-171102/medium_DSC_9583_2_2_.JPG",
@@ -45,7 +45,7 @@
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12481/media/2018-02-19-171102/thumb_DSC_9583_2_2_.JPG",
     "git_file_name": "_assets/image_data/DSC_9583 2(2).json",
     "path": "//cdn.traveltripper.io/site-assets/192_617_12481/media/2018-02-19-171102/DSC-9583-2-2-.JPG",
-    "alt": "Painted Ladies - Sunny day view, San Francisco",
-    "caption": "Painted ladies"
+    "alt": "breakfast plate of pancakes, potatoes, bacon",
+    "caption": ""
   }
 }
