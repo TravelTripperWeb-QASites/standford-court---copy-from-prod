@@ -366,6 +366,11 @@
       "file": "blog165.json"
     },
     {
+      "name": "5 New SF Restaurants You Need to Devour",
+      "title": "5 New SF Restaurants You Need to Devour",
+      "file": "blog166.json"
+    },
+    {
       "name": "San Francisco Giants NDLS",
       "title": "San Francisco Giants NDLS",
       "file": "blog17.json"
@@ -987,9 +992,6 @@
       "file": "gallery_room_images10.json"
     },
     {
-      "file": "gallery_room_images11.json"
-    },
-    {
       "file": "gallery_room_images12.json"
     },
     {
@@ -1000,12 +1002,6 @@
     },
     {
       "file": "gallery_room_images16.json"
-    },
-    {
-      "file": "gallery_room_images17.json"
-    },
-    {
-      "file": "gallery_room_images18.json"
     },
     {
       "file": "gallery_room_images19.json"
@@ -1035,16 +1031,7 @@
       "file": "gallery_room_images29.json"
     },
     {
-      "file": "gallery_room_images3.json"
-    },
-    {
       "file": "gallery_room_images30.json"
-    },
-    {
-      "file": "gallery_room_images4.json"
-    },
-    {
-      "file": "gallery_room_images5.json"
     },
     {
       "file": "gallery_room_images6.json"
@@ -1161,6 +1148,11 @@
       "name": "Spectacular Savings! Up to 20%!",
       "title": "Spectacular Savings! Up to 20%!",
       "file": "promos2.json"
+    },
+    {
+      "name": "Bed & Breakfast ",
+      "title": "Bed & Breakfast ",
+      "file": "promos3.json"
     }
   ],
   "rooms": [
