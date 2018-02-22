@@ -54,10 +54,10 @@ var desktop =
 ;
 
 if (jQuery.browser.mobile) {
-  $(".carousel-inner").append( mobile );
+  $("#myCarousel .carousel-inner").append( mobile );
 } else {
-  $(".carousel-inner").append( desktop );
-  $(".carousel-indicators").append( '<li data-target="#myCarousel" data-slide-to="4"></li><li data-target="#myCarousel" data-slide-to="5"></li>' );
+  $("#myCarousel .carousel-inner").append( desktop );
+  $("#myCarousel .carousel-indicators").append( '<li data-target="#myCarousel" data-slide-to="4"></li><li data-target="#myCarousel" data-slide-to="5"></li>' );
 
 }
 
