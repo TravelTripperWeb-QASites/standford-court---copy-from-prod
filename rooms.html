@@ -147,19 +147,19 @@ meta_keywords_localized:
       <p class="r-link">{{room.long_description}}</p>
       <div class="r-cost">{% assign category = room.title | downcase %}
           {% if category == 'standard' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rStandard[0].code]]" target="_blank"><span><span ng-show="rStandard[0].todayRate != 'CHECK AVAILABILITY'" >From </span>[[ rStandard[0].todayRate ]]</span>&nbsp;</a>
+          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rStandard[0].code]]" target="_blank"><span><span ng-show="rStandard[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span>[[ rStandard[0].todayRate ]]</span>&nbsp;</a>
           {% endif %}
 
           {% if category == 'deluxe' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rDeluxe[0].code]]" target="_blank"><span><span ng-show="rDeluxe[0].todayRate != 'CHECK AVAILABILITY'" >From </span> [[ rDeluxe[0].todayRate ]]</span>&nbsp;</a>
+          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rDeluxe[0].code]]" target="_blank"><span><span ng-show="rDeluxe[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rDeluxe[0].todayRate ]]</span>&nbsp;</a>
           {% endif %}
 
           {% if category == 'premier' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rPremier[0].code]]" target="_blank"><span><span ng-show="rPremier[0].todayRate != 'CHECK AVAILABILITY'" >From </span> [[ rPremier[0].todayRate ]]</span>&nbsp;</a>
+          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rPremier[0].code]]" target="_blank"><span><span ng-show="rPremier[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rPremier[0].todayRate ]]</span>&nbsp;</a>
           {% endif %}
 
           {% if category == 'suites' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rSuites[0].code]]" target="_blank"><span><span ng-show="rSuites[0].todayRate != 'CHECK AVAILABILITY'" >From </span> [[ rSuites[0].todayRate ]]</span>&nbsp;</a>
+          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rSuites[0].code]]" target="_blank"><span><span ng-show="rSuites[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rSuites[0].todayRate ]]</span>&nbsp;</a>
           {% endif %}
       </div>
       <div class="r-link"><a href="{{room.book_this_room}}" target="_blank">
