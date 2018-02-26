@@ -117,11 +117,19 @@
           @media(max-width: 350px) {
             line-height: 20px;
           }
-
+          a {
+              margin-left: 30px;
+              display: inline-block;
+              @media(max-width: 768px) {
+                margin-left: 0;
+              }
+          }
           .price {
-            float: right;
+            // float: right;
             font-size: 30px;
             color: $white;
+            border: solid 1px #dec7a5;
+            padding: 10px 10px 5px 10px;
             @media(max-width: 650px) {
               display: inline-block;
               float: none;
