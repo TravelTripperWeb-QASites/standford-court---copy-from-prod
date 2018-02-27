@@ -180,7 +180,7 @@
       	 	    line-height: 58px;
       	 	    padding-top: 18px;
           	 }
-          	
+
           }
 
 	 }
@@ -199,6 +199,9 @@
 	 	  	right: 0px;
 	 	  }
 	 }
+     img {
+         width: 100%;
+     }
 }
 #amenitiesSlider{
 	 &.carousel{
@@ -294,7 +297,7 @@ hr{
 						transform: translate(-50%, -20%);
 
 				 	}
-				    
+
 
 				    a{
 				    	opacity: 0.7;
@@ -482,7 +485,7 @@ hr{
         		 }
         	}
 
-        	 
+
         	 h2, h4, p{
 
         	 	padding: 0px 20px 10px 10px ;
@@ -752,7 +755,7 @@ hr{
 	    	  }
           a {
             &:hover {
-              text-decoration: none; 
+              text-decoration: none;
             }
           }
 	    }
@@ -892,9 +895,9 @@ hr{
 			 border-radius: 50%;
 			 background-color: white;
 			 text-align: center;
-			 padding: 20px;
-			 height: 200px;
-			 width: 200px;
+			 padding: 40px 20px;
+			 height: 260px;
+			 width: 260px;
 			 @media(min-width: $screen-sm-min){
 			 	padding: 40px;
 			 	height: 330px;
@@ -1541,7 +1544,7 @@ hr{
 
 	/***** Modal *****/
 .modal-dialog{
-	
+
 	@media (min-width: 768px){
 	    width: 840px;
 	}
@@ -1549,34 +1552,34 @@ hr{
 
 .modal {
 
-	z-index: 2000; 
-}  
+	z-index: 2000;
+}
 
 .modal-backdrop.in {
     filter: alpha(opacity=7);
     opacity: 0.7;
 }
- 
+
 .modal-content {
     background: #ede6dd;
     border: 0;
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
- 
+
 .modal-body {
     padding: 0 25px 25px 25px;
 }
- 
+
 .modal-header {
     padding: 10px 25px 10px 25px;
     text-align: right;
 }
- 
+
 .modal-header, .modal-footer {
     border: 0;
 }
- 
+
 .modal-header .close {
     float: none;
     margin: 0;
@@ -1588,7 +1591,7 @@ hr{
 
     &:hover{
 
-    	color: #000;	
+    	color: #000;
     }
 }
 }
@@ -1783,7 +1786,7 @@ a{
             top: 0;
             left: 0;
             right: 0;
-            bottom: 0;  
+            bottom: 0;
             background-color:$black;
             &:hover{
                 figure{
@@ -1801,10 +1804,10 @@ a{
                 background-repeat: no-repeat;
                 background-size: cover;
                 transition: all 0.3s ease;
-                position: relative; 
-                
-            } 
+                position: relative;
+
+            }
         }
     }
-    
+
 }
