@@ -546,6 +546,24 @@
     "git_file_name": "_assets/image_data/five-ways-to-celebrate-lgbt-history-month-in-sf.json"
   },
   {
+    "name": "francis-ford-coppola",
+    "file_name": "francis-ford-coppola.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/francis-ford-coppola.jpg",
+    "tags": "",
+    "file_size": 1278687.0,
+    "width": 1000,
+    "height": 625,
+    "description": "",
+    "date_added": "2018-02-23-130018",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/large_francis-ford-coppola.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/medium_francis-ford-coppola.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/small_francis-ford-coppola.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/xsmall_francis-ford-coppola.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-130018/thumb_francis-ford-coppola.jpg",
+    "git_file_name": "_assets/image_data/francis-ford-coppola.json"
+  },
+  {
     "name": "half-moon-bay-beach",
     "file_name": "half-moon-bay-beach.jpg",
     "file_type": "image/jpeg",
@@ -6386,6 +6404,24 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_8184/media/2017-10-12-180650/xsmall_vegetarian-restaurant-sf.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_8184/media/2017-10-12-180650/thumb_vegetarian-restaurant-sf.jpg",
     "git_file_name": "_assets/image_data/vegetarian-restaurant-sf.json"
+  },
+  {
+    "name": "washington-square",
+    "file_name": "washington-square.jpg",
+    "file_type": "image/jpeg",
+    "url": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/washington-square.jpg",
+    "tags": "",
+    "file_size": 1184452.0,
+    "width": 1000,
+    "height": 667,
+    "description": "",
+    "date_added": "2018-02-23-125646",
+    "url_large": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/large_washington-square.jpg",
+    "url_medium": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/medium_washington-square.jpg",
+    "url_small": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/small_washington-square.jpg",
+    "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/xsmall_washington-square.jpg",
+    "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_12656/media/2018-02-23-125646/thumb_washington-square.jpg",
+    "git_file_name": "_assets/image_data/washington-square.json"
   },
   {
     "name": "WOMEN   BEER__SFBW16_TheGoodHop_03_Alex Lexson_2400",
