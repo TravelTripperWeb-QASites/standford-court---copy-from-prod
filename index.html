@@ -35,13 +35,13 @@ meta_keywords_localized:
             <div class="carousel-caption carousel-text">
               {% regionblock  banner_heading1, type:header %}
              <h1><strong>SNEAK PEEK</strong></h1>
-              {% endregionblock %} 
+              {% endregionblock %}
               <div class="btn-holder">
         {% regionblock  banner_button1, type:button %}
         <a href="/discover-the-hotel/" class="butn btn-white btn-wide uppercase opacity w-index">
               Discover our New Design
             </a>
-        {% endregionblock %} 
+        {% endregionblock %}
      </div>
    </div>
   </div>
@@ -53,13 +53,13 @@ meta_keywords_localized:
               {% regionblock  banner_heading, type:header %}
               <h3>New Fitness Center!</h3>
               <h5>Just in time for those New Year’s Goals</h5>
-              {% endregionblock %} 
+              {% endregionblock %}
               <div class="btn-holder">
         {% regionblock  banner_button, type:button %}
         <a href="https://www.stanfordcourt.com/special/#holiday-savings-20percent" class="butn btn-white btn-wide uppercase opacity">
               Book Now
             </a>
-        {% endregionblock %} 
+        {% endregionblock %}
      </div>
    </div>
   </div>
@@ -77,8 +77,31 @@ meta_keywords_localized:
     </a>
 
   </div>
+  <div class="recentBookingsOuter" rt3-recent-bookings="recentBookings" ng-cloak>
+      <div class="recentBookingsInner" style="display:none">
+        <span class="recentBookingsHolder" ng-show="recentBookings.totalBookings > 5"><span class="recentBookingNo">[[ recentBookings.totalBookings ]]</span><span class="recentBookingText">People booked our hotel in the last 2 days</span></span>
+      </div>
+  </div>
 </div>
+<!-- brg rate section -->
+<section class="price-wrap container-fluid" ng-show="browser.isRate" style="display:none">
+  <div class="best-rate-ota" ng-show="browser.otaRates.brgFound">
+    <div class="boxes">
 
+      <div class="tonight-rate ">
+        <p>Best Price Available</p>
+        <h4>Tonight's Rate <a href="https://stanfordcourt.reztrip.com/search?" target="_blank"  class="homeTonightRate" ><span class="price">[[ browser.toNightsRate ]]</span></a></h4>
+      </div>
+
+      <div class="ota-list">
+        <ul>
+          <li ng-repeat="(key, value) in browser.otaRates.brg">[[ key ]] <span>$[[ value ]]</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
 <div class="od-booking" >
   <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
     <span class="field-holder">
@@ -90,7 +113,7 @@ meta_keywords_localized:
       <select class="select-dropdown" name="selected_room" id="od_room" aria-label="Select Room">
         <option value="1" selected="">Select Room </option>
         <option ng-repeat="r in browser.roomsList" value="[[r.code]]">[[r.name]]</option>
-        
+
       </select>
       </span>
       <span class="field-holder sb">

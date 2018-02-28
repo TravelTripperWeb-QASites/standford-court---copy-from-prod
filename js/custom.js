@@ -10,11 +10,11 @@ $(document).ready(function () {
 		if (!results[2]) return '';
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
-	  
+
 	  //Offer Promo Popup
-		 
+
 	  var nowTime = new Date().getTime();
-	  
+
 		   var exposedofferPopup = localStorage.getItem('exposedofferPopup');
 		   if (!exposedofferPopup) {
 			   $('.message').css('display', 'none');
@@ -212,7 +212,7 @@ $(document).ready(function () {
 
 	});
 	setTimeout(function () {
-		$(".price-wrap1").css('display', 'block');
+		$(".price-wrap, .recentBookingsInner").css('display', 'block');
 	}, 2000);
 
 	$(".wedding-date").datepicker();
@@ -270,7 +270,7 @@ $(document).ready(function () {
 	$.ajax({
 		url: instaurl,
 		dataType: "jsonp",
-		success: function (response) { 
+		success: function (response) {
            	console.log('ok insta');
              setTimeout(function(){
              $.each(response.data, function(i, item) {
@@ -279,7 +279,7 @@ $(document).ready(function () {
                  }else{
                    if(i>5) return false;
                  }
-                 
+
                  $('<div class="col-sm-4 col-md-2 insta-image p-0"><a href="'+item.link+'" target="_blank"><figure style="background-image:url('+item.images.standard_resolution.url+');"> </figure> </a></div>').appendTo('#instafeed');
               });
              var heightDIV = $('#instafeed div:first-child').innerWidth();
@@ -301,7 +301,7 @@ $(document).ready(function () {
 	          offerdetailPage : '/special/'
 	});
 
-	
+
 	/*var configProfile = {
 		"domId": 'soicalfeed',
 		"maxTweets": 7,
@@ -315,10 +315,10 @@ $(document).ready(function () {
         //google map
     	function initMap() {
     	  var myLatLng = {lat: 37.791529, lng: -122.409594};
-    	
+
     	  var map = new google.maps.Map(document.getElementById('map'), {
     	    zoom: 15,
-    	
+
     	    center: new google.maps.LatLng(37.791529, -122.409594),
     	scrollwheel: false,
     	styles: [
@@ -409,11 +409,11 @@ $(document).ready(function () {
     	    title: 'Stanford Court Hotel',
     	icon: iconBase + 'loc.png'
     	  });
-    	
+
     	}
     	if($("#map")){
-    		google.maps.event.addDomListener(window, 'load', initMap); 
-    	} 
+    		google.maps.event.addDomListener(window, 'load', initMap);
+    	}
 });
 
 //Ends here
