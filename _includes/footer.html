@@ -85,9 +85,10 @@
                 <p>We promise to only send the
                     good stuff.
                 </p>
-                <form method="post" action="https://submit.jotform.me/submit/70601425640446/" name="form_70601425640446" id="70601425640446" accept-charset="utf-8" novalidate>
+                <form method="post" action="https://web2.cendynhub.com/FormPost/FormPost.ashx" name="form_4BB13D7F-8DD3-4794-B193-869C838F6AC1" id="4BB13D7F-8DD3-4794-B193-869C838F6AC1" accept-charset="utf-8" class="eclubCheck" novalidate>
+                    <input name="formId" type="hidden" value="4BB13D7F-8DD3-4794-B193-869C838F6AC1"/>
                     <div class="input-group">
-                        <input type="email" id="input_3" name="q3_email" class="form-textbox form-control" size="30" required="required" placeholder="Your Email Here" aria-label="Your Email here" />
+                        <input type="email" id="email_address" name="emailAddress" class="form-textbox form-control" size="30" required="required" placeholder="Your Email Here" aria-label="Your Email here" />
                     </div>
                     <div class="error-code" id="emailError"></div>
                     <div class="input-group">                        
@@ -197,7 +198,7 @@
 </script>
 <script type="text/javascript">
     $(document).ready(function(){
-      $( "#eclubCheck" ).submit(function( event ) {
+      $( ".eclubCheck" ).submit(function( event ) {
           var email_address = $("#email_address").val();
           var grecaptcharesponse = $("#g-recaptcha-response").val();
     
