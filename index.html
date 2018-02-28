@@ -98,11 +98,10 @@ meta_keywords_localized:
           <li ng-repeat="(key, value) in browser.otaRates.brg">[[ key ]] <span>$[[ value ]]</span></li>
         </ul>
       </div>
-
-    </div>
   </div>
+</div>
 </section>
-<div class="od-booking" >
+<div class="od-booking fade1" >
   <form method="get" action="https://stanfordcourt.reztrip.com/search?" enctype="multipart/form-data" class="ng-pristine ng-valid">
     <span class="field-holder">
       <input type="text" class="textfield" placeholder="Arrival" id="od_arrival" name="arrival_date" aria-label="Arrival Date">
@@ -189,7 +188,7 @@ meta_keywords_localized:
             <li data-target="#carousel-welcome" data-slide-to="2">03</li>-->
           </ol>
           <!-- Wrapper for slides -->
-          <img src="/images/homepage/gallery/7.jpg" alt="Gallery" />
+          <img src="/images/homepage/gallery/7.jpg" alt="Gallery" class="img-responsive" />
           <!-- <div class="carousel-inner" role="listbox">
             <div class="item active">
               <img src="/images/homepage/gallery/6.jpg" alt="Gallery">
@@ -220,7 +219,7 @@ meta_keywords_localized:
         <div class="desctiption">
          {% regionblock rooms-heading %}
           <h2 class="title">It’s all in the Details </h2>
-          <h4 class="uppercase">Rooms &amp; Suites</h4>
+          <h4 class="uppercase link-room"> <a href="/rooms/">Rooms &amp; Suites</a></h4>
          {% endregionblock %}
           <hr align="left">
          {% regionblock rooms-details %}
@@ -241,18 +240,14 @@ meta_keywords_localized:
           <ol class="carousel-indicators carousel-vindicators-numbers">
             <li data-target="#amenitiesSlider" data-slide-to="0" class="active">01</li>
             <li data-target="#amenitiesSlider" data-slide-to="1">02</li>
-            <li data-target="#amenitiesSlider" data-slide-to="2">03</li>
           </ol>
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="/images/homepage/amenities.jpg" alt="Stanfordcourt Amenities">
+              <img src="/images/homepage/amenities.jpg" alt="Stanford court Amenities">
             </div>
             <div class="item">
-              <img src="/images/homepage/gallery/2.jpg" alt="Stanfordcourt Amenities">
-            </div>
-            <div class="item">
-              <img src="/images/homepage/gallery/3.jpg" alt="Stanfordcourt Amenities">
+              <img src="/images/homepage/gallery/2.jpg" alt="Stanford court Amenities">
             </div>
           </div>
         </div>
@@ -283,12 +278,12 @@ meta_keywords_localized:
       <div class="events-banner">
         <div id="eventsSlider" class="carousel slide">
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
+        <!--   <div class="carousel-inner" role="listbox"> -->
             <div class="item active">
               <img src="/images/homepage/events/1.jpg" alt="Stanfordcourt Events">
             </div>
 
-          </div>
+          <!-- </div> -->
           <!-- Controls
           <a class="left carousel-control" href="#eventsSlider" role="button" data-slide="prev">
           <i class="fa fa-angle-left" aria-hidden="true"></i></span>
@@ -302,7 +297,7 @@ meta_keywords_localized:
         <h4>meeting & Event <br /> spaces</h4>
         <h2>The Heart  <br />  Of Innovation</h2>
       {% endregionblock %}
-        <div class="btn-holder text-center">
+        <div class="btn-holder text-center butn-res">
         {% regionblock events-link %}
           <a href="" onclick="srfp_widget.show()" class="butn uppercase">
             Request For Proposal
@@ -329,11 +324,11 @@ meta_keywords_localized:
           </ol>
           -->
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
+        <!--   <div class="carousel-inner" role="listbox"> -->
             <div class="item active">
               <img src="/images/homepage/events/1slide.jpg" alt="Stanfordcourt Events">
             </div>
-          </div>
+         <!--  </div> -->
         </div>
       </div>
       <div class="right-cell">
@@ -348,7 +343,7 @@ meta_keywords_localized:
             Request RFP
           </a>-->
         </div>
-        <img src="/images/homepage/events/food-plate.jpg" class="img-responsive full-img img-responsive" alt="Stanfordcourt Dining">
+        <img src="/images/homepage/events/food-plate.jpg" class="img-responsive full-img" alt="Stanfordcourt Dining">
       </div>
     </div>
     <div class="local-living clearfix">
@@ -373,7 +368,7 @@ meta_keywords_localized:
       <div class="col-sm-8 no-padding col-sm-offset-4">
         <div class="right-content">
           <img src="/images/homepage/events/locals.jpg" class="img-responsive minus-1 pull-right" alt="Stanfordcourt Locals">
-          <div class="btn-holder center-white text-center">
+          <div class="btn-holder center-white text-center butn-res">
           {% regionblock locallivinglink %}
             <a href="/events/" class="butn btn-wide uppercase">
               discover more

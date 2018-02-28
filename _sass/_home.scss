@@ -322,7 +322,7 @@ hr{
 	 	 		   width: 66%;
 	 	 	     }
 	 	 	     @media(max-width: $screen-xs-max){
-	 	 	     	display: block;
+	 	 	     	display: none;
 	 	 	     	width: 100%;
 	 	 	     	padding-top:300px
 	 	 	     }
@@ -1809,5 +1809,12 @@ a{
             }
         }
     }
-
+    
 }
+
+@media only screen and (max-width: 767px) {
+      .nob-slide {
+        background:none;
+       }
+   }
+

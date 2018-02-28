@@ -118,3 +118,15 @@
 		    }
 		}
 }
+
+.butn-res{
+.butn{
+  @media(max-width: 767px){
+	 	padding: 8px 13px;
+		    font-size: 7px;
+		    text-decoration: none;
+		    letter-spacing: 0.1em;
+	 }
+}
+	
+}

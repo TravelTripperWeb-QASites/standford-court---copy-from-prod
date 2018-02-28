@@ -1419,4 +1419,33 @@ body {
     border: 1px solid #5c6f7b;
 }
 
+ .header-btn{
+    a{ 
+    background-color: #000000;
+    color: #ffffff;
+}
+a:hover{
+    background-color: #ffffff;
+    color: #000000;
+ }
+}
+
+@media only screen and (max-width: 991px) {
+     .fade1{
+        display: none;
+     }
+
+}
+
+.link-room{
+    a{
+        color: #337ab7;
+    }
+    a:hover{
+        color: #000000;
+        text-decoration: none;
+    }
+}
+
 .error-code {color: red;}
+
