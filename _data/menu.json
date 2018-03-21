@@ -62,6 +62,11 @@
     }
   ],
   "attractions": [{
+      "name": "SAN FRANCISCO SITES",
+      "url": "/attractions/san-francisco-sites/",
+      "child": "san-francisco-sites"
+    },
+    {
       "name": "Culture",
       "url": "/attractions/",
       "child": "culture"
@@ -75,11 +80,6 @@
       "name": "Retail",
       "url": "/attractions/retail/",
       "child": "retail"
-    },
-    {
-      "name": "SAN FRANCISCO SITES",
-      "url": "/attractions/san-francisco-sites/",
-      "child": "san-francisco-sites"
     },
     {
       "name": "Fitness",
