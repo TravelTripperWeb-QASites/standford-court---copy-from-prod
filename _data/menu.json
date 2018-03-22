@@ -63,12 +63,12 @@
   ],
   "attractions": [{
       "name": "SAN FRANCISCO SITES",
-      "url": "/attractions/san-francisco-sites/",
+      "url": "/attractions/",
       "child": "san-francisco-sites"
     },
     {
       "name": "Culture",
-      "url": "/attractions/",
+      "url": "/attractions/culture/",
       "child": "culture"
     },
     {
