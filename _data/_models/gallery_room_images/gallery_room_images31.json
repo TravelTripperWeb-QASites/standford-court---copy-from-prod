@@ -16,7 +16,7 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054042/xsmall_bath-tb.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054042/thumb_bath-tb.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054042/bath-tb.jpg",
-    "alt": "bath",
+    "alt": "restroom",
     "caption": ""
   },
   "large_image": {
@@ -36,8 +36,9 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054103/xsmall_bath-lg.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054103/thumb_bath-lg.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_13863/media/2018-03-23-054103/bath-lg.jpg",
-    "alt": "bath",
+    "alt": "restroom",
     "caption": ""
   },
-  "image_alt_txt": "bath"
+  "sort_order": 1,
+  "image_alt_txt": "restroom"
 }

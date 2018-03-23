@@ -13,5 +13,10 @@
     {
       "type": "text",
       "required": true
+    },
+    "sort_order":
+    {
+      "type": "integer",
+      "required": true
     }
 }

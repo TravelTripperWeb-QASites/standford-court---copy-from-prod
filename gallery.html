@@ -78,7 +78,7 @@ meta_keywords_localized:
                     </li>
                     {% endif %}
                     {% endfor %}
-                    {% assign room_images = site.data._models.gallery_room_images %}
+                    {% assign room_images = site.data._models.gallery_room_images | sort: 'sort_order' %}
                     {% for room_gallery in room_images %}  
                     {% assign mod = forloop.index | modulo: 3 %}        
                     <li class="col-md-4 col-sm-4 fancybox" data-filter="rooms">
