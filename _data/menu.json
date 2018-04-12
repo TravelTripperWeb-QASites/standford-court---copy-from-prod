@@ -30,10 +30,6 @@
       "parent": "location",
       "submenu": "true",
       "subitems": [{
-          "name": "Reboot",
-          "url": "/reboot/"
-        },
-        {
           "name": "Events",
           "url": "/events/",
           "parent": "events"
