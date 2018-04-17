@@ -383,6 +383,7 @@
 .groupspecial{
     background-color: #fff !important;
     .groupcontainer{
+      max-width: 430px !important;
         .rfp{
             padding: 40px !important;
             .pad{
@@ -402,7 +403,17 @@
         h4{
             color: $light-gold;
             text-transform: uppercase;
+            font-size: 20px;
         }
+
+        h6 {
+          span{
+            font-size: 12px;
+            line-height: 20px;
+            color: $skyblue !important;
+          }
+        }
+
         span{
             color: #000000 !important;
             text-transform: uppercase;
@@ -412,6 +423,7 @@
             margin-top: 10px;
             text-transform: uppercase;
             padding: 0px 0px !important;
+            font-size: 17px !important;
         }
     }
 }
