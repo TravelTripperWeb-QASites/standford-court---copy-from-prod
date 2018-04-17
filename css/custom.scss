@@ -9,7 +9,7 @@ $screen-sm-max: 991px;
 $screen-md-min: 992px;
 $screen-md-max: 1199px;
 $screen-lg-min: 1200px;
- 
+
 // Our variables
 $base-font-family: "GothamHTF Light", Helvetica, Arial, sans-serif;
 $base-font-family1: "GothamHTF Medium", Helvetica, Arial, sans-serif;
@@ -29,6 +29,9 @@ $dark-chocolate: #dec7a5;
 $screen-custom-min: 1300px;
 $white: #FFFFFF;
 $dark-black: #343436;
+$light-black: #575757;
+$skyblue: #3b7c9a;
+$light-gold: #a28144;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -45,8 +48,8 @@ $dark-black: #343436;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-       
-        
+
+
         "styles",
         "home",
         "roomdetail",
