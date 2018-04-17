@@ -22,7 +22,7 @@ layout: default
         <a class="butn btn-white uppercase bgwhite-btn promos-btn" target="_blank" href="{{promos.promolink}}">
           {{promos.button_label1}}
         </a>
-        {% if promos.button_label2 != "" %}
+          {% if promos.button_label2 and promos.button_label2 != "" %}
         <a class="butn btn-white uppercase bgwhite-btn" target="_blank" href="{{promos.second_promolink}}">
           {{promos.button_label2}}
         </a>
