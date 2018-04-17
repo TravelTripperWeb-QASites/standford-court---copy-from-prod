@@ -11,7 +11,13 @@
 	{"type":"text"},
 "url_friendly_name":
 	{"type":"url_slug"},
+"button_label1":
+	{"type":"text"},
+"button_label2":
+	{"type":"text"},
 "promolink":
+	{"type":"text"},
+"second_promolink":
 	{"type":"text"},
 "promocontent":
 	{"required":true,"type":"richtext"},

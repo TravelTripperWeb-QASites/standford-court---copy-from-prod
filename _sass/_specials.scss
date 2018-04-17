@@ -36,7 +36,7 @@
 	 	 margin-left: 87px;
 	    max-width: 404px;
 	    margin-top: 26px;
-	 } 
+	 }
     }
      @media( min-width: $screen-sm-min){
       padding: 155px 0px 60px 0px
@@ -50,9 +50,9 @@
 	.col-md-6{
 		padding-bottom:68px;
 	}
-	
+
 	a{
-		 
+
 		 &:hover{
 		 	color:#fff;
 		  	/*text-decoration:none;*/
@@ -76,13 +76,13 @@
 		  padding:47px 0px 40px 0px;
 
     	  }
-    	 
+
 
 	}
 
 	h3{
 
-			  
+
 		  text-align:center;
 		  max-width:310px;
 		  font-family: $headline-font-family;
@@ -96,9 +96,9 @@
 		  word-spacing: 10px;
 		  letter-spacing: 1px;
 		  line-height: 38px;
-		  
+
 		  @media(min-width: $screen-sm-min){
-		   
+
 		   font-size: 45px;
 		   max-width:318px;
 		   line-height: 58px;
@@ -109,7 +109,7 @@
 
 		  }
 	}
-	
+
 	.wider{
 		  max-width:318px;
 		  font-family: $headline-font-family;
@@ -123,7 +123,7 @@
 			}
 	}
 	.wider-max{
-	
+
 		  font-family: $headline-font-family;
 		  right:0;
 		  left:0;
@@ -137,7 +137,7 @@
 
 	}
 
-	
+
 	.s-p{
 		padding: 30px 14px 5px 16px;
 		font-family:$base-font-family;
@@ -178,6 +178,9 @@
 		    background-repeat: no-repeat;
 		   }
 		}
-	}	
+	}
 
+}
+.promos-btn{
+  margin: 0 10px;
 }
