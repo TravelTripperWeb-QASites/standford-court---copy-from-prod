@@ -1,0 +1,82 @@
+---
+excerpt: stanfordcourt.com
+parent: home
+title_localized:
+  en: San Francisco Hotel Deals | Hotel Specials | Stanford Court Hotel
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en:
+meta_description_localized:
+  en:
+meta_keywords_localized:
+  en:
+---
+
+<section rt3-special-rates= "offers" ng-controller="offerDetail">
+    <input type="hidden" id="offerList" value="[[ offers.special_rates ]]"/>
+    <div class="container">
+        <div id="top-spacer">
+        </div>
+    </div>
+    <div class="container">
+        <div class="special-details-banner" style="background-image:url('//cdn.traveltripper.io/site-assets/192_617_14658/media/2018-04-13-081459/Bridge-image.jpg')">
+            <div class="special-content">
+                {% regionblock heading %}
+                <h2>STANFORD COURT SPECIAL</h2>
+                {% endregionblock %}
+                <div class="position">
+                    {% regionblock offer %}
+                    <h3>Special Offer</h3>
+                   {% endregionblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="description-container">
+    <div class="contactus-container groupspecial">
+        <div class="col-sm-6 background-img" style="background-image:url(/images/special-details/specials-offfer.jpg)">
+        </div>
+        <div class="col-sm-6">
+            <div class="details-container groupcontainer">
+            {% regionblock content-heading %}
+                <h4>PLANNING AN OFFSITE MEETING?</h4>
+                <h4>DON’T WAIT BOOK NOW</h4>
+                {% endregionblock %}
+                <div class="btn-holder rfp">
+                 {% regionblock specials-link %}
+                <a class="butn btn-white uppercase bgwhite-btn pad" href="" onclick="srfp_widget.show()">REQUEST FOR PROPOSAL</a> {% endregionblock %}
+                </div>
+                 {% regionblock content %}
+                <p>SPEND A MINIMUM OF $5K & EARN OUR SUMMER REWARDS</p>
+                <span>Up to 25% off on group rates<br>
+                    1 Comp upgrade per 20 rooms<br>
+                    1 comp per 25<br>
+                    2% off your master bill</span>
+                <p>Must book group by August 30, 2017 to receive rewards and actualize by December 30, 2017.</p>
+                <p>Only valid on new group bookings and can not be applied to existing contracts.</p>
+                <div class="left">
+                  <p>P: <a href="tel:1415989350">415.989.3500</a></p>
+                  <p>E: <a href="mailto:sales@stanfordcourt.com">sales@stanfordcourt.com</a></p> {% endregionblock %}
+              </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row book-now-container background-img" style="background-image:url(/images/special-details/specials-stay.jpg)">
+            <div class="heading-circle">
+            {% regionblock heading-circle %}
+                <h4>AN ELEVATED BOUTIQUE<br>HOTEL EXPERIENCE</h4>
+                <h2>San Francisco at its Best</h2> {% endregionblock %}
+                <div class="btn-holder text-center">
+                  {% regionblock heading-circle-link %}  <a class="butn uppercase" href="{{site.data.config.reztripUrl}}" target="_blank">
+                    book your stay
+                    </a> {% endregionblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
