@@ -4,25 +4,25 @@ parent: specials
 title_localized:
   en: Press Releases and Hotel News | Stanford Court Hotel
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
-  en: 
+  en:
 meta_description_localized:
   en: Read the latest press and media updates from the Stanford Court hotel in San
     Francisco. Find out the latest news from the boutique hotel in Nob Hill.
 meta_keywords_localized:
-  en: 
+  en:
 ---
 <section class="container" >
-  
-  <div class="location-banner commonbanner" style="background-image:url(/images/press_banner.jpg)">
-    
+
+  <div class="location-banner commonbanner" style="background-image:url('//cdn.traveltripper.io/site-assets/192_617_14658/media/2018-04-13-081459/Bridge-image.jpg')">
+
     <div class="banner-inner">
-      
+
       <h3>Press</h3>
-      
+
     </div>
   </div>
 </section>
@@ -30,12 +30,12 @@ meta_keywords_localized:
   <div class="container no-gutter" >
 <div class="col-md-8 col-md-offset-2">
       {% assign presslist = site.data._models.press | sort: 'order' | reverse  %}
-      {% for press in presslist %} 
+      {% for press in presslist %}
       <h2>{{press.title}}</h2>
       {{press.description}}
        <div class="s-link press-more"><a href="{{press.linkurl}}" target="_blank">READ MORE</a></div>
       {% endfor %}
-      
+
     </div>
     </div>
 </section>
