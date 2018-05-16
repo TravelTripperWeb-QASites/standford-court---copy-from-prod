@@ -1,21 +1,21 @@
 .attraction-wrapper{
         margin-top: 29px;
-		.short-description{ 
+		.short-description{
 			padding: 30px;
-			margin: 10px 0px; 
+			margin: 10px 0px;
 	      @media(min-width: $screen-sm-min)	{
 		  	padding: 30px 40px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
 		  @media(min-width: $screen-md-min)	{
 		  	padding: 30px 60px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
 		  @media(min-width: $screen-custom-min)	{
 		  	padding: 30px 95px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
-			
+
 			 h4{
 			 	 text-transform: uppercase;
 			 	 font-size: 15px;
@@ -39,19 +39,19 @@
 			       max-width: 100%;
 			 }
 			 }
-			 
+
 		}
 
 		.main-image{
-			 position: relative; 
+			 position: relative;
 			 .hero-img{
-			 	 position: relative;   
+			 	 position: relative;
 			 }
 			 .div-overlay{
 		 	 	 min-height: 800px;
-		 	 	 width: 100%; 
+		 	 	 width: 100%;
 		 	 	 position: relative;
-                 background-position:center center; 
+                 background-position:center center;
                   -webkit-background-size: cover;
                   -moz-background-size: cover;
                   -o-background-size: cover;
@@ -82,7 +82,7 @@
 		 	 	 	     	 border-radius:  0 0 730px 730px;
 		 	 	 	     	 -moz-border-radius:  0 0 730px 730px;
 		 	 	 	     	 -webkit-border-radius: 0 0 730px 730px;
-		 	 	 	     } 
+		 	 	 	     }
 		 	 	 	      background:rgba(92,111,123,0.5);
 		 	 	 	      text-align: center;
                        .title2{
@@ -107,11 +107,11 @@
                        	   text-transform: uppercase;
                        	   color: white;
                        	    @media(min-width: $screen-custom-min){
-                       	       font-size: 15px; 
+                       	       font-size: 15px;
                        	       letter-spacing: 0.1em;
                        	       padding-top: 16px;
                        	    }
-                       } 
+                       }
 		 	 	 }
 		 	 	 .description{
 		 	 	 	 position: absolute;
@@ -163,17 +163,17 @@
                       	bottom: 190px;
                         left: 15%;
                   	    background: none;
-                  	    max-width: 382px; 
+                  	    max-width: 382px;
                       }
                       @media(min-width: $screen-md-min){
                       	bottom: 185px;
                   	    left: 22%;
                   	    background: none;
-                  	    max-width: 382px; 
+                  	    max-width: 382px;
                       }
 		 	 	 	  @media(min-width: $screen-custom-min){
 		 	 	 	  	bottom: 255px;
-		 	 	 	  	left: 277px; 
+		 	 	 	  	left: 277px;
 		 	 	 	    background: none;
 		 	 	 	  }
 		 	 	 	 strong{
@@ -198,28 +198,28 @@
      	    background-size: 30px;
      	    text-decoration: none;
      	    background-repeat: no-repeat;
-     	    padding-right: 52px; 
+     	    padding-right: 52px;
      	    text-decoration: none;
      	    transition: all 0.5s ease;
      	    color: white;
-     	    &:hover{ 
+     	    &:hover{
      	    	    text-decoration: none;
      	    	    color: white;
      	    	    background: url(/images/arrowroll-icon.png) right -16px;
      	    	    background-size: 30px;
-     	    	    background-repeat: no-repeat; 
+     	    	    background-repeat: no-repeat;
      	    }
      }
 }
 .activity{
 	  @media(min-width: $screen-custom-min){
-	  	padding: 54px 40px 25px 223px !important;
+	  	padding: 35px 40px 21px 223px !important;
 	  }
 	   p{
 	   	       @media(min-width: $screen-custom-min){
 	   	        padding: 0px 53px;
 			    line-height: 24px;
-			    max-width: 370px;
+			    max-width: 400px;
 			}
 	   }
 	   @media(min-width: $screen-custom-min){
@@ -246,16 +246,16 @@
     	 	margin-top: 40px;
     	 }
     }
-	   
+
 }
 
 #activitySlider{
 	 .carousel-vindicators-numbers{
 	 	top: auto;
-	 	bottom: 18px; 
-	 	    @media(min-witdh: $screen-custom-min){ 
-	 	    		 	    margin-left: 57%;  
-	 	    	}  
+	 	bottom: 18px;
+	 	    @media(min-witdh: $screen-custom-min){
+	 	    		 	    margin-left: 57%;
+	 	    	}
 	 }
 }
 .culture-banner{
@@ -269,7 +269,7 @@
 	 		    h2{
 			 	 	 padding-top:77px;
 			 	 	 letter-spacing: 0.1em;
-			 	 	
+
 			 	 }
 			 	 h3{
 			 	 	 line-height: 193px;
@@ -294,17 +294,17 @@
 }
 
 .attrcation-cards{
-	 
+
 	 .card{
-	 	 background: #ede6dd;  
+	 	 background: #ede6dd;
 	 	 width: 100%;
 		 border-bottom: 2px solid white;
 		 @media(min-width: $screen-sm-min){
 	 	 	border-right: 2px solid white;
-	 	 } 
-		 
+	 	 }
+
 		 .img-holder{
-		 	  position: relative; 
+		 	  position: relative;
 		 	  overflow: hidden;
 		 	  h4{
 		 	  	 position: absolute;
@@ -340,21 +340,33 @@
 		 	 	//max-width: 220px;
 		 	 }
 		 }
-	 } 
+	 }
 	  @media(max-width: $screen-sm-max){
             div:nth-child(4n+2){
                  	.card{
                        border-right: 0px solid white;
                    }
-           	 } 
+           	 }
 	  }
       div:nth-child(4n+4){
       	.card{
             border-right: 0px solid white;
         }
-	 } 
+	 }
 }
 
 .opacity{
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.table-eq{
+.right-cell{
+  .dining-content{
+    @media(min-width: $screen-md-min){
+      display: block !important;
+      width: 100% !important;
+    }
+
+  }
+}
 }

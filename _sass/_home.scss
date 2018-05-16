@@ -463,10 +463,10 @@ hr{
         	text-align: center;
         	@media(min-width: $screen-sm-min){
         		text-align: left;
-        		padding:50px  20px 30px 70px;
+        		padding:0px  20px 5px 70px;
         	}
         	@media(min-width: $screen-md-min){
-        		padding:50px;
+        		padding:20px;
         	}
         	@media(min-width: $screen-custom-min){
         		//padding: 45px 40px 92px 169px;
@@ -1814,7 +1814,7 @@ a{
             }
         }
     }
-    
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1822,4 +1822,3 @@ a{
         background:none;
        }
    }
-
