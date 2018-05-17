@@ -37,7 +37,7 @@ meta_tags: noindex, follow
     <!--<img  src="{{post.blogimage.url}}" class="img-responsive">-->
 	<div class="blog-img" style="background-image: url({{post.blogimage.url}}) !important">
 		<div class="dl">
-			<a href="{{ post.id | permalink: model_dir: 'blog' }}" ><h3>{{post.title}}</h3></a>
+			<a href="{{ post.id | permalink: model_dir: 'blog' }}/" ><h3>{{post.title}}</h3></a>
 			<p>
 				{% assign d = post.date | date: "%-d" %}
 				{{ post.date | date: "%B" }}
@@ -48,7 +48,7 @@ meta_tags: noindex, follow
 	</div>
     <div class="blog-sd">
 		<div class="s-p">{{post.short_description}}</div>
-		<div class="s-link"><a href="{{ post.id | permalink: model_dir: 'blog' }}" >Read More</a></div>
+		<div class="s-link"><a href="{{ post.id | permalink: model_dir: 'blog' }}/" >Read More</a></div>
 	</div>
   </div>
  {% endfor %}
@@ -59,12 +59,12 @@ meta_tags: noindex, follow
 		<p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
 		<ul class="pagination">
 		  {% if data_paginator.previous_page %}
-			<li><a href="{{ data_paginator.previous_page_path }}" class="previous">Previous</a></li>
+			<li><a href="{{ data_paginator.previous_page_path }}/" class="previous">Previous</a></li>
 		  {% else %}
 			<li><span class="previous">Previous</span></li>
 		  {% endif %}
 		  {% if data_paginator.next_page %}
-			<li><a href="{{ data_paginator.next_page_path }}" class="next">Next</a></li>
+			<li><a href="{{ data_paginator.next_page_path }}/" class="next">Next</a></li>
 		  {% else %}
 			<li><span class="next ">Next</span></li>
 		  {% endif %}
