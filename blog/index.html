@@ -58,8 +58,11 @@ meta_tags: noindex, follow
 		<div class="pagination">
 		<p><span class="page_number">Page: {{ data_paginator.page }} of {{ data_paginator.total_pages }}</span></p>
 		<ul class="pagination">
-		  {% if data_paginator.previous_page %}
+		  {% if data_paginator.previous_page and data_paginator.previous_page != 1%}
 			<li><a href="{{ data_paginator.previous_page_path }}/" class="previous">Previous</a></li>
+   {{data_paginator.previous_page}}
+		  {% elsif data_paginator.previous_page and data_paginator.previous_page == 1%}
+		    <li><a href="/blog/" class="previous">Previous </a></li>
 		  {% else %}
 			<li><span class="previous">Previous</span></li>
 		  {% endif %}
