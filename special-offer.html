@@ -37,7 +37,10 @@ meta_keywords_localized:
     </div>
     <section class="description-container">
     <div class="contactus-container groupspecial">
-        <div class="col-sm-6 background-img" style="background-image:url(/images/special-details/specials-offfer.jpg)">
+        <div class="col-sm-6">
+          {% regionblock content-heading, type:image %}
+          <img src="/images/special-details/specials-offfer.jpg" alt="Special Offer" class="img-responsive">
+          {% endregionblock %}
         </div>
         <div class="col-sm-6">
             <div class="details-container groupcontainer">
