@@ -38,7 +38,7 @@
                     <br/>
                     <a href="tel:415-989-3500">415 989-3500</a> <br />
                 </p>
-                {% endregionblock %} 
+                {% endregionblock %}
             </div>
         </div>
         <div class="col-sm-4 border-right">
@@ -62,13 +62,13 @@
                         <li>
                             <div>
                                 <ul>
-                                    
+
                                     <li><a target="_blank" rel="nofollow" href="/charities/" title="save the children">
                                         <img src="/images/save-the-children-logo.png" class="savechildren-icon " alt="save the children"/></a></li>
                                 </ul>
                             </div>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=727&locationId=80747&lang=en_US&year=2016&display_version=2"></script>
@@ -95,7 +95,7 @@
                         <input type="email" id="email_address" name="emailAddress" class="form-textbox form-control" size="30" required="required" placeholder="Your Email Here" aria-label="Your Email here" />
                     </div>
                     <div class="error-code" id="emailError"></div>
-                    <div class="input-group">                        
+                    <div class="input-group">
                         <div class="g-recaptcha" data-theme="light" data-sitekey="6LdWgCAUAAAAAJvOai05x8FkahvQcgEDAsAdHq-D"></div>
                     </div>
                     <div class="error-code" id="grecaptcharesponseError"></div>
@@ -118,19 +118,18 @@
         </div>
     </div>
     <div class="copy-wrapper clearfix">
-        {% regionblock footerlinks %}
         <ul class="infolinks">
             <li> © <a href="https://www.stanfordcourt.com/" title="Stanford Court">Stanford Court</a> 2017 All Rights Reserved</li>
             <li><a href="https://www.chargerback.com/ReportLostItemCBEmbed.asp?CustomerID=2880" rel="nofollow" target="_blank">Lost Items</a></li>
             <li><a href="/faq/">Faq's</a></li>
             <li><a href="/privacy-policy/" rel="nofollow">Privacy Policy</a></li>
+            <li><a href="/terms-of-use/" rel="nofollow">Terms of Use</a></li>
             <li><a href="/press/">Press</a></li>
             <!-- <li><a href="/reboot/">Reboot</a></li> -->
             <li><a href="/sitemap/">Site Map</a></li>
             <li><a href="mailto:frontdesk@stanfordcourt.com?subject=I'd like a copy of my bill please" rel="nofollow">Copy of Bill </a></li>
             <li class="menu-item-grouprfp"><a href="#" onclick="srfp_widget.show()" rel="nofollow">Speed RFP</a></li>
         </ul>
-        {% endregionblock %} 
     </div>
 </footer>
 <!-- Wyndow Widget -->
@@ -150,8 +149,8 @@
 
 <script src="/js/utm-tracking.js"></script>
 <!--New Booking Widget-->
-<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script> 
-<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script> 
+<script src="https://plugins.traveltripper.io/v2/rt3api.js"></script>
+<script src="https://plugins.traveltripper.io/v2/jquery.ttweb.js"></script>
 <script>
     TTWeb.Config.configure({
       hotelId: 'SFOSTF', //'orwhatever your values are',
@@ -160,11 +159,11 @@
       ipAddress: sessionStorage.ip_add,
       defaultCurrency: 'USD'
     });
-    
-    
+
+
     $("[show-booking-widget]").bookingWidget({
          showRateCalendar: true,
-         showOfferCode: true          
+         showOfferCode: true
     });
 </script>
 {% if page.url == '/' %}
@@ -188,8 +187,8 @@
       links: false
     });
     userFeed.run();
-    */  
-</script> 
+    */
+</script>
 <script src="https://www.speedrfp.com/irfps/js/widget/" type="text/javascript"></script>
 <script type="text/javascript" charset="utf-8">
     var options = {};
@@ -198,7 +197,7 @@
     options.key = "f9aad5bfed895570";
     options.uid = "5LBFZ";
     options.button = "none";
-    
+
     var srfp_widget = new srfp.widget(options);
 </script>
 <script type="text/javascript">
@@ -206,11 +205,11 @@
       $( ".eclubCheck" ).submit(function( event ) {
           var email_address = $("#email_address").val();
           var grecaptcharesponse = $("#g-recaptcha-response").val();
-    
+
           var emailError = "";
           var valid = "";
-    
-    
+
+
           if(email_address == ""){
             valid+="Please specify your first name";
             emailError = "Please enter a valid email address";
@@ -226,7 +225,7 @@
               $("#emailError").html("");
             }
           }
-    
+
           if(grecaptcharesponse == ""){
             valid+="Please check the captcha";
             grecaptcharesponseError = "Please check the captcha";
@@ -235,14 +234,14 @@
             firstnameError = "";
             $("#grecaptcharesponseError").html("");
           }
-    
+
           if(valid == ""){
             $("#form_submit").attr("disabled", true);
             $("#form_submit").attr("value", "Submitting");
           } else {
             event.preventDefault();
           }
-    
+
       });
     });
 </script>
