@@ -65,9 +65,18 @@
 }
 .contact-wrapper{
 	  padding: 76px 0px 79px 0px !important;
+		margin-top: -76px;
      .banner-inner{
      	width: auto;
      	}
+			.banner-inner{
+
+				.log-img-seven{
+					max-width: 60%;
+
+
+				}
+			}
 
 
 }
@@ -132,20 +141,20 @@
 }
 .container{
 	.break-black{
+
 		background-color: black;
-		height:380px;
+		height: 237px;
+    margin-top: 18px;
 		h4{
-			margin-top: 5px;
+			   padding-top: 10px;
 		    font-weight: 700;
 			color:#A28144;
 			font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
-			.second-head{
-				margin-top: 10px;
-			}
 		}
 		p{
 			color:white;
-			    font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+			margin-top: 10px;
+
 		}
 
 	}
