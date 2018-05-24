@@ -19,7 +19,7 @@
 	 	 margin: 0px;
 	 	 padding: 0px;
 	 	 position: absolute;
-	 	 left: 0%; 
+	 	 left: 0%;
 	 	 left: 50%;
 	 	 top: 50%;
 	 	 transform: translate(-50%, -50%);
@@ -29,13 +29,13 @@
 .top-img{
 	 margin-top: 40px;
 }
-.form-wrapper{ 
+.form-wrapper{
 	 .article-wrapper{
 	 	text-align: center;
 	 	text-shadow: none;
 	 	  padding:40px;
 	 	  @media(min-width: $screen-sm-min){
-	 	  	 padding: 80px;  
+	 	  	 padding: 80px;
 	 	  }
 	 	 p{
 	 	 	strong{
@@ -46,7 +46,7 @@
 	 	 }
 
 	 }
-	 
+
    label{
    	  font-size: 13px;
    	  font-family: "GothamHTF Light", Helvetica, Arial, sans-serif;
@@ -63,11 +63,11 @@
      	min-width: 150px;
      }
 }
-.contact-wrapper{ 
+.contact-wrapper{
 	  padding: 76px 0px 79px 0px !important;
      .banner-inner{
      	width: auto;
-     	} 
+     	}
 
 
 }
@@ -86,7 +86,7 @@
 		 border-radius: 0px;
 		 background: none;
 	}
-	.arrival{ 
+	.arrival{
     margin-top: 30px;
 	}
 	.form-required{
@@ -113,7 +113,7 @@
 		    margin-top: 40px;
 		    transition: all 0.5s ease;
 		    &:hover{
-		    	color: $black; 
+		    	color: $black;
 		    	background: white;
 		    }
 		}
@@ -128,5 +128,25 @@
 		    letter-spacing: 0.1em;
 	 }
 }
-	
+
+}
+.container{
+	.break-black{
+		background-color: black;
+		height:380px;
+		h4{
+			margin-top: 5px;
+		    font-weight: 700;
+			color:#A28144;
+			font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+			.second-head{
+				margin-top: 10px;
+			}
+		}
+		p{
+			color:white;
+			    font-family: "GothamHTF Medium", Helvetica, Arial, sans-serif;
+		}
+
+	}
 }

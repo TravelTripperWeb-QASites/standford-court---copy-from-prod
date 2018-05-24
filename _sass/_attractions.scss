@@ -48,7 +48,7 @@
 			 	 position: relative;
 			 }
 			 .div-overlay{
-		 	 	 min-height: 800px;
+		 	 	 min-height: 460px;
 		 	 	 width: 100%;
 		 	 	 position: relative;
                  background-position:center center;
@@ -58,7 +58,7 @@
                   background-size: cover;
                   background-repeat: no-repeat;
                   @media(min-width: $screen-custom-min){
-                  	min-height: 1056px;
+                  	// min-height: 1056px;
                   }
 		 	 	 .title-container{
                          height:130px;
