@@ -215,11 +215,16 @@
 	  @media(min-width: $screen-custom-min){
 	  	padding: 35px 40px 21px 223px !important;
 	  }
+    h4{
+      font-weight: 700;
+     color:#A28144;
+     font-family: $base-font-family1;
+    }
 	   p{
 	   	       @media(min-width: $screen-custom-min){
 	   	        padding: 0px 53px;
 			    line-height: 24px;
-			    max-width: 400px;
+			    // max-width: 400px;
 			}
 	   }
 	   @media(min-width: $screen-custom-min){

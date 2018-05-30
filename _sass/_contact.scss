@@ -145,15 +145,19 @@
 		background-color: black;
 		height: 237px;
     margin-top: 18px;
+		.ml{
+			margin-left: 32%;
+		}
 		h4{
-			   padding-top: 10px;
+			   // padding-top: 10px;
 		    font-weight: 700;
+				font-size: 24px;
 			color:#A28144;
 			font-family: $base-font-family1;
 		}
 		p{
 			color:white;
-			margin-top: 10px;
+			// margin-top: 10px;
 
 		}
 
