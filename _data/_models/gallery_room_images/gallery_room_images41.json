@@ -1,5 +1,5 @@
 {
-  "sort_order": 31,
+  "sort_order": 19,
   "thumb_image": {
     "name": "tb-sc-dd-1",
     "file_name": "tb-sc-dd-1.jpg",
@@ -17,7 +17,7 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055138/xsmall_tb-sc-dd-1.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055138/thumb_tb-sc-dd-1.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055138/tb-sc-dd-1.jpg",
-    "alt": "Stanford Court Double Deluxe",
+    "alt": "Redesigned Room",
     "caption": ""
   },
   "large_image": {
@@ -37,8 +37,8 @@
     "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055622/xsmall_lg-sc-dd-1.jpg",
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055622/thumb_lg-sc-dd-1.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_17317/media/2018-07-10-055622/lg-sc-dd-1.jpg",
-    "alt": "Stanford Court Double Deluxe",
+    "alt": "Stanford Court Double ",
     "caption": ""
   },
-  "image_alt_txt": "Stanford Court Double Deluxe"
+  "image_alt_txt": "Redesigned Room with Two Queen Beds"
 }
