@@ -1,1 +1,16 @@
-{"thumb_image":{"url":"https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123458/gallery-rooms-thumb-21.jpg"},"large_image":{"url":"https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123053/gallery-rooms-21.jpg"},"sort_order": 20,"image_alt_txt":"Stanfordcourt"}
+{
+  "thumb_image": {
+    "url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123458/gallery-rooms-thumb-21.jpg",
+    "alt": "Towel Warmer ",
+    "caption": "",
+    "description": ""
+  },
+  "large_image": {
+    "url": "https://cdn.traveltripper.io/site-assets/446_617_1787/media/2017-02-23-123053/gallery-rooms-21.jpg",
+    "alt": "Towel Warmer",
+    "caption": "",
+    "description": ""
+  },
+  "sort_order": 37,
+  "image_alt_txt": "towel warmer"
+}
