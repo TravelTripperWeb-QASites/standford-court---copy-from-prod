@@ -1,0 +1,148 @@
+---
+excerpt: stanfordcourt.com
+parent: rooms
+title_localized:
+  en: Luxury Hotel Rooms in San Francisco | Stanford Court Hotel
+label_localized:
+  en:
+layout_localized:
+  en: default
+permalink_localized:
+  en: /rooms/ada-rooms/
+meta_description_localized:
+  en: Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of the picturesque city, so guests truly feel connected at all times
+meta_keywords_localized:
+  en:
+---
+
+
+<section class="container no-gutter">
+
+  <div class="special-banner">
+
+    <div class="banner-inner">
+     {% regionblock heading %}
+      <h3>Stanford court ADA & Rooms</h3>
+      <h1>Luxury Redefined</h1>
+      {% endregionblock %}
+       {% regionblock maintext %}<p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p>
+      {% endregionblock %}
+
+    </div>
+
+<section class="container instagram">
+   <!-- <div class="insta-wrapper">
+      <div class="col-sm-6 sflove"><h4><a href="https://www.instagram.com/stanfordcourtsf" target="_blank">Share the love #Stanfordcourtsf</a></h4></div>
+   </div> -->
+   <div class="col-md-12 insta-wrapper">
+    <div class="col-sm-3 sharelove">
+        <h4><a href="https://www.instagram.com/stanfordcourtsf" target="_blank">SHARE THE LOVE</a></h4>
+    </div>
+    <div class="col-sm-6">
+        <h1><a href="https://www.instagram.com/explore/tags/stanfordcourtsf/" target="_blank">#stanfordcourtsf</a></h1>
+    </div>
+    <!-- <div class="col-sm-3"><h4> Get Inspired</h4></div> -->
+</div>
+
+</section>
+<section class="instagramimg">
+    <div class="row instacol">
+    <a href="https://www.instagram.com/p/BPJEav4humS/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+      <div style="background-image: url('/images/instagram/socks.jpg')" class="img-responsive">
+      </div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/zGKiR_qzDT/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/lady.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BO1FSlChxRs/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/top-view.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BIkm_v3DQCU/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/white.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BOsjA0KhKNv/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/win-a-free-drink.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BQLIo1gjTqZ/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/dog.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BECdhYCqzLG/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/happy.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BAaGb4TqzNZ/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/monday.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BPsvIzhjnZq/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/style.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/6h85xDqzMy/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/yellow.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/6Afp09KzCY/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/legs.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    <a href="https://www.instagram.com/p/BDWOstSKzGp/" target="_blank">
+    <div class="col-md-2 col-sm-3 col-xs-2">
+    <div style="background-image: url('/images/instagram/handle.jpg')" class="img-responsive"></div>
+    </div>
+    </a>
+    </div>
+    </section>
+  </div>
+</section>
+
+
+<section ng-repeat ="room in browser.roomsList | filter: { category: 'Accessible' }">
+<div class="container no-gutter rooms-list">
+  <div class="col-md-12"><h2>[[ room.name ]]</h2></div>
+  <div class="col-md-6">
+    <a ng-href="[[room.name | formatNameForLink]]"><img ng-src="[[room.photos[0].yankee_large]]" class="img-responsive" alt="[[ room.name ]]"/></a>
+  </div>
+  <div class="col-md-6">
+      <p>[[room.description]]</p>
+    <div class="r-link"><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+        Book This Room
+      </a></div>
+    <div class="r-link"><a  ng-href="/ada-room/#[[room.name | formatNameForLink]]">More Info</a></div>
+  </div>
+</section>
+
+
+
+<!-- <div class="row">
+  <div class="rooms-holder">
+    <div class="col-md-4 col-sm-6" >
+      <div class="rooms-item">
+      <figure></figure>
+
+
+        <div class="rooms-item-content">
+
+        <div class="extra-padding"><a class="button-common button-blue" ng-href="/ada-room/room-details/#[[room.name | formatNameForLink]]">View this room</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->

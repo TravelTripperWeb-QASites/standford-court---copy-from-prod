@@ -2,7 +2,13 @@
   "topmenu": [{
       "name": "Rooms",
       "url": "/rooms/",
-      "parent": "rooms"
+      "parent": "rooms",
+      "submenu": "true",
+      "subitems": [{
+          "name": "ADA Rooms",
+          "url": "/rooms/ada-rooms/"
+        }
+      ]
     },
     {
       "name": "Specials",

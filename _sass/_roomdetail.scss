@@ -7,7 +7,7 @@
 .ui-datepicker td a {
   padding-bottom: 1em;
 }
-#datepicker{ 
+#datepicker{
 	 .ui-datepicker-header{
        background: $black;
        border-radius: 0px;
@@ -21,7 +21,7 @@
 	}
 	 .dp-highlight .ui-state-default{
           background: #948671;
-          color: $black !important; 
+          color: $black !important;
         }
 	.ui-state-hover{
 		 background: transparent;
@@ -35,10 +35,10 @@
 		font-size: 18px;
 		font-weight: normal;
 	}
-	.ui-datepicker-next, .ui-datepicker-prev{ 
+	.ui-datepicker-next, .ui-datepicker-prev{
 			 top: 11px;
 		 span{
-			 background-image: url('/images/calendar-icon.png');  
+			 background-image: url('/images/calendar-icon.png');
 			 color: white;
 			 height: 30px;
 			 width: 30px;
@@ -65,7 +65,7 @@
   content: attr(title);
   display: block;
   position: relative;
-  font-size: .8em; 
+  font-size: .8em;
   margin-top: -1.8em;
   text-align: right;
   padding-right: .25em;
@@ -102,20 +102,20 @@
 		.short-description{
 			border-right: 1px solid #CCC;
 			padding: 30px;
-			margin: 10px 0px; 
+			margin: 10px 0px;
 	      @media(min-width: $screen-sm-min)	{
 		  	padding: 30px 40px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
 		  @media(min-width: $screen-md-min)	{
 		  	padding: 30px 60px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
 		  @media(min-width: $screen-custom-min)	{
 		  	padding: 30px 95px;
-			margin: 30px 0px; 
+			margin: 30px 0px;
 		  }
-			
+
 			 h4{
 			 	 text-transform: uppercase;
 			 	 font-size: 15px;
@@ -148,7 +148,7 @@
 			@media(min-width: $screen-custom-min){
 				padding: 106px 0px 67px 55px;
 			}
-			 
+
 		     p{
 		     	 padding-left: 54px;
 		     }
@@ -167,12 +167,12 @@
 			  	  	  	 padding-left: 50px;
 			  	  	  	 color: #c9c9c8;
 			  	  	  	 font-weight: bold;
-			  	  	  	 text-decoration: none; 
+			  	  	  	 text-decoration: none;
 		                  transition: all 0.5s ease;
 			  	  	  }
 			  	  	  &.active, &:hover{
 			  	  	  	   a{
-			  	  	  	   	 color: $black; 
+			  	  	  	   	 color: $black;
 			  	  	  	   	 text-decoration: none;
 			  	  	  	   }
 		                   background: url('/images/arrow-icon.png');
@@ -199,7 +199,7 @@
 			  	  bottom: 0px;
 			  	  width: 100%;
 			  	  color: white;
-                  h4{ 
+                  h4{
                         padding: 15px 0px 15px 0px;
                         @media(min-width: $screen-sm-min){
                         	padding: 25px 0px 15px 0px;
@@ -210,7 +210,7 @@
                         @media(min-width: $screen-custom-min){
                         	padding: 55px 0px 35px 0px;
                         }
-			  	       
+
 					    font-size: 15px;
 					    letter-spacing: 0.1em;
 					    text-transform: uppercase;
@@ -220,14 +220,14 @@
 		  	  	     line-height: 142px;
 		  	  	     max-width: 619px;
 		  	  	     margin: 0 auto;
-		  	  	     letter-spacing: 0.08em; 
+		  	  	     letter-spacing: 0.08em;
 			  	  }
 			  }
 		}
 
 }
 .room-description{
-   padding: 80px 50px;
+   padding: 80px 50px 40px;
    max-width: 550px;
     h4{
     	 text-transform: uppercase;
@@ -241,6 +241,30 @@
     p strong{
     	 font-family: 'GothamHTF Medium', Helvetica, Arial, sans-serif;
     }
+    ul{
+      padding: 0;
+      margin: 10px 0 0 15px;
+      li {
+        padding-left:20px;
+      }
+    }
+    .r-link{
+  		padding:4px 14px 4px 0px;
+  		font-family:$base-font-family1;
+  		font-size:15px;
+
+  		a{
+  		background:url(/images/black-arrow.svg) right center;
+  		text-decoration: none;
+  	    background-repeat: no-repeat;
+  		padding-right:80px;
+  	    color:$darkgray-color;
+  	    text-decoration:none;
+  		    &:hover{
+  		    text-decoration:none;
+  		    }
+  		}
+  	}
 }
 .no-leftpadding{
 	  padding-left: 0px;
@@ -252,7 +276,7 @@
 	   	 min-width: 300px;
 	   }
 	  .amenities-list{
-	  	padding: 40px 50px; 
+	  	padding: 40px 50px;
 		@media(min-width: $screen-md-min){
 		  	padding: 40px 80px;
 		}
@@ -282,7 +306,7 @@
 	h4{
 		 text-transform: uppercase;
 		 font-size: 11px;
-		 letter-spacing: 0.1em; 
+		 letter-spacing: 0.1em;
 		 @media(min-width: $screen-sm-min){
 		 	font-size: 15px;
 		 	margin-bottom: 40px;
@@ -296,7 +320,7 @@
 	 	    right: 0px;
 	 	    bottom: 0px;
 	 	    width: 100%;
-	 	    color: white; 
+	 	    color: white;
 	 	    max-width: 700px;
 	 	    margin: 0 auto;
 	 	    @media(min-width: $screen-sm-min){
@@ -324,7 +348,7 @@
 	 padding: 10px;
 	 @media(min-width: $screen-sm-min){
          padding: 73px 50px  0px 0px;
-	 } 
+	 }
 	 margin: 0 auto;
      max-width: 427px;
 	 .ui-datepicker{
@@ -342,19 +366,19 @@
 	 	 	 }
 	 	 	 td {
 	 	 	 	 border-left: 0px;
-	 	 	 	 border-right: 0px; 
+	 	 	 	 border-right: 0px;
 	 	 	 	 padding-left: 0px;
-	 	 	 	 padding-right: 0px; 
+	 	 	 	 padding-right: 0px;
 	 	 	 	 padding-top: 7px;
 	 	 	 	 &.ui-datepicker-today{
                     	a{
-                    		background: #d7cd96 !important; 
+                    		background: #d7cd96 !important;
 
-                    		} 
+                    		}
                     }
                   &.dp-highlight{
                   	a{
-                  		 background: #948671 !important; 
+                  		 background: #948671 !important;
                   		}
                   }
 	 	 	 	 span{
