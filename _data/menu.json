@@ -5,7 +5,7 @@
       "parent": "rooms",
       "submenu": "true",
       "subitems": [{
-          "name": "ADA Rooms",
+          "name": "ADA Accessible Rooms",
           "url": "/rooms/ada-rooms/"
         }
       ]
