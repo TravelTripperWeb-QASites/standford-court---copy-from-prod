@@ -90,15 +90,21 @@
                 <form method="post" action="https://web2.cendynhub.com/FormPost/FormPost.ashx" name="signupForm" accept-charset="utf-8" class="eclubCheck" novalidate>
                     <input name="formId" type="hidden" value="4BB13D7F-8DD3-4794-B193-869C838F6AC1"/>
                     <div class="input-group">
-                        <input type="email" id="email_address" name="emailAddress" class="form-textbox form-control" size="30" required="required" placeholder="Your Email Here" aria-label="Your Email here" />
+                        <input type="email" value="" aria-checkrequired="true" data-sign="false" id="emailaddress2" name="emailAddress" class="form-textbox form-control" size="30" required="required" placeholder="Your Email Here" aria-label="Your Email here" />
+                        <div class="error-msg" id="emailaddress2Err"></div>
                     </div>
-                    <div class="error-code" id="emailError"></div>
+
                     <div class="input-group">
                         <div class="g-recaptcha" data-theme="light" data-sitekey="6LdWgCAUAAAAAJvOai05x8FkahvQcgEDAsAdHq-D"></div>
                     </div>
                     <div class="error-code" id="grecaptcharesponseError"></div>
-                    <div class="btn-holder text-center">
-                        <button type="submit" id="input_2" class="butn uppercase" title="Submit">Submit <!-- <img src="/images/arrow-icon.png" alt="submit arrow"> --></button>
+                    <div class="btn-holder text-left">
+                      <div class="agree">
+                      <input type="checkbox" class="form-check-input" id="agreenewsletter" name="q12_iAgree[]" value="agree" required aria-checkrequired="true" data-sign="false">
+                      <span class="form-check-label" for="agree">I agree to the <a class="link2" href="/terms-of-use/" target="_blank">Terms of Service</a> and <a class="link2" href="/privacy-policy/" target="_blank">Privacy Policy</a>.</span>
+                      <span class="error-msg" id="agreenewsletterErr"></span>
+                    </div>
+                        <button type="submit" id="submit" disabled="disabled" class="butn uppercase newsletterBtn" title="Submit">Submit <!-- <img src="/images/arrow-icon.png" alt="submit arrow"> --></button>
                     </div>
                     <input type="HIDDEN" name="PEA" value="" aria-label="Hidden" />
                     <input type="HIDDEN" name="PEACC" value="" aria-label="Hidden" />
