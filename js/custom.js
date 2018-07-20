@@ -685,11 +685,34 @@ $(function () {
   $("#datepicker")
     .datepicker({
       minDate: 0,
-      dateFormat: dateFormat
+      dateFormat: dateFormat,
+      showOn: 'focus'
     });
 
   $("#datePick")
-    .datepicker();
+    .datepicker({
+      showOn: 'focus',
+      onSelect: function(dateText, inst) {
+           this.focus();
+           this.fixFocusIE = true;
+           $('#'+inst.id).attr('value',dateText);
+
+
+      },
+      onClose: function (dateText, inst) {
+		            this.fixFocusIE = true;
+		            this.focus();
+		        },
+      beforeShow: function (input, inst) { 
+         var d = new Date();
+        var todaydate =  ('0'+d.getDate()).slice(-2)+ '/' + ('0'+(d.getMonth()+1)).slice(-2) + '/' +d.getFullYear() ;
+               $('#'+inst.id).attr('value',todaydate);
+		        }
+    });
+
+
+
+
 
 });
 

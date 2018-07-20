@@ -4,51 +4,51 @@ parent: contact
 title_localized:
   en: Contact Us | Stanford Court Hotel Official Website
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
-  en: 
+  en:
 meta_description_localized:
   en: As the leading Union Square SF hotel, Stanford Court is always happy to respond
     to inquiries. Get in touch with us through our Official Website here.
 meta_keywords_localized:
-  en: 
+  en:
 ---
 <div class="container">
      <div id="top-spacer">
      </div>
 </div>
- 
-<section class="container clearfix"> 
+
+<section class="container clearfix">
 	    <div class="col-md-6">
-	    <div class="contact-wrapper special-banner"> 
+	    <div class="contact-wrapper special-banner">
 	        <div class="banner-inner">
 	           {% regionblock heading %}
                  <h3>A Nob Hill Hotel in San Francisco</h3>
 	          <h1>Contact <br /> Stanford Court </h1>
-                {% endregionblock %} 
+                {% endregionblock %}
 	          {% regionblock text %}
                  <p>Stanford Court San Francisco is always happy to respond to inquiries. Simply fill out the form and click Submit when you are done, or call us at: <br><a href="tel:415-989-3500">415-989-3500</a>.</p>
-                 {% endregionblock %} 
+                 {% endregionblock %}
 	        </div>
 	      </div>
 	    </div>
 		<div class="col-md-6 no-padding">
 			<img src="/images/contact.jpg" class="top-img img-responsive" alt="Contact Stanfordcourt Hotel">
-		</div>	
- 
-	
+		</div>
+
+
 </section>
 <section class="container form-wrapper clearfix">
 
-                <div class="col-sm-12 no-padding  bg-dark"> 
+                <div class="col-sm-12 no-padding  bg-dark">
                   <div class="article-wrapper">
 					{% regionblock formtext %}
                               <p>As the leading Union Square SF hotel, Stanford Court is always happy to respond to inquiries. Whether you’re thinking about staying at our hotel on California Street in San Francisco, or want to share any relevant thoughts during or after your stay, we’ll do everything we can to respond in a timely and helpful manner.</p>
 
 					<p><strong>Simply complete the form on this page and click Submit to contact Stanford Court.</strong></p>
-                              {% endregionblock %} 
+                              {% endregionblock %}
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.17642" type="text/javascript"></script>
 <script type="text/javascript">
@@ -71,24 +71,28 @@ meta_keywords_localized:
             *
           </span></label>
 							    <div class="col-md-4">
-							      <input type="text" id="fname" name="q3_name[first]" class="form-textbox validate[required] form-control" required="required" size="10" value="" data-component="first" />
-							    </div>
+							      <input type="text" id="fname" name="q3_name[first]" class="form-textbox validate[required] form-control" required="required" size="10" value="" data-component="first" aria-required="true" data-ok="false" />
+                    <span class="error-msg" id="fnameErr"></span>
+                   </div>
 							     <label class="control-label col-md-2" for="lname">Last Name<span class="form-required">
             *
           </span></label>
-							    <div class="col-md-4"> 
-							      <input type="text" id="lname" name="q3_name[last]" class="form-textbox validate[required] form-control" required="required" size="15" value="" data-component="last" />
-							    </div>
+							    <div class="col-md-4">
+							      <input type="text" id="lname" name="q3_name[last]" class="form-textbox validate[required] form-control" required="required" size="15" value="" data-component="last" aria-required="true" data-ok="false"/>
+                    <span class="error-msg" id="lnameErr"></span>
+
+                  </div>
 							  </div>
 							  <div class="form-group">
 							    <label class="control-label col-md-2" for="address"> Address 1<span class="form-required">
             *
           </span></label>
 							    <div class="col-md-4">
-							      <input type="text" id="input_4" name="q4_address1" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" required="required" data-component="textbox" aria-label="Address 1" />
+							      <input type="text" id="input_4" name="q4_address1" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" required="required" data-component="textbox" aria-label="Address 1" aria-required="true" data-ok="false" />
+                    <span class="error-msg" id="input_4Err"></span>
 							    </div>
 							     <label class="control-label col-md-2" for="pwd">Address 2</label>
-							    <div class="col-md-4"> 
+							    <div class="col-md-4">
 							      <input type="text" id="input_5" name="q5_address15" data-type="input-textbox" class="form-textbox form-control" size="20" value="" data-component="textbox" aria-label="Address 2" />
 							    </div>
 							  </div>
@@ -347,8 +351,9 @@ meta_keywords_localized:
 							     <label class="control-label col-md-2" for="city"> City <span class="form-required">
             *
           </span></label>
-							    <div class="col-md-4"> 
-							      <input type="text" required="required" id="city" name="q7_address2" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="City" />
+							    <div class="col-md-4">
+							      <input type="text" required="required" id="city" name="q7_address2" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="City" aria-required="true" data-ok="false"/>
+                    <span class="error-msg" id="cityErr"></span>
 							    </div>
 							  </div>
 							  <div class="form-group">
@@ -356,13 +361,15 @@ meta_keywords_localized:
             *
           </span></label>
 							    <div class="col-md-4">
-							       <input type="text" id="input_8" required="required" name="q8_city" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Zip Code" />
+							       <input type="text" id="input_8" required="required" name="q8_city" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Zip Code" aria-required="true" data-ok="false" />
+                     <span class="error-msg" id="input_8Err"></span>
 							    </div>
 							     <label class="control-label col-md-2" for="email">Email  <span class="form-required">
             *
           </span></label>
 							    <div class="col-md-4">
-							     <input type="email" required="required" id="input_9" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+							     <input type="email" required  id="input_9" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox"  aria-required="true" data-ok="false"/>
+                   <span class="error-msg" id="input_9Err"></span>
 							    </div>
 							  </div>
 							  <div class="form-group">
@@ -370,23 +377,24 @@ meta_keywords_localized:
             *
           </span></label>
 							    <div class="col-md-4">
-							      <input type="text" required="required" id="input_10" name="q10_zippostalCode10" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Tetephone Number"/>
-							    </div> 
+							      <input type="text" required="required" id="input_10" name="q10_zippostalCode10" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Tetephone Number"  aria-required="true" data-ok="false"/>
+                    <span class="error-msg" id="input_9Err"></span>
+							    </div>
 							    <label class="control-label col-md-2" for="email">Number of guests </label>
 							    <div class="col-md-4">
 							      <input type="text" id="input_12" name="q12_numberOf" data-type="input-textbox" class="form-textbox form-control" size="20" value="" placeholder="Enter a number between 1 and 99." data-component="textbox" aria-label="Number of Guests" />
-							    </div> 
+							    </div>
 							  </div>
 							  <div class="form-group">
 							     <label class="control-label col-md-2" for="pwd">Inquiry Information <span class="form-required">
             *
           </span></label>
-							    <div class="col-md-4"> 
+							    <div class="col-md-4">
 							      <div class="form-single-column" data-component="radio">
             <span class="form-radio-item" style="clear:left;">
               <span class="dragger-item">
               </span>
-              <input type="radio" CHECKED  class="form-radio validate[required]" id="input_11_0" name="q11_inquiryInformation" value="Reservation Inquiry" />
+              <input type="radio" CHECKED required="required" class="form-radio validate[required]" id="input_11_0" name="q11_inquiryInformation" value="Reservation Inquiry" />
               <label id="label_input_11_0" for="input_11_0"> Reservation Inquiry </label>
             </span>
             <span class="form-radio-item" style="clear:left;">
@@ -433,40 +441,40 @@ meta_keywords_localized:
             </span>
             <span class="form-radio-item" style="clear:left;">
                <input type="radio" class="form-radio  validate[required]" id="input_11_8" name="q11_inquiryInformation" value="Other" aria-label="Other"/>
-              <label id="label_input_11_8" for="other_11"> Other </label>
-               
+
               <br/>
             </span>
           </div>
 							    </div>
 							     <label class="control-label col-md-2" for="pwd">Number of guestrooms </label>
-							    <div class="col-md-4"> 
+							    <div class="col-md-4">
 							      <input type="text" id="input_13" name="q13_numberOf13" data-type="input-textbox" class="form-textbox form-control" size="20" value="" placeholder="Enter a number between 1 and 99." data-component="textbox" aria-label="Number of Guest Rooms" />
-							    
+
 							      </div>
 							  </div>
   <div class="form-group"><label class="control-label col-md-2" for="pwd">Arrival Date <span class="form-required">
             *
           </span></label>
-							    <div class="col-md-4"> 
-							      <input type="text" required="required" id="datePick" name="q17_arrivalDate" data-type="input-textbox" class="form-textbox form-control validate[required]" placeholder="dd/mm/yyyy" size="20" value="" data-component="textbox" aria-label="Arrival Date" />
+							    <div class="col-md-4">
+							      <input type="text" required="required" id="datePick" name="q17_arrivalDate" data-type="input-textbox" class="form-textbox form-control validate[required]" placeholder="dd/mm/yyyy" size="20" value="" data-component="textbox" aria-label="Arrival Date"  aria-required="true" data-ok="false"/>
+                    <span class="error-msg" id="datePickErr"></span>
 							    </div>
 
 							    </div>
 							  <div class="form-group">
 							     <label class="control-label col-md-2" for="pwd">Number of nights per room</label>
-							    <div class="col-md-4"> 
+							    <div class="col-md-4">
 							      <input type="text" id="input_14" name="q14_numberOf14" data-type="input-textbox" class="form-textbox form-control" size="20" value="" placeholder="Enter a number between 1 and 99." data-component="textbox" aria-label="Number of Nights per Room" />
 							    </div>
 							     <label class="control-label col-md-2" for="pwd">How should we respond to you? <span class="form-required">
             *
           </span></label>
-							    <div class="col-md-4"> 
+							    <div class="col-md-4">
 							      <div class="form-single-column" data-component="radio">
             <span class="form-radio-item" style="clear:left;">
               <span class="dragger-item">
               </span>
-              <input type="radio" CHECKED class="form-radio" id="input_15_0" name="q15_howShould" value="Phone" />
+              <input type="radio" CHECKED required="required" class="form-radio" id="input_15_0" name="q15_howShould" value="Phone" />
               <label id="label_input_15_0" for="input_15_0"> Phone </label>
             </span>
             <span class="form-radio-item" style="clear:left;">
@@ -481,6 +489,7 @@ meta_keywords_localized:
               <input type="radio" class="form-radio" id="input_15_2" name="q15_howShould" value="Mail" />
               <label id="label_input_15_2" for="input_15_2"> Mail </label>
             </span>
+
           </div>
 							    </div>
 							  </div>
@@ -489,14 +498,22 @@ meta_keywords_localized:
                           <div class="form-group">
 							    <label class="control-label col-md-2" for="email"> Comments or Questions</label>
 							    <div class="col-md-4">
-							       <textarea id="input_16" class="form-textarea form-control" name="q16_commentsOr" cols="40" rows="6" data-component="textarea" aria-label="Queries or Comments"></textarea>
+							       <textarea id="input_16" class="form-textarea form-control" name="q16_commentsOr" cols="40" rows="6" data-component="textarea" aria-label="Queries or Comments" ></textarea>
+
 							    </div>
-							      
+
 							  </div>
- 
-							  <div class="form-group"> 
+
+                  <div class="col-md-12 text-center">
+                  <div class="agree">
+                  <input type="checkbox" class="form-check-input" id="agreecontact" name="q12_iAgree[]" value="agree" required aria-required="true" data-ok="false">
+                  <label class="form-check-label" for="agree">I agree to the <a class="link" href="/terms-of-use/" target="_blank">Terms of Service</a> and <a class="link" href="/privacy-policy/" target="_blank">Privacy Policy</a>.</label>
+                  <span class="error-msg" id="agreecontactErr"></span>
+                </div>
+              </div>
+							  <div class="form-group">
 							    <div class="col-sm-12">
-							      <button type="submit" class="butn btn-white uppercase">Submit</button>
+							      <button type="submit" id="submit" class="butn btn-white uppercase"  disabled="disabled" aria-describedby="fNameErr lNameErr">Submit</button>
 							    </div>
 							  </div>
 					 </form>
@@ -507,6 +524,6 @@ meta_keywords_localized:
   <script type="text/javascript">JotForm.ownerView=true;</script>
 				</div>
            </div>
-            
-         
+
+
 </section>

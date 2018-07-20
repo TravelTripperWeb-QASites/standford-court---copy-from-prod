@@ -55,43 +55,51 @@ meta_keywords_localized:
         <div class="form-group">
           <label class="control-label col-md-2" for="fname">First Name <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" id="fname" name="q3_name[first]" class="form-textbox validate[required] form-control" required="required" size="10" value="" data-component="first" />
+            <input type="text" id="fname" name="q3_name[first]" class="form-textbox validate[required] form-control" required="required" size="10" value="" data-component="first" aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="fnameErr"></span>
          </div>
           <label class="control-label col-md-2" for="lname">Last Name <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" id="lname" name="q3_name[last]" class="form-textbox validate[required] form-control" required="required" size="15" value="" data-component="last" />
+            <input type="text" id="lname" name="q3_name[last]" class="form-textbox validate[required] form-control" required="required" size="15" value="" data-component="last" aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="lnameErr"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="email">Email <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="email" required="required" id="input_9" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <input type="email" required="required" id="input_9" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox"  aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="input_9Err"></span>
         </div>
           <label class="control-label col-md-2" for="input_18">Job Title <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_18" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <input type="text" required="required" id="input_18" name="q18_email" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox"  aria-required="true" data-ok="false"/>
+              <span class="error-msg" id="input_18Err"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="input_19">Company Info <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_19" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <input type="text" aria-required="true" data-ok="false" required="required" id="input_19" name="q19_companyInfo" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <span class="error-msg" id="input_19Err"></span>
         </div>
           <label class="control-label col-md-2" for="input_20">Organization Type <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_20" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <input type="text"  aria-required="true" data-ok="false"  required="required" id="input_20" name="q20_organizationType" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <span class="error-msg" id="input_20Err"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="input_21">Type of Business <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_21" name="q9_zippostalCode" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <input type="text"  aria-required="true" data-ok="false"  required="required" id="input_21" name="q21_typeOf" data-type="input-textbox" class="form-textbox form-control validate[required, Email]" size="20" value="" data-component="textbox" />
+            <span class="error-msg" id="input_21Err"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="address">Address 1 <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" id="input_4" name="q4_address1" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" required="required" data-component="textbox" aria-label="Address 1" />
+            <input type="text" id="input_address" aria-required="true" data-ok="false" name="q4_address1" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" required="required" data-component="textbox" aria-label="Address 1" />
+            <span class="error-msg" id="input_addressErr"></span>
          </div>
           <label class="control-label col-md-2" for="pwd">Address 2</label>
           <div class="col-md-4">
@@ -352,36 +360,46 @@ meta_keywords_localized:
          </div>
           <label class="control-label col-md-2" for="city">City <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="city" name="q7_address2" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="City" />
+            <input type="text" required="required" id="city2" name="q7_address2" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="City" aria-required="true" data-ok="false" />
+            <span class="error-msg" id="city2Err"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="zip">Zip/Postal Code <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" id="input_8" required="required" name="q8_city" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Zip Code" />
+            <input type="text" id="citycode" required="required" name="q8_city" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Zip Code" aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="citycodeErr"></span>
          </div>
        </div>
         <div class="form-group">
           <label class="control-label col-md-2" for="phone">Telephone number <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_10" name="q10_zippostalCode10" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Tetephone Number" />
+            <input type="text" required="required" id="input_10" name="q10_zippostalCode10" data-type="input-textbox" class="form-textbox form-control validate[required]" size="20" value="" data-component="textbox" aria-label="Tetephone Number"  aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="input_10Err"></span>
          </div>
           <label class="control-label col-md-2" for="input_12">Annual Travel <span class="form-required">*</span></label>
           <div class="col-md-4">
-            <input type="text" required="required" id="input_12" name="q12_numberOf" data-type="input-textbox" class="form-textbox form-control" size="20" value="" placeholder="Enter a number between 1 and 99." data-component="textbox" />
+            <input type="text" required="required" id="input_12" name="q12_annualTravel" data-type="input-textbox" class="form-textbox form-control" size="20" value="" placeholder="Enter a number between 1 and 99." data-component="textbox"  aria-required="true" data-ok="false"/>
+            <span class="error-msg" id="input_12Err"></span>
          </div>
        </div>
 
         <div class="form-group">
           <label class="control-label col-md-2" for="input_16">Additional Information</label>
           <div class="col-md-4">
-            <textarea id="input_16" class="form-textarea form-control" name="q16_commentsOr" cols="40" rows="6" data-component="textarea" aria-label="Additional Information"></textarea>
+            <textarea id="input_16" class="form-textarea form-control" name="q16_additionalInformation" cols="40" rows="6" data-component="textarea" aria-label="Additional Information"></textarea>
          </div>
        </div>
-
+         <div class="col-md-12 text-center">
+           <div class="agree">
+                  <input type="checkbox" class="form-check-input" id="agreecontact" name="q12_iAgree[]" value="agree" required aria-required="true" data-ok="false">
+                  <label class="form-check-label" for="agree">I agree to the <a class="link" href="/terms-of-use/" target="_blank">Terms of Service</a> and <a class="link" href="/privacy-policy/" target="_blank">Privacy Policy</a>.</label>
+                  <span class="error-msg" id="agreecontactErr"></span>
+                </div>
+         </div>
         <div class="form-group">
           <div class="col-sm-12">
-            <button type="submit" class="butn btn-white uppercase">Submit</button>
+            <button type="submit" disabled="disabled" class="butn btn-white uppercase">Submit</button>
          </div>
        </div>
 
