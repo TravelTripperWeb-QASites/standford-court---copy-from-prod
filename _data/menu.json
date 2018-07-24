@@ -18,7 +18,13 @@
     {
       "name": "Amenities",
       "url": "/amenities/",
-      "parent": "amenities"
+      "parent": "amenities",
+      "submenu": "true",
+      "subitems": [{
+          "name": "Public Spaces Accessibility",
+          "url": "/amenities/#publicspace"
+        }
+      ]
     },
     {
       "name": "Dining",
