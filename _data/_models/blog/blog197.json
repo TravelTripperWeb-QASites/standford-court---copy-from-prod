@@ -9,7 +9,7 @@
     "file_name": "impossible-burger.jpg",
     "url": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-135750/impossible-burger.jpg",
     "tags": "",
-    "description": "",
+    "description": "Impossible Burger patty served on a lunch tray",
     "date_added": "2018-07-25-135750",
     "file_type": "image/jpeg",
     "width": 1814,
@@ -22,7 +22,32 @@
     "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-135750/thumb_impossible-burger.jpg",
     "path": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-135750/impossible-burger.jpg",
     "alt": "impossible-burger",
-    "caption": ""
+    "caption": "",
+    "crop": {
+      "origin": {
+        "x": 1,
+        "y": 333
+      },
+      "width": 1813,
+      "height": 2084
+    },
+    "croppedImage": {
+      "name": "impossible-burger",
+      "file_name": "impossible-burger.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/impossible-burger.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-07-25-140444",
+      "file_type": "image/jpeg",
+      "width": 1813,
+      "height": 2084,
+      "file_size": 3025146,
+      "url_large": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/large_impossible-burger.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/medium_impossible-burger.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/small_impossible-burger.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/xsmall_impossible-burger.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/192_617_17645/media/2018-07-25-140444/thumb_impossible-burger.jpg"
+    }
   },
   "seo_title": "Why the Impossible Burger at Stanford Court Hotel is Everything",
   "date": "2018-07-25T05:00:00.000Z"
