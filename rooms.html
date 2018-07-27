@@ -25,6 +25,9 @@ meta_keywords_localized:
       <a href="#{{room.title}}" class="link">{{room.title | capitalize}}</a>
     </li>
     {% endfor %}
+    <li class="nav-item">
+      <a href="#ADA" class="link">ADA ACCESSIBLE</a>
+    </li>
   </ul>
 
 </nav>
@@ -171,3 +174,18 @@ meta_keywords_localized:
 </div>
 </section>
 {% endfor %}
+
+<section id="ADA"ng-repeat ="room in browser.roomsList | filter: { category: 'Accessible' }">
+  <div class="container no-gutter rooms-list">
+    <div class="col-md-12"><h2>[[ room.name ]]</h2></div>
+    <div class="col-md-6">
+      <a ng-href="[[room.name | formatNameForLink]]"><img ng-src="[[room.photos[0].yankee_large]]" class="img-responsive" alt="[[ room.name ]]"/></a>
+    </div>
+    <div class="col-md-6">
+        <p>[[room.description]]</p>
+      <div class="r-link"><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+          Book This Room
+        </a></div>
+      <div class="r-link"><a  ng-href="/ada-room/#[[room.name | formatNameForLink]]">More Info</a></div>
+    </div>
+  </section>
