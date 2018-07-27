@@ -2,13 +2,7 @@
   "topmenu": [{
       "name": "Rooms",
       "url": "/rooms/",
-      "parent": "rooms",
-      "submenu": "true",
-      "subitems": [{
-          "name": "ADA Accessible Rooms",
-          "url": "/rooms/ada-rooms/"
-        }
-      ]
+      "parent": "rooms"
     },
     {
       "name": "Specials",
@@ -18,13 +12,8 @@
     {
       "name": "Amenities",
       "url": "/amenities/",
-      "parent": "amenities",
-      "submenu": "true",
-      "subitems": [{
-          "name": "Public Spaces Accessibility",
-          "url": "/amenities/#publicspace"
-        }
-      ]
+      "parent": "amenities"
+      
     },
     {
       "name": "Dining",

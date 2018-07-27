@@ -14,6 +14,7 @@ meta_description_localized:
 meta_keywords_localized:
   en:
 ---
+<input type="hidden" id="roomList" value="[[ browser.roomsList | filter: { category: 'Accessible' } ]]"   />
 <section ng-controller="roomDetail" rt3-room-details="selectedRoom" ><div class="loading" style="display:block">Loading&#8230;</div>
 <div class="container">
      <div id="top-spacer">
@@ -24,6 +25,7 @@ meta_keywords_localized:
     <ul class="rooms-nav">
       <li class="nav-item" ng-repeat="cat in browser.roomCategories">
         <a href="/rooms/#[[cat]]" ng-class="{'active' : selectedRoom.category == cat}" class="link">[[cat]]</a>
+
       </li>
     </ul>
 </div>
