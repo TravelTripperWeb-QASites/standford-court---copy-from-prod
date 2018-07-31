@@ -4,34 +4,17 @@ parent: rooms
 title_localized:
   en: Luxury Hotel Rooms in San Francisco | Stanford Court Hotel
 label_localized:
-  en: 
+  en:
 layout_localized:
   en: default
 permalink_localized:
-  en: 
+  en: /rooms/ada-rooms/
 meta_description_localized:
   en: Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of the picturesque city, so guests truly feel connected at all times
 meta_keywords_localized:
-  en: 
+  en:
 ---
-<div class="container sub-nav ">
 
-<nav class="rooms-list-nav">
-
-  <ul class="rooms-nav-nav mr-auto">
-    {% assign rooms = site.data._models.rooms %}
-    {% for room in rooms %} 
-    <li class="nav-item" >
-      <a href="#{{room.title}}" class="link">{{room.title | capitalize}}</a>
-    </li>
-    {% endfor %}
-    <li class="nav-item">
-      <a href="#ADA" class="link">ADA ACCESSIBLE</a>
-    </li>
-  </ul>
-
-</nav>
-</div>
 
 <section class="container no-gutter">
 
@@ -39,10 +22,10 @@ meta_keywords_localized:
 
     <div class="banner-inner">
      {% regionblock heading %}
-      <h3>Stanford court rooms & Suites</h3>
+      <h3>Stanford court  Accessible Rooms</h3>
       <h1>Luxury Redefined</h1>
       {% endregionblock %}
-       {% regionblock maintext %}<p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p> 
+       {% regionblock maintext %}<p>Our elevated vantage point atop Nob Hill provides exterior rooms with sweeping window views of this picturesque city, so guests truly feel connected at all times. In the spirit of connectivity, all of our rooms are equipped with high-speed, reliable WiFi along with several more standout amenities.</p>
       {% endregionblock %}
 
     </div>
@@ -129,63 +112,37 @@ meta_keywords_localized:
     </section>
   </div>
 </section>
-<section style="display:none" >
-[[rStandard = ( browser.roomsList | filter:{'category':'Standard'});""]]
-[[rDeluxe = ( browser.roomsList | filter:{'category':'Deluxe'});""]] 
-[[rPremier = ( browser.roomsList | filter:{'category':'Premier'});""]] 
-[[rSuites = ( browser.roomsList | filter:{'category':'Suites'});""]]  
+
+
+<section ng-repeat ="room in browser.roomsList | filter: { category: 'Accessible' }">
+<div class="container no-gutter rooms-list">
+  <div class="col-md-12"><h2>[[ room.name ]]</h2></div>
+  <div class="col-md-6">
+    <a ng-href="[[room.name | formatNameForLink]]"><img ng-src="[[room.photos[0].yankee_large]]" class="img-responsive" alt="[[ room.name ]]"/></a>
+  </div>
+  <div class="col-md-6">
+      <p>[[room.description]]</p>
+    <div class="r-link"><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
+        Book This Room
+      </a></div>
+    <div class="r-link"><a  ng-href="/ada-room/#[[room.name | formatNameForLink]]">More Info</a></div>
+  </div>
 </section>
 
-{% assign rooms = site.data._models.rooms %}
-{% for room in rooms %} 
-<section id="{{room.title}}" >
-<div class="container no-gutter rooms-list">
-  <div class="col-md-12"><h2>{{room.title}}</h2></div>
 
-  <div> 
-    <div class="col-md-6" >
-    <img src="{{room.roomimage.url}}" class="img-responsive">
-    </div>
-    <div class="col-md-6" >
-      <p class="r-link">{{room.long_description}}</p>
-      <div class="r-cost">{% assign category = room.title | downcase %}
-          {% if category == 'standard' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rStandard[0].code]]" target="_blank"><span><span ng-show="rStandard[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span>[[ rStandard[0].todayRate ]]</span>&nbsp;</a>
-          {% endif %}
 
-          {% if category == 'deluxe' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rDeluxe[0].code]]" target="_blank"><span><span ng-show="rDeluxe[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rDeluxe[0].todayRate ]]</span>&nbsp;</a>
-          {% endif %}
+<!-- <div class="row">
+  <div class="rooms-holder">
+    <div class="col-md-4 col-sm-6" >
+      <div class="rooms-item">
+      <figure></figure>
 
-          {% if category == 'premier' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rPremier[0].code]]" target="_blank"><span><span ng-show="rPremier[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rPremier[0].todayRate ]]</span>&nbsp;</a>
-          {% endif %}
 
-          {% if category == 'suites' %}
-          <a href="{{site.data.config.reztripUrl}}search?selected_room_category={{category}}&selected_room=[[rSuites[0].code]]" target="_blank"><span><span ng-show="rSuites[0].todayRate != 'CHECK AVAILABILITY'" >Tonight’s Rate </span> [[ rSuites[0].todayRate ]]</span>&nbsp;</a>
-          {% endif %}
+        <div class="rooms-item-content">
+
+        <div class="extra-padding"><a class="button-common button-blue" ng-href="/ada-room/room-details/#[[room.name | formatNameForLink]]">View this room</a></div>
+        </div>
       </div>
-      <div class="r-link"><a href="{{room.book_this_room}}" target="_blank">
-          Book This Room
-        </a></div>
-      <div class="r-link"><a href="{{room.more_info}}">More Info</a></div>
     </div>
   </div>
-</div>
-</section>
-{% endfor %}
-
-<section id="ADA"ng-repeat ="room in browser.roomsList | filter: { category: 'Accessible' }">
-  <div class="container no-gutter rooms-list">
-    <div class="col-md-12"><h2>[[ room.name ]]</h2></div>
-    <div class="col-md-6">
-      <a ng-href="[[room.name | formatNameForLink]]"><img ng-src="[[room.photos[0].yankee_large]]" class="img-responsive" alt="[[ room.name ]]"/></a>
-    </div>
-    <div class="col-md-6">
-        <p>[[room.description]]</p>
-      <div class="r-link"><a ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[room.category]]&selected_room=[[room.code]]" target="_blank">
-          Book This Room
-        </a></div>
-      <div class="r-link"><a  ng-href="/ada-room/#[[room.name | formatNameForLink]]">More Info</a></div>
-    </div>
-  </section>
+</div> -->

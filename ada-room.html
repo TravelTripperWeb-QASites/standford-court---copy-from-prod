@@ -14,21 +14,15 @@ meta_description_localized:
 meta_keywords_localized:
   en:
 ---
+<input type="hidden" id="roomId"  value="{{page.code}}" />
 <input type="hidden" id="roomList" value="[[ browser.roomsList | filter: { category: 'Accessible' } ]]"   />
+
 <section ng-controller="roomDetail" rt3-room-details="selectedRoom" ><div class="loading" style="display:block">Loading&#8230;</div>
 <div class="container">
      <div id="top-spacer">
      </div>
 </div>
 
-<div class="container">
-    <ul class="rooms-nav">
-      <li class="nav-item" ng-repeat="cat in browser.roomCategories">
-        <a href="/rooms/#[[cat]]" ng-class="{'active' : selectedRoom.category == cat}" class="link">[[cat]]</a>
-
-      </li>
-    </ul>
-</div>
 
 
 <section class="container rooms-wrapper">
@@ -62,11 +56,11 @@ meta_keywords_localized:
                <h4 class="heading4">Tonight’s Rate [[selectedRoom.todayRate]]</h4>
                <h2 class="title2">[[selectedRoom.name]]</h2>
 
-               <div class="btn-holder full-white text-center">
+               <!--div class="btn-holder full-white text-center">
                 <a class="butn btn-wide uppercase" ng-href="{{site.data.config.reztripUrl}}search?selected_room_category=[[selectedRoom.category]]&selected_room=[[selectedRoom.code]]" target="_blank">
                     Book This Room
                 </a>
-               </div>
+              </div-->
            </div>
         </div>
       </div>
@@ -91,7 +85,7 @@ meta_keywords_localized:
                     <label for="checkin">Arrival</label>
                    <input type="text" class="form-control" id="checkin"  placeholder="Checkin Date">
                  </div>
-                  <div class="form-group col-sm-6 no-padding"> <label for="checkout">Departure</label>
+                  <div class="form-group col-sm-6 no-padding"> <label for="checkout">Departue</label>
                    <input type="text" class="form-control" id="checkout"  placeholder="Checkout Date">
                  </div>
                  <div class="form-group col-sm-6 no-leftpadding"> <label for="adults">Adults</label>
@@ -124,6 +118,34 @@ meta_keywords_localized:
             <h4>[[selectedRoom.name]]</h4>
             <h2 class="title"> All in the Details </h2>
             <p>[[selectedRoom.description]]</p>
+            <div class="r-link"><a href="javascript:void(0)" data-toggle="collapse"  data-target="#public" tabindex="0" class="button-common-2 button-blue" >Check Public Space Accessibility</a></div>
+            <div id="public" class="collapse">
+              <ul tabindex="0">
+              <li>Accessible public entrance</li>
+              <li>Accessible route from the accessible public entrance to the registration area</li>
+              <li>Accessible route from the accessible public entrance to the accessible guestrooms</li>
+              <li>Accessible route from the hotel’s accessible public entrance to at least one restaurant</li>
+              <li>Accessible route from the hotel’s accessible public entrance to the meeting room/ballroom area</li>
+              <li>Accessible route from the hotel’s accessible public entrance to the exercise facilities.</li>
+              <li>Accessible route from the hotel’s accessible public entrance to the business center
+              <li>Accessible guest rooms with mobility features have doorways that provide 32” of clear width</li>
+              <li>Accessible registration desk</li>
+              <li>Accessible concierge desk</li>
+              <li>Accessible public restrooms</li>
+              <li>The hotel’s parking is valet only</li>
+              <li>Accessible transportation</li>
+              <li>Accessible transportation with advance notice</li>
+              <li>Accessible restaurant
+              <li>Accessible exercise facility</li>
+              <li>Accessible swimming pool</li>
+              <li>Accessible business center</li>
+              <li>The hotel has a TTY for guest use</li>
+              <li>The hotel’s guest room televisions have closed captioning or closed captioning decoders are provided</li>
+              </ul>
+              <span class="note">**Stanford Court does not have any public space or amenity that is not ADA accessible**
+              The total number of rooms at the property - 400</span>
+            </div>
+
           </div>
           <img src="/images/rooms/room-amen.jpg" class="img-responsive" alt="Stanfordcourt">
        </div>

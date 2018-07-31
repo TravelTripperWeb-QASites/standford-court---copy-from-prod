@@ -729,7 +729,7 @@ $(function () {
             .offset()
             .top - 100
         }, 1500, 'easeInOutExpo');
-      event.preventDefault();
+      //event.preventDefault();
     });
 
   $("#roomBooking")
