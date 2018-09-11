@@ -34,23 +34,33 @@ meta_keywords_localized:
                         <li><a href="javascript:;" data-rel="all" class="filter active" data-filter="all">All</a></li>
                         <li><a href="javascript:;" data-rel="hotel"  class="filter">Hotel</a></li>
                         <li><a href="javascript:;" data-rel="rooms" class="filter">Rooms</a></li>
-                        {% comment %}
-                        Removed has per client request 91578
                         <li><a href="javascript:;" data-rel="video" class="filter">Video</a></li>
-                        {% endcomment %}
                     </ul>
                 </div>
             </div>
+
             <div class="container gallery-wrap" id="lightgallery">
                 <ul>
+
+                    <li class="col-sm-4 col-md-4 m-b-m-30 fancybox" data-filter="video">
+
+                      <div class="item" data-html="#video1">
+
+                        <div style="display:none;" id="video1">
+                          <video class="lg-video-object lg-html5" controls preload="none">
+                            <source src="//cdn.traveltripper.io/site-assets/192_617_18797/media/2018-09-06-032924/sc-opener-intro-short-door-v1-final-e-slower-8-31.mp4" type="video/mp4">
+                                   Your browser does not support HTML5 video.
+                          </video>
+                        </div>
+
+                        <img src="/images/gallery/sc-opener-intro-video.jpg" class="img-responsive" alt="At Stanfordcourt"/>
+                        <div class="play-icon"><i class="fa fa-play"></i></div>
+
+                      </div>
+
+                    </li>
                     {% comment %}
                     Removed has per client request 91578
-                    <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
-                        <a class="item" href="https://www.youtube.com/watch?v=FmiE9i-lI3k">
-                            <img src="/images/gallery/video1_thumb.jpg" class="img-responsive" alt="At Stanfordcourt"/>
-                            <div class="play-icon"><i class="fa fa-play"></i></div>
-                        </a>
-                    </li>
                     <li class="col-sm-4 col-md-4 m-b-m-30 video-player-param fancybox" data-filter="video"  >
                         <a class="item" href="https://www.youtube.com/watch?v=g_TXVVhpcOQ">
                             <img src="/images/gallery/video2_thumb.jpg" class="img-responsive" alt="At Stanfordcourt"/>
