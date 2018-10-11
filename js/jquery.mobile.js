@@ -13,7 +13,7 @@ var mobile =
   '<div class="item active">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +
     '<div class="carousel-caption carousel-text">' +
-    '<h1><strong>A LOOKOUT FOR A NEW OUTLOOK</strong></h1>' +
+    '<h1><strong>Ranked #2 Top Hotel in San Francisco on Condé Nast Traveler’s 2018 Readers Choice Awards list!</strong></h1>' +
     '</div>' +
   '</div>'
 ;
@@ -46,7 +46,7 @@ var desktop =
   '<div class="item active">' +
     '<img src="/images/homepage/slider-3-crop.jpg" alt="Stanfordcourt">' +
     '<div class="carousel-caption carousel-text">' +
-    '<h1><strong>A LOOKOUT FOR A NEW OUTLOOK</strong></h1>' +
+    '<h1><strong>Ranked #2 Top Hotel in San Francisco on Condé Nast Traveler’s 2018 Readers Choice Awards list!</strong></h1>' +
     '<br>' +
     '<br>' +
     '</div>' +
