@@ -17,7 +17,7 @@
     {
       "type": "order",
       "required": true
-    }
+    },
  "featured_order": {
    "type": "order",
    "display_field": "roomimage"
