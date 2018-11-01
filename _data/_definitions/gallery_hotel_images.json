@@ -9,9 +9,15 @@
       "type": "image",
       "required": true
     },
-	"image_alt_txt":
+    "image_alt_txt":
     {
       "type": "text",
       "required": true
-    }
+    },
+    "order":
+	{
+		"type": "order",
+		"display_field": "thumb_image"
+	},
+   "featured_order": { "type": "order" }
 }
